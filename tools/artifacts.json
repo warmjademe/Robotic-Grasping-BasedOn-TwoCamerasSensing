@@ -55336,9 +55336,33 @@
       "storage": "git"
     },
     {
+      "path": "Source_Codes_EmpiricalStudy/latex/figures/rq1_distributions.pdf",
+      "size": 20132,
+      "sha256": "a3ccbaa1d7282f1c16284bc9aed4fdfb16cbd97d8efa2fbb2ed3faaa7efd4fdf",
+      "storage": "git"
+    },
+    {
+      "path": "Source_Codes_EmpiricalStudy/latex/figures/rq2_conditions.pdf",
+      "size": 18547,
+      "sha256": "45c1c469842b51c9f593967c46220cf0259ffad5684b112506a047bdf59883c9",
+      "storage": "git"
+    },
+    {
+      "path": "Source_Codes_EmpiricalStudy/latex/figures/rq3_conditions.pdf",
+      "size": 17494,
+      "sha256": "e6bdda893f25ffa0197e97b014396a51ff2e89d913b5032e160ff8379f76cb52",
+      "storage": "git"
+    },
+    {
+      "path": "Source_Codes_EmpiricalStudy/latex/main.pdf",
+      "size": 492472,
+      "sha256": "36b9f2772a53a642311071ad68e0d3fe301bacb4df70b48869d9fd95fc79c160",
+      "storage": "git"
+    },
+    {
       "path": "Source_Codes_EmpiricalStudy/latex/main.tex",
-      "size": 250,
-      "sha256": "67265267081c38fafbcf370df1f25960570f2421c3104c89f10df26bbd9d4413",
+      "size": 64673,
+      "sha256": "94bd9821c036b673cbe976ede6514464bbd8deaaa9d77afe58c6baa17551361b",
       "storage": "git"
     },
     {
@@ -72091,6 +72115,60 @@
       "path": "Source_Codes_EmpiricalStudy/publication/cleanup_manifest.json",
       "size": 16980,
       "sha256": "2e7fbef188ab9ab57eee6b37ad3b6ac7686c63b41a685cf292bdd26ec2ec0e1b",
+      "storage": "git"
+    },
+    {
+      "path": "Source_Codes_EmpiricalStudy/publication/paper_analysis.py",
+      "size": 8033,
+      "sha256": "8a1d2be6f37063c6cfee687da75ff37fff5c48068d82c676eac31e1824987449",
+      "storage": "git"
+    },
+    {
+      "path": "Source_Codes_EmpiricalStudy/publication/paper_results_20261014_final/all_task_outcomes.csv",
+      "size": 479872,
+      "sha256": "5d6f2a13162a87815b2a60dc0b08ec1f77da58304ee3a88cfda9d44aeae4ff44",
+      "storage": "git"
+    },
+    {
+      "path": "Source_Codes_EmpiricalStudy/publication/paper_results_20261014_final/candidate_plan_stages.csv",
+      "size": 384,
+      "sha256": "c1bd2ae1037f09ba801fc7b8d66bdd61c9fe1e8a690af8567fe022dfdc745b42",
+      "storage": "git"
+    },
+    {
+      "path": "Source_Codes_EmpiricalStudy/publication/paper_results_20261014_final/paired_comparisons.csv",
+      "size": 4120,
+      "sha256": "797516e3bca7e3461b6bb55ddbbaacb24c842306f3c9ee34e907ff49906e99ed",
+      "storage": "git"
+    },
+    {
+      "path": "Source_Codes_EmpiricalStudy/publication/paper_results_20261014_final/paper_analysis_manifest.json",
+      "size": 682,
+      "sha256": "57864842cc70d272990d00a9012b563615a83a68bc63a93b32bfaefb436acb36",
+      "storage": "git"
+    },
+    {
+      "path": "Source_Codes_EmpiricalStudy/publication/paper_results_20261014_final/physical_failures_overlapping.csv",
+      "size": 158,
+      "sha256": "f290611798d447caa05edfeecca7368b323c5fe4aee4f2263b48f25f06404d73",
+      "storage": "git"
+    },
+    {
+      "path": "Source_Codes_EmpiricalStudy/publication/paper_results_20261014_final/rq1_pointcloud_quality.csv",
+      "size": 1624,
+      "sha256": "7b97a06867447c2f61ba9f67ec4f3c335dc8b925a0e2338b1d0a02b8431c4b09",
+      "storage": "git"
+    },
+    {
+      "path": "Source_Codes_EmpiricalStudy/publication/paper_results_20261014_final/rq2_rq3_success.csv",
+      "size": 22016,
+      "sha256": "845b1e91508e0fb15c6ce4355061b3e7404d472078239656d5f81dc51f33ffe7",
+      "storage": "git"
+    },
+    {
+      "path": "Source_Codes_EmpiricalStudy/publication/paper_results_20261014_final/validation.json",
+      "size": 693,
+      "sha256": "3c690da2eef205f6db83654f7da1bdd697c031132a1bd1f6665d44910d94254d",
       "storage": "git"
     },
     {

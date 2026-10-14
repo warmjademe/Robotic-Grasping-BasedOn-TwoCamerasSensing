@@ -3,7 +3,7 @@
   "pointcloud_evaluations": 504,
   "candidate_tasks": 792,
   "complete_arm_executions": 1244,
-  "release_files": 12195,
+  "release_files": 12208,
   "archive_count": 11,
   "archived_code_files": 68,
   "source_bindings_verified": 2492,
@@ -12,5 +12,8 @@
   "original_results_modified": false,
   "pointcloud_reanalysis": "504 rows match the recorded numerical values",
   "fanuc_trace_reanalysis": "412 outcomes and both material-profile summary tables reproduced",
-  "franka_reanalysis": "832 execution records checked; per-method summary tables reproduced"
+  "franka_reanalysis": "832 execution records checked; per-method summary tables reproduced",
+  "manuscript_pages": 21,
+  "derived_figures": 3,
+  "paired_comparisons": 30
 }

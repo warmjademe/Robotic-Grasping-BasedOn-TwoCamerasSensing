@@ -46,7 +46,7 @@ python3 tools/verify_artifacts.py
 - `platform_comparison_20261014`：Franka 两个引擎的计划、协议、原始执行、失败诊断和校准记录。
 - `Source_Codes_Grasping_Modules`：共同点云接口、模型适配器和兼容性源码。
 - `tools/upstreams.json`：实际使用的上游源码地址和提交；`third_party_licenses` 保留相应许可。
-- `Source_Codes_EmpiricalStudy/latex`：当前论文提纲、参考文献及 PDF。
+- `Source_Codes_EmpiricalStudy/latex`：论文正文 `main.tex` / `main.pdf`、独立提纲、参考文献及数据生成的图表。
 
 ## 数据语义与复现层次
 

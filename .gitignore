@@ -15,6 +15,12 @@ tools/local_*/
 *.usdc
 *.usd
 bridge_input.txt
+*.obj
+*.stl
+*.STL
+*.mp4
+data3_36864.qua
+reproduced_figures/
 # Fetched author repositories and model weights are independent dependencies.
 **/upstream/
 **/models/*.pth

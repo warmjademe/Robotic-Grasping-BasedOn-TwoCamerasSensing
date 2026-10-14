@@ -1,0 +1,13 @@
+{
+  "scenes": 72,
+  "pointcloud_evaluations": 504,
+  "candidate_tasks": 792,
+  "unique_full_arm_executions": 1244,
+  "task_platform_profile_rows": 4752,
+  "input_sha256": {
+    "RQ1/data/development_pointclouds_20261012_v2/per_scene.csv": "4db7b413e3dbeef778a43d6e3fc7de57ef71d97f08c2bb17180f338c7e433f71",
+    "physics_validation_20261013/analysis/per_candidate.csv": "6fb50840fd4ed5c9a4dfbce272890fc4484c3b47a581e3ccb434650c50cf2146",
+    "platform_comparison_20261014/analysis/per_task.csv": "eded3f78cec30e83e1059cab9d8f6c743671eb4101ae26cd9a8e4d536a70132d",
+    "platform_comparison_20261014/inputs/manifest.json": "71f09a97706a67dd68cc43ecba80f95268776249033d28e2965564fa0dd1a5c2"
+  }
+}

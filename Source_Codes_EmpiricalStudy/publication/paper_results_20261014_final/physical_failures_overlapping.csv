@@ -1,0 +1,4 @@
+platform,executed,endpoint_failed,lift_failed,contact_failed,success
+fanuc_isaac,206,0,90,20,101
+franka_isaac,208,0,94,4,114
+franka_mujoco,208,0,170,6,36

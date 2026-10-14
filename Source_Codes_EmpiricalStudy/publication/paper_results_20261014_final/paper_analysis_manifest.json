@@ -1,0 +1,11 @@
+{
+  "input_sha256": {
+    "RQ1/data/development_pointclouds_20261012_v2/per_scene.csv": "4db7b413e3dbeef778a43d6e3fc7de57ef71d97f08c2bb17180f338c7e433f71",
+    "physics_validation_20261013/analysis/per_candidate.csv": "6fb50840fd4ed5c9a4dfbce272890fc4484c3b47a581e3ccb434650c50cf2146",
+    "platform_comparison_20261014/analysis/per_task.csv": "eded3f78cec30e83e1059cab9d8f6c743671eb4101ae26cd9a8e4d536a70132d"
+  },
+  "analysis_sha256": "8a1d2be6f37063c6cfee687da75ff37fff5c48068d82c676eac31e1824987449",
+  "statistics_scope": "Exploratory workpiece-paired comparisons; 18 RQ2 and 12 RQ3 tests, BH within each question",
+  "bootstrap_seed": 20261014,
+  "bootstrap_samples": 20000
+}

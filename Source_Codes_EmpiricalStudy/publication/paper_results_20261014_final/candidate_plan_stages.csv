@@ -1,0 +1,13 @@
+rq,method,tasks,nonempty_candidates,fanuc_plans,franka_plans
+RQ2,stereobm,72,72,1,1
+RQ2,sgm,72,72,6,6
+RQ2,psmnet,72,72,8,9
+RQ2,gwcnet,72,72,22,23
+RQ2,raft_stereo,72,72,38,38
+RQ2,igev_stereo,72,72,30,31
+RQ2,foundationstereo,72,72,51,52
+RQ3,gpd,72,72,41,41
+RQ3,6dof_graspnet,72,72,1,1
+RQ3,contact_graspnet,72,66,2,2
+RQ3,graspnet_baseline,72,49,6,4
+RQ3,graspgen,72,72,51,52

@@ -28,6 +28,16 @@ This writes a new label and verifies source hashes. Ground-truth geometry is use
 
 An executed grasp succeeds when the object bottom remains at least 100 mm above the support surface for 2 seconds, approach endpoint error is within 2 mm and 0.5 degrees, and prohibited contacts do not exceed the recorded threshold. The original protocols and per-step contact traces define the exact interpretation. Object pose is not reassigned after initialization. The gripper-only GraspDataGen tug check is a separate diagnostic and is not substituted for full-arm success.
 
+## Manuscript analysis
+
+The full manuscript is `Source_Codes_EmpiricalStudy/latex/main.tex`. The outline is retained separately. Generate the three data-derived figures, candidate/plan tables and exploratory workpiece-paired comparisons with the pinned analysis environment:
+
+```bash
+.venv-analysis/bin/python Source_Codes_EmpiricalStudy/publication/paper_analysis.py --out manuscript_reanalysis --figures reproduced_figures
+```
+
+The script resamples eight workpieces while retaining their nine paired scenes, uses 20,000 bootstrap replicates with seed 20261014, enumerates 256 sign flips, and applies BH correction separately to the 18 perception and 12 grasp-model comparisons. These analyses reuse the recorded experiment outcomes; they do not run additional robot trials.
+
 ## Provenance
 
 `tools/artifacts.json` binds released files to their bytes. The experiment manifests bind inputs, candidates, selected plans, meshes and historical source snapshots. Original timestamps, paths, seeds and failure outcomes are retained. Source snapshots may contain obsolete launchers as historical evidence; current experiment launch control remains disabled. Publishing the repository does not resume an experiment or connect to an industrial robot.
