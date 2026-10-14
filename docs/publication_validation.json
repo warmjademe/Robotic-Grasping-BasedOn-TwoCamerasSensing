@@ -13,7 +13,7 @@
   "pointcloud_reanalysis": "504 rows match the recorded numerical values",
   "fanuc_trace_reanalysis": "412 outcomes and both material-profile summary tables reproduced",
   "franka_reanalysis": "832 execution records checked; per-method summary tables reproduced",
-  "manuscript_pages": 21,
+  "manuscript_pages": 22,
   "derived_figures": 3,
   "paired_comparisons": 30
 }

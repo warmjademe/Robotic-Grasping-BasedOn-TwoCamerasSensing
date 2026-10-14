@@ -58,7 +58,7 @@ Grasp Generation for Industrial Manipulation}
 \label{sec:intro}
 
 视觉感知为机械臂识别操作对象、估计空间几何和生成动作提供环境信息，支持上料、分拣与装配等操作任务。
-相关研究围绕显式三维几何、环境动力学预测和视觉语言条件下的动作生成展开。
+本节结合视觉操作的研究进展与工业抓取的评价需求，说明本文的研究目标、实验思路和主要贡献。
 基于双目三维感知的方法通过标定后的左右图像估计深度并构建米制点云，在此基础上生成抓取位姿与夹爪开口，再由运动规划和控制模块执行。
 FoundationStereo 和 GraspGen 分别推进了这一流程中的深度估计与抓取生成\cite{wen2025,murali2026}。
 世界模型方法从视觉观测和交互数据中学习动作引起的状态变化，利用预测轨迹进行策略学习或动作选择；
@@ -104,6 +104,9 @@ FoundationStereo、Contact-GraspNet 和 GraspGen 等工作分别提供了深度�
 
 \section{\qyb{相关工作}}
 \label{sec:background}
+
+双目感知与抓取生成分别提供工件的三维几何和候选夹持方案，共同构成本文研究的技术基础。
+本节回顾双目点云构建、抓取位姿与运动执行，以及抓取生成和评价工作，进而明确面向工业工件抓取的研究空白。
 
 \subsection{\qyb{Stereo Perception and Point Cloud Construction}}
 
@@ -178,7 +181,8 @@ GraspGen 则在仿真和真实机器人上验证抓取生成方法\cite{murali20
 \section{\qyb{Empirical Study Design}}
 \label{sec:design}
 
-本文采用模块替换的受控仿真实验，在同一场景集合上分别固定抓取模型或双目感知方法，以逐任务配对记录比较替换模块后的结果。
+围绕上述研究空白，本文采用模块替换的受控仿真实验，在相同场景集合上比较感知和抓取模块的表现。
+本节说明研究场景与研究问题，并给出工业工件数据集、基线方法、实验环境和评价指标。
 
 \subsection{\qyb{Study Scope}}
 
@@ -502,7 +506,8 @@ $N_{\mathrm{plan}}=\sum_{i\in\mathcal I}a_i$，$N_{\mathrm{success}}=\sum_{i\in\
 \section{\qyb{RQ1: Quality of Stereo-Derived Point Clouds}}
 \label{sec:rq1}
 
-本节回答“\rqone”，确定进入抓取模型的几何信息具有怎样的误差、覆盖和目标纯度。
+依据上述实验设置，本节比较七种双目方法生成的工件点云，从点数、表面误差、可见覆盖和目标来源比例评价输入几何质量。
+这些结果为分析后续抓取任务中的感知差异提供逐场景依据。
 
 \subsection{\qyb{Motivation}}
 
@@ -574,7 +579,8 @@ FoundationStereo 在本批次的 2 mm 近表面点占比和覆盖率较高，IGE
 \section{\qyb{RQ2: Effect of Stereo Perception on Grasping}}
 \label{sec:rq2}
 
-本节回答“\rqtwo”，比较七种双目感知方法在三个环境、三种场景条件下的抓取成功率。
+在点云质量分析的基础上，本节固定 GraspGen，比较七种双目方法在三个实验环境及不同摆放条件下的抓取成功率。
+通过候选生成、路径检查和物理执行的阶段结果，进一步分析感知差异与抓取任务完成情况的关系。
 
 \subsection{\qyb{Motivation}}
 
@@ -698,7 +704,8 @@ FoundationStereo 组合在三个环境中取得较多成功场景，但绝对成
 \section{\qyb{RQ3: Comparison of Grasp Generation Modules}}
 \label{sec:rq3}
 
-本节回答“\rqthree”，比较相同 FoundationStereo 输入下五种抓取模型在三个环境、三种场景条件下的成功率。
+前一节固定抓取模型比较感知方法，本节转而固定 FoundationStereo 的点云输入，比较五种抓取模型在相同环境配置与摆放条件下的成功率。
+结合候选、计划和物理执行结果，分析不同抓取模型的可执行性及失败阶段。
 
 \subsection{\qyb{Motivation}}
 
@@ -815,6 +822,9 @@ GraspGen 的默认全场景成功率分别为 58.3\%、72.2\% 和 23.6\%，GPD �
 \section{\qyb{Discussion}}
 \label{sec:discussion}
 
+前述实验比较了点云质量、感知方法替换和抓取模型替换下的任务表现。
+本节据此讨论对工业系统选型与调试、抓取方法研究与评价的启示，并分析影响结论解释和推广的有效性威胁。
+
 \subsection{\qyb{对工业界的启示}}
 
 工业部署应根据各阶段证据定位抓取失败，再选择需要调整的模块。
@@ -884,6 +894,7 @@ GraspDataGen 抗扰动、单独物理抬升和本文规定的抓取成功使用�
 \section{\qyb{Conclusion}}
 \label{sec:conclusion}
 
+结合上述实验与讨论，本节归纳双目三维感知支持的工业工件抓取的主要发现，并说明数据扩展与真实硬件验证的后续研究方向。
 本文通过三个研究问题比较了双目点云质量、固定 GraspGen 时的感知方法表现，以及固定 FoundationStereo 时的抓取模型表现。
 72 个合成工业场景的结果表明，点数充足的点云仍可能存在表面误差、覆盖不足和非目标点混入；
 在给定工具与规划设置下，感知和抓取模块的选择均影响最终成功率。
