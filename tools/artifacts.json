@@ -55355,14 +55355,14 @@
     },
     {
       "path": "Source_Codes_EmpiricalStudy/latex/main.pdf",
-      "size": 495513,
-      "sha256": "87cc4e093bf3ec1610e129c25258670753481ead8c48f030b3268faeeee337e0",
+      "size": 495482,
+      "sha256": "1835ca9330b599bd6a0ff94898f2b0c89ce2f66f4294519644aacb58931a5f66",
       "storage": "git"
     },
     {
       "path": "Source_Codes_EmpiricalStudy/latex/main.tex",
-      "size": 65584,
-      "sha256": "b5a48940e7cc7bee5ea592487a21456ad9645e06a0e05e3be3d1d7af80a4861d",
+      "size": 65475,
+      "sha256": "c16b83766a05997fe47b391b030f91e5b32ba67113434b63221bab0c2975ac6f",
       "storage": "git"
     },
     {
