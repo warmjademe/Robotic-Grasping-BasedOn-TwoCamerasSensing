@@ -1,0 +1,26 @@
+{
+  "task_id": "task_0054",
+  "status": "no_plan",
+  "selected": null,
+  "rejected": [
+    {
+      "rank": 0,
+      "reason": "approach_direction"
+    }
+  ],
+  "host": "qyb-SJHY-ubuntu25",
+  "pid": 1108516,
+  "candidate_count": 1,
+  "ground_truth_used": false,
+  "protocol_sha256": "24eb3735a29abcfc189ee7ecb5a34851fbc070e549b96df67f030f50d3862bc6",
+  "cloud_sha256": "7cb741a63ef3b6c11c2c3aa29df2067906eb6f68bb9dcd73b8f77a2521326e30",
+  "grasps_sha256": "cd0d0614ccd7afc47d147b6e7078eafb76543fb8161705c2dc358caac2c46054",
+  "home_check": {
+    "collision": false,
+    "self_pairs": [],
+    "environment_pairs": [],
+    "perceived_voxels": 1789
+  },
+  "seconds": 0.1870707279886119,
+  "planning_parallelism": 4
+}

@@ -1,0 +1,49 @@
+{
+  "job_id": "friction_05_task_0570_task_0592",
+  "engine": "isaac",
+  "host": "huashuo",
+  "tasks": [
+    "task_0570",
+    "task_0574",
+    "task_0576",
+    "task_0578",
+    "task_0581",
+    "task_0592"
+  ],
+  "profile": "friction_05",
+  "status": "completed",
+  "output": "/home/qyb/RESEARCH/Robotic_Grasping/Source_Codes_EmpiricalStudy/platform_comparison_20261014/results/isaac/v2/friction_05_task_0570_task_0592",
+  "started_unix": 1791941907.0761156,
+  "resources": {
+    "host": "qyb-HuaShuo",
+    "unix": 1791941907.0611336,
+    "cpu_count": 16,
+    "load1": 6.49267578125,
+    "memory_available_gib": 54.44282913208008,
+    "disk_free_gib": 417.3828659057617,
+    "gpu_processes": [],
+    "gpu_lock_held": false,
+    "cpu_ready": true,
+    "calibration_ready": {
+      "isaac": true,
+      "mujoco": true
+    },
+    "hardware_gpu_ready": true,
+    "cpu_experiment_ready": true,
+    "gpu_ready": true
+  },
+  "protocol_sha256": "24eb3735a29abcfc189ee7ecb5a34851fbc070e549b96df67f030f50d3862bc6",
+  "coordinator_child_pid": 1128756,
+  "log": "/home/qyb/RESEARCH/Robotic_Grasping/Source_Codes_EmpiricalStudy/platform_comparison_20261014/logs/isaac_v2_friction_05_task_0570_task_0592.log",
+  "returncode": 0,
+  "finished_unix": 1791941978.4929104,
+  "observed_tasks": [
+    "task_0570",
+    "task_0574",
+    "task_0576",
+    "task_0578",
+    "task_0581",
+    "task_0592"
+  ],
+  "wall_seconds": 71.41679501533508
+}

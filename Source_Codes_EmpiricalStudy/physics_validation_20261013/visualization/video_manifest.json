@@ -1,0 +1,71 @@
+{
+  "fps": 10,
+  "simulation_seconds_per_case": 19.5,
+  "cases": [
+    {
+      "case_id": "case_0018",
+      "selection": "First single-object record by case_id with this execution outcome",
+      "outcome": {
+        "case_id": "case_0018",
+        "expected": null,
+        "physics_lift_success": true,
+        "collision_free": true,
+        "prohibited_contact_steps": 0,
+        "max_finger_non_target_force_n": 0.0,
+        "max_arm_contact_force_n": 0.0,
+        "execution_success": true,
+        "approach_endpoint_reached": true,
+        "approach_position_error_mm": 1.1951065625247532,
+        "approach_rotation_error_deg": 0.0360495789300209,
+        "min_hold_bottom_clearance_m": 0.1116334643515442,
+        "hold_sim_s": 2.0,
+        "returned_to_origin_success": true,
+        "return_xy_error_m": 0.01939999870955944,
+        "final_bottom_clearance_m": 3.2744910050119813e-07,
+        "initial_settling_translation_m": 0.0,
+        "closing_command_m": 0.030770340980514205,
+        "object_attached": false
+      },
+      "trace_sha256": "cd6b0ca06657d1d00aedcbfb64a4df2d71e525208485a2a15060e545d825a682",
+      "snapshots": [
+        "visualization/case_0018_approach.png",
+        "visualization/case_0018_close.png",
+        "visualization/case_0018_hold.png",
+        "visualization/case_0018_placed_hold.png"
+      ]
+    },
+    {
+      "case_id": "case_0003",
+      "selection": "First single-object record by case_id with this execution outcome",
+      "outcome": {
+        "case_id": "case_0003",
+        "expected": null,
+        "physics_lift_success": false,
+        "collision_free": true,
+        "prohibited_contact_steps": 0,
+        "max_finger_non_target_force_n": 0.0,
+        "max_arm_contact_force_n": 0.0,
+        "execution_success": false,
+        "approach_endpoint_reached": true,
+        "approach_position_error_mm": 1.1995332086529016,
+        "approach_rotation_error_deg": 0.03201156039189411,
+        "min_hold_bottom_clearance_m": -3.446463114897824e-09,
+        "hold_sim_s": 2.0,
+        "returned_to_origin_success": false,
+        "return_xy_error_m": 0.0005253461422398686,
+        "final_bottom_clearance_m": -4.172456202766739e-08,
+        "initial_settling_translation_m": 2.7939677238464355e-09,
+        "closing_command_m": 0.031695761586624224,
+        "object_attached": false
+      },
+      "trace_sha256": "cd6b0ca06657d1d00aedcbfb64a4df2d71e525208485a2a15060e545d825a682",
+      "snapshots": [
+        "visualization/case_0003_approach.png",
+        "visualization/case_0003_close.png",
+        "visualization/case_0003_hold.png",
+        "visualization/case_0003_placed_hold.png"
+      ]
+    }
+  ],
+  "rendering": "Recorded PhysX robot-link and target poses; no pose interpolation or synthetic outcome"
+}

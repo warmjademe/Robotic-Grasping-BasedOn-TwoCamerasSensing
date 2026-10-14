@@ -1,0 +1,53 @@
+{
+  "task_id": "task_0778",
+  "status": "no_plan",
+  "selected": null,
+  "rejected": [
+    {
+      "rank": 0,
+      "reason": "observed_cross_section_outside_opening"
+    },
+    {
+      "rank": 3,
+      "reason": "approach_collision",
+      "collision": {
+        "collision": true,
+        "self_pairs": [],
+        "environment_pairs": [
+          [
+            "panda_leftfinger",
+            "perceived_scene"
+          ],
+          [
+            "panda_rightfinger",
+            "perceived_scene"
+          ]
+        ],
+        "perceived_voxels": 3334
+      }
+    },
+    {
+      "rank": 2,
+      "reason": "pregrasp_ik"
+    },
+    {
+      "rank": 1,
+      "reason": "observed_cross_section_outside_opening"
+    }
+  ],
+  "host": "qyb-SJHY-ubuntu25",
+  "pid": 1108516,
+  "candidate_count": 4,
+  "ground_truth_used": false,
+  "protocol_sha256": "24eb3735a29abcfc189ee7ecb5a34851fbc070e549b96df67f030f50d3862bc6",
+  "cloud_sha256": "5d839a5d84679bfe50f1fdd66ebb47acc86355a3f1270a5e1580240cade0f5b8",
+  "grasps_sha256": "ec5da335ea1f07b4a0f523bb7a5b46c9dd5b7be71e9070346410a649dea5424b",
+  "home_check": {
+    "collision": false,
+    "self_pairs": [],
+    "environment_pairs": [],
+    "perceived_voxels": 3334
+  },
+  "seconds": 0.8711595259956084,
+  "planning_parallelism": 4
+}

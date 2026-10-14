@@ -1,0 +1,722 @@
+[
+  {
+    "object_id": "spacer_01",
+    "family": "spacer",
+    "name_zh": "轴套／隔套",
+    "variant": 1,
+    "split": "development",
+    "units": "m",
+    "mesh": "assets/spacer_01/mesh_m.ply",
+    "robotstudio_mesh": "assets/spacer_01/robotstudio_mm.stl",
+    "robotstudio_mesh_units": "mm",
+    "extents_m": [
+      0.034,
+      0.034,
+      0.0204
+    ],
+    "volume_m3": 1.3868876460646984e-05,
+    "center_of_mass_local_m": [
+      -5.492121030043265e-19,
+      8.026679164299081e-19,
+      0.010199999999999999
+    ],
+    "watertight": true,
+    "source": "original procedural industrial-shape proxy; not a manufacturer-certified part",
+    "manufacturing_details": "threads, chamfers and tolerances omitted",
+    "mass_kg": 0.037445966443746856,
+    "density_kg_m3": 2700,
+    "mass_source": "assumed homogeneous aluminium proxy; not measured",
+    "grasp_success": null,
+    "abb_execution_status": "not_run"
+  },
+  {
+    "object_id": "spacer_02",
+    "family": "spacer",
+    "name_zh": "轴套／隔套",
+    "variant": 2,
+    "split": "development",
+    "units": "m",
+    "mesh": "assets/spacer_02/mesh_m.ply",
+    "robotstudio_mesh": "assets/spacer_02/robotstudio_mm.stl",
+    "robotstudio_mesh_units": "mm",
+    "extents_m": [
+      0.04,
+      0.04,
+      0.024
+    ],
+    "volume_m3": 2.2583149131930763e-05,
+    "center_of_mass_local_m": [
+      -7.630879700396654e-20,
+      4.0131869436843867e-19,
+      0.011999999999999999
+    ],
+    "watertight": true,
+    "source": "original procedural industrial-shape proxy; not a manufacturer-certified part",
+    "manufacturing_details": "threads, chamfers and tolerances omitted",
+    "mass_kg": 0.06097450265621306,
+    "density_kg_m3": 2700,
+    "mass_source": "assumed homogeneous aluminium proxy; not measured",
+    "grasp_success": null,
+    "abb_execution_status": "not_run"
+  },
+  {
+    "object_id": "spacer_03",
+    "family": "spacer",
+    "name_zh": "轴套／隔套",
+    "variant": 3,
+    "split": "development",
+    "units": "m",
+    "mesh": "assets/spacer_03/mesh_m.ply",
+    "robotstudio_mesh": "assets/spacer_03/robotstudio_mm.stl",
+    "robotstudio_mesh_units": "mm",
+    "extents_m": [
+      0.044800000000000006,
+      0.044800000000000006,
+      0.026880000000000005
+    ],
+    "volume_m3": 3.1727698543625236e-05,
+    "center_of_mass_local_m": [
+      -3.649974346490745e-19,
+      1.8386508141908943e-19,
+      0.01344
+    ],
+    "watertight": true,
+    "source": "original procedural industrial-shape proxy; not a manufacturer-certified part",
+    "manufacturing_details": "threads, chamfers and tolerances omitted",
+    "mass_kg": 0.08566478606778814,
+    "density_kg_m3": 2700,
+    "mass_source": "assumed homogeneous aluminium proxy; not measured",
+    "grasp_success": null,
+    "abb_execution_status": "not_run"
+  },
+  {
+    "object_id": "spacer_04",
+    "family": "spacer",
+    "name_zh": "轴套／隔套",
+    "variant": 4,
+    "split": "development",
+    "units": "m",
+    "mesh": "assets/spacer_04/mesh_m.ply",
+    "robotstudio_mesh": "assets/spacer_04/robotstudio_mm.stl",
+    "robotstudio_mesh_units": "mm",
+    "extents_m": [
+      0.0488,
+      0.0488,
+      0.02928
+    ],
+    "volume_m3": 4.100756618491822e-05,
+    "center_of_mass_local_m": [
+      -5.547138970069951e-19,
+      -2.490237280301881e-20,
+      0.014639999999999999
+    ],
+    "watertight": true,
+    "source": "original procedural industrial-shape proxy; not a manufacturer-certified part",
+    "manufacturing_details": "threads, chamfers and tolerances omitted",
+    "mass_kg": 0.1107204286992792,
+    "density_kg_m3": 2700,
+    "mass_source": "assumed homogeneous aluminium proxy; not measured",
+    "grasp_success": null,
+    "abb_execution_status": "not_run"
+  },
+  {
+    "object_id": "mounting_block_01",
+    "family": "mounting_block",
+    "name_zh": "安装块",
+    "variant": 1,
+    "split": "development",
+    "units": "m",
+    "mesh": "assets/mounting_block_01/mesh_m.ply",
+    "robotstudio_mesh": "assets/mounting_block_01/robotstudio_mm.stl",
+    "robotstudio_mesh_units": "mm",
+    "extents_m": [
+      0.0425,
+      0.032299999999999995,
+      0.014450000000000001
+    ],
+    "volume_m3": 1.8787430826765286e-05,
+    "center_of_mass_local_m": [
+      4.696363195473404e-19,
+      -1.874876244442898e-18,
+      0.007225000000000001
+    ],
+    "watertight": true,
+    "source": "original procedural industrial-shape proxy; not a manufacturer-certified part",
+    "manufacturing_details": "threads, chamfers and tolerances omitted",
+    "mass_kg": 0.05072606323226627,
+    "density_kg_m3": 2700,
+    "mass_source": "assumed homogeneous aluminium proxy; not measured",
+    "grasp_success": null,
+    "abb_execution_status": "not_run"
+  },
+  {
+    "object_id": "mounting_block_02",
+    "family": "mounting_block",
+    "name_zh": "安装块",
+    "variant": 2,
+    "split": "development",
+    "units": "m",
+    "mesh": "assets/mounting_block_02/mesh_m.ply",
+    "robotstudio_mesh": "assets/mounting_block_02/robotstudio_mm.stl",
+    "robotstudio_mesh_units": "mm",
+    "extents_m": [
+      0.05,
+      0.038,
+      0.017
+    ],
+    "volume_m3": 3.0592193489542505e-05,
+    "center_of_mass_local_m": [
+      1.802596279637565e-18,
+      2.2081804425560165e-19,
+      0.008500000000000002
+    ],
+    "watertight": true,
+    "source": "original procedural industrial-shape proxy; not a manufacturer-certified part",
+    "manufacturing_details": "threads, chamfers and tolerances omitted",
+    "mass_kg": 0.08259892242176477,
+    "density_kg_m3": 2700,
+    "mass_source": "assumed homogeneous aluminium proxy; not measured",
+    "grasp_success": null,
+    "abb_execution_status": "not_run"
+  },
+  {
+    "object_id": "mounting_block_03",
+    "family": "mounting_block",
+    "name_zh": "安装块",
+    "variant": 3,
+    "split": "development",
+    "units": "m",
+    "mesh": "assets/mounting_block_03/mesh_m.ply",
+    "robotstudio_mesh": "assets/mounting_block_03/robotstudio_mm.stl",
+    "robotstudio_mesh_units": "mm",
+    "extents_m": [
+      0.05600000000000001,
+      0.04256,
+      0.019040000000000005
+    ],
+    "volume_m3": 4.297982921487599e-05,
+    "center_of_mass_local_m": [
+      -8.724756501070115e-19,
+      7.441704074442156e-19,
+      0.009520000000000002
+    ],
+    "watertight": true,
+    "source": "original procedural industrial-shape proxy; not a manufacturer-certified part",
+    "manufacturing_details": "threads, chamfers and tolerances omitted",
+    "mass_kg": 0.11604553888016518,
+    "density_kg_m3": 2700,
+    "mass_source": "assumed homogeneous aluminium proxy; not measured",
+    "grasp_success": null,
+    "abb_execution_status": "not_run"
+  },
+  {
+    "object_id": "mounting_block_04",
+    "family": "mounting_block",
+    "name_zh": "安装块",
+    "variant": 4,
+    "split": "development",
+    "units": "m",
+    "mesh": "assets/mounting_block_04/mesh_m.ply",
+    "robotstudio_mesh": "assets/mounting_block_04/robotstudio_mm.stl",
+    "robotstudio_mesh_units": "mm",
+    "extents_m": [
+      0.061,
+      0.04636,
+      0.02074
+    ],
+    "volume_m3": 5.555077336359877e-05,
+    "center_of_mass_local_m": [
+      -1.191242623592436e-18,
+      -3.474457652144605e-19,
+      0.010370000000000002
+    ],
+    "watertight": true,
+    "source": "original procedural industrial-shape proxy; not a manufacturer-certified part",
+    "manufacturing_details": "threads, chamfers and tolerances omitted",
+    "mass_kg": 0.14998708808171668,
+    "density_kg_m3": 2700,
+    "mass_source": "assumed homogeneous aluminium proxy; not measured",
+    "grasp_success": null,
+    "abb_execution_status": "not_run"
+  },
+  {
+    "object_id": "hex_nut_01",
+    "family": "hex_nut",
+    "name_zh": "六角螺母形件",
+    "variant": 1,
+    "split": "test",
+    "units": "m",
+    "mesh": "assets/hex_nut_01/mesh_m.ply",
+    "robotstudio_mesh": "assets/hex_nut_01/robotstudio_mm.stl",
+    "robotstudio_mesh_units": "mm",
+    "extents_m": [
+      0.0425,
+      0.036806079660838646,
+      0.011899999999999999
+    ],
+    "volume_m3": 1.126428011289272e-05,
+    "center_of_mass_local_m": [
+      -9.301634003531227e-19,
+      5.8747162127565645e-19,
+      0.00595
+    ],
+    "watertight": true,
+    "source": "original procedural industrial-shape proxy; not a manufacturer-certified part",
+    "manufacturing_details": "threads, chamfers and tolerances omitted",
+    "mass_kg": 0.030413556304810345,
+    "density_kg_m3": 2700,
+    "mass_source": "assumed homogeneous aluminium proxy; not measured",
+    "grasp_success": null,
+    "abb_execution_status": "not_run"
+  },
+  {
+    "object_id": "hex_nut_02",
+    "family": "hex_nut",
+    "name_zh": "六角螺母形件",
+    "variant": 2,
+    "split": "test",
+    "units": "m",
+    "mesh": "assets/hex_nut_02/mesh_m.ply",
+    "robotstudio_mesh": "assets/hex_nut_02/robotstudio_mm.stl",
+    "robotstudio_mesh_units": "mm",
+    "extents_m": [
+      0.05,
+      0.04330127018922193,
+      0.014
+    ],
+    "volume_m3": 1.8341998962577202e-05,
+    "center_of_mass_local_m": [
+      -4.509762617698905e-19,
+      2.22481622473146e-18,
+      0.007000000000000001
+    ],
+    "watertight": true,
+    "source": "original procedural industrial-shape proxy; not a manufacturer-certified part",
+    "manufacturing_details": "threads, chamfers and tolerances omitted",
+    "mass_kg": 0.049523397198958444,
+    "density_kg_m3": 2700,
+    "mass_source": "assumed homogeneous aluminium proxy; not measured",
+    "grasp_success": null,
+    "abb_execution_status": "not_run"
+  },
+  {
+    "object_id": "hex_nut_03",
+    "family": "hex_nut",
+    "name_zh": "六角螺母形件",
+    "variant": 3,
+    "split": "test",
+    "units": "m",
+    "mesh": "assets/hex_nut_03/mesh_m.ply",
+    "robotstudio_mesh": "assets/hex_nut_03/robotstudio_mm.stl",
+    "robotstudio_mesh_units": "mm",
+    "extents_m": [
+      0.05600000000000001,
+      0.048497422611928576,
+      0.015680000000000003
+    ],
+    "volume_m3": 2.5769187918495672e-05,
+    "center_of_mass_local_m": [
+      -3.423957283845742e-19,
+      1.711978641922871e-18,
+      0.007840000000000001
+    ],
+    "watertight": true,
+    "source": "original procedural industrial-shape proxy; not a manufacturer-certified part",
+    "manufacturing_details": "threads, chamfers and tolerances omitted",
+    "mass_kg": 0.06957680737993831,
+    "density_kg_m3": 2700,
+    "mass_source": "assumed homogeneous aluminium proxy; not measured",
+    "grasp_success": null,
+    "abb_execution_status": "not_run"
+  },
+  {
+    "object_id": "hex_nut_04",
+    "family": "hex_nut",
+    "name_zh": "六角螺母形件",
+    "variant": 4,
+    "split": "test",
+    "units": "m",
+    "mesh": "assets/hex_nut_04/mesh_m.ply",
+    "robotstudio_mesh": "assets/hex_nut_04/robotstudio_mm.stl",
+    "robotstudio_mesh_units": "mm",
+    "extents_m": [
+      0.061,
+      0.05282754963085076,
+      0.01708
+    ],
+    "volume_m3": 3.330628213219788e-05,
+    "center_of_mass_local_m": [
+      2.1193022582854215e-18,
+      -2.649127822856777e-19,
+      0.00854
+    ],
+    "watertight": true,
+    "source": "original procedural industrial-shape proxy; not a manufacturer-certified part",
+    "manufacturing_details": "threads, chamfers and tolerances omitted",
+    "mass_kg": 0.08992696175693428,
+    "density_kg_m3": 2700,
+    "mass_source": "assumed homogeneous aluminium proxy; not measured",
+    "grasp_success": null,
+    "abb_execution_status": "not_run"
+  },
+  {
+    "object_id": "flange_bushing_01",
+    "family": "flange_bushing",
+    "name_zh": "法兰轴套",
+    "variant": 1,
+    "split": "test",
+    "units": "m",
+    "mesh": "assets/flange_bushing_01/mesh_m.ply",
+    "robotstudio_mesh": "assets/flange_bushing_01/robotstudio_mm.stl",
+    "robotstudio_mesh_units": "mm",
+    "extents_m": [
+      0.045899999999999996,
+      0.045899999999999996,
+      0.0272
+    ],
+    "volume_m3": 1.875380294734153e-05,
+    "center_of_mass_local_m": [
+      0.0,
+      0.0,
+      0.010238763352506165
+    ],
+    "watertight": true,
+    "source": "original procedural industrial-shape proxy; not a manufacturer-certified part",
+    "manufacturing_details": "threads, chamfers and tolerances omitted",
+    "mass_kg": 0.050635267957822125,
+    "density_kg_m3": 2700,
+    "mass_source": "assumed homogeneous aluminium proxy; not measured",
+    "grasp_success": null,
+    "abb_execution_status": "not_run"
+  },
+  {
+    "object_id": "flange_bushing_02",
+    "family": "flange_bushing",
+    "name_zh": "法兰轴套",
+    "variant": 2,
+    "split": "test",
+    "units": "m",
+    "mesh": "assets/flange_bushing_02/mesh_m.ply",
+    "robotstudio_mesh": "assets/flange_bushing_02/robotstudio_mm.stl",
+    "robotstudio_mesh_units": "mm",
+    "extents_m": [
+      0.054,
+      0.054,
+      0.032
+    ],
+    "volume_m3": 3.053743610395527e-05,
+    "center_of_mass_local_m": [
+      -5.77865138199306e-19,
+      1.155730276398612e-18,
+      0.012045603944124898
+    ],
+    "watertight": true,
+    "source": "original procedural industrial-shape proxy; not a manufacturer-certified part",
+    "manufacturing_details": "threads, chamfers and tolerances omitted",
+    "mass_kg": 0.08245107748067923,
+    "density_kg_m3": 2700,
+    "mass_source": "assumed homogeneous aluminium proxy; not measured",
+    "grasp_success": null,
+    "abb_execution_status": "not_run"
+  },
+  {
+    "object_id": "flange_bushing_03",
+    "family": "flange_bushing",
+    "name_zh": "法兰轴套",
+    "variant": 3,
+    "split": "test",
+    "units": "m",
+    "mesh": "assets/flange_bushing_03/mesh_m.ply",
+    "robotstudio_mesh": "assets/flange_bushing_03/robotstudio_mm.stl",
+    "robotstudio_mesh_units": "mm",
+    "extents_m": [
+      0.060480000000000006,
+      0.060480000000000006,
+      0.035840000000000004
+    ],
+    "volume_m3": 4.290289903065769e-05,
+    "center_of_mass_local_m": [
+      -8.226259825404658e-19,
+      0.0,
+      0.013491076417419885
+    ],
+    "watertight": true,
+    "source": "original procedural industrial-shape proxy; not a manufacturer-certified part",
+    "manufacturing_details": "threads, chamfers and tolerances omitted",
+    "mass_kg": 0.11583782738277576,
+    "density_kg_m3": 2700,
+    "mass_source": "assumed homogeneous aluminium proxy; not measured",
+    "grasp_success": null,
+    "abb_execution_status": "not_run"
+  },
+  {
+    "object_id": "flange_bushing_04",
+    "family": "flange_bushing",
+    "name_zh": "法兰轴套",
+    "variant": 4,
+    "split": "test",
+    "units": "m",
+    "mesh": "assets/flange_bushing_04/mesh_m.ply",
+    "robotstudio_mesh": "assets/flange_bushing_04/robotstudio_mm.stl",
+    "robotstudio_mesh_units": "mm",
+    "extents_m": [
+      0.06588,
+      0.06588,
+      0.03904
+    ],
+    "volume_m3": 5.545134227449496e-05,
+    "center_of_mass_local_m": [
+      0.0,
+      -1.2729372462878085e-18,
+      0.014695636811832375
+    ],
+    "watertight": true,
+    "source": "original procedural industrial-shape proxy; not a manufacturer-certified part",
+    "manufacturing_details": "threads, chamfers and tolerances omitted",
+    "mass_kg": 0.1497186241411364,
+    "density_kg_m3": 2700,
+    "mass_source": "assumed homogeneous aluminium proxy; not measured",
+    "grasp_success": null,
+    "abb_execution_status": "not_run"
+  },
+  {
+    "object_id": "l_plate_01",
+    "family": "l_plate",
+    "name_zh": "L形连接板",
+    "variant": 1,
+    "split": "test",
+    "units": "m",
+    "mesh": "assets/l_plate_01/mesh_m.ply",
+    "robotstudio_mesh": "assets/l_plate_01/robotstudio_mm.stl",
+    "robotstudio_mesh_units": "mm",
+    "extents_m": [
+      0.044199999999999996,
+      0.039099999999999996,
+      0.0085
+    ],
+    "volume_m3": 7.2221100000000006e-06,
+    "center_of_mass_local_m": [
+      -0.006152380952380949,
+      -0.006152380952380949,
+      0.00425
+    ],
+    "watertight": true,
+    "source": "original procedural industrial-shape proxy; not a manufacturer-certified part",
+    "manufacturing_details": "threads, chamfers and tolerances omitted",
+    "mass_kg": 0.019499697,
+    "density_kg_m3": 2700,
+    "mass_source": "assumed homogeneous aluminium proxy; not measured",
+    "grasp_success": null,
+    "abb_execution_status": "not_run"
+  },
+  {
+    "object_id": "l_plate_02",
+    "family": "l_plate",
+    "name_zh": "L形连接板",
+    "variant": 2,
+    "split": "test",
+    "units": "m",
+    "mesh": "assets/l_plate_02/mesh_m.ply",
+    "robotstudio_mesh": "assets/l_plate_02/robotstudio_mm.stl",
+    "robotstudio_mesh_units": "mm",
+    "extents_m": [
+      0.052,
+      0.046,
+      0.01
+    ],
+    "volume_m3": 1.1760000000000001e-05,
+    "center_of_mass_local_m": [
+      -0.007238095238095237,
+      -0.007238095238095235,
+      0.005
+    ],
+    "watertight": true,
+    "source": "original procedural industrial-shape proxy; not a manufacturer-certified part",
+    "manufacturing_details": "threads, chamfers and tolerances omitted",
+    "mass_kg": 0.031752,
+    "density_kg_m3": 2700,
+    "mass_source": "assumed homogeneous aluminium proxy; not measured",
+    "grasp_success": null,
+    "abb_execution_status": "not_run"
+  },
+  {
+    "object_id": "l_plate_03",
+    "family": "l_plate",
+    "name_zh": "L形连接板",
+    "variant": 3,
+    "split": "test",
+    "units": "m",
+    "mesh": "assets/l_plate_03/mesh_m.ply",
+    "robotstudio_mesh": "assets/l_plate_03/robotstudio_mm.stl",
+    "robotstudio_mesh_units": "mm",
+    "extents_m": [
+      0.05824,
+      0.05152,
+      0.011200000000000002
+    ],
+    "volume_m3": 1.6521953280000002e-05,
+    "center_of_mass_local_m": [
+      -0.008106666666666668,
+      -0.008106666666666668,
+      0.005600000000000001
+    ],
+    "watertight": true,
+    "source": "original procedural industrial-shape proxy; not a manufacturer-certified part",
+    "manufacturing_details": "threads, chamfers and tolerances omitted",
+    "mass_kg": 0.044609273856000005,
+    "density_kg_m3": 2700,
+    "mass_source": "assumed homogeneous aluminium proxy; not measured",
+    "grasp_success": null,
+    "abb_execution_status": "not_run"
+  },
+  {
+    "object_id": "l_plate_04",
+    "family": "l_plate",
+    "name_zh": "L形连接板",
+    "variant": 4,
+    "split": "test",
+    "units": "m",
+    "mesh": "assets/l_plate_04/mesh_m.ply",
+    "robotstudio_mesh": "assets/l_plate_04/robotstudio_mm.stl",
+    "robotstudio_mesh_units": "mm",
+    "extents_m": [
+      0.06344,
+      0.056119999999999996,
+      0.0122
+    ],
+    "volume_m3": 2.135437248e-05,
+    "center_of_mass_local_m": [
+      -0.00883047619047619,
+      -0.00883047619047619,
+      0.006100000000000001
+    ],
+    "watertight": true,
+    "source": "original procedural industrial-shape proxy; not a manufacturer-certified part",
+    "manufacturing_details": "threads, chamfers and tolerances omitted",
+    "mass_kg": 0.057656805696,
+    "density_kg_m3": 2700,
+    "mass_source": "assumed homogeneous aluminium proxy; not measured",
+    "grasp_success": null,
+    "abb_execution_status": "not_run"
+  },
+  {
+    "object_id": "u_channel_01",
+    "family": "u_channel",
+    "name_zh": "U形槽块",
+    "variant": 1,
+    "split": "test",
+    "units": "m",
+    "mesh": "assets/u_channel_01/mesh_m.ply",
+    "robotstudio_mesh": "assets/u_channel_01/robotstudio_mm.stl",
+    "robotstudio_mesh_units": "mm",
+    "extents_m": [
+      0.0425,
+      0.03825,
+      0.017
+    ],
+    "volume_m3": 1.7097240000000002e-05,
+    "center_of_mass_local_m": [
+      1.0321268072779342e-18,
+      -0.003143534482758619,
+      0.008500000000000002
+    ],
+    "watertight": true,
+    "source": "original procedural industrial-shape proxy; not a manufacturer-certified part",
+    "manufacturing_details": "threads, chamfers and tolerances omitted",
+    "mass_kg": 0.046162548000000005,
+    "density_kg_m3": 2700,
+    "mass_source": "assumed homogeneous aluminium proxy; not measured",
+    "grasp_success": null,
+    "abb_execution_status": "not_run"
+  },
+  {
+    "object_id": "u_channel_02",
+    "family": "u_channel",
+    "name_zh": "U形槽块",
+    "variant": 2,
+    "split": "test",
+    "units": "m",
+    "mesh": "assets/u_channel_02/mesh_m.ply",
+    "robotstudio_mesh": "assets/u_channel_02/robotstudio_mm.stl",
+    "robotstudio_mesh_units": "mm",
+    "extents_m": [
+      0.05,
+      0.045,
+      0.02
+    ],
+    "volume_m3": 2.7840000000000008e-05,
+    "center_of_mass_local_m": [
+      0.0,
+      -0.0036982758620689644,
+      0.010000000000000002
+    ],
+    "watertight": true,
+    "source": "original procedural industrial-shape proxy; not a manufacturer-certified part",
+    "manufacturing_details": "threads, chamfers and tolerances omitted",
+    "mass_kg": 0.07516800000000003,
+    "density_kg_m3": 2700,
+    "mass_source": "assumed homogeneous aluminium proxy; not measured",
+    "grasp_success": null,
+    "abb_execution_status": "not_run"
+  },
+  {
+    "object_id": "u_channel_03",
+    "family": "u_channel",
+    "name_zh": "U形槽块",
+    "variant": 3,
+    "split": "test",
+    "units": "m",
+    "mesh": "assets/u_channel_03/mesh_m.ply",
+    "robotstudio_mesh": "assets/u_channel_03/robotstudio_mm.stl",
+    "robotstudio_mesh_units": "mm",
+    "extents_m": [
+      0.05600000000000001,
+      0.0504,
+      0.022400000000000003
+    ],
+    "volume_m3": 3.911319552000003e-05,
+    "center_of_mass_local_m": [
+      1.8046615215002076e-18,
+      -0.004142068965517239,
+      0.0112
+    ],
+    "watertight": true,
+    "source": "original procedural industrial-shape proxy; not a manufacturer-certified part",
+    "manufacturing_details": "threads, chamfers and tolerances omitted",
+    "mass_kg": 0.10560562790400008,
+    "density_kg_m3": 2700,
+    "mass_source": "assumed homogeneous aluminium proxy; not measured",
+    "grasp_success": null,
+    "abb_execution_status": "not_run"
+  },
+  {
+    "object_id": "u_channel_04",
+    "family": "u_channel",
+    "name_zh": "U形槽块",
+    "variant": 4,
+    "split": "test",
+    "units": "m",
+    "mesh": "assets/u_channel_04/mesh_m.ply",
+    "robotstudio_mesh": "assets/u_channel_04/robotstudio_mm.stl",
+    "robotstudio_mesh_units": "mm",
+    "extents_m": [
+      0.061,
+      0.0549,
+      0.0244
+    ],
+    "volume_m3": 5.055320832e-05,
+    "center_of_mass_local_m": [
+      -1.3962729821429138e-18,
+      -0.004511896551724137,
+      0.012200000000000003
+    ],
+    "watertight": true,
+    "source": "original procedural industrial-shape proxy; not a manufacturer-certified part",
+    "manufacturing_details": "threads, chamfers and tolerances omitted",
+    "mass_kg": 0.136493662464,
+    "density_kg_m3": 2700,
+    "mass_source": "assumed homogeneous aluminium proxy; not measured",
+    "grasp_success": null,
+    "abb_execution_status": "not_run"
+  }
+]

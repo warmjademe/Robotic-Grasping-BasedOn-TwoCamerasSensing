@@ -1,0 +1,20 @@
+{
+  "host": "qyb-SJHY-ubuntu25",
+  "mujoco_environment": {
+    "mujoco": "3.3.7",
+    "numpy": "1.26.4",
+    "scipy": "1.15.3",
+    "trimesh": "4.5.3",
+    "python-fcl": "0.7.0.11",
+    "vhacdx": "0.0.10",
+    "PyYAML": "6.0.3",
+    "Pillow": "12.3.0"
+  },
+  "isaac_environment": {
+    "isaacsim": "5.1.0.0",
+    "isaaclab": "2.3.2.post1",
+    "torch": "2.7.0+cu128"
+  },
+  "native_franka_config_sha256": "d7129235b7095b6dc75fd24b359395ad1cc7a13b1e964606309d4624d820fc19",
+  "menagerie_panda_sha256": "96ad67da03710f17f798c9478fd9e9efdf24a3bf8359f05e456dd9fb158ea273"
+}

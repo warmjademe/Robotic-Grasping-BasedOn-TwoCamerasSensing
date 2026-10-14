@@ -1,0 +1,100 @@
+{
+  "task_id": "task_0527",
+  "status": "no_plan",
+  "selected": null,
+  "rejected": [
+    {
+      "rank": 0,
+      "reason": "width_invalid"
+    },
+    {
+      "rank": 1,
+      "reason": "width_invalid"
+    },
+    {
+      "rank": 2,
+      "reason": "width_invalid"
+    },
+    {
+      "rank": 3,
+      "reason": "width_invalid"
+    },
+    {
+      "rank": 4,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 5,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 6,
+      "reason": "approach_collision",
+      "collision": {
+        "collision": true,
+        "self_pairs": [],
+        "environment_pairs": [
+          [
+            "panda_hand",
+            "wall0"
+          ]
+        ],
+        "perceived_voxels": 21060
+      }
+    },
+    {
+      "rank": 7,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 8,
+      "reason": "width_invalid"
+    },
+    {
+      "rank": 9,
+      "reason": "transit_collision",
+      "collision": {
+        "collision": true,
+        "self_pairs": [],
+        "environment_pairs": [
+          [
+            "panda_hand",
+            "perceived_scene"
+          ],
+          [
+            "panda_hand",
+            "wall0"
+          ]
+        ],
+        "perceived_voxels": 21060
+      }
+    },
+    {
+      "rank": 10,
+      "reason": "width_invalid"
+    },
+    {
+      "rank": 11,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 12,
+      "reason": "width_invalid"
+    }
+  ],
+  "host": "qyb-SJHY-ubuntu25",
+  "pid": 1108516,
+  "candidate_count": 13,
+  "ground_truth_used": false,
+  "protocol_sha256": "24eb3735a29abcfc189ee7ecb5a34851fbc070e549b96df67f030f50d3862bc6",
+  "cloud_sha256": "1b24afbebe8acba2d29ed5b8ab88282c403ae315dce171a242ab2b5338640bb2",
+  "grasps_sha256": "21269097a7fd6f0bed75bba8fc8d1a9ae4b2358423f204f1b3c44a3a07637a9d",
+  "home_check": {
+    "collision": false,
+    "self_pairs": [],
+    "environment_pairs": [],
+    "perceived_voxels": 21060
+  },
+  "seconds": 2.1403198940097354,
+  "planning_parallelism": 4
+}

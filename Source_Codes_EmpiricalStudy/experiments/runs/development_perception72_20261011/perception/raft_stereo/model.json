@@ -1,0 +1,23 @@
+{
+  "checkpoint": "/home/qyb/RESEARCH/Robotic_Grasping/Source_Codes_BasedOn_TwoCameras3D_Sensing/baseline_psmnet_raft_stereo/models/raftstereo-middlebury.pth",
+  "checkpoint_sha256": "d22e84c0e431bf31d7cc66902c40601859eb40b35ef7f4399ea81276c2915819",
+  "strict_state_dict_load": true,
+  "weights_retrained": false,
+  "upstream": "/home/qyb/RESEARCH/Robotic_Grasping/Source_Codes_BasedOn_TwoCameras3D_Sensing/baseline_psmnet_raft_stereo/upstream/RAFT-Stereo",
+  "upstream_commit": "6e93ed2169bd858dbb43033988563f3b0bb49506",
+  "runtime": "CUDA",
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "torch_version": "2.7.0+cu128",
+  "iterations": 32,
+  "normalization": "author internal",
+  "precision": "FP32",
+  "tf32": false,
+  "checkpoint_domain": "Middlebury",
+  "model_load_and_provenance_seconds": 1.5001835059956647,
+  "source_sha256": "08509e53aa7b836d3140ef6ded7982b2869ae808e49f0e3fc38444246e6ce9cf",
+  "seed": 0,
+  "input_size": [
+    640,
+    480
+  ]
+}

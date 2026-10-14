@@ -1,0 +1,23 @@
+{
+  "episode_id": "mounting_block_02_p01_single",
+  "method": "stereobm",
+  "split": "development",
+  "seed": 0,
+  "input_sha256": {
+    "left.png": "1dbfe61085c1dfda23cf5537f62e9233386128d931be7563635c9eefe6d55673",
+    "right.png": "e41f9a58957305f1653b8e118ef2f59b80deaa78b48beab9e7b9c1460b3a47aa",
+    "cameras.json": "49f798ce8c470a3d17c1a63d2f24a1663c9fea8e71b07643f67ef0d9da09bb66",
+    "task.json": "fd3687d819c424e6be01b3dd17d6036ee9838c53d0e3933be2d28a6884eb00d0"
+  },
+  "inference_seconds": 0.009477065992541611,
+  "perception_pipeline_seconds": 0.14166347299760673,
+  "first_inference_after_model_load": false,
+  "geometry_truth_used": false,
+  "object_pose_used": false,
+  "native_robot_execution_performed": false,
+  "prediction_sha256": "df334dc4c2e6b93a83237d26bcfc9306153da1c53e315e65e6b3e66586afbc2c",
+  "scene_points": 56744,
+  "raw_target_points": 7834,
+  "target_points": 7762,
+  "grasp_input_ready": true
+}

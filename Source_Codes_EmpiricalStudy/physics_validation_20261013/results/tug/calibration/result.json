@@ -1,0 +1,106 @@
+{
+  "stage": "isolated_gripper_tug",
+  "status": "completed",
+  "rows": [
+    {
+      "case_id": "centered_box",
+      "success": true,
+      "closing_command_m": 0.0,
+      "expected": true
+    },
+    {
+      "case_id": "far_negative",
+      "success": false,
+      "closing_command_m": 0.0,
+      "expected": false
+    },
+    {
+      "case_id": "open_negative",
+      "success": true,
+      "closing_command_m": 0.08,
+      "expected": false
+    }
+  ],
+  "actual_parameters": {
+    "mass_kg": [
+      0.10000000149011612
+    ],
+    "joints": [
+      "panda_finger_joint1",
+      "panda_finger_joint2"
+    ],
+    "stiffness": [
+      1000.0,
+      1000.0
+    ],
+    "damping": [
+      100.0,
+      100.0
+    ]
+  },
+  "seconds": 9.51048265802092,
+  "friction": 1.0,
+  "fps": 250.0,
+  "gravity_enabled": false,
+  "force_magnitude_g": 1.0,
+  "tug_sequences": [
+    [
+      0.5,
+      [
+        0.0,
+        0.0,
+        1.0
+      ],
+      1.0
+    ],
+    [
+      0.5,
+      [
+        0.0,
+        0.8944271909999159,
+        0.4472135954999579
+      ],
+      1.0
+    ],
+    [
+      0.5,
+      [
+        0.0,
+        -0.8944271909999159,
+        0.4472135954999579
+      ],
+      1.0
+    ],
+    [
+      0.5,
+      [
+        0.8944271909999159,
+        0.0,
+        0.4472135954999579
+      ],
+      1.0
+    ],
+    [
+      0.5,
+      [
+        -0.8944271909999159,
+        0.0,
+        0.4472135954999579
+      ],
+      1.0
+    ]
+  ],
+  "closure": "saved_plan_closing_command",
+  "object_attached": false,
+  "full_arm": false,
+  "success_definition": "Official GraspDataGen: both fingers have nonzero contact force after final tug",
+  "source_sha256": "1346b9bd2e17950a2d8b801d889c6921ad6a6b7b2f68d54d246f24eed6ded3d5",
+  "code_sha256": "2563b83d983562fdc960d9b751cbff9b48d65ea21a8b624e7601b6a10372b009",
+  "upstream_sha256": "9a2d7516e89eb2fe2e39480c5827252a8624019149ab26c476d73ceb9a7872a1",
+  "versions": {
+    "isaacsim": "5.1.0.0",
+    "isaaclab": "2.3.2.post1",
+    "torch": "2.7.0+cu128",
+    "warp-lang": "1.9.1"
+  }
+}

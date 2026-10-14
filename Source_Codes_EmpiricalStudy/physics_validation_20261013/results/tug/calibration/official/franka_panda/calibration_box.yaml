@@ -1,0 +1,120 @@
+format: isaac_grasp
+format_version: '1.0'
+created_with: grasp_sim
+object_file: /home/qyb/RESEARCH/Robotic_Grasping/Source_Codes_EmpiricalStudy/physics_validation_20261013/inputs/calibration_box.obj
+object_scale: 1.0
+gripper_file: /home/qyb/RESEARCH/baseline_graspgen/upstream/GraspDataGen/bots/franka_panda.usd
+gripper_frame_link: panda_hand
+open_limit: upper
+finger_colliders:
+- panda_rightfinger
+- panda_leftfinger
+grasps:
+  centered_box:
+    position:
+    - -5.662441253662109e-06
+    - -1.6963422240223736e-06
+    - -0.1015004813671112
+    orientation:
+      w: 1.0000001192092896
+      xyz:
+      - -4.986930434824899e-05
+      - 3.0154151318129152e-05
+      - -2.2000940589350648e-05
+    cspace_position:
+      panda_finger_joint1: 0.015016376040875912
+    pregrasp_cspace_position:
+      panda_finger_joint1: 0.04
+    closing_command_m: 0.0
+    kind: calibration
+    expected: true
+    confidence: 1.0
+    pregrasp_position:
+    - 0.0
+    - 0.0
+    - -0.1015
+    pregrasp_orientation:
+      w: 1.0
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+    pregrasp_bite_point:
+    - 0.0
+    - 0.0
+    - 0.0
+    bite_point:
+    - 0.0
+    - 0.0
+    - 0.0
+  far_negative:
+    position:
+    - 0.2
+    - 0.0
+    - -0.1015
+    orientation:
+      w: 1.0
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+    cspace_position:
+      panda_finger_joint1: 5.994913941295641e-21
+    pregrasp_cspace_position:
+      panda_finger_joint1: 0.04
+    closing_command_m: 0.0
+    kind: calibration
+    expected: false
+    confidence: 0.0
+    pregrasp_position:
+    - 0.2
+    - 0.0
+    - -0.1015
+    pregrasp_orientation:
+      w: 1.0
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+    pregrasp_bite_point:
+    - 0.0
+    - 0.0
+    - 0.0
+  open_negative:
+    position:
+    - -5.7220458984375e-06
+    - -1.6861704352777451e-06
+    - -0.10150045156478882
+    orientation:
+      w: 1.0000001192092896
+      xyz:
+      - -4.984377301298082e-05
+      - 3.049757651751861e-05
+      - -2.169265462725889e-05
+    cspace_position:
+      panda_finger_joint1: 0.015016376972198486
+    pregrasp_cspace_position:
+      panda_finger_joint1: 0.04
+    closing_command_m: 0.08
+    kind: calibration
+    expected: false
+    confidence: 1.0
+    pregrasp_position:
+    - 0.0
+    - 0.0
+    - -0.1015
+    pregrasp_orientation:
+      w: 1.0
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+    pregrasp_bite_point:
+    - 0.0
+    - 0.0
+    - 0.0
+    bite_point:
+    - 0.0
+    - 0.0
+    - 0.0
+created_at: '2026-10-13T16:53:08.962268'

@@ -1,0 +1,264 @@
+{
+  "stage": "full_arm_physics",
+  "status": "completed",
+  "rows": [
+    {
+      "task_id": "task_0180",
+      "platform": "franka_isaac",
+      "profile": "nominal",
+      "expected": null,
+      "physics_lift_success": false,
+      "collision_free": true,
+      "prohibited_contact_steps": 0,
+      "max_finger_non_target_force_n": 0.0,
+      "max_arm_contact_force_n": 0.0,
+      "execution_success": false,
+      "approach_endpoint_reached": true,
+      "approach_position_error_mm": 0.12517860373297204,
+      "approach_rotation_error_deg": 0.017944435813383293,
+      "min_hold_bottom_clearance_m": -5.109131599849719e-07,
+      "hold_sim_s": 2.0,
+      "returned_to_origin_success": false,
+      "execution_and_return": false,
+      "return_xy_error_m": 0.00030110846273601055,
+      "final_bottom_clearance_m": -1.4995368785254255e-06,
+      "initial_settling_translation_m": 1.536315721750725e-05,
+      "closing_command_m": 0.04076743469873334,
+      "object_attached": false
+    },
+    {
+      "task_id": "task_0182",
+      "platform": "franka_isaac",
+      "profile": "nominal",
+      "expected": null,
+      "physics_lift_success": true,
+      "collision_free": true,
+      "prohibited_contact_steps": 0,
+      "max_finger_non_target_force_n": 0.0,
+      "max_arm_contact_force_n": 0.0,
+      "execution_success": true,
+      "approach_endpoint_reached": true,
+      "approach_position_error_mm": 0.11648529560460283,
+      "approach_rotation_error_deg": 0.01611907962295902,
+      "min_hold_bottom_clearance_m": 0.1472034584770845,
+      "hold_sim_s": 2.0,
+      "returned_to_origin_success": true,
+      "execution_and_return": true,
+      "return_xy_error_m": 0.013780474662780762,
+      "final_bottom_clearance_m": -2.644241923025785e-06,
+      "initial_settling_translation_m": 1.536128002044279e-05,
+      "closing_command_m": 0.03504410666253054,
+      "object_attached": false
+    },
+    {
+      "task_id": "task_0185",
+      "platform": "franka_isaac",
+      "profile": "nominal",
+      "expected": null,
+      "physics_lift_success": true,
+      "collision_free": true,
+      "prohibited_contact_steps": 0,
+      "max_finger_non_target_force_n": 0.0,
+      "max_arm_contact_force_n": 0.0,
+      "execution_success": true,
+      "approach_endpoint_reached": true,
+      "approach_position_error_mm": 0.10481495773524124,
+      "approach_rotation_error_deg": 0.015096604577636471,
+      "min_hold_bottom_clearance_m": 0.13944453320595254,
+      "hold_sim_s": 2.0,
+      "returned_to_origin_success": true,
+      "execution_and_return": true,
+      "return_xy_error_m": 0.004388818517327309,
+      "final_bottom_clearance_m": -6.845458810709118e-07,
+      "initial_settling_translation_m": 1.538569267722778e-05,
+      "closing_command_m": 0.03207344210491431,
+      "object_attached": false
+    },
+    {
+      "task_id": "task_0189",
+      "platform": "franka_isaac",
+      "profile": "nominal",
+      "expected": null,
+      "physics_lift_success": true,
+      "collision_free": true,
+      "prohibited_contact_steps": 0,
+      "max_finger_non_target_force_n": 0.0,
+      "max_arm_contact_force_n": 0.0,
+      "execution_success": true,
+      "approach_endpoint_reached": true,
+      "approach_position_error_mm": 0.12244691532183684,
+      "approach_rotation_error_deg": 0.02226387946489403,
+      "min_hold_bottom_clearance_m": 0.14153088615829065,
+      "hold_sim_s": 2.0,
+      "returned_to_origin_success": true,
+      "execution_and_return": true,
+      "return_xy_error_m": 0.010747754015028477,
+      "final_bottom_clearance_m": -1.6622365187713163e-06,
+      "initial_settling_translation_m": 1.538569267722778e-05,
+      "closing_command_m": 0.03787146070376954,
+      "object_attached": false
+    },
+    {
+      "task_id": "task_0190",
+      "platform": "franka_isaac",
+      "profile": "nominal",
+      "expected": null,
+      "physics_lift_success": false,
+      "collision_free": true,
+      "prohibited_contact_steps": 0,
+      "max_finger_non_target_force_n": 0.0,
+      "max_arm_contact_force_n": 0.0,
+      "execution_success": false,
+      "approach_endpoint_reached": true,
+      "approach_position_error_mm": 0.06179336239465294,
+      "approach_rotation_error_deg": 0.004695041181367675,
+      "min_hold_bottom_clearance_m": -4.922517292471287e-07,
+      "hold_sim_s": 2.0,
+      "returned_to_origin_success": false,
+      "execution_and_return": false,
+      "return_xy_error_m": 1.862645149230957e-09,
+      "final_bottom_clearance_m": -4.6490334343886084e-07,
+      "initial_settling_translation_m": 1.5479259673156776e-05,
+      "closing_command_m": 0.00811597007512944,
+      "object_attached": false
+    }
+  ],
+  "seconds": 43.130511355993804,
+  "fps": 250,
+  "friction": 1.0,
+  "object_mass_kg": 0.1,
+  "gravity_m_s2": 9.81,
+  "model": "Isaac Lab native FRANKA_PANDA_HIGH_PD_CFG",
+  "host": "qyb-SJHY-ubuntu25",
+  "platform": "franka_isaac",
+  "profile": "nominal",
+  "parallelism": 5,
+  "controller": "Isaac PhysX implicit joint drives",
+  "object_attached": false,
+  "object_pose_written_after_initialization": false,
+  "phases": [
+    [
+      "settle",
+      1.0
+    ],
+    [
+      "transit",
+      3.0
+    ],
+    [
+      "approach",
+      2.0
+    ],
+    [
+      "approach_hold",
+      1.0
+    ],
+    [
+      "close",
+      1.5
+    ],
+    [
+      "lift",
+      3.0
+    ],
+    [
+      "hold",
+      2.0
+    ],
+    [
+      "lower",
+      3.0
+    ],
+    [
+      "release",
+      1.0
+    ],
+    [
+      "retreat",
+      2.0
+    ],
+    [
+      "placed_hold",
+      1.0
+    ]
+  ],
+  "code_sha256": "259945a05444ed85f618352c113ffedaf932a0c95f25206329427d2760560617",
+  "manifest_sha256": "71f09a97706a67dd68cc43ecba80f95268776249033d28e2965564fa0dd1a5c2",
+  "protocol_sha256": "24eb3735a29abcfc189ee7ecb5a34851fbc070e549b96df67f030f50d3862bc6",
+  "versions": {
+    "isaacsim": "5.1.0.0",
+    "isaaclab": "2.3.2.post1",
+    "torch": "2.7.0+cu128"
+  },
+  "collision_definition": "Any nonfinger housing contact or finger non-target resultant normal force >0.5 N after settling",
+  "friction_scope": "Explicit target/distractor/table material and updated imported robot materials; actual shape materials recorded below",
+  "notes": "Lift, endpoint tracking, prohibited contact and placement are reported separately.",
+  "actual_robot_materials_first_env": [
+    [
+      1.0,
+      1.0,
+      0.0
+    ],
+    [
+      1.0,
+      1.0,
+      0.0
+    ],
+    [
+      1.0,
+      1.0,
+      0.0
+    ],
+    [
+      1.0,
+      1.0,
+      0.0
+    ],
+    [
+      1.0,
+      1.0,
+      0.0
+    ],
+    [
+      1.0,
+      1.0,
+      0.0
+    ],
+    [
+      1.0,
+      1.0,
+      0.0
+    ],
+    [
+      1.0,
+      1.0,
+      0.0
+    ],
+    [
+      1.0,
+      1.0,
+      0.0
+    ],
+    [
+      1.0,
+      1.0,
+      0.0
+    ],
+    [
+      1.0,
+      1.0,
+      0.0
+    ]
+  ],
+  "actual_robot_effort_limits_first_env": [
+    87.0,
+    87.0,
+    87.0,
+    87.0,
+    12.0,
+    12.0,
+    12.0,
+    20.0,
+    20.0
+  ]
+}

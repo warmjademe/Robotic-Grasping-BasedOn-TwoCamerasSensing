@@ -1,0 +1,151 @@
+{
+  "stage": "full_arm_physics",
+  "status": "completed",
+  "rows": [
+    {
+      "case_id": "centered_box",
+      "expected": true,
+      "physics_lift_success": true,
+      "collision_free": true,
+      "prohibited_contact_steps": 0,
+      "max_finger_non_target_force_n": 0.0,
+      "max_arm_contact_force_n": 0.0,
+      "execution_success": true,
+      "approach_endpoint_reached": true,
+      "approach_position_error_mm": 1.1313614661069864,
+      "approach_rotation_error_deg": 0.03228221011172251,
+      "min_hold_bottom_clearance_m": 0.14919161343818188,
+      "hold_sim_s": 2.0,
+      "returned_to_origin_success": true,
+      "return_xy_error_m": 6.850295176263899e-05,
+      "final_bottom_clearance_m": -1.0122560789582735e-08,
+      "initial_settling_translation_m": 6.778254846295795e-09,
+      "closing_command_m": 0.0,
+      "object_attached": false
+    },
+    {
+      "case_id": "far_negative",
+      "expected": false,
+      "physics_lift_success": false,
+      "collision_free": true,
+      "prohibited_contact_steps": 0,
+      "max_finger_non_target_force_n": 0.12062477320432663,
+      "max_arm_contact_force_n": 0.0,
+      "execution_success": false,
+      "approach_endpoint_reached": true,
+      "approach_position_error_mm": 1.1310471149519283,
+      "approach_rotation_error_deg": 0.03228221011172251,
+      "min_hold_bottom_clearance_m": -3.1597254368520566e-08,
+      "hold_sim_s": 2.0,
+      "returned_to_origin_success": false,
+      "return_xy_error_m": 1.5714984868964166e-10,
+      "final_bottom_clearance_m": -2.500416096395952e-08,
+      "initial_settling_translation_m": 6.997011414711096e-09,
+      "closing_command_m": 0.0,
+      "object_attached": false
+    },
+    {
+      "case_id": "open_negative",
+      "expected": false,
+      "physics_lift_success": false,
+      "collision_free": true,
+      "prohibited_contact_steps": 0,
+      "max_finger_non_target_force_n": 0.0,
+      "max_arm_contact_force_n": 0.0,
+      "execution_success": false,
+      "approach_endpoint_reached": true,
+      "approach_position_error_mm": 1.131550637702224,
+      "approach_rotation_error_deg": 0.03228221011172251,
+      "min_hold_bottom_clearance_m": -3.154127026228082e-08,
+      "hold_sim_s": 2.0,
+      "returned_to_origin_success": false,
+      "return_xy_error_m": 2.297424472885723e-10,
+      "final_bottom_clearance_m": -2.6386984375292855e-08,
+      "initial_settling_translation_m": 7.005624080846928e-09,
+      "closing_command_m": 0.08,
+      "object_attached": false
+    },
+    {
+      "case_id": "collision_blocked",
+      "expected": false,
+      "physics_lift_success": false,
+      "collision_free": false,
+      "prohibited_contact_steps": 3158,
+      "max_finger_non_target_force_n": 5806.09130859375,
+      "max_arm_contact_force_n": 0.0,
+      "execution_success": false,
+      "approach_endpoint_reached": false,
+      "approach_position_error_mm": 130.234685465844,
+      "approach_rotation_error_deg": 6.0473279617251,
+      "min_hold_bottom_clearance_m": -3.1063273508991074e-08,
+      "hold_sim_s": 2.0,
+      "returned_to_origin_success": false,
+      "return_xy_error_m": 1.4394663239158945e-10,
+      "final_bottom_clearance_m": -2.6293216937034458e-08,
+      "initial_settling_translation_m": 6.755951797998705e-09,
+      "closing_command_m": 0.0,
+      "object_attached": false
+    }
+  ],
+  "seconds": 33.18994588800706,
+  "fps": 250,
+  "friction": 1.0,
+  "object_mass_kg": 0.1,
+  "gravity_m_s2": 9.81,
+  "model": "FANUC official m20_25_18d URDF + Panda gripper",
+  "controller": "Isaac PhysX implicit joint drives",
+  "object_attached": false,
+  "object_pose_written_after_initialization": false,
+  "phases": [
+    [
+      "settle",
+      1.0
+    ],
+    [
+      "transit",
+      3.0
+    ],
+    [
+      "approach",
+      2.0
+    ],
+    [
+      "close",
+      1.5
+    ],
+    [
+      "lift",
+      3.0
+    ],
+    [
+      "hold",
+      2.0
+    ],
+    [
+      "lower",
+      3.0
+    ],
+    [
+      "release",
+      1.0
+    ],
+    [
+      "retreat",
+      2.0
+    ],
+    [
+      "placed_hold",
+      1.0
+    ]
+  ],
+  "code_sha256": "18e0c799d4f6b9b506c55b88df169546eee68cd34e7800d82e64cd3414d16451",
+  "manifest_sha256": "5449bf7f734cd4dc571da73b2ddf99e2219a1b0e571120e77a5395dc36978544",
+  "versions": {
+    "isaacsim": "5.1.0.0",
+    "isaaclab": "2.3.2.post1",
+    "torch": "2.7.0+cu128"
+  },
+  "collision_definition": "Any nonfinger housing contact or finger non-target resultant normal force >0.5 N after settling",
+  "friction_scope": "Explicit target/distractor/table material; robot uses imported USD/default material",
+  "notes": "Lift, endpoint tracking, prohibited contact and placement are reported separately."
+}

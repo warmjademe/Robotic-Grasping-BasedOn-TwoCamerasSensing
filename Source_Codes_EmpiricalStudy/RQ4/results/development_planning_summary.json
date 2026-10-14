@@ -1,0 +1,583 @@
+{
+  "split": "development",
+  "benchmark_eligible": false,
+  "tasks": 792,
+  "status_counts": {
+    "no_plan": 553,
+    "sampled_path_found": 206,
+    "planning_timeout": 4,
+    "no_candidates": 29
+  },
+  "sampled_paths_found": 206,
+  "sampled_path_rate": 0.2601010101010101,
+  "timing_count": 763,
+  "planning_wall_median_s": 2.1560460750188213,
+  "planning_wall_mean_s": 4.0680690276928795,
+  "native_grasp_success_rate": null,
+  "native_execution_sim_s": null,
+  "run": "experiments/runs/development_planning_20261012",
+  "index_sha256": "185b48b17d565114c68dcaf5dc03629dfd6a30d3f023830829d03d95fd1b5eac",
+  "episodes_sha256": "9b9d0cc46e7947bb6d3bf3f9f12e65d21176e49b3fc9a46593864fd78a89488d",
+  "exporter_sha256": "d5c6f7caf47584d3c78774b91b8a152b4a8210d23dc93f4571a359c85a22159b",
+  "data_sha256": "7043fe848509ee9c9828c1793d9d14fde4a77065236c5f4dd7398532d753429c",
+  "runtime_scope": "Development timing; concurrent simulator commissioning may affect CPU load",
+  "interpretation": "Sampled planning feasibility; native grasp and full trajectory validation pending",
+  "groups": [
+    {
+      "perception": "foundationstereo",
+      "grasp": "6dof_graspnet",
+      "condition": "bin_walls",
+      "tasks": 24,
+      "status_counts": {
+        "no_plan": 24
+      },
+      "sampled_paths_found": 0,
+      "sampled_path_rate": 0.0,
+      "timing_count": 24,
+      "planning_wall_median_s": 10.790279929002281,
+      "planning_wall_mean_s": 10.11105122966425,
+      "native_grasp_success_rate": null,
+      "native_execution_sim_s": null
+    },
+    {
+      "perception": "foundationstereo",
+      "grasp": "6dof_graspnet",
+      "condition": "neighbours",
+      "tasks": 24,
+      "status_counts": {
+        "no_plan": 24
+      },
+      "sampled_paths_found": 0,
+      "sampled_path_rate": 0.0,
+      "timing_count": 24,
+      "planning_wall_median_s": 11.870425647502998,
+      "planning_wall_mean_s": 12.0361648428346,
+      "native_grasp_success_rate": null,
+      "native_execution_sim_s": null
+    },
+    {
+      "perception": "foundationstereo",
+      "grasp": "6dof_graspnet",
+      "condition": "single",
+      "tasks": 24,
+      "status_counts": {
+        "no_plan": 23,
+        "sampled_path_found": 1
+      },
+      "sampled_paths_found": 1,
+      "sampled_path_rate": 0.041666666666666664,
+      "timing_count": 24,
+      "planning_wall_median_s": 11.797960420008167,
+      "planning_wall_mean_s": 11.300352668336322,
+      "native_grasp_success_rate": null,
+      "native_execution_sim_s": null
+    },
+    {
+      "perception": "foundationstereo",
+      "grasp": "contact_graspnet",
+      "condition": "bin_walls",
+      "tasks": 24,
+      "status_counts": {
+        "no_plan": 17,
+        "sampled_path_found": 1,
+        "no_candidates": 6
+      },
+      "sampled_paths_found": 1,
+      "sampled_path_rate": 0.041666666666666664,
+      "timing_count": 18,
+      "planning_wall_median_s": 2.9076107159926323,
+      "planning_wall_mean_s": 3.01776849988447,
+      "native_grasp_success_rate": null,
+      "native_execution_sim_s": null
+    },
+    {
+      "perception": "foundationstereo",
+      "grasp": "contact_graspnet",
+      "condition": "neighbours",
+      "tasks": 24,
+      "status_counts": {
+        "no_plan": 24
+      },
+      "sampled_paths_found": 0,
+      "sampled_path_rate": 0.0,
+      "timing_count": 24,
+      "planning_wall_median_s": 1.262827719503548,
+      "planning_wall_mean_s": 1.5676687107940477,
+      "native_grasp_success_rate": null,
+      "native_execution_sim_s": null
+    },
+    {
+      "perception": "foundationstereo",
+      "grasp": "contact_graspnet",
+      "condition": "single",
+      "tasks": 24,
+      "status_counts": {
+        "no_plan": 23,
+        "sampled_path_found": 1
+      },
+      "sampled_paths_found": 1,
+      "sampled_path_rate": 0.041666666666666664,
+      "timing_count": 24,
+      "planning_wall_median_s": 2.7168802164815133,
+      "planning_wall_mean_s": 3.046853604749534,
+      "native_grasp_success_rate": null,
+      "native_execution_sim_s": null
+    },
+    {
+      "perception": "foundationstereo",
+      "grasp": "gpd",
+      "condition": "bin_walls",
+      "tasks": 24,
+      "status_counts": {
+        "no_plan": 18,
+        "sampled_path_found": 6
+      },
+      "sampled_paths_found": 6,
+      "sampled_path_rate": 0.25,
+      "timing_count": 24,
+      "planning_wall_median_s": 12.433755660502356,
+      "planning_wall_mean_s": 12.63956538724718,
+      "native_grasp_success_rate": null,
+      "native_execution_sim_s": null
+    },
+    {
+      "perception": "foundationstereo",
+      "grasp": "gpd",
+      "condition": "neighbours",
+      "tasks": 24,
+      "status_counts": {
+        "sampled_path_found": 22,
+        "no_plan": 2
+      },
+      "sampled_paths_found": 22,
+      "sampled_path_rate": 0.9166666666666666,
+      "timing_count": 24,
+      "planning_wall_median_s": 2.326226837001741,
+      "planning_wall_mean_s": 5.0800654672093515,
+      "native_grasp_success_rate": null,
+      "native_execution_sim_s": null
+    },
+    {
+      "perception": "foundationstereo",
+      "grasp": "gpd",
+      "condition": "single",
+      "tasks": 24,
+      "status_counts": {
+        "planning_timeout": 4,
+        "sampled_path_found": 13,
+        "no_plan": 7
+      },
+      "sampled_paths_found": 13,
+      "sampled_path_rate": 0.5416666666666666,
+      "timing_count": 24,
+      "planning_wall_median_s": 4.893864254496293,
+      "planning_wall_mean_s": 10.693953535085408,
+      "native_grasp_success_rate": null,
+      "native_execution_sim_s": null
+    },
+    {
+      "perception": "foundationstereo",
+      "grasp": "graspgen",
+      "condition": "bin_walls",
+      "tasks": 24,
+      "status_counts": {
+        "sampled_path_found": 14,
+        "no_plan": 10
+      },
+      "sampled_paths_found": 14,
+      "sampled_path_rate": 0.5833333333333334,
+      "timing_count": 24,
+      "planning_wall_median_s": 3.9659900495025795,
+      "planning_wall_mean_s": 5.461482737584447,
+      "native_grasp_success_rate": null,
+      "native_execution_sim_s": null
+    },
+    {
+      "perception": "foundationstereo",
+      "grasp": "graspgen",
+      "condition": "neighbours",
+      "tasks": 24,
+      "status_counts": {
+        "sampled_path_found": 20,
+        "no_plan": 4
+      },
+      "sampled_paths_found": 20,
+      "sampled_path_rate": 0.8333333333333334,
+      "timing_count": 24,
+      "planning_wall_median_s": 2.673339830507757,
+      "planning_wall_mean_s": 3.342737056664191,
+      "native_grasp_success_rate": null,
+      "native_execution_sim_s": null
+    },
+    {
+      "perception": "foundationstereo",
+      "grasp": "graspgen",
+      "condition": "single",
+      "tasks": 24,
+      "status_counts": {
+        "sampled_path_found": 17,
+        "no_plan": 7
+      },
+      "sampled_paths_found": 17,
+      "sampled_path_rate": 0.7083333333333334,
+      "timing_count": 24,
+      "planning_wall_median_s": 1.772772573007387,
+      "planning_wall_mean_s": 2.328106951459631,
+      "native_grasp_success_rate": null,
+      "native_execution_sim_s": null
+    },
+    {
+      "perception": "foundationstereo",
+      "grasp": "graspnet_baseline",
+      "condition": "bin_walls",
+      "tasks": 24,
+      "status_counts": {
+        "no_plan": 21,
+        "sampled_path_found": 2,
+        "no_candidates": 1
+      },
+      "sampled_paths_found": 2,
+      "sampled_path_rate": 0.08333333333333333,
+      "timing_count": 23,
+      "planning_wall_median_s": 1.9591726869984996,
+      "planning_wall_mean_s": 2.2899604591720677,
+      "native_grasp_success_rate": null,
+      "native_execution_sim_s": null
+    },
+    {
+      "perception": "foundationstereo",
+      "grasp": "graspnet_baseline",
+      "condition": "neighbours",
+      "tasks": 24,
+      "status_counts": {
+        "no_candidates": 12,
+        "no_plan": 9,
+        "sampled_path_found": 3
+      },
+      "sampled_paths_found": 3,
+      "sampled_path_rate": 0.125,
+      "timing_count": 12,
+      "planning_wall_median_s": 0.3332025444833562,
+      "planning_wall_mean_s": 0.5482656253322299,
+      "native_grasp_success_rate": null,
+      "native_execution_sim_s": null
+    },
+    {
+      "perception": "foundationstereo",
+      "grasp": "graspnet_baseline",
+      "condition": "single",
+      "tasks": 24,
+      "status_counts": {
+        "no_candidates": 10,
+        "no_plan": 13,
+        "sampled_path_found": 1
+      },
+      "sampled_paths_found": 1,
+      "sampled_path_rate": 0.041666666666666664,
+      "timing_count": 14,
+      "planning_wall_median_s": 0.3809932389995083,
+      "planning_wall_mean_s": 0.589706897355167,
+      "native_grasp_success_rate": null,
+      "native_execution_sim_s": null
+    },
+    {
+      "perception": "gwcnet",
+      "grasp": "graspgen",
+      "condition": "bin_walls",
+      "tasks": 24,
+      "status_counts": {
+        "no_plan": 24
+      },
+      "sampled_paths_found": 0,
+      "sampled_path_rate": 0.0,
+      "timing_count": 24,
+      "planning_wall_median_s": 1.162234992996673,
+      "planning_wall_mean_s": 1.207306796044577,
+      "native_grasp_success_rate": null,
+      "native_execution_sim_s": null
+    },
+    {
+      "perception": "gwcnet",
+      "grasp": "graspgen",
+      "condition": "neighbours",
+      "tasks": 24,
+      "status_counts": {
+        "sampled_path_found": 16,
+        "no_plan": 8
+      },
+      "sampled_paths_found": 16,
+      "sampled_path_rate": 0.6666666666666666,
+      "timing_count": 24,
+      "planning_wall_median_s": 1.9462371335102944,
+      "planning_wall_mean_s": 2.232972610128248,
+      "native_grasp_success_rate": null,
+      "native_execution_sim_s": null
+    },
+    {
+      "perception": "gwcnet",
+      "grasp": "graspgen",
+      "condition": "single",
+      "tasks": 24,
+      "status_counts": {
+        "sampled_path_found": 6,
+        "no_plan": 18
+      },
+      "sampled_paths_found": 6,
+      "sampled_path_rate": 0.25,
+      "timing_count": 24,
+      "planning_wall_median_s": 1.478853167995112,
+      "planning_wall_mean_s": 1.5583358784618515,
+      "native_grasp_success_rate": null,
+      "native_execution_sim_s": null
+    },
+    {
+      "perception": "igev_stereo",
+      "grasp": "graspgen",
+      "condition": "bin_walls",
+      "tasks": 24,
+      "status_counts": {
+        "sampled_path_found": 12,
+        "no_plan": 12
+      },
+      "sampled_paths_found": 12,
+      "sampled_path_rate": 0.5,
+      "timing_count": 24,
+      "planning_wall_median_s": 2.312916654002038,
+      "planning_wall_mean_s": 3.785313281705991,
+      "native_grasp_success_rate": null,
+      "native_execution_sim_s": null
+    },
+    {
+      "perception": "igev_stereo",
+      "grasp": "graspgen",
+      "condition": "neighbours",
+      "tasks": 24,
+      "status_counts": {
+        "no_plan": 14,
+        "sampled_path_found": 10
+      },
+      "sampled_paths_found": 10,
+      "sampled_path_rate": 0.4166666666666667,
+      "timing_count": 24,
+      "planning_wall_median_s": 1.961340054505854,
+      "planning_wall_mean_s": 3.3286319652955476,
+      "native_grasp_success_rate": null,
+      "native_execution_sim_s": null
+    },
+    {
+      "perception": "igev_stereo",
+      "grasp": "graspgen",
+      "condition": "single",
+      "tasks": 24,
+      "status_counts": {
+        "no_plan": 16,
+        "sampled_path_found": 8
+      },
+      "sampled_paths_found": 8,
+      "sampled_path_rate": 0.3333333333333333,
+      "timing_count": 24,
+      "planning_wall_median_s": 2.4376376764994347,
+      "planning_wall_mean_s": 2.648391672413709,
+      "native_grasp_success_rate": null,
+      "native_execution_sim_s": null
+    },
+    {
+      "perception": "psmnet",
+      "grasp": "graspgen",
+      "condition": "bin_walls",
+      "tasks": 24,
+      "status_counts": {
+        "sampled_path_found": 8,
+        "no_plan": 16
+      },
+      "sampled_paths_found": 8,
+      "sampled_path_rate": 0.3333333333333333,
+      "timing_count": 24,
+      "planning_wall_median_s": 6.286705039980006,
+      "planning_wall_mean_s": 6.4465305224597005,
+      "native_grasp_success_rate": null,
+      "native_execution_sim_s": null
+    },
+    {
+      "perception": "psmnet",
+      "grasp": "graspgen",
+      "condition": "neighbours",
+      "tasks": 24,
+      "status_counts": {
+        "no_plan": 24
+      },
+      "sampled_paths_found": 0,
+      "sampled_path_rate": 0.0,
+      "timing_count": 24,
+      "planning_wall_median_s": 1.947976542505785,
+      "planning_wall_mean_s": 2.1480064107090584,
+      "native_grasp_success_rate": null,
+      "native_execution_sim_s": null
+    },
+    {
+      "perception": "psmnet",
+      "grasp": "graspgen",
+      "condition": "single",
+      "tasks": 24,
+      "status_counts": {
+        "no_plan": 24
+      },
+      "sampled_paths_found": 0,
+      "sampled_path_rate": 0.0,
+      "timing_count": 24,
+      "planning_wall_median_s": 3.646385651998571,
+      "planning_wall_mean_s": 4.229161160127357,
+      "native_grasp_success_rate": null,
+      "native_execution_sim_s": null
+    },
+    {
+      "perception": "raft_stereo",
+      "grasp": "graspgen",
+      "condition": "bin_walls",
+      "tasks": 24,
+      "status_counts": {
+        "sampled_path_found": 10,
+        "no_plan": 14
+      },
+      "sampled_paths_found": 10,
+      "sampled_path_rate": 0.4166666666666667,
+      "timing_count": 24,
+      "planning_wall_median_s": 1.799694745495799,
+      "planning_wall_mean_s": 2.225793478994698,
+      "native_grasp_success_rate": null,
+      "native_execution_sim_s": null
+    },
+    {
+      "perception": "raft_stereo",
+      "grasp": "graspgen",
+      "condition": "neighbours",
+      "tasks": 24,
+      "status_counts": {
+        "no_plan": 14,
+        "sampled_path_found": 10
+      },
+      "sampled_paths_found": 10,
+      "sampled_path_rate": 0.4166666666666667,
+      "timing_count": 24,
+      "planning_wall_median_s": 1.2836301130009815,
+      "planning_wall_mean_s": 2.4027762330794453,
+      "native_grasp_success_rate": null,
+      "native_execution_sim_s": null
+    },
+    {
+      "perception": "raft_stereo",
+      "grasp": "graspgen",
+      "condition": "single",
+      "tasks": 24,
+      "status_counts": {
+        "no_plan": 6,
+        "sampled_path_found": 18
+      },
+      "sampled_paths_found": 18,
+      "sampled_path_rate": 0.75,
+      "timing_count": 24,
+      "planning_wall_median_s": 2.299338719982188,
+      "planning_wall_mean_s": 3.5284694114573845,
+      "native_grasp_success_rate": null,
+      "native_execution_sim_s": null
+    },
+    {
+      "perception": "sgm",
+      "grasp": "graspgen",
+      "condition": "bin_walls",
+      "tasks": 24,
+      "status_counts": {
+        "no_plan": 24
+      },
+      "sampled_paths_found": 0,
+      "sampled_path_rate": 0.0,
+      "timing_count": 24,
+      "planning_wall_median_s": 1.0150049719813978,
+      "planning_wall_mean_s": 2.610741398412453,
+      "native_grasp_success_rate": null,
+      "native_execution_sim_s": null
+    },
+    {
+      "perception": "sgm",
+      "grasp": "graspgen",
+      "condition": "neighbours",
+      "tasks": 24,
+      "status_counts": {
+        "no_plan": 24
+      },
+      "sampled_paths_found": 0,
+      "sampled_path_rate": 0.0,
+      "timing_count": 24,
+      "planning_wall_median_s": 0.8956605274870526,
+      "planning_wall_mean_s": 1.4234757367485145,
+      "native_grasp_success_rate": null,
+      "native_execution_sim_s": null
+    },
+    {
+      "perception": "sgm",
+      "grasp": "graspgen",
+      "condition": "single",
+      "tasks": 24,
+      "status_counts": {
+        "sampled_path_found": 6,
+        "no_plan": 18
+      },
+      "sampled_paths_found": 6,
+      "sampled_path_rate": 0.25,
+      "timing_count": 24,
+      "planning_wall_median_s": 0.9762883725052234,
+      "planning_wall_mean_s": 1.889456398746309,
+      "native_grasp_success_rate": null,
+      "native_execution_sim_s": null
+    },
+    {
+      "perception": "stereobm",
+      "grasp": "graspgen",
+      "condition": "bin_walls",
+      "tasks": 24,
+      "status_counts": {
+        "no_plan": 24
+      },
+      "sampled_paths_found": 0,
+      "sampled_path_rate": 0.0,
+      "timing_count": 24,
+      "planning_wall_median_s": 2.0813869094999973,
+      "planning_wall_mean_s": 2.2035343629965305,
+      "native_grasp_success_rate": null,
+      "native_execution_sim_s": null
+    },
+    {
+      "perception": "stereobm",
+      "grasp": "graspgen",
+      "condition": "neighbours",
+      "tasks": 24,
+      "status_counts": {
+        "no_plan": 23,
+        "sampled_path_found": 1
+      },
+      "sampled_paths_found": 1,
+      "sampled_path_rate": 0.041666666666666664,
+      "timing_count": 24,
+      "planning_wall_median_s": 1.5366788239916787,
+      "planning_wall_mean_s": 1.662400273457024,
+      "native_grasp_success_rate": null,
+      "native_execution_sim_s": null
+    },
+    {
+      "perception": "stereobm",
+      "grasp": "graspgen",
+      "condition": "single",
+      "tasks": 24,
+      "status_counts": {
+        "no_plan": 24
+      },
+      "sampled_paths_found": 0,
+      "sampled_path_rate": 0.0,
+      "timing_count": 24,
+      "planning_wall_median_s": 1.0738177235034527,
+      "planning_wall_mean_s": 1.115394404792217,
+      "native_grasp_success_rate": null,
+      "native_execution_sim_s": null
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "task_id": "task_0547",
+  "status": "no_plan",
+  "selected": null,
+  "rejected": [
+    {
+      "rank": 5,
+      "reason": "approach_collision",
+      "collision": {
+        "collision": true,
+        "self_pairs": [],
+        "environment_pairs": [
+          [
+            "panda_leftfinger",
+            "perceived_scene"
+          ],
+          [
+            "panda_rightfinger",
+            "perceived_scene"
+          ]
+        ],
+        "perceived_voxels": 1732
+      }
+    },
+    {
+      "rank": 3,
+      "reason": "approach_collision",
+      "collision": {
+        "collision": true,
+        "self_pairs": [],
+        "environment_pairs": [
+          [
+            "panda_rightfinger",
+            "perceived_scene"
+          ]
+        ],
+        "perceived_voxels": 1732
+      }
+    },
+    {
+      "rank": 4,
+      "reason": "approach_collision",
+      "collision": {
+        "collision": true,
+        "self_pairs": [],
+        "environment_pairs": [
+          [
+            "panda_leftfinger",
+            "perceived_scene"
+          ]
+        ],
+        "perceived_voxels": 1732
+      }
+    },
+    {
+      "rank": 0,
+      "reason": "approach_collision",
+      "collision": {
+        "collision": true,
+        "self_pairs": [],
+        "environment_pairs": [
+          [
+            "panda_leftfinger",
+            "perceived_scene"
+          ]
+        ],
+        "perceived_voxels": 1732
+      }
+    },
+    {
+      "rank": 2,
+      "reason": "observed_cross_section_outside_opening"
+    },
+    {
+      "rank": 1,
+      "reason": "observed_cross_section_outside_opening"
+    }
+  ],
+  "host": "qyb-SJHY-ubuntu25",
+  "pid": 1108517,
+  "candidate_count": 6,
+  "ground_truth_used": false,
+  "protocol_sha256": "24eb3735a29abcfc189ee7ecb5a34851fbc070e549b96df67f030f50d3862bc6",
+  "cloud_sha256": "aaf856c41b4176b5fb6809ac1da7208c724165935c6fb3bc7f42e05acf8a450a",
+  "grasps_sha256": "d278bdabe7d9387c343d9a3675df2d5ef9c0f4617b68c9e5df0fe05ebaf61765",
+  "home_check": {
+    "collision": false,
+    "self_pairs": [],
+    "environment_pairs": [],
+    "perceived_voxels": 1732
+  },
+  "seconds": 2.438159295998048,
+  "planning_parallelism": 4
+}

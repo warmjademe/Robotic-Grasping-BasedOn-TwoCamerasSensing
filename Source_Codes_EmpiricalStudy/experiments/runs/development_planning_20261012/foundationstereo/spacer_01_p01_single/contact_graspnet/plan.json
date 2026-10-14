@@ -1,0 +1,206 @@
+{
+  "status": "no_plan",
+  "condition": "single",
+  "uses_object_ground_truth": false,
+  "cloud_sha256": "1e0ec18a087461b0f9124a4ee41e7a6836e46e00ad677d9846cc2870f6a3239e",
+  "grasps_sha256": "6e296b5b240ce045bd3e4e5559f5afa56420f3a82242ebda7d86e3d4f32a23f7",
+  "candidate_limit": 200,
+  "planning_budget_s": 30,
+  "native_execution_performed": false,
+  "full_trajectory_collision_validated": false,
+  "rejected": [
+    {
+      "rank": 1,
+      "reason": "approach_collision",
+      "collision": {
+        "collision": true,
+        "self_pairs": [],
+        "environment_pairs": [
+          [
+            "finger_left",
+            "perceived_scene"
+          ]
+        ],
+        "perceived_voxels": 312
+      }
+    },
+    {
+      "rank": 3,
+      "reason": "approach_collision",
+      "collision": {
+        "collision": true,
+        "self_pairs": [],
+        "environment_pairs": [
+          [
+            "finger_left",
+            "perceived_scene"
+          ]
+        ],
+        "perceived_voxels": 312
+      }
+    },
+    {
+      "rank": 9,
+      "reason": "observed_cross_section_outside_opening"
+    },
+    {
+      "rank": 12,
+      "reason": "observed_cross_section_outside_opening"
+    },
+    {
+      "rank": 10,
+      "reason": "approach_collision",
+      "collision": {
+        "collision": true,
+        "self_pairs": [],
+        "environment_pairs": [
+          [
+            "finger_left",
+            "perceived_scene"
+          ]
+        ],
+        "perceived_voxels": 312
+      }
+    },
+    {
+      "rank": 17,
+      "reason": "approach_collision",
+      "collision": {
+        "collision": true,
+        "self_pairs": [],
+        "environment_pairs": [
+          [
+            "finger_left",
+            "perceived_scene"
+          ],
+          [
+            "finger_right",
+            "perceived_scene"
+          ]
+        ],
+        "perceived_voxels": 312
+      }
+    },
+    {
+      "rank": 18,
+      "reason": "observed_cross_section_outside_opening"
+    },
+    {
+      "rank": 15,
+      "reason": "approach_collision",
+      "collision": {
+        "collision": true,
+        "self_pairs": [],
+        "environment_pairs": [
+          [
+            "finger_left",
+            "perceived_scene"
+          ]
+        ],
+        "perceived_voxels": 312
+      }
+    },
+    {
+      "rank": 6,
+      "reason": "observed_cross_section_outside_opening"
+    },
+    {
+      "rank": 19,
+      "reason": "approach_collision",
+      "collision": {
+        "collision": true,
+        "self_pairs": [],
+        "environment_pairs": [
+          [
+            "finger_left",
+            "perceived_scene"
+          ]
+        ],
+        "perceived_voxels": 312
+      }
+    },
+    {
+      "rank": 14,
+      "reason": "observed_cross_section_outside_opening"
+    },
+    {
+      "rank": 0,
+      "reason": "observed_cross_section_outside_opening"
+    },
+    {
+      "rank": 7,
+      "reason": "observed_cross_section_outside_opening"
+    },
+    {
+      "rank": 5,
+      "reason": "observed_cross_section_outside_opening"
+    },
+    {
+      "rank": 8,
+      "reason": "approach_collision",
+      "collision": {
+        "collision": true,
+        "self_pairs": [],
+        "environment_pairs": [
+          [
+            "finger_left",
+            "perceived_scene"
+          ],
+          [
+            "finger_right",
+            "perceived_scene"
+          ]
+        ],
+        "perceived_voxels": 312
+      }
+    },
+    {
+      "rank": 2,
+      "reason": "approach_collision",
+      "collision": {
+        "collision": true,
+        "self_pairs": [],
+        "environment_pairs": [
+          [
+            "finger_left",
+            "perceived_scene"
+          ],
+          [
+            "finger_right",
+            "perceived_scene"
+          ]
+        ],
+        "perceived_voxels": 312
+      }
+    },
+    {
+      "rank": 20,
+      "reason": "observed_cross_section_outside_opening"
+    },
+    {
+      "rank": 16,
+      "reason": "observed_cross_section_outside_opening"
+    },
+    {
+      "rank": 4,
+      "reason": "observed_cross_section_outside_opening"
+    },
+    {
+      "rank": 13,
+      "reason": "observed_cross_section_outside_opening"
+    },
+    {
+      "rank": 11,
+      "reason": "observed_cross_section_outside_opening"
+    }
+  ],
+  "selected": null,
+  "home_check": {
+    "collision": false,
+    "self_pairs": [],
+    "environment_pairs": [],
+    "perceived_voxels": 312
+  },
+  "seconds": 4.1178396370087285,
+  "scope": "Sampled geometric planning; native validation and between-sample checks still required"
+}

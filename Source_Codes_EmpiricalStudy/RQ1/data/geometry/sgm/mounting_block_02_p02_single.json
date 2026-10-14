@@ -1,0 +1,45 @@
+{
+  "episode_id": "mounting_block_02_p02_single",
+  "evaluation_only": true,
+  "ground_truth_used_only_here": true,
+  "target_cloud_points": 6469,
+  "reference_visible_points": 12188,
+  "stereo_reference_visible_points": 6606,
+  "primary_coverage_reference": "left/right",
+  "thresholds_mm": [
+    1,
+    2,
+    5
+  ],
+  "native_robot_execution_performed": false,
+  "surface_mae_mm": 13.632337179020618,
+  "surface_p95_mm": 50.770673578408456,
+  "surface_precision": {
+    "1": 0.2811872004946669,
+    "2": 0.46127685886535785,
+    "5": 0.5745864894110373
+  },
+  "four_view_visible_coverage": {
+    "1": 0.36125697407285856,
+    "2": 0.7000328191663931,
+    "5": 0.9058089924515917
+  },
+  "stereo_visible_coverage": {
+    "1": 0.40387526491068726,
+    "2": 0.7705116560702392,
+    "5": 0.9698758704208296
+  },
+  "stereo_target_depth": {
+    "gt_visible_pixels": 3276,
+    "valid_pixels": 3276,
+    "valid_fraction": 1.0,
+    "mae_mm": 1.889830231666565,
+    "p95_mm": 4.921019077301025,
+    "within_5mm_fraction_including_invalid": 0.9526862026862026
+  },
+  "prediction_cloud_sha256": "64befe6ed645e97cea6ff21a22d3fa678854eeb96cd46b82f23a2615188d1739",
+  "method": "sgm",
+  "split": "development",
+  "evaluator_sha256": "c6fc0043c7f41a46ecf4c8c534f9979801d6366ed2e954c56b78c07a4fd4cc93",
+  "source": "experiments/runs/development_perception72_20261011/perception/sgm/mounting_block_02_p02_single"
+}

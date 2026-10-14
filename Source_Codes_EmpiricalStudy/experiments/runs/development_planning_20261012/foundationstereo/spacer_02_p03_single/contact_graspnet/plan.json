@@ -1,0 +1,261 @@
+{
+  "status": "no_plan",
+  "condition": "single",
+  "uses_object_ground_truth": false,
+  "cloud_sha256": "850e60e6aec69166ce4a276004acf43cfdd0878f3c7d297653a114346ec0868f",
+  "grasps_sha256": "e39f808d2ec8abf5f9cd6ce43742c04caef62f351368aeeeae9c275e6aa5cffd",
+  "candidate_limit": 200,
+  "planning_budget_s": 30,
+  "native_execution_performed": false,
+  "full_trajectory_collision_validated": false,
+  "rejected": [
+    {
+      "rank": 17,
+      "reason": "approach_collision",
+      "collision": {
+        "collision": true,
+        "self_pairs": [],
+        "environment_pairs": [
+          [
+            "finger_right",
+            "perceived_scene"
+          ]
+        ],
+        "perceived_voxels": 400
+      }
+    },
+    {
+      "rank": 13,
+      "reason": "observed_cross_section_outside_opening"
+    },
+    {
+      "rank": 11,
+      "reason": "approach_collision",
+      "collision": {
+        "collision": true,
+        "self_pairs": [],
+        "environment_pairs": [
+          [
+            "finger_left",
+            "perceived_scene"
+          ]
+        ],
+        "perceived_voxels": 400
+      }
+    },
+    {
+      "rank": 3,
+      "reason": "approach_collision",
+      "collision": {
+        "collision": true,
+        "self_pairs": [],
+        "environment_pairs": [
+          [
+            "finger_right",
+            "perceived_scene"
+          ]
+        ],
+        "perceived_voxels": 400
+      }
+    },
+    {
+      "rank": 4,
+      "reason": "approach_collision",
+      "collision": {
+        "collision": true,
+        "self_pairs": [],
+        "environment_pairs": [
+          [
+            "finger_left",
+            "perceived_scene"
+          ]
+        ],
+        "perceived_voxels": 400
+      }
+    },
+    {
+      "rank": 10,
+      "reason": "observed_cross_section_outside_opening"
+    },
+    {
+      "rank": 18,
+      "reason": "approach_collision",
+      "collision": {
+        "collision": true,
+        "self_pairs": [],
+        "environment_pairs": [
+          [
+            "finger_left",
+            "perceived_scene"
+          ],
+          [
+            "finger_right",
+            "perceived_scene"
+          ]
+        ],
+        "perceived_voxels": 400
+      }
+    },
+    {
+      "rank": 15,
+      "reason": "approach_collision",
+      "collision": {
+        "collision": true,
+        "self_pairs": [],
+        "environment_pairs": [
+          [
+            "finger_left",
+            "perceived_scene"
+          ]
+        ],
+        "perceived_voxels": 400
+      }
+    },
+    {
+      "rank": 19,
+      "reason": "observed_cross_section_outside_opening"
+    },
+    {
+      "rank": 7,
+      "reason": "observed_cross_section_outside_opening"
+    },
+    {
+      "rank": 12,
+      "reason": "approach_collision",
+      "collision": {
+        "collision": true,
+        "self_pairs": [],
+        "environment_pairs": [
+          [
+            "finger_left",
+            "perceived_scene"
+          ]
+        ],
+        "perceived_voxels": 400
+      }
+    },
+    {
+      "rank": 8,
+      "reason": "observed_cross_section_outside_opening"
+    },
+    {
+      "rank": 21,
+      "reason": "observed_cross_section_outside_opening"
+    },
+    {
+      "rank": 20,
+      "reason": "observed_cross_section_outside_opening"
+    },
+    {
+      "rank": 14,
+      "reason": "observed_cross_section_outside_opening"
+    },
+    {
+      "rank": 2,
+      "reason": "approach_collision",
+      "collision": {
+        "collision": true,
+        "self_pairs": [],
+        "environment_pairs": [
+          [
+            "finger_left",
+            "perceived_scene"
+          ]
+        ],
+        "perceived_voxels": 400
+      }
+    },
+    {
+      "rank": 16,
+      "reason": "approach_collision",
+      "collision": {
+        "collision": true,
+        "self_pairs": [],
+        "environment_pairs": [
+          [
+            "finger_right",
+            "perceived_scene"
+          ]
+        ],
+        "perceived_voxels": 400
+      }
+    },
+    {
+      "rank": 0,
+      "reason": "approach_collision",
+      "collision": {
+        "collision": true,
+        "self_pairs": [],
+        "environment_pairs": [
+          [
+            "finger_right",
+            "perceived_scene"
+          ]
+        ],
+        "perceived_voxels": 400
+      }
+    },
+    {
+      "rank": 5,
+      "reason": "observed_cross_section_outside_opening"
+    },
+    {
+      "rank": 1,
+      "reason": "approach_collision",
+      "collision": {
+        "collision": true,
+        "self_pairs": [],
+        "environment_pairs": [
+          [
+            "finger_right",
+            "perceived_scene"
+          ]
+        ],
+        "perceived_voxels": 400
+      }
+    },
+    {
+      "rank": 22,
+      "reason": "observed_cross_section_outside_opening"
+    },
+    {
+      "rank": 9,
+      "reason": "approach_collision",
+      "collision": {
+        "collision": true,
+        "self_pairs": [],
+        "environment_pairs": [
+          [
+            "finger_right",
+            "perceived_scene"
+          ]
+        ],
+        "perceived_voxels": 400
+      }
+    },
+    {
+      "rank": 6,
+      "reason": "approach_collision",
+      "collision": {
+        "collision": true,
+        "self_pairs": [],
+        "environment_pairs": [
+          [
+            "finger_right",
+            "perceived_scene"
+          ]
+        ],
+        "perceived_voxels": 400
+      }
+    }
+  ],
+  "selected": null,
+  "home_check": {
+    "collision": false,
+    "self_pairs": [],
+    "environment_pairs": [],
+    "perceived_voxels": 400
+  },
+  "seconds": 6.26767018600367,
+  "scope": "Sampled geometric planning; native validation and between-sample checks still required"
+}

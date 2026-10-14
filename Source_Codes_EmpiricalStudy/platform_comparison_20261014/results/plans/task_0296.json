@@ -1,0 +1,142 @@
+{
+  "task_id": "task_0296",
+  "status": "no_plan",
+  "selected": null,
+  "rejected": [
+    {
+      "rank": 0,
+      "reason": "approach_collision",
+      "collision": {
+        "collision": true,
+        "self_pairs": [],
+        "environment_pairs": [
+          [
+            "panda_hand",
+            "wall0"
+          ]
+        ],
+        "perceived_voxels": 10380
+      }
+    },
+    {
+      "rank": 1,
+      "reason": "approach_collision",
+      "collision": {
+        "collision": true,
+        "self_pairs": [],
+        "environment_pairs": [
+          [
+            "panda_hand",
+            "wall0"
+          ],
+          [
+            "panda_rightfinger",
+            "perceived_scene"
+          ]
+        ],
+        "perceived_voxels": 10380
+      }
+    },
+    {
+      "rank": 2,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 3,
+      "reason": "width_invalid"
+    },
+    {
+      "rank": 4,
+      "reason": "approach_collision",
+      "collision": {
+        "collision": true,
+        "self_pairs": [],
+        "environment_pairs": [
+          [
+            "panda_rightfinger",
+            "wall0"
+          ]
+        ],
+        "perceived_voxels": 10380
+      }
+    },
+    {
+      "rank": 5,
+      "reason": "observed_cross_section_outside_opening"
+    },
+    {
+      "rank": 6,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 7,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 8,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 9,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 10,
+      "reason": "width_invalid"
+    },
+    {
+      "rank": 11,
+      "reason": "width_invalid"
+    },
+    {
+      "rank": 12,
+      "reason": "width_invalid"
+    },
+    {
+      "rank": 13,
+      "reason": "approach_collision",
+      "collision": {
+        "collision": true,
+        "self_pairs": [],
+        "environment_pairs": [
+          [
+            "panda_hand",
+            "perceived_scene"
+          ]
+        ],
+        "perceived_voxels": 10380
+      }
+    },
+    {
+      "rank": 14,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 15,
+      "reason": "pregrasp_ik"
+    },
+    {
+      "rank": 16,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 17,
+      "reason": "approach_direction"
+    }
+  ],
+  "host": "qyb-SJHY-ubuntu25",
+  "pid": 1108516,
+  "candidate_count": 18,
+  "ground_truth_used": false,
+  "protocol_sha256": "24eb3735a29abcfc189ee7ecb5a34851fbc070e549b96df67f030f50d3862bc6",
+  "cloud_sha256": "caabdc9a8104e61774b79406249612edf19ead9fd41b4a32f3e66d69965a51a4",
+  "grasps_sha256": "76c58e3e9771e0c756784db029fb21de34a6e030a5afd84810cdb649cdc3e911",
+  "home_check": {
+    "collision": false,
+    "self_pairs": [],
+    "environment_pairs": [],
+    "perceived_voxels": 10380
+  },
+  "seconds": 2.287449661991559,
+  "planning_parallelism": 4
+}

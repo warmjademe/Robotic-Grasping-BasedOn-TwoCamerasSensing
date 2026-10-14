@@ -1,0 +1,23 @@
+{
+  "episode_id": "spacer_02_p03_neighbours",
+  "method": "igev_stereo",
+  "split": "development",
+  "seed": 0,
+  "input_sha256": {
+    "left.png": "61a89c6aec18cb03ac5389f2783cd4eec2c4894c7d88a9de93c494d3aafc1443",
+    "right.png": "28bea4d4aeb0569743a1938e4aecf794f124792277c66808319592f9b1a87ecd",
+    "cameras.json": "49f798ce8c470a3d17c1a63d2f24a1663c9fea8e71b07643f67ef0d9da09bb66",
+    "task.json": "5600ecb261442ac8292894dfa10ec118d621f04e1025fbe27f988b0f352c80c6"
+  },
+  "inference_seconds": 0.143212663999293,
+  "perception_pipeline_seconds": 0.3143034629902104,
+  "first_inference_after_model_load": false,
+  "geometry_truth_used": false,
+  "object_pose_used": false,
+  "native_robot_execution_performed": false,
+  "prediction_sha256": "f6be3895471715062091d0618764dde350ce7a3594be2c9949fe8f4512931cea",
+  "scene_points": 42684,
+  "raw_target_points": 2444,
+  "target_points": 2385,
+  "grasp_input_ready": true
+}

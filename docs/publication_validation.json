@@ -1,0 +1,16 @@
+{
+  "scene_count": 72,
+  "pointcloud_evaluations": 504,
+  "candidate_tasks": 792,
+  "complete_arm_executions": 1244,
+  "release_files": 12195,
+  "archive_count": 11,
+  "archived_code_files": 68,
+  "source_bindings_verified": 2492,
+  "franka_execution_records": 832,
+  "full_gpu_rerun": false,
+  "original_results_modified": false,
+  "pointcloud_reanalysis": "504 rows match the recorded numerical values",
+  "fanuc_trace_reanalysis": "412 outcomes and both material-profile summary tables reproduced",
+  "franka_reanalysis": "832 execution records checked; per-method summary tables reproduced"
+}

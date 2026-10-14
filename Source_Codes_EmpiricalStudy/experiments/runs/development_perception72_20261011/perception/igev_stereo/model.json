@@ -1,0 +1,23 @@
+{
+  "checkpoint": "/home/qyb/RESEARCH/Robotic_Grasping/Source_Codes_BasedOn_TwoCameras3D_Sensing/baseline_igev_stereo/models/sceneflow.pth",
+  "checkpoint_sha256": "ce482e600c5c08f647b2728553bec73e212ed965be43f7ec41ac6cfd2b11916d",
+  "strict_state_dict_load": true,
+  "weights_retrained": false,
+  "upstream": "/home/qyb/RESEARCH/Robotic_Grasping/Source_Codes_BasedOn_TwoCameras3D_Sensing/baseline_igev_stereo/upstream/IGEV",
+  "upstream_commit": "4a3d937aab788b3ff3ed49b7b5c81340ab46a5eb",
+  "runtime": "CUDA",
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "torch_version": "2.7.0+cu128",
+  "iterations": 32,
+  "normalization": "author internal",
+  "precision": "FP32",
+  "tf32": false,
+  "checkpoint_domain": "SceneFlow",
+  "model_load_and_provenance_seconds": 2.555837281004642,
+  "source_sha256": "08509e53aa7b836d3140ef6ded7982b2869ae808e49f0e3fc38444246e6ce9cf",
+  "seed": 0,
+  "input_size": [
+    640,
+    480
+  ]
+}

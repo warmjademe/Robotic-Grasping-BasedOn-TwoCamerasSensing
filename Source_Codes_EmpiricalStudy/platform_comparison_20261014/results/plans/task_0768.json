@@ -1,0 +1,120 @@
+{
+  "task_id": "task_0768",
+  "status": "no_plan",
+  "selected": null,
+  "rejected": [
+    {
+      "rank": 0,
+      "reason": "approach_collision",
+      "collision": {
+        "collision": true,
+        "self_pairs": [],
+        "environment_pairs": [
+          [
+            "panda_rightfinger",
+            "perceived_scene"
+          ]
+        ],
+        "perceived_voxels": 17084
+      }
+    },
+    {
+      "rank": 1,
+      "reason": "observed_cross_section_outside_opening"
+    },
+    {
+      "rank": 2,
+      "reason": "approach_collision",
+      "collision": {
+        "collision": true,
+        "self_pairs": [],
+        "environment_pairs": [
+          [
+            "panda_rightfinger",
+            "perceived_scene"
+          ]
+        ],
+        "perceived_voxels": 17084
+      }
+    },
+    {
+      "rank": 3,
+      "reason": "observed_cross_section_outside_opening"
+    },
+    {
+      "rank": 4,
+      "reason": "observed_cross_section_outside_opening"
+    },
+    {
+      "rank": 5,
+      "reason": "observed_cross_section_outside_opening"
+    },
+    {
+      "rank": 6,
+      "reason": "observed_cross_section_outside_opening"
+    },
+    {
+      "rank": 7,
+      "reason": "observed_cross_section_outside_opening"
+    },
+    {
+      "rank": 8,
+      "reason": "observed_cross_section_outside_opening"
+    },
+    {
+      "rank": 9,
+      "reason": "observed_cross_section_outside_opening"
+    },
+    {
+      "rank": 10,
+      "reason": "observed_cross_section_outside_opening"
+    },
+    {
+      "rank": 11,
+      "reason": "observed_cross_section_outside_opening"
+    },
+    {
+      "rank": 12,
+      "reason": "observed_cross_section_outside_opening"
+    },
+    {
+      "rank": 13,
+      "reason": "observed_cross_section_outside_opening"
+    },
+    {
+      "rank": 14,
+      "reason": "observed_cross_section_outside_opening"
+    },
+    {
+      "rank": 15,
+      "reason": "observed_cross_section_outside_opening"
+    },
+    {
+      "rank": 16,
+      "reason": "observed_cross_section_outside_opening"
+    },
+    {
+      "rank": 17,
+      "reason": "observed_cross_section_outside_opening"
+    },
+    {
+      "rank": 18,
+      "reason": "observed_cross_section_outside_opening"
+    }
+  ],
+  "host": "qyb-SJHY-ubuntu25",
+  "pid": 1108518,
+  "candidate_count": 19,
+  "ground_truth_used": false,
+  "protocol_sha256": "24eb3735a29abcfc189ee7ecb5a34851fbc070e549b96df67f030f50d3862bc6",
+  "cloud_sha256": "f90a7f3217b87a36edae3828a9bfed7ac806cae8edeee06d5647c5192979eee7",
+  "grasps_sha256": "0901c96ea9686443771a5ade8a6b96fa42031d71922e44c98461553fa542bc4c",
+  "home_check": {
+    "collision": false,
+    "self_pairs": [],
+    "environment_pairs": [],
+    "perceived_voxels": 17084
+  },
+  "seconds": 1.4297372979926877,
+  "planning_parallelism": 4
+}

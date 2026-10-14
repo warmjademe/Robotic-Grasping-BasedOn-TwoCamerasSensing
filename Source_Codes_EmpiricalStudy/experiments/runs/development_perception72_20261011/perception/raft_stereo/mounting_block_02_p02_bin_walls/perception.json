@@ -1,0 +1,23 @@
+{
+  "episode_id": "mounting_block_02_p02_bin_walls",
+  "method": "raft_stereo",
+  "split": "development",
+  "seed": 0,
+  "input_sha256": {
+    "left.png": "5e849d76943cb9d9b0319715c227b246cb2172ccf5f7466ec7cf083346b39c98",
+    "right.png": "901e024701dfdde60132df2bbbc6a73c2e0cab76720f757fa83f45a3d0a8231e",
+    "cameras.json": "49f798ce8c470a3d17c1a63d2f24a1663c9fea8e71b07643f67ef0d9da09bb66",
+    "task.json": "479cfa9061c6f25ae034c1f84c0a6bbef25bb3e929ac62367014a6b274feeacb"
+  },
+  "inference_seconds": 0.13420210899494123,
+  "perception_pipeline_seconds": 0.3969640610011993,
+  "first_inference_after_model_load": false,
+  "geometry_truth_used": false,
+  "object_pose_used": false,
+  "native_robot_execution_performed": false,
+  "prediction_sha256": "38d2360553d044fca066dd1c16dfc8f368728ea8c49dd4d750d1f9d11342a383",
+  "scene_points": 127650,
+  "raw_target_points": 3533,
+  "target_points": 3421,
+  "grasp_input_ready": true
+}

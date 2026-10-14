@@ -1,0 +1,22 @@
+{
+  "episode_id": "spacer_04_p03_single",
+  "split": "development",
+  "task": "pick_and_lift",
+  "target_selection": "workpiece in fixed central workspace ROI; use RGB/perceived points, not ground-truth masks",
+  "target_roi_world_m": {
+    "min": [
+      -0.085,
+      -0.075,
+      0
+    ],
+    "max": [
+      0.085,
+      0.075,
+      0.12
+    ]
+  },
+  "purpose": "perception_inference",
+  "geometry_source": "rgb_images",
+  "renderer_depth_provided": false,
+  "object_pose_provided": false
+}

@@ -1,0 +1,123 @@
+{
+  "episode_id": "mounting_block_01_p03_bin_walls",
+  "units": "m",
+  "frame_id": "dataset_world",
+  "instances": [
+    {
+      "instance_id": 1,
+      "object_id": "mounting_block_01",
+      "role": "target",
+      "world_from_object": [
+        [
+          0.5874475242700429,
+          -0.8092622604749324,
+          0.0,
+          0.008799304800979096
+        ],
+        [
+          0.8092622604749324,
+          0.5874475242700429,
+          0.0,
+          0.016935576662187556
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "scene_assets": [
+    {
+      "kind": "box",
+      "name": "table",
+      "extents_m": [
+        0.65,
+        0.5,
+        0.035
+      ],
+      "center_m": [
+        0,
+        0,
+        -0.0175
+      ]
+    },
+    {
+      "kind": "box",
+      "name": "bin_wall_0",
+      "extents_m": [
+        0.32,
+        0.012,
+        0.07
+      ],
+      "center_m": [
+        0,
+        -0.105,
+        0.035
+      ]
+    },
+    {
+      "kind": "box",
+      "name": "bin_wall_1",
+      "extents_m": [
+        0.32,
+        0.012,
+        0.07
+      ],
+      "center_m": [
+        0,
+        0.105,
+        0.035
+      ]
+    },
+    {
+      "kind": "box",
+      "name": "bin_wall_2",
+      "extents_m": [
+        0.012,
+        0.21,
+        0.07
+      ],
+      "center_m": [
+        -0.154,
+        0,
+        0.035
+      ]
+    },
+    {
+      "kind": "box",
+      "name": "bin_wall_3",
+      "extents_m": [
+        0.012,
+        0.21,
+        0.07
+      ],
+      "center_m": [
+        0.154,
+        0,
+        0.035
+      ]
+    }
+  ],
+  "condition": "bin_walls",
+  "matched_pose_id": "mounting_block_01_p03",
+  "placement": "analytic stable flat support with random planar translation and yaw; no dynamics settling",
+  "visible_target_pixels": {
+    "left": 2155,
+    "right": 2189,
+    "aux_left": 2070,
+    "aux_right": 2183
+  },
+  "purpose": "evaluation_and_simulator_only",
+  "robot_world_from_dataset_world": null,
+  "abb_execution_status": "not_run",
+  "grasp_success": null
+}

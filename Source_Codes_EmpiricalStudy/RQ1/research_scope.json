@@ -1,0 +1,10 @@
+{
+  "revision": "three_rq_physics_20261014",
+  "research_question": "不同双目方法生成的点云质量如何？",
+  "scene_count": 72,
+  "task_count": 504,
+  "platforms": [],
+  "experiment_launch_enabled": false,
+  "analysis": "publication/reproduce_tables.py",
+  "frozen_input_records_preserved": true
+}

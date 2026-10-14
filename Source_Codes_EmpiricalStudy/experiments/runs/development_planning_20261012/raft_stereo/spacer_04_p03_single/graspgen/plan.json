@@ -1,0 +1,3272 @@
+{
+  "status": "sampled_path_found",
+  "condition": "single",
+  "uses_object_ground_truth": false,
+  "cloud_sha256": "b6d57c4582e7f4ecd38ec556cbf6236d867d38d940ab3f79ae906841cbd9678b",
+  "grasps_sha256": "2c4a705d60dc98667286b71523c7b57daab30a6dacb08605fcf963e041d569c4",
+  "candidate_limit": 200,
+  "planning_budget_s": 30,
+  "native_execution_performed": false,
+  "full_trajectory_collision_validated": false,
+  "rejected": [
+    {
+      "rank": 0,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 1,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 2,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 3,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 4,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 5,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 6,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 7,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 8,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 9,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 10,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 11,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 12,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 13,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 14,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 15,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 16,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 17,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 18,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 19,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 20,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 21,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 22,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 23,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 24,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 25,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 26,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 27,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 28,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 29,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 30,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 31,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 32,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 33,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 34,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 35,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 36,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 37,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 38,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 39,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 40,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 41,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 42,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 43,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 44,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 45,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 46,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 47,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 48,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 49,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 50,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 51,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 52,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 53,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 54,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 55,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 56,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 57,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 58,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 59,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 60,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 61,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 62,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 63,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 64,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 65,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 66,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 67,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 68,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 69,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 70,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 71,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 72,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 73,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 74,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 75,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 76,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 77,
+      "reason": "approach_collision",
+      "collision": {
+        "collision": true,
+        "self_pairs": [],
+        "environment_pairs": [
+          [
+            "finger_left",
+            "perceived_scene"
+          ]
+        ],
+        "perceived_voxels": 4795
+      }
+    },
+    {
+      "rank": 78,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 79,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 80,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 81,
+      "reason": "approach_collision",
+      "collision": {
+        "collision": true,
+        "self_pairs": [],
+        "environment_pairs": [
+          [
+            "finger_left",
+            "perceived_scene"
+          ]
+        ],
+        "perceived_voxels": 4795
+      }
+    },
+    {
+      "rank": 82,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 83,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 84,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 85,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 86,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 87,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 88,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 89,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 90,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 91,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 92,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 93,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 94,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 95,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 96,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 97,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 98,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 99,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 100,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 101,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 102,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 103,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 104,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 105,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 106,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 107,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 108,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 109,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 110,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 111,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 112,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 113,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 114,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 115,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 116,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 117,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 118,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 119,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 120,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 121,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 122,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 123,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 124,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 125,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 126,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 127,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 128,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 129,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 130,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 131,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 132,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 133,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 134,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 135,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 136,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 137,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 138,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 139,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 140,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 141,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 142,
+      "reason": "approach_collision",
+      "collision": {
+        "collision": true,
+        "self_pairs": [],
+        "environment_pairs": [
+          [
+            "finger_right",
+            "perceived_scene"
+          ]
+        ],
+        "perceived_voxels": 4795
+      }
+    },
+    {
+      "rank": 143,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 144,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 145,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 146,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 147,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 148,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 149,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 150,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 151,
+      "reason": "approach_collision",
+      "collision": {
+        "collision": true,
+        "self_pairs": [],
+        "environment_pairs": [
+          [
+            "finger_left",
+            "perceived_scene"
+          ]
+        ],
+        "perceived_voxels": 4795
+      }
+    },
+    {
+      "rank": 152,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 153,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 154,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 155,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 156,
+      "reason": "approach_collision",
+      "collision": {
+        "collision": true,
+        "self_pairs": [],
+        "environment_pairs": [
+          [
+            "finger_left",
+            "perceived_scene"
+          ]
+        ],
+        "perceived_voxels": 4795
+      }
+    },
+    {
+      "rank": 157,
+      "reason": "approach_collision",
+      "collision": {
+        "collision": true,
+        "self_pairs": [],
+        "environment_pairs": [
+          [
+            "finger_left",
+            "perceived_scene"
+          ]
+        ],
+        "perceived_voxels": 4795
+      }
+    },
+    {
+      "rank": 158,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 159,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 160,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 161,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 162,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 163,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 164,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 165,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 166,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 167,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 168,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 169,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 170,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 171,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 172,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 173,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 174,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 175,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 176,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 177,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 178,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 179,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 180,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 181,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 182,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 183,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 184,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 185,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 186,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 187,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 188,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 189,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 190,
+      "reason": "transit_collision",
+      "collision": {
+        "collision": true,
+        "self_pairs": [
+          [
+            "j4",
+            "palm"
+          ]
+        ],
+        "environment_pairs": [],
+        "perceived_voxels": 4795
+      }
+    }
+  ],
+  "selected": {
+    "rank": 191,
+    "score": 0.7716451287269592,
+    "hand_pose_dataset_m": [
+      [
+        0.45177751779556274,
+        -0.8478081226348877,
+        0.27770182490348816,
+        -0.020434770733118057
+      ],
+      [
+        -0.6321254968643188,
+        -0.5238619446754456,
+        -0.5709517598152161,
+        0.06951075792312622
+      ],
+      [
+        0.6295350193977356,
+        0.08240077644586563,
+        -0.7725902795791626,
+        0.10028377175331116
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "jaw_opening_m": 0.08,
+    "observed_pad_limits_m": [
+      -0.025036381276479936,
+      0.023530682414009144
+    ],
+    "closing_command_m": 0.046567063690489074,
+    "home_xyz_wpr": [
+      800,
+      160,
+      1540,
+      180,
+      0,
+      0
+    ],
+    "pregrasp_xyz_wpr": [
+      900.132937282324,
+      160.8630394935608,
+      1463.8982164859772,
+      173.91212106963138,
+      -39.015826599839954,
+      -54.44676162452212
+    ],
+    "grasp_xyz_wpr": [
+      933.4571562707424,
+      92.34882831573486,
+      1371.1873829364777,
+      173.91212106963138,
+      -39.015826599839954,
+      -54.44676162452212
+    ],
+    "lift_xyz_wpr": [
+      933.4571562707424,
+      92.34882831573486,
+      1521.1873829364774,
+      173.91212106963138,
+      -39.015826599839954,
+      -54.44676162452212
+    ],
+    "path": [
+      {
+        "phase": "transit",
+        "joints_deg": [
+          11.309932474020215,
+          -6.591521231414301,
+          10.292016768632962,
+          2.3316983543033004e-15,
+          -100.29201676863295,
+          -11.309932474020213
+        ],
+        "flange_xyz_wpr": [
+          799.9999999999998,
+          159.99999999999997,
+          1539.9999999999998,
+          180.0,
+          -1.2722218725854067e-14,
+          0.0
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "transit",
+        "joints_deg": [
+          11.348646646605278,
+          -6.537865830733007,
+          10.17985715066696,
+          0.6418719802505476,
+          -100.03726237551683,
+          -12.300422112796229
+        ],
+        "flange_xyz_wpr": [
+          801.7815257624468,
+          159.90721113009596,
+          1538.455979151164,
+          179.41324067603068,
+          -0.27451228810847195,
+          -1.0630284499873306
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "transit",
+        "joints_deg": [
+          11.387360819190345,
+          -6.484210430051712,
+          10.067697532700958,
+          1.2837439605010927,
+          -99.78250798240072,
+          -13.290911751572244
+        ],
+        "flange_xyz_wpr": [
+          803.5588663643149,
+          159.81451476825356,
+          1536.9213413168663,
+          178.83596016524785,
+          -0.5704585882594346,
+          -2.1190325296825896
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "transit",
+        "joints_deg": [
+          11.42607499177541,
+          -6.430555029370416,
+          9.955537914734958,
+          1.9256159407516382,
+          -99.52775358928459,
+          -14.28140139034826
+        ],
+        "flange_xyz_wpr": [
+          805.3320422070344,
+          159.72209341909416,
+          1535.3961265081953,
+          178.26869590636062,
+          -0.8874863117231913,
+          -3.167773990804567
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "transit",
+        "joints_deg": [
+          11.464789164360477,
+          -6.376899628689122,
+          9.843378296768956,
+          2.5674879210021833,
+          -99.27299919616847,
+          -15.271891029124276
+        ],
+        "flange_xyz_wpr": [
+          807.1010737960194,
+          159.6301301523268,
+          1533.8803718310191,
+          177.71196644087138,
+          -1.225227898112265,
+          -4.209037654576882
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "transit",
+        "joints_deg": [
+          11.50350333694554,
+          -6.323244228007827,
+          9.731218678802954,
+          3.209359901252728,
+          -99.01824480305235,
+          -16.262380667900292
+        ],
+        "flange_xyz_wpr": [
+          808.8659817218588,
+          159.5388085571813,
+          1532.3741114747415,
+          177.16627120638503,
+          -1.5833018104468608,
+          -5.242632063871433
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "transit",
+        "joints_deg": [
+          11.542217509530609,
+          -6.269588827326531,
+          9.619059060836952,
+          3.8512318815032742,
+          -98.76349040993624,
+          -17.252870306676304
+        ],
+        "flange_xyz_wpr": [
+          810.6267866415058,
+          159.44831269664155,
+          1530.8773767018447,
+          176.63209046508,
+          -1.9613135322784654,
+          -6.268390008348065
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "transit",
+        "joints_deg": [
+          11.580931682115676,
+          -6.215933426645236,
+          9.50689944287095,
+          4.493103861753819,
+          -98.50873601682011,
+          -18.243359945452323
+        ],
+        "flange_xyz_wpr": [
+          812.3835092594801,
+          159.35882706149224,
+          1529.3901958382378,
+          176.1098853633663,
+          -2.358856559952426,
+          -7.286168927569123
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "transit",
+        "joints_deg": [
+          11.619645854700739,
+          -6.162278025963941,
+          9.39473982490495,
+          5.134975842004365,
+          -98.25398162370398,
+          -19.233849584228338
+        ],
+        "flange_xyz_wpr": [
+          814.136170309082,
+          159.27053652419005,
+          1527.9125942643989,
+          175.60009811767242,
+          -2.7755133834676826,
+          -8.295851198154153
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "transit",
+        "joints_deg": [
+          11.658360027285806,
+          -6.1086226252826465,
+          9.282580206938947,
+          5.776847822254909,
+          -97.99922723058786,
+          -20.224339223004353
+        ],
+        "flange_xyz_wpr": [
+          815.8847905336346,
+          159.1836262925705,
+          1526.444594407326,
+          175.10315232037644,
+          -3.2108564498178636,
+          -9.297344311968128
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "transit",
+        "joints_deg": [
+          11.697074199870872,
+          -6.054967224601351,
+          9.170420588972947,
+          6.418719802505454,
+          -97.74447283747175,
+          -21.214828861780365
+        ],
+        "flange_xyz_wpr": [
+          817.6293906677568,
+          159.09828186340283,
+          1524.986215733291,
+          174.61945335912904,
+          -3.6644491031656146,
+          -10.290580953105701
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "transit",
+        "joints_deg": [
+          11.735788372455936,
+          -6.001311823920057,
+          9.058260971006945,
+          7.060591782755999,
+          -97.48971844435563,
+          -22.205318500556384
+        ],
+        "flange_xyz_wpr": [
+          819.3699914186764,
+          159.0146889758042,
+          1523.5374747414041,
+          174.14938894221208,
+          -4.135846496697768,
+          -11.275518982041815
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "transit",
+        "joints_deg": [
+          11.774502545041003,
+          -5.9476564232387625,
+          8.946101353040945,
+          7.702463763006546,
+          -97.23496405123953,
+          -23.1958081393324
+        ],
+        "flange_xyz_wpr": [
+          821.1066134475919,
+          158.93303356452552,
+          1522.0983849579893,
+          173.6933297221261,
+          -4.6245964715237555,
+          -12.252141335769409
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "transit",
+        "joints_deg": [
+          11.813216717626068,
+          -5.894001022557466,
+          8.833941735074943,
+          8.34433574325709,
+          -96.98020965812339,
+          -24.186297778108415
+        ],
+        "flange_xyz_wpr": [
+          822.8392773510884,
+          158.85350171312055,
+          1520.6689569317691,
+          173.25163000929982,
+          -5.130240398502224,
+          -13.22045585304503
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "transit",
+        "joints_deg": [
+          11.851930890211133,
+          -5.840345621876171,
+          8.72178211710894,
+          8.986207723507636,
+          -96.72545526500727,
+          -25.176787416884427
+        ],
+        "flange_xyz_wpr": [
+          824.5680036426177,
+          158.77627960700988,
+          1519.2491982298714,
+          172.82462856765613,
+          -5.652313979404236,
+          -14.18049503402044
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "transit",
+        "joints_deg": [
+          11.890645062796198,
+          -5.786690221194876,
+          8.609622499142938,
+          9.62807970375818,
+          -96.47070087189115,
+          -26.167277055660445
+        ],
+        "flange_xyz_wpr": [
+          826.2928127340491,
+          158.7015534864525,
+          1517.8391134346425,
+          172.41264948373615,
+          -6.190348004336329,
+          -15.132315743564227
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "transit",
+        "joints_deg": [
+          11.929359235381265,
+          -5.7330348205135815,
+          8.497462881176938,
+          10.269951684008726,
+          -96.21594647877505,
+          -27.15776669443646
+        ],
+        "flange_xyz_wpr": [
+          828.0137249173001,
+          158.62950959943672,
+          1516.4387041412895,
+          172.01600310116666,
+          -6.743869062844103,
+          -16.075998867484973
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "transit",
+        "joints_deg": [
+          11.968073407966331,
+          -5.679379419832285,
+          8.385303263210936,
+          10.911823664259272,
+          -95.96119208565892,
+          -28.148256333212476
+        ],
+        "flange_xyz_wpr": [
+          829.73076034605,
+          158.56033415450185,
+          1515.0479689563278,
+          171.63498701244225,
+          -7.312400206596176,
+          -17.011648930667793
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "transit",
+        "joints_deg": [
+          12.006787580551395,
+          -5.625724019150991,
+          8.273143645244934,
+          11.553695644509816,
+          -95.70643769254279,
+          -29.138745971988488
+        ],
+        "flange_xyz_wpr": [
+          831.4439390175522,
+          158.49421327350424,
+          1513.66690349686,
+          171.26988710026168,
+          -7.895461561998105,
+          -17.93939368584515
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "transit",
+        "joints_deg": [
+          12.04550175313646,
+          -5.572068618469697,
+          8.160984027278934,
+          12.195567624760361,
+          -95.45168329942668,
+          -30.12923561076451
+        ],
+        "flange_xyz_wpr": [
+          833.1532807545419,
+          158.43133294433812,
+          1512.2955003906654,
+          170.92097862100255,
+          -8.492570891505855,
+          -18.85938368135149
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "transit",
+        "joints_deg": [
+          12.084215925721526,
+          -5.518413217788402,
+          8.048824409312932,
+          12.837439605010907,
+          -95.19692890631056,
+          -31.119725249540522
+        ],
+        "flange_xyz_wpr": [
+          834.8588051872607,
+          158.37187897362506,
+          1510.9337492771192,
+          170.5885273233151,
+          -9.10324410279597,
+          -19.771791815775636
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "transit",
+        "joints_deg": [
+          12.122930098306593,
+          -5.464757817107107,
+          7.936664791346931,
+          13.479311585261453,
+          -94.94217451319444,
+          -32.110214888316534
+        ],
+        "flange_xyz_wpr": [
+          836.5605317355873,
+          158.31603693938283,
+          1509.5816368089186,
+          170.27279059525625,
+          -9.726995705299228,
+          -20.67681288693524
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "transit",
+        "joints_deg": [
+          12.161644270891658,
+          -5.411102416425811,
+          7.8245051733809285,
+          14.121183565511997,
+          -94.68742012007831,
+          -33.10070452709255
+        ],
+        "flange_xyz_wpr": [
+          838.2584795913031,
+          158.26399214368706,
+          1508.2391466546442,
+          169.9740186338541,
+          -10.363339213920089,
+          -21.574663142066075
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "transit",
+        "joints_deg": [
+          12.200358443476723,
+          -5.357447015744516,
+          7.712345555414927,
+          14.763055545762539,
+          -94.43266572696218,
+          -34.091194165868565
+        ],
+        "flange_xyz_wpr": [
+          839.9526677004793,
+          158.21592956533752,
+          1506.9062595021296,
+          169.69245563147595,
+          -11.011787500040555,
+          -22.465579835556905
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "transit",
+        "joints_deg": [
+          12.239072616061788,
+          -5.303791615063221,
+          7.600185937448927,
+          15.404927526013088,
+          -94.17791133384608,
+          -35.081683804644584
+        ],
+        "flange_xyz_wpr": [
+          841.6431147460094,
+          158.172033812541,
+          1505.5829530626563,
+          169.42834097386043,
+          -11.671853090147389,
+          -23.3498207999767
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "transit",
+        "joints_deg": [
+          12.277786788646853,
+          -5.250136214381926,
+          7.488026319482923,
+          16.046799506263632,
+          -93.92315694072995,
+          -36.0721734434206
+        ],
+        "flange_xyz_wpr": [
+          843.3298391302826,
+          158.1324890756237,
+          1504.2692020759648,
+          169.1819104451524,
+          -12.343048412626526,
+          -24.22766403554132
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "transit",
+        "joints_deg": [
+          12.31650096123192,
+          -5.196480813700631,
+          7.375866701516923,
+          16.688671486514178,
+          -93.66840254761385,
+          -37.06266308219662
+        ],
+        "flange_xyz_wpr": [
+          845.0128589580152,
+          158.0974790797853,
+          1502.9649783160828,
+          168.95339743574104,
+          -13.024885993437127,
+          -25.09940732256164
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "transit",
+        "joints_deg": [
+          12.355215133816987,
+          -5.142825413019336,
+          7.263707083550923,
+          17.330543466764723,
+          -93.41364815449772,
+          -38.05315272097263
+        ],
+        "flange_xyz_wpr": [
+          846.692192019235,
+          158.0671870379064,
+          1501.6702505979706,
+          168.74303414913547,
+          -13.716878601516331,
+          -25.965367860804683
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "transit",
+        "joints_deg": [
+          12.393929306402052,
+          -5.089170012338042,
+          7.151547465584919,
+          17.97241544701527,
+          -93.1588937613816,
+          -39.043642359748645
+        ],
+        "flange_xyz_wpr": [
+          848.3678557724417,
+          158.04179560342305,
+          1500.3849847849804,
+          168.55105280451082,
+          -14.418539344870984,
+          -26.825881939089935
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "transit",
+        "joints_deg": [
+          12.432643478987115,
+          -5.035514611656746,
+          7.039387847618918,
+          18.614287427265815,
+          -92.90413936826549,
+          -40.034131998524664
+        ],
+        "flange_xyz_wpr": [
+          850.0398673279333,
+          158.02148682327928,
+          1499.1091437971268,
+          168.3776868319138,
+          -15.129381718392505,
+          -27.68130463783725
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "transit",
+        "joints_deg": [
+          12.471357651572182,
+          -4.981859210975451,
+          6.9272282296529175,
+          19.256159407516357,
+          -92.64938497514936,
+          -41.024621637300676
+        ],
+        "flange_xyz_wpr": [
+          851.7082434313188,
+          158.006442090971,
+          1497.8426876201704,
+          168.22317205742414,
+          -15.848919604483532,
+          -28.532009566676514
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "transit",
+        "joints_deg": [
+          12.510071824157249,
+          -4.928203810294157,
+          6.8150686116869155,
+          19.8980313877669,
+          -92.39463058203324,
+          -42.01511127607669
+        ],
+        "flange_xyz_wpr": [
+          853.3730004472174,
+          157.9968420996929,
+          1496.5855733155095,
+          168.0877478758184,
+          -16.57666722761664,
+          -29.37838863862923
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "transit",
+        "joints_deg": [
+          12.548785996742314,
+          -4.874548409612861,
+          6.702908993720913,
+          20.53990336801745,
+          -92.13987618891713,
+          -43.00560091485271
+        ],
+        "flange_xyz_wpr": [
+          855.0341543431514,
+          157.9928667956011,
+          1495.3377550308742,
+          167.97165840847282,
+          -17.31213906395649,
+          -30.22085188176676
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "transit",
+        "joints_deg": [
+          12.587500169327381,
+          -4.820893008931566,
+          6.590749375754911,
+          21.181775348267998,
+          -91.88512179580101,
+          -43.99609055362873
+        ],
+        "flange_xyz_wpr": [
+          856.6917206736433,
+          157.99469533120458,
+          1494.09918401183,
+          167.87515364436467,
+          -18.05484970717296,
+          -31.059827288645902
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "transit",
+        "joints_deg": [
+          12.626214341912446,
+          -4.76723760825027,
+          6.478589757788911,
+          21.82364732851854,
+          -91.63036740268488,
+          -44.98658019240474
+        ],
+        "flange_xyz_wpr": [
+          858.3457145645183,
+          158.00250601889567,
+          1492.869808614074,
+          167.79849056208013,
+          -18.804313691553826,
+          -31.895760703204946
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "transit",
+        "joints_deg": [
+          12.664928514497511,
+          -4.713582207568976,
+          6.366430139822909,
+          22.46551930876909,
+          -91.37561300956875,
+          -45.977069831180756
+        ],
+        "flange_xyz_wpr": [
+          859.9961506974219,
+          158.01647628463445,
+          1491.6495743165365,
+          167.74193423071054,
+          -19.56004527349995,
+          -32.729115744176056
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "transit",
+        "joints_deg": [
+          12.703642687082576,
+          -4.659926806887682,
+          6.254270521856908,
+          23.10739128901963,
+          -91.12085861645265,
+          -46.96755946995677
+        ],
+        "flange_xyz_wpr": [
+          861.6430432945622,
+          158.03678262179744,
+          1490.4384237352697,
+          167.70575888740458,
+          -20.321558172449837,
+          -33.56037376341664
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "transit",
+        "joints_deg": [
+          12.742356859667643,
+          -4.606271406206386,
+          6.142110903890906,
+          23.749263269270177,
+          -90.86610422333652,
+          -47.95804910873279
+        ],
+        "flange_xyz_wpr": [
+          863.2864061036754,
+          158.0636005452035,
+          1489.2362966381293,
+          167.69024898914444,
+          -21.088365272246545,
+          -34.39003383688377
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "transit",
+        "joints_deg": [
+          12.78107103225271,
+          -4.552616005525092,
+          6.029951285924906,
+          24.39113524952072,
+          -90.6113498302204,
+          -48.9485387475088
+        ],
+        "flange_xyz_wpr": [
+          864.926252383227,
+          158.09710454532973,
+          1488.0431299602428,
+          167.6957002360122,
+          -21.859978283920704,
+          -35.21861278525458
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "transit",
+        "joints_deg": [
+          12.819785204837771,
+          -4.498960604843796,
+          5.9177916679589035,
+          25.03300722977127,
+          -90.35659543710429,
+          -49.93902838628482
+        ],
+        "flange_xyz_wpr": [
+          866.5625948878547,
+          158.13746804272856,
+          1486.858857820259,
+          167.72242056281397,
+          -22.635907370834996,
+          -36.046645220429255
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "transit",
+        "joints_deg": [
+          12.858499377422838,
+          -4.445305204162501,
+          5.805632049992902,
+          25.67487921002181,
+          -90.10184104398817,
+          -50.92951802506083
+        ],
+        "flange_xyz_wpr": [
+          868.1954458540545,
+          158.18486334265913,
+          1485.683411537375,
+          167.77073109541232,
+          -23.415660737110425,
+          -36.87468361332281
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "transit",
+        "joints_deg": [
+          12.897213550007907,
+          -4.391649803481205,
+          5.6934724320269,
+          26.31675119027236,
+          -89.84708665087206,
+          -51.92000766383685
+        ],
+        "flange_xyz_wpr": [
+          869.8248169861217,
+          158.23946158994454,
+          1484.5167196491382,
+          167.84096706748565,
+          -24.19874418024503,
+          -37.70329837745341
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "transit",
+        "joints_deg": [
+          12.93592772259297,
+          -4.337994402799911,
+          5.581312814060899,
+          26.958623170522902,
+          -89.59233225775593,
+          -52.91049730261286
+        ],
+        "flange_xyz_wpr": [
+          871.4507194423499,
+          158.3014327240668,
+          1483.3587079300162,
+          167.93347869266853,
+          -24.984660608842276,
+          -38.533077961846644
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "transit",
+        "joints_deg": [
+          12.974641895178037,
+          -4.284339002118616,
+          5.469153196094897,
+          27.600495150773448,
+          -89.33757786463983,
+          -53.90098694138888
+        ],
+        "flange_xyz_wpr": [
+          873.0731638214925,
+          158.37094543451312,
+          1482.2092994107284,
+          168.04863198612546,
+          -25.772909526395644,
+          -39.364628945692196
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "transit",
+        "joints_deg": [
+          13.013356067763102,
+          -4.230683601437321,
+          5.356993578128896,
+          28.24236713102399,
+          -89.0828234715237,
+          -54.8914765801649
+        ],
+        "flange_xyz_wpr": [
+          874.6921601494962,
+          158.44816711638333,
+          1481.0684143983394,
+          168.18680952855644,
+          -26.56298648213133,
+          -40.198576125989426
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "transit",
+        "joints_deg": [
+          13.052070240348169,
+          -4.177028200756026,
+          5.244833960162895,
+          28.88423911127454,
+          -88.82806907840758,
+          -55.88196621894092
+        ],
+        "flange_xyz_wpr": [
+          876.307717866507,
+          158.533263826272,
+          1479.9359704971025,
+          168.3484111644179,
+          -27.354382490000518,
+          -41.035562588091814
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "transit",
+        "joints_deg": [
+          13.090784412933232,
+          -4.123372800074732,
+          5.132674342196894,
+          29.526111091525078,
+          -88.57331468529146,
+          -56.87245585771692
+        ],
+        "flange_xyz_wpr": [
+          877.9198458141603,
+          158.62640023843653,
+          1478.8118826300522,
+          168.5338546247577,
+          -28.146583417042145,
+          -41.87624974759008
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "transit",
+        "joints_deg": [
+          13.129498585518299,
+          -4.069717399393436,
+          5.0205147242308925,
+          30.16798307177563,
+          -88.31856029217533,
+          -57.862945496492934
+        ],
+        "flange_xyz_wpr": [
+          879.528552223158,
+          158.7277396012637,
+          1477.69606306134,
+          168.743576063487,
+          -28.93906934251049,
+          -42.72131735034462
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "transit",
+        "joints_deg": [
+          13.168212758103364,
+          -4.016061998712141,
+          4.9083551062648905,
+          30.809855052026176,
+          -88.06380589905922,
+          -58.85343513526896
+        ],
+        "flange_xyz_wpr": [
+          881.1338447011326,
+          158.8374436940452,
+          1476.5884214193006,
+          168.9780304941485,
+          -29.73131388939321,
+          -43.57146341567782
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "transit",
+        "joints_deg": [
+          13.206926930688429,
+          -3.962406598030846,
+          4.796195488298888,
+          31.45172703227672,
+          -87.80905150594309,
+          -59.843924774044964
+        ],
+        "flange_xyz_wpr": [
+          882.7357302208109,
+          158.9556727840753,
+          1475.4888647202513,
+          169.23769211226482,
+          -30.522783530235674,
+          -44.427404105749815
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "transit",
+        "joints_deg": [
+          13.245641103273494,
+          -3.9087511973495506,
+          4.684035870332886,
+          32.093599012527264,
+          -87.55429711282697,
+          -60.83441441282099
+        ],
+        "flange_xyz_wpr": [
+          884.3342151084834,
+          159.08258558408167,
+          1474.397297393016,
+          169.5230544861677,
+          -31.31293686955171,
+          -45.28987350196176
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "transit",
+        "joints_deg": [
+          13.28435527585856,
+          -3.8550957966682553,
+          4.571876252366886,
+          32.73547099277781,
+          -87.29954271971086,
+          -61.824904051597
+        ],
+        "flange_xyz_wpr": [
+          885.9293050327741,
+          159.21833921000072,
+          1473.3136213041594,
+          169.83463059680432,
+          -32.10122390554599,
+          -46.159623266844534
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "transit",
+        "joints_deg": [
+          13.323069448443627,
+          -3.801440395986961,
+          4.459716634400884,
+          33.377342973028355,
+          -87.04478832659474,
+          -62.81539369037302
+        ],
+        "flange_xyz_wpr": [
+          887.5210049937267,
+          159.36308913910946,
+          1472.2377357839346,
+          170.17295270439834,
+          -32.887085274410474,
+          -47.037422167305365
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "transit",
+        "joints_deg": [
+          13.361783621028692,
+          -3.747784995305666,
+          4.347557016434883,
+          34.0192149532789,
+          -86.79003393347861,
+          -63.80588332914903
+        ],
+        "flange_xyz_wpr": [
+          889.109319312205,
+          159.51698916852547,
+          1471.1695376529324,
+          170.5385720170099,
+          -33.66995148109915,
+          -47.92405543231309
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "transit",
+        "joints_deg": [
+          13.40049779361376,
+          -3.694129594624371,
+          4.235397398468881,
+          34.66108693352945,
+          -86.5352795403625,
+          -64.79637296792505
+        ],
+        "flange_xyz_wpr": [
+          890.6942516196167,
+          159.68019137408544,
+          1470.108921249425,
+          170.93205813301344,
+          -34.44924212124168,
+          -48.82032391512844
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "transit",
+        "joints_deg": [
+          13.439211966198824,
+          -3.6404741939430756,
+          4.12323778050288,
+          35.30295891377999,
+          -86.28052514724638,
+          -65.78686260670106
+        ],
+        "flange_xyz_wpr": [
+          892.2758048479603,
+          159.85284606961426,
+          1469.0557784573975,
+          171.35399822631246,
+          -35.22436509974189,
+          -49.72704302704451
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "transit",
+        "joints_deg": [
+          13.47792613878389,
+          -3.5868187932617803,
+          4.0110781625368785,
+          35.94483089403054,
+          -86.02577075413026,
+          -66.77735224547708
+        ],
+        "flange_xyz_wpr": [
+          893.8539812202031,
+          160.03510176659702,
+          1468.009998735256,
+          171.8049959397823,
+          -35.994715852630875,
+          -50.64504140633879
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "transit",
+        "joints_deg": [
+          13.516640311368954,
+          -3.533163392580486,
+          3.898918544570877,
+          36.58670287428108,
+          -85.77101636101415,
+          -67.7678418842531
+        ],
+        "flange_xyz_wpr": [
+          895.4287822409947,
+          160.22710513426154,
+          1466.9714691452132,
+          172.28566994903102,
+          -36.75967657992143,
+          -51.5751592828041
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "transit",
+        "joints_deg": [
+          13.555354483954021,
+          -3.4795079918991907,
+          3.7867589266048753,
+          37.22857485453163,
+          -85.51626196789802,
+          -68.75833152302911
+        ],
+        "flange_xyz_wpr": [
+          897.0002086877168,
+          160.42900096008708,
+          1465.9400743833323,
+          172.79665215517343,
+          -37.51861549854757,
+          -52.518246494902975
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "transit",
+        "joints_deg": [
+          13.594068656539086,
+          -3.425852591217896,
+          3.674599308638874,
+          37.87044683478217,
+          -85.2615075747819,
+          -69.74882116180513
+        ],
+        "flange_xyz_wpr": [
+          898.568260601877,
+          160.64093211074638,
+          1464.9156968102302,
+          173.3385854620335,
+          -38.270886125981434,
+          -53.47516011338249
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "transit",
+        "joints_deg": [
+          13.632782829124151,
+          -3.3721971905366006,
+          3.5624396906728726,
+          38.512318815032714,
+          -85.00675318166579,
+          -70.73931080058114
+        ],
+        "flange_xyz_wpr": [
+          900.1329372808466,
+          160.86303949349357,
+          1463.898216482422,
+          173.9121210901582,
+          -39.01582660680229,
+          -54.44676162222954
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "approach",
+        "joints_deg": [
+          13.632782829124151,
+          -3.3721971905366006,
+          3.5624396906728726,
+          38.512318815032714,
+          -85.00675318166579,
+          -70.73931080058114
+        ],
+        "flange_xyz_wpr": [
+          900.132937282324,
+          160.8630394935608,
+          1463.8982164859772,
+          173.91212106963138,
+          -39.015826599839954,
+          -54.44676162452212
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "approach",
+        "joints_deg": [
+          13.435589776016657,
+          -3.405785438080638,
+          3.3115422911497863,
+          38.50069310024465,
+          -84.6878644296596,
+          -70.74149555144666
+        ],
+        "flange_xyz_wpr": [
+          901.5214464068414,
+          158.00828069448468,
+          1460.0352650880811,
+          173.91212106963138,
+          -39.015826599839954,
+          -54.44676162452212
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "approach",
+        "joints_deg": [
+          13.238697228002954,
+          -3.437423528346314,
+          3.0608849223916033,
+          38.4899564334344,
+          -84.36931882431878,
+          -70.74366553001467
+        ],
+        "flange_xyz_wpr": [
+          902.9099555313588,
+          155.15352189540863,
+          1456.1723136901853,
+          173.91212106963138,
+          -39.015826599839954,
+          -54.44676162452212
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "approach",
+        "joints_deg": [
+          13.042109138328314,
+          -3.467117347159088,
+          2.8104591056495125,
+          38.48010729099748,
+          -84.05111469647179,
+          -70.74583740117968
+        ],
+        "flange_xyz_wpr": [
+          904.2984646558763,
+          152.29876309633252,
+          1452.3093622922897,
+          173.91212106963138,
+          -39.015826599839954,
+          -54.44676162452212
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "approach",
+        "joints_deg": [
+          12.845829419200541,
+          -3.494872607199672,
+          2.5602566177937343,
+          38.47114436323808,
+          -83.73325050610273,
+          -70.74802761863043
+        ],
+        "flange_xyz_wpr": [
+          905.6869737803936,
+          149.4440042972565,
+          1448.446410894394,
+          173.91212106963138,
+          -39.015826599839954,
+          -54.44676162452212
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "approach",
+        "joints_deg": [
+          12.649861941613393,
+          -3.5206948524893926,
+          2.3102694865569973,
+          38.463066550080164,
+          -83.4157248630712,
+          -70.7502524327851
+        ],
+        "flange_xyz_wpr": [
+          907.0754829049112,
+          146.5892454981804,
+          1444.583459496498,
+          173.91212106963138,
+          -39.015826599839954,
+          -54.44676162452212
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "approach",
+        "joints_deg": [
+          12.454210535034166,
+          -3.544589465318064,
+          2.060489985637655,
+          38.455872956423015,
+          -83.09853652450393,
+          -70.75252789749761
+        ],
+        "flange_xyz_wpr": [
+          908.4639920294285,
+          143.7344866991043,
+          1440.720508098602,
+          173.91212106963138,
+          -39.015826599839954,
+          -54.44676162452212
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "approach",
+        "joints_deg": [
+          12.25887898710378,
+          -3.566561672954364,
+          1.8109106300101443,
+          38.44956288766808,
+          -82.78168439231074,
+          -70.75486987651814
+        ],
+        "flange_xyz_wpr": [
+          909.852501153946,
+          140.87972790002823,
+          1436.8575567007063,
+          173.91212106963138,
+          -39.015826599839954,
+          -54.44676162452212
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "approach",
+        "joints_deg": [
+          12.063871043349657,
+          -3.586616554149683,
+          1.5615241714323793,
+          38.444135845408866,
+          -82.46516751081896,
+          -70.75729404971995
+        ],
+        "flange_xyz_wpr": [
+          911.2410102784635,
+          138.02496910095215,
+          1432.9946053028107,
+          173.91212106963138,
+          -39.015826599839954,
+          -54.44676162452212
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "approach",
+        "joints_deg": [
+          11.86919040691123,
+          -3.604759045444572,
+          1.3123235941415443,
+          38.43959152327658,
+          -82.1489850645215,
+          -70.75981591910188
+        ],
+        "flange_xyz_wpr": [
+          912.6295194029809,
+          135.17021030187607,
+          1429.1316539049146,
+          173.91212106963138,
+          -39.015826599839954,
+          -54.44676162452212
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "approach",
+        "joints_deg": [
+          11.674840738278094,
+          -3.6209939472863364,
+          1.0633021107297447,
+          38.435929802934,
+          -81.83313637593352,
+          -70.76245081457651
+        ],
+        "flange_xyz_wpr": [
+          914.0180285274984,
+          132.3154515028,
+          1425.268702507019,
+          173.91212106963138,
+          -39.015826599839954,
+          -54.44676162452212
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "approach",
+        "joints_deg": [
+          11.480825655040746,
+          -3.6353259299669385,
+          0.8144531581908038,
+          38.433150750210885,
+          -81.51762090355282,
+          -70.76521389955327
+        ],
+        "flange_xyz_wpr": [
+          915.4065376520157,
+          129.46069270372394,
+          1421.4057511091232,
+          173.91212106963138,
+          -39.015826599839954,
+          -54.44676162452212
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "approach",
+        "joints_deg": [
+          11.287148731653991,
+          -3.64775953938907,
+          0.5657703941310691,
+          38.431254611374364,
+          -81.20243823991962,
+          -70.76812017632486
+        ],
+        "flange_xyz_wpr": [
+          916.7950467765331,
+          126.60593390464783,
+          1417.5427997112274,
+          173.91212106963138,
+          -39.015826599839954,
+          -54.44676162452212
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "approach",
+        "joints_deg": [
+          11.093813499212747,
+          -3.658299202667097,
+          0.31724769313686635,
+          38.430241809527615,
+          -80.88758810977174,
+          -70.7711844912651
+        ],
+        "flange_xyz_wpr": [
+          918.1835559010506,
+          123.75117510557175,
+          1413.6798483133314,
+          173.91212106963138,
+          -39.015826599839954,
+          -54.44676162452212
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "approach",
+        "joints_deg": [
+          10.90082344524044,
+          -3.6669492335714255,
+          0.06887914329098602,
+          38.43011294113157,
+          -80.5730703682904,
+          -70.7744215398464
+        ],
+        "flange_xyz_wpr": [
+          919.5720650255681,
+          120.89641630649567,
+          1409.8168969154356,
+          173.91212106963138,
+          -39.015826599839954,
+          -54.44676162452212
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "approach",
+        "joints_deg": [
+          10.708182013489784,
+          -3.6737138378220724,
+          -0.17934095716777024,
+          38.43086877264331,
+          -80.25888499943332,
+          -70.77784587148359
+        ],
+        "flange_xyz_wpr": [
+          920.9605741500854,
+          118.04165750741959,
+          1405.95394551754,
+          173.91212106963138,
+          -39.015826599839954,
+          -54.44676162452212
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "approach",
+        "joints_deg": [
+          10.515892603755958,
+          -3.678597118238307,
+          -0.4274181030487949,
+          38.43251023726603,
+          -79.94503211435108,
+          -70.78147189421148
+        ],
+        "flange_xyz_wpr": [
+          922.349083274603,
+          115.1868987083435,
+          1402.0909941196442,
+          173.91212106963138,
+          -39.015826599839954,
+          -54.44676162452212
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "approach",
+        "joints_deg": [
+          10.323958571702054,
+          -3.681603079750282,
+          -0.6753575852833635,
+          38.43503843180521,
+          -79.63151194988333,
+          -70.78531387920238
+        ],
+        "flange_xyz_wpr": [
+          923.7375923991203,
+          112.33213990926744,
+          1398.2280427217484,
+          173.91212106963138,
+          -39.015826599839954,
+          -54.44676162452212
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "approach",
+        "joints_deg": [
+          10.132383228696812,
+          -3.682735634278682,
+          -0.9231644938741014,
+          38.43845461362615,
+          -79.31832486713091,
+          -70.78938596513012
+        ],
+        "flange_xyz_wpr": [
+          925.1261015236379,
+          109.47738111019135,
+          1394.3650913238523,
+          173.91212106963138,
+          -39.015826599839954,
+          -54.44676162452212
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "approach",
+        "joints_deg": [
+          9.941169841664468,
+          -3.6819986054875815,
+          -1.1708437207249924,
+          38.44276019770793,
+          -79.00547135010136,
+          -70.79370216238618
+        ],
+        "flange_xyz_wpr": [
+          926.5146106481552,
+          106.62262231111528,
+          1390.5021399259567,
+          173.91212106963138,
+          -39.015826599839954,
+          -54.44676162452212
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "approach",
+        "joints_deg": [
+          9.750321632946706,
+          -3.6793957334157463,
+          -1.418399962358067,
+          38.44795675378927,
+          -78.69295200442359,
+          -70.79827635715328
+        ],
+        "flange_xyz_wpr": [
+          927.9031197726727,
+          103.76786351203918,
+          1386.639188528061,
+          173.91212106963138,
+          -39.015826599839954,
+          -54.44676162452212
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "approach",
+        "joints_deg": [
+          9.559841780176628,
+          -3.6749306789916956,
+          -1.6658377225209953,
+          38.45404600360203,
+          -78.3807675561297,
+          -70.80312231534253
+        ],
+        "flange_xyz_wpr": [
+          929.2916288971901,
+          100.9131047129631,
+          1382.776237130165,
+          173.91212106963138,
+          -39.015826599839954,
+          -54.44676162452212
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "approach",
+        "joints_deg": [
+          9.369733416164559,
+          -3.6686070284364076,
+          -1.9131613146910653,
+          38.46102981818787,
+          -78.06891885050027,
+          -70.80825368639802
+        ],
+        "flange_xyz_wpr": [
+          930.6801380217075,
+          98.05834591388702,
+          1378.9132857322693,
+          173.91212106963138,
+          -39.015826599839954,
+          -54.44676162452212
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "approach",
+        "joints_deg": [
+          9.179999628795741,
+          -3.66042829755894,
+          -2.1603748644797607,
+          38.468910215294265,
+          -77.75740685097017,
+          -70.8136840069743
+        ],
+        "flange_xyz_wpr": [
+          932.0686471462251,
+          95.20358711481096,
+          1375.0503343343735,
+          173.91212106963138,
+          -39.015826599839954,
+          -54.44676162452212
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "approach",
+        "joints_deg": [
+          8.990643460939681,
+          -3.6503979359485235,
+          -2.407482311942543,
+          38.47768935684577,
+          -77.4462326380931,
+          -70.81942670449101
+        ],
+        "flange_xyz_wpr": [
+          933.4571562707424,
+          92.34882831573486,
+          1371.1873829364777,
+          173.91212106963138,
+          -39.015826599839954,
+          -54.44676162452212
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "lift",
+        "joints_deg": [
+          8.990643460939681,
+          -3.6503979359485235,
+          -2.407482311942543,
+          38.47768935684577,
+          -77.4462326380931,
+          -70.81942670449101
+        ],
+        "flange_xyz_wpr": [
+          933.4571562707424,
+          92.34882831573486,
+          1371.1873829364777,
+          173.91212106963138,
+          -39.015826599839954,
+          -54.44676162452212
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "lift",
+        "joints_deg": [
+          8.990643460939687,
+          -3.5827783059133296,
+          -2.09236685362871,
+          38.43449239330501,
+          -77.69299508379248,
+          -70.61874765061155
+        ],
+        "flange_xyz_wpr": [
+          933.4571562707424,
+          92.34882831573486,
+          1376.1873829364777,
+          173.91212106963138,
+          -39.015826599839954,
+          -54.44676162452212
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "lift",
+        "joints_deg": [
+          8.990643460939685,
+          -3.513238181274667,
+          -1.7769344411077552,
+          38.392177589498154,
+          -77.94015205217758,
+          -70.41824418359475
+        ],
+        "flange_xyz_wpr": [
+          933.4571562707424,
+          92.34882831573486,
+          1381.1873829364777,
+          173.91212106963138,
+          -39.015826599839954,
+          -54.44676162452212
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "lift",
+        "joints_deg": [
+          8.990643460939687,
+          -3.4417705462471564,
+          -1.4611682568326105,
+          38.35074193337801,
+          -78.18771387198652,
+          -70.21789848186263
+        ],
+        "flange_xyz_wpr": [
+          933.4571562707424,
+          92.34882831573486,
+          1386.1873829364777,
+          173.91212106963138,
+          -39.015826599839954,
+          -54.44676162452212
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "lift",
+        "joints_deg": [
+          8.990643460939687,
+          -3.368367973626383,
+          -1.1450511615829073,
+          38.31018262967549,
+          -78.43569115541213,
+          -70.01769258703027
+        ],
+        "flange_xyz_wpr": [
+          933.4571562707425,
+          92.34882831573486,
+          1391.1873829364777,
+          173.91212106963138,
+          -39.015826599839954,
+          -54.44676162452212
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "lift",
+        "joints_deg": [
+          8.990643460939683,
+          -3.2930226122622153,
+          -0.8285656832621155,
+          38.27049710226845,
+          -78.68409480558377,
+          -69.8176083938582
+        ],
+        "flange_xyz_wpr": [
+          933.4571562707425,
+          92.34882831573486,
+          1396.1873829364774,
+          173.91212106963138,
+          -39.015826599839954,
+          -54.44676162452212
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "lift",
+        "joints_deg": [
+          8.990643460939681,
+          -3.2157261739766634,
+          -0.511694005156955,
+          38.231682996749576,
+          -78.93293602446383,
+          -69.6176276398298
+        ],
+        "flange_xyz_wpr": [
+          933.4571562707425,
+          92.34882831573488,
+          1401.1873829364777,
+          173.91212106963138,
+          -39.015826599839954,
+          -54.44676162452212
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "lift",
+        "joints_deg": [
+          8.990643460939685,
+          -3.136469919893719,
+          -0.19441795362939157,
+          38.19373818320279,
+          -79.18222632118018,
+          -69.41773189433151
+        ],
+        "flange_xyz_wpr": [
+          933.4571562707423,
+          92.34882831573486,
+          1406.1873829364774,
+          173.91212106963138,
+          -39.015826599839954,
+          -54.44676162452212
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "lift",
+        "joints_deg": [
+          8.990643460939689,
+          -3.0552446461469573,
+          0.12328101478955242,
+          38.15666075919903,
+          -79.43197752081784,
+          -69.21790254741222
+        ],
+        "flange_xyz_wpr": [
+          933.4571562707424,
+          92.34882831573488,
+          1411.1873829364777,
+          173.91212106963138,
+          -39.015826599839954,
+          -54.44676162452212
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "lift",
+        "joints_deg": [
+          8.990643460939685,
+          -2.972040668928223,
+          0.44142182693669085,
+          38.12044905302284,
+          -79.6822017736926,
+          -69.01812079809756
+        ],
+        "flange_xyz_wpr": [
+          933.4571562707424,
+          92.34882831573486,
+          1416.1873829364774,
+          173.91212106963138,
+          -39.015826599839954,
+          -54.44676162452212
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "lift",
+        "joints_deg": [
+          8.990643460939683,
+          -2.886847808838301,
+          0.7600238072200446,
+          38.0851016271418,
+          -79.93291156513386,
+          -68.81836764223183
+        ],
+        "flange_xyz_wpr": [
+          933.4571562707425,
+          92.34882831573488,
+          1421.1873829364777,
+          173.91212106963138,
+          -39.015826599839954,
+          -54.44676162452212
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "lift",
+        "joints_deg": [
+          8.990643460939689,
+          -2.799655374497811,
+          1.0791066925262498,
+          38.050617281931544,
+          -80.18411972580292,
+          -68.61862385981917
+        ],
+        "flange_xyz_wpr": [
+          933.4571562707423,
+          92.34882831573485,
+          1426.1873829364772,
+          173.91212106963138,
+          -39.015826599839954,
+          -54.44676162452212
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "lift",
+        "joints_deg": [
+          8.990643460939683,
+          -2.7104521453732513,
+          1.3986906478726433,
+          38.01699505967068,
+          -80.43583944257779,
+          -68.41887000183303
+        ],
+        "flange_xyz_wpr": [
+          933.4571562707424,
+          92.34882831573486,
+          1431.1873829364777,
+          173.91212106963138,
+          -39.015826599839954,
+          -54.44676162452212
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "lift",
+        "joints_deg": [
+          8.990643460939685,
+          -2.619226353771915,
+          1.7187962828464736,
+          37.98423424881982,
+          -80.68808427003474,
+          -68.21908637646247
+        ],
+        "flange_xyz_wpr": [
+          933.4571562707424,
+          92.34882831573486,
+          1436.1873829364774,
+          173.91212106963138,
+          -39.015826599839954,
+          -54.44676162452212
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "lift",
+        "joints_deg": [
+          8.990643460939683,
+          -2.5259656659520715,
+          2.039444668878942,
+          37.952334388601074,
+          -80.94086814256174,
+          -68.01925303475818
+        ],
+        "flange_xyz_wpr": [
+          933.4571562707424,
+          92.34882831573486,
+          1441.1873829364774,
+          173.91212106963138,
+          -39.015826599839954,
+          -54.44676162452212
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "lift",
+        "joints_deg": [
+          8.99064346093969,
+          -2.430657162296492,
+          2.360657357402626,
+          37.92129527389487,
+          -81.19420538713973,
+          -67.81934975564243
+        ],
+        "flange_xyz_wpr": [
+          933.4571562707424,
+          92.34882831573486,
+          1446.1873829364774,
+          173.91212106963138,
+          -39.015826599839954,
+          -54.44676162452212
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "lift",
+        "joints_deg": [
+          8.990643460939685,
+          -2.3332873164882195,
+          2.6824563989463335,
+          37.89111696047193,
+          -81.448110736831,
+          -67.61935603024155
+        ],
+        "flange_xyz_wpr": [
+          933.4571562707424,
+          92.34882831573486,
+          1451.1873829364777,
+          173.91212106963138,
+          -39.015826599839954,
+          -54.44676162452212
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "lift",
+        "joints_deg": [
+          8.990643460939683,
+          -2.2338419736274684,
+          3.0048643632243164,
+          37.86179977058073,
+          -81.70259934501665,
+          -67.4192510454982
+        ],
+        "flange_xyz_wpr": [
+          933.4571562707424,
+          92.34882831573486,
+          1456.1873829364774,
+          173.91212106963138,
+          -39.015826599839954,
+          -54.44676162452212
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "lift",
+        "joints_deg": [
+          8.990643460939687,
+          -2.1323063272206673,
+          3.3279043602819898,
+          37.83334429891075,
+          -81.95768680042902,
+          -67.21901366701613
+        ],
+        "flange_xyz_wpr": [
+          933.4571562707424,
+          92.34882831573486,
+          1461.1873829364774,
+          173.91212106963138,
+          -39.015826599839954,
+          -54.44676162452212
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "lift",
+        "joints_deg": [
+          8.990643460939685,
+          -2.028664894969754,
+          3.651600062763882,
+          37.80575141895456,
+          -82.2133891430267,
+          -67.01862242108814
+        ],
+        "flange_xyz_wpr": [
+          933.4571562707424,
+          92.34882831573486,
+          1466.1873829364774,
+          173.91212106963138,
+          -39.015826599839954,
+          -54.44676162452212
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "lift",
+        "joints_deg": [
+          8.990643460939683,
+          -1.9229014932834638,
+          3.9759757293755684,
+          37.779022289792984,
+          -82.46972288076586,
+          -66.81805547585279
+        ],
+        "flange_xyz_wpr": [
+          933.4571562707425,
+          92.34882831573486,
+          1471.1873829364774,
+          173.91212106963138,
+          -39.015826599839954,
+          -54.44676162452212
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "lift",
+        "joints_deg": [
+          8.990643460939683,
+          -1.8149992104260397,
+          4.301056229616385,
+          37.75315836332948,
+          -82.72670500732349,
+          -66.61729062152192
+        ],
+        "flange_xyz_wpr": [
+          933.4571562707425,
+          92.34882831573488,
+          1476.1873829364777,
+          173.91212106963138,
+          -39.015826599839954,
+          -54.44676162452212
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "lift",
+        "joints_deg": [
+          8.990643460939683,
+          -1.7049403782132921,
+          4.626867069865705,
+          37.72816139200208,
+          -82.98435302083395,
+          -66.4163052496165
+        ],
+        "flange_xyz_wpr": [
+          933.4571562707424,
+          92.34882831573486,
+          1481.1873829364774,
+          173.91212106963138,
+          -39.015826599839954,
+          -54.44676162452212
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "lift",
+        "joints_deg": [
+          8.990643460939681,
+          -1.5927065421573467,
+          4.953434420912539,
+          37.70403343700339,
+          -83.24268494370455,
+          -66.21507633114305
+        ],
+        "flange_xyz_wpr": [
+          933.4571562707424,
+          92.34882831573486,
+          1486.1873829364777,
+          173.91212106963138,
+          -39.015826599839954,
+          -54.44676162452212
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "lift",
+        "joints_deg": [
+          8.990643460939687,
+          -1.4782784299556058,
+          5.280785147024785,
+          37.68077687704173,
+          -83.50171934358171,
+          -66.01358039363784
+        ],
+        "flange_xyz_wpr": [
+          933.4571562707424,
+          92.34882831573486,
+          1491.1873829364774,
+          173.91212106963138,
+          -39.015826599839954,
+          -54.44676162452212
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "lift",
+        "joints_deg": [
+          8.990643460939685,
+          -1.3616359182086692,
+          5.608946836662852,
+          37.658394417678736,
+          -83.76147535554364,
+          -65.81179349699981
+        ],
+        "flange_xyz_wpr": [
+          933.4571562707424,
+          92.34882831573486,
+          1496.1873829364777,
+          173.91212106963138,
+          -39.015826599839954,
+          -54.44676162452212
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "lift",
+        "joints_deg": [
+          8.990643460939687,
+          -1.242757997244634,
+          5.937947834950606,
+          37.63688910128232,
+          -84.02197270560406,
+          -65.60969120802736
+        ],
+        "flange_xyz_wpr": [
+          933.4571562707424,
+          92.34882831573486,
+          1501.1873829364777,
+          173.91212106963138,
+          -39.015826599839954,
+          -54.44676162452212
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "lift",
+        "joints_deg": [
+          8.990643460939683,
+          -1.121622733915534,
+          6.267817278026384,
+          37.61626431763659,
+          -84.28323173561621,
+          -65.40724857356562
+        ],
+        "flange_xyz_wpr": [
+          933.4571562707423,
+          92.34882831573485,
+          1506.1873829364774,
+          173.91212106963138,
+          -39.015826599839954,
+          -54.44676162452212
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "lift",
+        "joints_deg": [
+          8.990643460939681,
+          -0.9982072322217602,
+          6.598585129406193,
+          37.596523815253946,
+          -84.54527342967509,
+          -65.20444009216541
+        ],
+        "flange_xyz_wpr": [
+          933.4571562707424,
+          92.34882831573486,
+          1511.1873829364774,
+          173.91212106963138,
+          -39.015826599839954,
+          -54.44676162452212
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "lift",
+        "joints_deg": [
+          8.990643460939685,
+          -0.8724875916064522,
+          6.930282218504127,
+          37.57767171343885,
+          -84.80811944212478,
+          -65.00123968414391
+        ],
+        "flange_xyz_wpr": [
+          933.4571562707424,
+          92.34882831573486,
+          1516.1873829364774,
+          173.91212106963138,
+          -39.015826599839954,
+          -54.44676162452212
+        ],
+        "opening_m": 0.08
+      },
+      {
+        "phase": "lift",
+        "joints_deg": [
+          8.990643460939683,
+          -0.7444388627500098,
+          7.262940281465876,
+          37.55971251515599,
+          -85.07179212728516,
+          -64.79762065992956
+        ],
+        "flange_xyz_wpr": [
+          933.4571562707424,
+          92.34882831573486,
+          1521.1873829364774,
+          173.91212106963138,
+          -39.015826599839954,
+          -54.44676162452212
+        ],
+        "opening_m": 0.08
+      }
+    ]
+  },
+  "home_check": {
+    "collision": false,
+    "self_pairs": [],
+    "environment_pairs": [],
+    "perceived_voxels": 4795
+  },
+  "seconds": 4.6762763440201525,
+  "scope": "Sampled geometric planning; native validation and between-sample checks still required"
+}

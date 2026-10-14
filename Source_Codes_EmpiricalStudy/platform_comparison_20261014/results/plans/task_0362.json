@@ -1,0 +1,188 @@
+{
+  "task_id": "task_0362",
+  "status": "no_plan",
+  "selected": null,
+  "rejected": [
+    {
+      "rank": 0,
+      "reason": "approach_collision",
+      "collision": {
+        "collision": true,
+        "self_pairs": [],
+        "environment_pairs": [
+          [
+            "panda_leftfinger",
+            "table"
+          ]
+        ],
+        "perceived_voxels": 10337
+      }
+    },
+    {
+      "rank": 1,
+      "reason": "width_invalid"
+    },
+    {
+      "rank": 2,
+      "reason": "approach_collision",
+      "collision": {
+        "collision": true,
+        "self_pairs": [],
+        "environment_pairs": [
+          [
+            "panda_hand",
+            "perceived_scene"
+          ]
+        ],
+        "perceived_voxels": 10337
+      }
+    },
+    {
+      "rank": 3,
+      "reason": "width_invalid"
+    },
+    {
+      "rank": 4,
+      "reason": "approach_collision",
+      "collision": {
+        "collision": true,
+        "self_pairs": [],
+        "environment_pairs": [
+          [
+            "panda_leftfinger",
+            "table"
+          ]
+        ],
+        "perceived_voxels": 10337
+      }
+    },
+    {
+      "rank": 5,
+      "reason": "approach_collision",
+      "collision": {
+        "collision": true,
+        "self_pairs": [],
+        "environment_pairs": [
+          [
+            "panda_hand",
+            "perceived_scene"
+          ]
+        ],
+        "perceived_voxels": 10337
+      }
+    },
+    {
+      "rank": 6,
+      "reason": "width_invalid"
+    },
+    {
+      "rank": 7,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 8,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 9,
+      "reason": "width_invalid"
+    },
+    {
+      "rank": 10,
+      "reason": "width_invalid"
+    },
+    {
+      "rank": 11,
+      "reason": "approach_collision",
+      "collision": {
+        "collision": true,
+        "self_pairs": [],
+        "environment_pairs": [
+          [
+            "panda_hand",
+            "perceived_scene"
+          ],
+          [
+            "panda_hand",
+            "wall1"
+          ]
+        ],
+        "perceived_voxels": 10337
+      }
+    },
+    {
+      "rank": 12,
+      "reason": "width_invalid"
+    },
+    {
+      "rank": 13,
+      "reason": "width_invalid"
+    },
+    {
+      "rank": 14,
+      "reason": "approach_collision",
+      "collision": {
+        "collision": true,
+        "self_pairs": [],
+        "environment_pairs": [
+          [
+            "panda_hand",
+            "perceived_scene"
+          ],
+          [
+            "panda_hand",
+            "wall1"
+          ]
+        ],
+        "perceived_voxels": 10337
+      }
+    },
+    {
+      "rank": 15,
+      "reason": "width_invalid"
+    },
+    {
+      "rank": 16,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 17,
+      "reason": "width_invalid"
+    },
+    {
+      "rank": 18,
+      "reason": "width_invalid"
+    },
+    {
+      "rank": 19,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 20,
+      "reason": "width_invalid"
+    },
+    {
+      "rank": 21,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 22,
+      "reason": "width_invalid"
+    }
+  ],
+  "host": "qyb-SJHY-ubuntu25",
+  "pid": 1108516,
+  "candidate_count": 23,
+  "ground_truth_used": false,
+  "protocol_sha256": "24eb3735a29abcfc189ee7ecb5a34851fbc070e549b96df67f030f50d3862bc6",
+  "cloud_sha256": "dc9ace62535e388a7fadcd26fabd41be344d51f432a0420924456d531b825bec",
+  "grasps_sha256": "4ba548b3f386efe3c1e387cae50bef9d250358eb2906ea23446b1c12d4f2511d",
+  "home_check": {
+    "collision": false,
+    "self_pairs": [],
+    "environment_pairs": [],
+    "perceived_voxels": 10337
+  },
+  "seconds": 3.1049268749775365,
+  "planning_parallelism": 4
+}

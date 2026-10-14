@@ -1,0 +1,48 @@
+{
+  "changes": [
+    {
+      "path": "eval.py",
+      "before_sha256": "9a39ca2cd338902f0809051f8d262e5b0d3944b88f7904a1e635926402f8c40a",
+      "after_sha256": "4571091356f4c6d2a19d791ec5f13be786e1f6997c73449da17de0d59cc8a84f"
+    },
+    {
+      "path": "train.py",
+      "before_sha256": "d235c7f82f4583fe415f7bab7f46079706c6b602e088da5f95493913d9c65b06",
+      "after_sha256": "f0fdff20f9d8af13c83823eb7064ccbfd21801c67b573c82bf3b04ca98713e61"
+    },
+    {
+      "path": "utils.py",
+      "before_sha256": "1f4b7c666b2e6612ceb974ea3e3e3b38c86a82c85a32e82e5496b7854bdae09f",
+      "after_sha256": "c3a07be2608a4f48a6d11dd3dec35dab58a595425faccc8b8bddb9b703f9421e"
+    },
+    {
+      "path": "grasp_data_reader.py",
+      "before_sha256": "d009a1d5fe71be7b374f6b26eecb4acd60b5d82fdf939097c2f5dc44fac75ce9",
+      "after_sha256": "9e428c6a4db0e1c912296fa5dfcd5724ea1040e9a5f5e64e60e17ccce1b91c4c"
+    },
+    {
+      "path": "grasp_estimator.py",
+      "before_sha256": "8d6183fb5779ed3c6e22dc51378e1bbe5ae93351f858dc7aea4541821b392fb4",
+      "after_sha256": "0af60dacb7f6bb074d9707189b6506cdaa8c1283c70cdc15f7aac43ee77e3142"
+    },
+    {
+      "path": "tf_utils.py",
+      "before_sha256": "0e1da22d7f1e9d3cca4938b2c9fce08d9328222505f7e03b2bb7c6aff2ff9dcf",
+      "after_sha256": "1d4cde84e8881e18b2d5cc2ee45b6fce92872038fb11d132cc533492c1724ffb"
+    },
+    {
+      "path": "demo/main.py",
+      "before_sha256": "578d1b28de5813bf7456597e4427c9edcbfa0ebff6e5f7fbbfbcac5025654cc7",
+      "after_sha256": "7d911dc71ef88d2cb5a2b7cb5ea906375cccb08b12d3a1469ce42ca1156b4b75"
+    },
+    {
+      "path": "models/model.py",
+      "before_sha256": "66dbd9835a9057e6da64899e4a73e3e97bc851a2dc2be1fafa30feab17f68b67",
+      "after_sha256": "8ae15cb232377d705257a660d64763266bb498bf95baa114126557cd26ca5e07"
+    }
+  ],
+  "purpose": "Inference only; original neural layers and checkpoint variables retained",
+  "original_commit": "cd08b6c559e51a187ab65faea6415f51239808b8",
+  "pointnet_source": "Contact-GraspNet bundled PointNet++ with TF2-compatible layers",
+  "configuration_loader": "Only author-downloaded argparse Namespace YAML files"
+}

@@ -1,0 +1,23 @@
+{
+  "episode_id": "spacer_03_p02_bin_walls",
+  "method": "igev_stereo",
+  "split": "development",
+  "seed": 0,
+  "input_sha256": {
+    "left.png": "42cc9b1b6b8567a1977aa02f9f87bd1ed8847124bfbf4db6803764e2ec25e212",
+    "right.png": "ba5a4c00216710207c5bab4046e4b62abee01d6d799fd6378c62d2d6779e279b",
+    "cameras.json": "49f798ce8c470a3d17c1a63d2f24a1663c9fea8e71b07643f67ef0d9da09bb66",
+    "task.json": "839fbef5df5f02df99276e26aac53bc1b6b0dd982bfc2f0eb3cd7cc1b9abc1ff"
+  },
+  "inference_seconds": 0.14399147499352694,
+  "perception_pipeline_seconds": 0.3555025910027325,
+  "first_inference_after_model_load": false,
+  "geometry_truth_used": false,
+  "object_pose_used": false,
+  "native_robot_execution_performed": false,
+  "prediction_sha256": "8d68e16f5305a93ebd2f2d2d65bc94e5f432bf45703a0b742d7bd5aeb4445d7e",
+  "scene_points": 79235,
+  "raw_target_points": 2846,
+  "target_points": 2776,
+  "grasp_input_ready": true
+}

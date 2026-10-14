@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/qyb/RESEARCH/Robotic_Grasping/Source_Codes_EmpiricalStudy/physics_validation_20261013/code/analyze_results.py", line 187, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/home/qyb/RESEARCH/Robotic_Grasping/Source_Codes_EmpiricalStudy/physics_validation_20261013/code/analyze_results.py", line 91, in main
+    rows.append(dict(profile=profile,**rec,tug_success=t['success'],**{k:v for k,v in a.items() if k not in ['case_id','expected']},
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: dict() got multiple values for keyword argument 'closing_command_m'

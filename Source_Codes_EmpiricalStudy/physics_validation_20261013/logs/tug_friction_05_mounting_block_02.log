@@ -1,0 +1,45 @@
+[INFO][AppLauncher]: Using device: cuda:0
+[INFO][AppLauncher]: Loading experience file: /home/qyb/RESEARCH/baseline_graspgen/.venv-sim/lib/python3.11/site-packages/isaaclab/apps/isaaclab.python.headless.kit
+Loading user config located at: '/home/qyb/RESEARCH/baseline_graspgen/.venv-sim/lib/python3.11/site-packages/isaacsim/kit/data/Kit/Isaac-Sim/5.1/user.config.json'
+[Info] [carb] Logging to file: /home/qyb/RESEARCH/baseline_graspgen/.venv-sim/lib/python3.11/site-packages/isaacsim/kit/logs/Kit/Isaac-Sim/5.1/kit_20261013_165749.log
+2026-10-13T08:57:49Z [0ms] [Warning] [carb.crashreporter-breakpad.plugin] [previous crash] preventing upload of minidump due to user opt-out: '/home/qyb/RESEARCH/baseline_graspgen/.venv-sim/lib/python3.11/site-packages/isaacsim/kit/data/Kit/Isaac-Sim/5.1/55279da5-0c79-4928-f9c93c9c-6efd8c21.dmp'
+2026-10-13T08:57:49Z [1ms] [Warning] [carb.crashreporter-breakpad.plugin] [previous crash] preventing upload of minidump due to user opt-out: '/home/qyb/RESEARCH/baseline_graspgen/.venv-sim/lib/python3.11/site-packages/isaacsim/kit/data/Kit/Isaac-Sim/5.1/032e3612-06dd-4aec-b5bde9b7-480f15ed.dmp'
+2026-10-13T08:57:49Z [1ms] [Warning] [carb.crashreporter-breakpad.plugin] [previous crash] preventing upload of minidump due to user opt-out: '/home/qyb/RESEARCH/MultiCamera_RL_Dynamic_Grasping/.venv/lib/python3.11/site-packages/isaacsim/kit/data/Kit/Isaac-Sim/5.1/1b23615e-a62a-4395-0d476b8f-91b08963.dmp'
+2026-10-13T08:57:49Z [1ms] [Warning] [carb.crashreporter-breakpad.plugin] [previous crash] preventing upload of minidump due to user opt-out: '/home/qyb/RESEARCH/MultiCamera_RL_Dynamic_Grasping/.venv/lib/python3.11/site-packages/isaacsim/kit/data/Kit/Isaac-Sim/5.1/7c5920d9-31f6-482f-33e041a5-15088166.dmp'
+2026-10-13T08:57:49Z [94ms] [Warning] [omni.usd_config.extension] Enable omni.materialx.libs extension to use MaterialX
+2026-10-13T08:57:49Z [328ms] [Warning] [omni.platforminfo.plugin] failed to open the default display.  Can't verify X Server version.
+2026-10-13T08:57:49Z [514ms] [Warning] [carb] Acquiring non optional plugin interface which is not listed as dependency: [omni::physx::IPhysxBenchmarks v1.0] (plugin: <default plugin>), by client: omni.physics.physx.plugin. Add it to CARB_PLUGIN_IMPL_DEPS() macro of a client.
+2026-10-13T08:57:49Z [523ms] [Warning] [omni.isaac.dynamic_control] omni.isaac.dynamic_control is deprecated as of Isaac Sim 4.5. No action is needed from end-users.
+
+|---------------------------------------------------------------------------------------------|
+| Driver Version: 595.71.05     | Graphics API: Vulkan
+|=============================================================================================|
+| GPU | Name                             | Active | LDA | GPU Memory | Vendor-ID | LUID       |
+|     |                                  |        |     |            | Device-ID | UUID       |
+|     |                                  |        |     |            | Bus-ID    |            |
+|---------------------------------------------------------------------------------------------|
+| 0   | NVIDIA GeForce RTX 4090          | Yes: 0 |     | 24810   MB | 10de      | 0          |
+|     |                                  |        |     |            | 2684      | 1f920151.. |
+|     |                                  |        |     |            | 1         |            |
+|=============================================================================================|
+| OS: 25.10 (Questing Quokka) ubuntu, Version: 25.10.0, Kernel: 6.17.0-41-generic
+| Processor: Intel(R) Core(TM) i7-10700K CPU @ 3.80GHz
+| Cores: 8 | Logical Cores: 16
+|---------------------------------------------------------------------------------------------|
+| Total Memory (MB): 94096 | Free Memory: 15039
+| Total Page/Swap (MB): 8191 | Free Page/Swap: 7256
+|---------------------------------------------------------------------------------------------|
+2026-10-13T08:57:51Z [2,181ms] [Warning] [gpu.foundation.plugin] CPU performance profile is set to powersave. This profile sets the CPU to the lowest frequency reducing performance.
+2026-10-13T08:57:51Z [2,190ms] [Warning] [gpu.foundation.plugin] IOMMU is enabled.
+[0m[94m  🔍 Validating 26 grasps with franka_panda.usd[0m[94m, and creating USD file: /home/qyb/RESEARCH/Robotic_Grasping/Source_Codes_EmpiricalStudy/physics_validation_20261013/inputs/mounting_block_02.usd[0m
+[95m  🔄 Preparing Batch 1/1                              [0m
+[36m======================================================================================[0m
+[36m[1m[INFO][IsaacLab]: Logging to file: /tmp/isaaclab/logs/isaaclab_2026-10-13_16-57-51.log[0m
+[36m======================================================================================[0m
+
+[33m16:57:51 [simulation_context.py] WARNING: The `enable_external_forces_every_iteration` parameter in the PhysxCfg is set to False. If you are experiencing noisy velocities, consider enabling this flag. You may need to slightly increase the number of velocity iterations (setting it to 1 or 2 rather than 0), together with this flag, to improve the accuracy of velocity updates.[0m
+[0m[95m  🔄 Batch 1/1:  6%    Sim: 0.2s / Real: 0.4s               [0m[95m  🔄 Batch 1/1: 22%    Sim: 0.8s / Real: 1.4s               [0m[33m16:57:54 [rigid_object.py] WARNING: The function 'set_external_force_and_torque' will be deprecated in a future release. Please use 'permanent_wrench_composer.set_forces_and_torques' instead.[0m
+[95m  🔄 Batch 1/1: 44%    Sim: 1.6s / Real: 2.4s               [0m[95m  🔄 Batch 1/1: 72%    Sim: 2.5s / Real: 3.4s               [0m[0m[91mGrasp file was not created with grasp_guess[0m
+[92mcreated 0 successes and 26 fails[0m
+[94mSaving grasps to /home/qyb/RESEARCH/Robotic_Grasping/Source_Codes_EmpiricalStudy/physics_validation_20261013/results/tug/friction_05/mounting_block_02/official/franka_panda/mounting_block_02.yaml...[0m
+RESULT {"rows": [{"case_id": "case_0021", "success": false, "closing_command_m": 0.03845576845493798, "expected": null}, {"case_id": "case_0022", "success": false, "closing_command_m": 0.027707424794110473, "expected": null}, {"case_id": "case_0023", "success": false, "closing_command_m": 0.04675904561583885, "expected": null}, {"case_id": "case_0024", "success": false, "closing_command_m": 0.012390197319763449, "expected": null}, {"case_id": "case_0025", "success": false, "closing_command_m": 0.03736052444623622, "expected": null}, {"case_id": "case_0026", "success": false, "closing_command_m": 0.03577367295658962, "expected": null}, {"case_id": "case_0027", "success": false, "closing_command_m": 0.04004684043002342, "expected": null}, {"case_id": "case_0028", "success": false, "closing_command_m": 0.04682886609286914, "expected": null}, {"case_id": "case_0029", "success": false, "closing_command_m": 0.006404187237444878, "expected": null}, {"case_id": "case_0030", "success": false, "closing_command_m": 0.027031434160569023, "expected": null}, {"case_id": "case_0031", "success": false, "closing_command_m": 0.013612521742564745, "expected": null}, {"case_id": "case_0032", "success": false, "closing_command_m": 0.03928742395802973, "expected": null}, {"case_id": "case_0033", "success": false, "closing_command_m": 0.039087060969640874, "expected": null}, {"case_id": "case_0034", "success": false, "closing_command_m": 0.021108763273703257, "expected": null}, {"case_id": "case_0035", "success": false, "closing_command_m": 0.040672886365359734, "expected": null}, {"case_id": "case_0036", "success": false, "closing_command_m": 0.04635865161533942, "expected": null}, {"case_id": "case_0037", "success": false, "closing_command_m": 0.04041805763536674, "expected": null}, {"case_id": "case_0038", "success": false, "closing_command_m": 0.032527248558428506, "expected": null}, {"case_id": "case_0039", "success": false, "closing_command_m": 0.034951972204662465, "expected": null}, {"case_id": "case_0040", "success": false, "closing_command_m": 0.03744677286113776, "expected": null}, {"case_id": "case_0041", "success": false, "closing_command_m": 0.013074276364787843, "expected": null}, {"case_id": "case_0042", "success": false, "closing_command_m": 0.03730865937810707, "expected": null}, {"case_id": "case_0043", "success": false, "closing_command_m": 0.035292636641825186, "expected": null}, {"case_id": "case_0044", "success": false, "closing_command_m": 0.0366078806450134, "expected": null}, {"case_id": "case_0045", "success": false, "closing_command_m": 0.03841742022090202, "expected": null}, {"case_id": "case_0046", "success": false, "closing_command_m": 0.03974471186311186, "expected": null}], "seconds": 5.518195058015408}

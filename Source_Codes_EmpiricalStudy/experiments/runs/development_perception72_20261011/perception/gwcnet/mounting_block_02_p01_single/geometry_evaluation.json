@@ -1,0 +1,33 @@
+{
+  "episode_id": "mounting_block_02_p01_single",
+  "evaluation_only": true,
+  "ground_truth_used_only_here": true,
+  "target_cloud_points": 8985,
+  "reference_visible_points": 12056,
+  "thresholds_mm": [
+    1,
+    2,
+    5
+  ],
+  "native_robot_execution_performed": false,
+  "surface_mae_mm": 34.62324455454883,
+  "surface_p95_mm": 78.38187931967913,
+  "surface_precision": {
+    "1": 0.14034501947690595,
+    "2": 0.24407345575959932,
+    "5": 0.3421257651641625
+  },
+  "four_view_visible_coverage": {
+    "1": 0.2121765096217651,
+    "2": 0.46897810218978103,
+    "5": 0.921449900464499
+  },
+  "stereo_target_depth": {
+    "gt_visible_pixels": 3144,
+    "valid_pixels": 3144,
+    "valid_fraction": 1.0,
+    "mae_mm": 3.1282832622528076,
+    "p95_mm": 6.419003009796142,
+    "within_5mm_fraction_including_invalid": 0.8568702290076335
+  }
+}

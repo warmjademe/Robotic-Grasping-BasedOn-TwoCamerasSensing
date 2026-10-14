@@ -1,0 +1,121 @@
+{
+  "task_id": "task_0129",
+  "status": "no_plan",
+  "selected": null,
+  "rejected": [
+    {
+      "rank": 1,
+      "reason": "observed_cross_section_outside_opening"
+    },
+    {
+      "rank": 5,
+      "reason": "approach_collision",
+      "collision": {
+        "collision": true,
+        "self_pairs": [],
+        "environment_pairs": [
+          [
+            "panda_leftfinger",
+            "perceived_scene"
+          ]
+        ],
+        "perceived_voxels": 21100
+      }
+    },
+    {
+      "rank": 8,
+      "reason": "approach_collision",
+      "collision": {
+        "collision": true,
+        "self_pairs": [],
+        "environment_pairs": [
+          [
+            "panda_hand",
+            "wall0"
+          ]
+        ],
+        "perceived_voxels": 21100
+      }
+    },
+    {
+      "rank": 2,
+      "reason": "approach_collision",
+      "collision": {
+        "collision": true,
+        "self_pairs": [],
+        "environment_pairs": [
+          [
+            "panda_leftfinger",
+            "wall0"
+          ]
+        ],
+        "perceived_voxels": 21100
+      }
+    },
+    {
+      "rank": 9,
+      "reason": "observed_cross_section_outside_opening"
+    },
+    {
+      "rank": 10,
+      "reason": "approach_collision",
+      "collision": {
+        "collision": true,
+        "self_pairs": [],
+        "environment_pairs": [
+          [
+            "panda_leftfinger",
+            "perceived_scene"
+          ]
+        ],
+        "perceived_voxels": 21100
+      }
+    },
+    {
+      "rank": 6,
+      "reason": "observed_cross_section_outside_opening"
+    },
+    {
+      "rank": 0,
+      "reason": "observed_cross_section_outside_opening"
+    },
+    {
+      "rank": 4,
+      "reason": "approach_collision",
+      "collision": {
+        "collision": true,
+        "self_pairs": [],
+        "environment_pairs": [
+          [
+            "panda_hand",
+            "wall0"
+          ]
+        ],
+        "perceived_voxels": 21100
+      }
+    },
+    {
+      "rank": 7,
+      "reason": "observed_cross_section_outside_opening"
+    },
+    {
+      "rank": 3,
+      "reason": "observed_cross_section_outside_opening"
+    }
+  ],
+  "host": "qyb-SJHY-ubuntu25",
+  "pid": 1108519,
+  "candidate_count": 11,
+  "ground_truth_used": false,
+  "protocol_sha256": "24eb3735a29abcfc189ee7ecb5a34851fbc070e549b96df67f030f50d3862bc6",
+  "cloud_sha256": "09d6606af450066b0f508d4f3d1150c32ac1198860bc25bb33a1de8b20811d99",
+  "grasps_sha256": "8340ed634ce00558e731a223472ff24f53f63d2b3bcb64a0504501ec8216fb72",
+  "home_check": {
+    "collision": false,
+    "self_pairs": [],
+    "environment_pairs": [],
+    "perceived_voxels": 21100
+  },
+  "seconds": 2.9398884499969427,
+  "planning_parallelism": 4
+}

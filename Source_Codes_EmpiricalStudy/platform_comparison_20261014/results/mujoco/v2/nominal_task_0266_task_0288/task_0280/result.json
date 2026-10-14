@@ -1,0 +1,77 @@
+{
+  "status": "completed",
+  "rows": [
+    {
+      "physics_lift_success": true,
+      "approach_endpoint_reached": true,
+      "collision_free": true,
+      "execution_success": true,
+      "execution_and_return": false,
+      "returned_to_origin_success": false,
+      "prohibited_contact_steps": 0,
+      "max_arm_contact_force_n": 0.0,
+      "max_finger_non_target_force_n": 0.0,
+      "approach_position_error_mm": 0.053086933641607485,
+      "approach_rotation_error_deg": 0.0031341006701830357,
+      "min_hold_bottom_clearance_m": 0.1361621162534615,
+      "return_xy_error_m": 0.04883096370811382,
+      "final_bottom_clearance_m": -0.0002390877515714672,
+      "hold_sim_s": 2.0,
+      "object_attached": false,
+      "object_pose_written_after_initialization": false,
+      "task_id": "task_0280",
+      "expected": null,
+      "platform": "franka_mujoco",
+      "profile": "nominal"
+    }
+  ],
+  "host": "qyb-SJHY-ubuntu25",
+  "platform": "franka_mujoco",
+  "profile": "nominal",
+  "seconds": 11.342783323983895,
+  "compile_seconds": 0.21624389698263258,
+  "simulation_wall_seconds": 11.114803406002466,
+  "simulated_seconds": 20.500000000000185,
+  "parallelism": 1,
+  "object_collision_parts": [
+    {
+      "object_id": "spacer_03",
+      "role": "target",
+      "convex_parts": 64,
+      "mesh_sha256": "7c26f8185ccb20a3e9db0eac4bee82502425c9805fbf04acb8621dadd7960a16"
+    },
+    {
+      "object_id": "mounting_block_02",
+      "role": "distractor",
+      "convex_parts": 64,
+      "mesh_sha256": "8f809da2ce5dce4376ac66af7c5059f360a09c1b1b91b0392c8275162dcf27c3"
+    },
+    {
+      "object_id": "mounting_block_03",
+      "role": "distractor",
+      "convex_parts": 64,
+      "mesh_sha256": "72491634f8290d2317014be6ea3b226a4deda5182210895478574421d3193ac9"
+    },
+    {
+      "object_id": "mounting_block_04",
+      "role": "distractor",
+      "convex_parts": 64,
+      "mesh_sha256": "0f627adb313cd4906408fbe4ccc907babe7372b4b611fcadaef6a7e298b3ce3b"
+    }
+  ],
+  "fk_position_error_m": 5.254873999801163e-12,
+  "fk_rotation_error_rad": 3.491808619531733e-08,
+  "protocol_sha256": "24eb3735a29abcfc189ee7ecb5a34851fbc070e549b96df67f030f50d3862bc6",
+  "code_sha256": "d3af9439747e39cbd99e912ede61d64a3ecc2f593187d9202796a1c0c05c1e79",
+  "versions": {
+    "mujoco": "3.3.7",
+    "numpy": "1.26.4",
+    "scipy": "1.15.3",
+    "trimesh": "4.5.3",
+    "vhacdx": "0.0.10"
+  },
+  "robot_asset_commit": "d7b481bac63d3d600ab404ee74f7474c5efe8a67",
+  "robot_asset_sha256": "96ad67da03710f17f798c9478fd9e9efdf24a3bf8359f05e456dd9fb158ea273",
+  "object_attached": false,
+  "notes": "Menagerie native collision and inertia; robot gravity compensation, independent finger PD; no scene-pose feedback control."
+}

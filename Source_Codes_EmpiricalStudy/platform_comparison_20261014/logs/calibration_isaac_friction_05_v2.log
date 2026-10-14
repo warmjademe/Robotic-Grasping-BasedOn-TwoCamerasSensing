@@ -1,0 +1,50 @@
+Loading user config located at: '/home/qyb/RESEARCH/baseline_graspgen/.venv-sim/lib/python3.11/site-packages/isaacsim/kit/data/Kit/Isaac-Sim/5.1/user.config.json'
+[Info] [carb] Logging to file: /home/qyb/RESEARCH/baseline_graspgen/.venv-sim/lib/python3.11/site-packages/isaacsim/kit/logs/Kit/Isaac-Sim/5.1/kit_20261014_091027.log
+2026-10-14T01:10:27Z [124ms] [Warning] [omni.usd_config.extension] Enable omni.materialx.libs extension to use MaterialX
+2026-10-14T01:10:28Z [311ms] [Error] [omni.ext.plugin] Could not load the dynamic library from /home/qyb/RESEARCH/baseline_graspgen/.venv-sim/lib/python3.11/site-packages/isaacsim/extscache/omni.iray.libs-0.0.0+69cbf6ad.lx64.r/bin/iray/libneuray.so. Error: libGLU.so.1: cannot open shared object file: No such file or directory (note that this may be caused by a dependent library)
+[INFO][AppLauncher]: Using device: cuda:0
+[INFO][AppLauncher]: Loading experience file: /home/qyb/RESEARCH/baseline_graspgen/.venv-sim/lib/python3.11/site-packages/isaaclab/apps/isaaclab.python.headless.kit
+
+[36m======================================================================================[0m
+[36m[1m[INFO][IsaacLab]: Logging to file: /tmp/isaaclab/logs/isaaclab_2026-10-14_09-10-33.log[0m
+[36m======================================================================================[0m
+
+[33m09:10:33 [simulation_context.py] WARNING: The `enable_external_forces_every_iteration` parameter in the PhysxCfg is set to False. If you are experiencing noisy velocities, consider enabling this flag. You may need to slightly increase the number of velocity iterations (setting it to 1 or 2 rather than 0), together with this flag, to improve the accuracy of velocity updates.[0m
+ROBOT ['panda_joint1', 'panda_joint2', 'panda_joint3', 'panda_joint4', 'panda_joint5', 'panda_joint6', 'panda_joint7', 'panda_finger_joint1', 'panda_finger_joint2'] ['panda_link0', 'panda_link1', 'panda_link2', 'panda_link3', 'panda_link4', 'panda_link5', 'panda_link6', 'panda_link7', 'panda_hand', 'panda_leftfinger', 'panda_rightfinger']
+PHASE settle target_z [0.015, 0.015, 0.015, 0.015]
+PHASE transit target_z [0.015, 0.015, 0.015, 0.015]
+PHASE approach target_z [0.015, 0.015, 0.015, 0.015]
+PHASE approach_hold target_z [0.015, 0.015, 0.015, 0.015]
+PHASE close target_z [0.015, 0.015, 0.015, 0.015]
+PHASE lift target_z [0.1611, 0.015, 0.015, 0.015]
+PHASE hold target_z [0.164, 0.015, 0.015, 0.015]
+PHASE lower target_z [0.0173, 0.015, 0.015, 0.015]
+PHASE release target_z [0.015, 0.015, 0.015, 0.015]
+PHASE retreat target_z [0.015, 0.015, 0.015, 0.015]
+PHASE placed_hold target_z [0.015, 0.015, 0.015, 0.015]
+RESULT {"stage": "full_arm_physics", "status": "completed", "rows": [{"task_id": "centered_box", "platform": "franka_isaac", "profile": "friction_05", "expected": true, "physics_lift_success": true, "collision_free": true, "prohibited_contact_steps": 0, "max_finger_non_target_force_n": 0.0, "max_arm_contact_force_n": 0.0, "execution_success": true, "approach_endpoint_reached": true, "approach_position_error_mm": 0.10578626413672254, "approach_rotation_error_deg": 0.018478263507881475, "min_hold_bottom_clearance_m": 0.14638144092085706, "hold_sim_s": 2.0, "returned_to_origin_success": true, "execution_and_return": true, "return_xy_error_m": 0.0010557521600276232, "final_bottom_clearance_m": -1.260990154204611e-07, "initial_settling_translation_m": 4.6719552670992925e-09, "closing_command_m": 0.0, "object_attached": false}, {"task_id": "far_negative", "platform": "franka_isaac", "profile": "friction_05", "expected": false, "physics_lift_success": false, "collision_free": true, "prohibited_contact_steps": 0, "max_finger_non_target_force_n": 0.1201755627989769, "max_arm_contact_force_n": 0.0, "execution_success": false, "approach_endpoint_reached": true, "approach_position_error_mm": 0.10606221562643829, "approach_rotation_error_deg": 0.018478263507881475, "min_hold_bottom_clearance_m": -3.8252515344519566e-08, "hold_sim_s": 2.0, "returned_to_origin_success": false, "execution_and_return": false, "return_xy_error_m": 8.679488239238253e-10, "final_bottom_clearance_m": -2.0893093616303204e-08, "initial_settling_translation_m": 6.34853636327648e-09, "closing_command_m": 0.0, "object_attached": false}, {"task_id": "open_negative", "platform": "franka_isaac", "profile": "friction_05", "expected": false, "physics_lift_success": false, "collision_free": true, "prohibited_contact_steps": 0, "max_finger_non_target_force_n": 0.0, "max_arm_contact_force_n": 0.0, "execution_success": false, "approach_endpoint_reached": true, "approach_position_error_mm": 0.10429822503410946, "approach_rotation_error_deg": 0.018478263507881475, "min_hold_bottom_clearance_m": -3.258221730785549e-08, "hold_sim_s": 2.0, "returned_to_origin_success": false, "execution_and_return": false, "return_xy_error_m": 1.571707652914256e-09, "final_bottom_clearance_m": -2.5382934974380045e-08, "initial_settling_translation_m": 7.587610539872003e-09, "closing_command_m": 0.08, "object_attached": false}, {"task_id": "collision_blocked", "platform": "franka_isaac", "profile": "friction_05", "expected": false, "physics_lift_success": false, "collision_free": false, "prohibited_contact_steps": 3188, "max_finger_non_target_force_n": 159.64041137695312, "max_arm_contact_force_n": 0.0, "execution_success": false, "approach_endpoint_reached": false, "approach_position_error_mm": 107.58869338593857, "approach_rotation_error_deg": 16.751721874690325, "min_hold_bottom_clearance_m": -4.0756789332352383e-08, "hold_sim_s": 2.0, "returned_to_origin_success": false, "execution_and_return": false, "return_xy_error_m": 1.1830367796505925e-09, "final_bottom_clearance_m": -2.8205357943331122e-08, "initial_settling_translation_m": 7.734774598588956e-09, "closing_command_m": 0.0, "object_attached": false}], "seconds": 41.36864203598816, "fps": 250, "friction": 0.5, "object_mass_kg": 0.1, "gravity_m_s2": 9.81, "model": "Isaac Lab native FRANKA_PANDA_HIGH_PD_CFG", "host": "qyb-SJHY-ubuntu25", "platform": "franka_isaac", "profile": "friction_05", "parallelism": 4, "controller": "Isaac PhysX implicit joint drives", "object_attached": false, "object_pose_written_after_initialization": false, "phases": [["settle", 1.0], ["transit", 3.0], ["approach", 2.0], ["approach_hold", 1.0], ["close", 1.5], ["lift", 3.0], ["hold", 2.0], ["lower", 3.0], ["release", 1.0], ["retreat", 2.0], ["placed_hold", 1.0]], "code_sha256": "259945a05444ed85f618352c113ffedaf932a0c95f25206329427d2760560617", "manifest_sha256": "71f09a97706a67dd68cc43ecba80f95268776249033d28e2965564fa0dd1a5c2", "protocol_sha256": "24eb3735a29abcfc189ee7ecb5a34851fbc070e549b96df67f030f50d3862bc6", "versions": {"isaacsim": "5.1.0.0", "isaaclab": "2.3.2.post1", "torch": "2.7.0+cu128"}, "collision_definition": "Any nonfinger housing contact or finger non-target resultant normal force >0.5 N after settling", "friction_scope": "Explicit target/distractor/table material and updated imported robot materials; actual shape materials recorded below", "notes": "Lift, endpoint tracking, prohibited contact and placement are reported separately.", "actual_robot_materials_first_env": [[0.5, 0.5, 0.0], [0.5, 0.5, 0.0], [0.5, 0.5, 0.0], [0.5, 0.5, 0.0], [0.5, 0.5, 0.0], [0.5, 0.5, 0.0], [0.5, 0.5, 0.0], [0.5, 0.5, 0.0], [0.5, 0.5, 0.0], [0.5, 0.5, 0.0], [0.5, 0.5, 0.0]], "actual_robot_effort_limits_first_env": [87.0, 87.0, 87.0, 87.0, 12.0, 12.0, 12.0, 20.0, 20.0]}
+2026-10-14T01:10:28Z [432ms] [Warning] [omni.platforminfo.plugin] failed to open the default display.  Can't verify X Server version.
+2026-10-14T01:10:28Z [639ms] [Warning] [carb] Acquiring non optional plugin interface which is not listed as dependency: [omni::physx::IPhysxBenchmarks v1.0] (plugin: <default plugin>), by client: omni.physics.physx.plugin. Add it to CARB_PLUGIN_IMPL_DEPS() macro of a client.
+2026-10-14T01:10:28Z [650ms] [Warning] [omni.isaac.dynamic_control] omni.isaac.dynamic_control is deprecated as of Isaac Sim 4.5. No action is needed from end-users.
+
+|---------------------------------------------------------------------------------------------|
+| Driver Version: 580.126.09    | Graphics API: Vulkan
+|=============================================================================================|
+| GPU | Name                             | Active | LDA | GPU Memory | Vendor-ID | LUID       |
+|     |                                  |        |     |            | Device-ID | UUID       |
+|     |                                  |        |     |            | Bus-ID    |            |
+|---------------------------------------------------------------------------------------------|
+| 0   | NVIDIA GeForce RTX 4090          | Yes: 0 |     | 24810   MB | 10de      | 0          |
+|     |                                  |        |     |            | 2684      | 669faedc.. |
+|     |                                  |        |     |            | 1         |            |
+|=============================================================================================|
+| OS: 25.10 (Questing Quokka) ubuntu, Version: 25.10.539128674, Kernel: 6.17.0-19-generic
+| Processor: Intel(R) Core(TM) i5-10400 CPU @ 2.90GHz
+| Cores: 6 | Logical Cores: 12
+|---------------------------------------------------------------------------------------------|
+| Total Memory (MB): 61898 | Free Memory: 44143
+| Total Page/Swap (MB): 8191 | Free Page/Swap: 4775
+|---------------------------------------------------------------------------------------------|
+2026-10-14T01:10:33Z [5,672ms] [Warning] [gpu.foundation.plugin] CPU performance profile is set to powersave. This profile sets the CPU to the lowest frequency reducing performance.
+2026-10-14T01:10:33Z [5,681ms] [Warning] [gpu.foundation.plugin] PCIe link width current (4) and maximum (16) for device 0 don't match.
+2026-10-14T01:10:33Z [5,681ms] [Warning] [gpu.foundation.plugin] IOMMU is enabled.

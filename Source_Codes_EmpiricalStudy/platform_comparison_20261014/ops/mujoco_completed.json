@@ -1,0 +1,9 @@
+{
+  "completed_unix": 1791944234.4650867,
+  "selected": 208,
+  "jobs": 67,
+  "infrastructure_errors": [
+    "nominal_task_0050_task_0083.json",
+    "nominal_task_0024_task_0049.json"
+  ]
+}

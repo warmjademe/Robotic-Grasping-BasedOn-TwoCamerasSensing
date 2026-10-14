@@ -1,0 +1,11 @@
+rq,profile,method,all_scenes,selected,old_geometry,tug,lift,endpoint,collision_free,execution,lift_and_return,execution_and_return,execution_over_selected,execution_over_all_scenes
+RQ3,nominal,6dof_graspnet,72,1,0,0,1,1,1,1,1,1,1.0,0.013888888888888888
+RQ3,nominal,contact_graspnet,72,2,0,0,2,2,2,2,2,2,1.0,0.027777777777777776
+RQ3,nominal,gpd,72,41,8,8,21,41,37,18,21,18,0.43902439024390244,0.25
+RQ3,nominal,graspgen,72,51,8,13,51,51,42,42,51,42,0.8235294117647058,0.5833333333333334
+RQ3,nominal,graspnet_baseline,72,6,0,0,2,6,4,1,1,1,0.16666666666666666,0.013888888888888888
+RQ3,friction_05,6dof_graspnet,72,1,0,0,0,1,1,0,0,0,0.0,0.0
+RQ3,friction_05,contact_graspnet,72,2,0,0,2,2,2,2,2,2,1.0,0.027777777777777776
+RQ3,friction_05,gpd,72,41,8,8,13,41,37,11,11,9,0.2682926829268293,0.1527777777777778
+RQ3,friction_05,graspgen,72,51,8,6,33,51,41,27,27,23,0.5294117647058824,0.375
+RQ3,friction_05,graspnet_baseline,72,6,0,0,1,6,5,1,1,1,0.16666666666666666,0.013888888888888888

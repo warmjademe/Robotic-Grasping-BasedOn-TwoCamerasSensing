@@ -1,0 +1,185 @@
+{
+  "schema_version": 1,
+  "run_id": "development_rq_20261012",
+  "created_at": "2026-10-11T23:56:30.342480+00:00",
+  "split": "development",
+  "episodes": [
+    "spacer_01_p01_single",
+    "spacer_01_p01_neighbours",
+    "spacer_01_p01_bin_walls",
+    "spacer_01_p02_single",
+    "spacer_01_p02_neighbours",
+    "spacer_01_p02_bin_walls",
+    "spacer_01_p03_single",
+    "spacer_01_p03_neighbours",
+    "spacer_01_p03_bin_walls",
+    "spacer_02_p01_single",
+    "spacer_02_p01_neighbours",
+    "spacer_02_p01_bin_walls",
+    "spacer_02_p02_single",
+    "spacer_02_p02_neighbours",
+    "spacer_02_p02_bin_walls",
+    "spacer_02_p03_single",
+    "spacer_02_p03_neighbours",
+    "spacer_02_p03_bin_walls",
+    "spacer_03_p01_single",
+    "spacer_03_p01_neighbours",
+    "spacer_03_p01_bin_walls",
+    "spacer_03_p02_single",
+    "spacer_03_p02_neighbours",
+    "spacer_03_p02_bin_walls",
+    "spacer_03_p03_single",
+    "spacer_03_p03_neighbours",
+    "spacer_03_p03_bin_walls",
+    "spacer_04_p01_single",
+    "spacer_04_p01_neighbours",
+    "spacer_04_p01_bin_walls",
+    "spacer_04_p02_single",
+    "spacer_04_p02_neighbours",
+    "spacer_04_p02_bin_walls",
+    "spacer_04_p03_single",
+    "spacer_04_p03_neighbours",
+    "spacer_04_p03_bin_walls",
+    "mounting_block_01_p01_single",
+    "mounting_block_01_p01_neighbours",
+    "mounting_block_01_p01_bin_walls",
+    "mounting_block_01_p02_single",
+    "mounting_block_01_p02_neighbours",
+    "mounting_block_01_p02_bin_walls",
+    "mounting_block_01_p03_single",
+    "mounting_block_01_p03_neighbours",
+    "mounting_block_01_p03_bin_walls",
+    "mounting_block_02_p01_single",
+    "mounting_block_02_p01_neighbours",
+    "mounting_block_02_p01_bin_walls",
+    "mounting_block_02_p02_single",
+    "mounting_block_02_p02_neighbours",
+    "mounting_block_02_p02_bin_walls",
+    "mounting_block_02_p03_single",
+    "mounting_block_02_p03_neighbours",
+    "mounting_block_02_p03_bin_walls",
+    "mounting_block_03_p01_single",
+    "mounting_block_03_p01_neighbours",
+    "mounting_block_03_p01_bin_walls",
+    "mounting_block_03_p02_single",
+    "mounting_block_03_p02_neighbours",
+    "mounting_block_03_p02_bin_walls",
+    "mounting_block_03_p03_single",
+    "mounting_block_03_p03_neighbours",
+    "mounting_block_03_p03_bin_walls",
+    "mounting_block_04_p01_single",
+    "mounting_block_04_p01_neighbours",
+    "mounting_block_04_p01_bin_walls",
+    "mounting_block_04_p02_single",
+    "mounting_block_04_p02_neighbours",
+    "mounting_block_04_p02_bin_walls",
+    "mounting_block_04_p03_single",
+    "mounting_block_04_p03_neighbours",
+    "mounting_block_04_p03_bin_walls"
+  ],
+  "dataset_manifest_sha256": "f94365f0c50abf56469a052f47463b62849fb5fd072cce8572a551ea2f3b4a2d",
+  "perception_methods": [
+    "stereobm",
+    "sgm",
+    "foundationstereo",
+    "psmnet",
+    "raft_stereo",
+    "igev_stereo",
+    "gwcnet"
+  ],
+  "grasp_methods": [
+    "graspgen",
+    "6dof_graspnet",
+    "contact_graspnet",
+    "gpd",
+    "graspnet_baseline"
+  ],
+  "pipeline_combinations": [
+    [
+      "stereobm",
+      "graspgen"
+    ],
+    [
+      "sgm",
+      "graspgen"
+    ],
+    [
+      "foundationstereo",
+      "graspgen"
+    ],
+    [
+      "psmnet",
+      "graspgen"
+    ],
+    [
+      "raft_stereo",
+      "graspgen"
+    ],
+    [
+      "igev_stereo",
+      "graspgen"
+    ],
+    [
+      "gwcnet",
+      "graspgen"
+    ],
+    [
+      "foundationstereo",
+      "6dof_graspnet"
+    ],
+    [
+      "foundationstereo",
+      "contact_graspnet"
+    ],
+    [
+      "foundationstereo",
+      "gpd"
+    ],
+    [
+      "foundationstereo",
+      "graspnet_baseline"
+    ]
+  ],
+  "unique_combinations": 11,
+  "expected_perception_results": 504,
+  "expected_grasp_jobs": 792,
+  "seed_policy": "Development only: retain current backend seeds; not three-seed formal evidence",
+  "backend_seeds": {
+    "graspgen": 0,
+    "6dof_graspnet": 0,
+    "contact_graspnet": 0,
+    "graspnet_baseline": 0,
+    "gpd": 20261011
+  },
+  "model_weights_updated": false,
+  "multiview_included": false,
+  "test_set_started": false,
+  "native_fanuc_executions": 0,
+  "fanuc_grasp_success_rate": null,
+  "source_sha256": {
+    "fanuc_integration_requirements.json": "14721d2628afeb736176218e6ae2803bf7729ee68a03585822b3a6b36bded298",
+    "audit_development.py": "78087a9e3a73068e36e83d3f1f0c7bec9d1142095a69c2801d10452f3767a33a",
+    "rq_study.py": "fd6c5bdc011d10864048fd09fde8e4eef4d54c5c6b3b0990e3d1a619b43430af",
+    "multiview.py": "73888386e76a63f1836479c9e0b042a5f9f21229e4711149d4d325543cb4c9d1",
+    "run_development.py": "151ae3649fc599e8240b712a7d79cfab901ee78641a949cc34c4fab91122d10c",
+    "run_raft_recovery.py": "8118e0cbc3089a9a74a579db3caead7a0004056c838140d57850e77b452b435e",
+    "perception.py": "08509e53aa7b836d3140ef6ded7982b2869ae808e49f0e3fc38444246e6ce9cf",
+    "abb_console.py": "a43fa90ca75557a3ad115a61b7377da1ff9438940b84589a001a2d06c94f4910",
+    "evaluation_protocol.json": "23e2bb5812947d55ed77fe8ad2cf791e840972abffc8a0098a4be84bba64e500",
+    "evaluate_perception.py": "c6fc0043c7f41a46ecf4c8c534f9979801d6366ed2e954c56b78c07a4fd4cc93",
+    "grasp_shared/register_new_methods.py": "15da6438d16a3b9f549bd03c10ef5d5ac358b18337b30868d430e2577823e7a7",
+    "grasp_shared/validate_outputs.py": "4cedf4528622ceb0fb00d7dbf4afee8f7230616aa9a633b01525177cd49a4e6e",
+    "grasp_shared/export_legacy_cloud.py": "b44e90330f9241a5513918621e31880da22c6525197a0bb55ca919962784bead",
+    "grasp_shared/backends.py": "66389bb8013135965af73bda344e93abbd9490aeeb93e91c1364d8b3b19bae6f",
+    "grasp_shared/inventory_checkpoints.py": "a84ab9e6bd8b70733caf4fd6da7f05737d5824bc12a35b3ad1fe66253639ee31",
+    "grasp_shared/validate_legacy_exports.py": "4717821d720ec4f99e8123d1643da9e6678c68518caf58ee274bb5fb0ffe84b3",
+    "grasp_shared/contract.py": "bc1da891fd618343b24deb76f19137f19e640f4b402c2d89368b886c759a6b5c",
+    "grasp_shared/validate_new_method_results.py": "9c77cb3e4e986e5dce73e7c9f0aa9a2c62705f52c777e522c603af2abbee64df",
+    "grasp_shared/validate_review_fixes.py": "29795005008fc1d5ac40f27f4fe5838d72e9211296965b65c446a8af7c1fd4dd",
+    "grasp_shared/run_from_legacy.py": "e40f32cc5001fca972cac47849a57bd0b1c80ce56969a79a4edd3f7aef1f6ced",
+    "grasp_shared/validate_new_backend_results.py": "35762dd3067fd795ef4a8de8b93ece80534e93f85194bf0a1a71c7f9aff17b1b",
+    "grasp_shared/validate_new_backends.py": "e36c40eab6ec6f09b34c4baad176ef95513bf310166d1670ddb67ec9862c47e5",
+    "grasp_shared/infer.py": "9b19ec604a656be0fe7c929e44cdf40bb9111901059a9aeaaa8fba000105387f",
+    "grasp_shared/validate_contract.py": "b8a45a385023898bba2380bc1e729524fbef4fbaf6640dad42fd47999a15e806"
+  }
+}

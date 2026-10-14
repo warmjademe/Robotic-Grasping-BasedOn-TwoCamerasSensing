@@ -1,0 +1,16 @@
+{
+  "opencv": "4.11.0",
+  "max_disparity": 192,
+  "block_size": 15,
+  "checkpoint": null,
+  "implementation": "OpenCV StereoBM",
+  "runtime": "CPU",
+  "weights_retrained": false,
+  "model_load_and_provenance_seconds": 0.0002374640025664121,
+  "source_sha256": "08509e53aa7b836d3140ef6ded7982b2869ae808e49f0e3fc38444246e6ce9cf",
+  "seed": 0,
+  "input_size": [
+    640,
+    480
+  ]
+}

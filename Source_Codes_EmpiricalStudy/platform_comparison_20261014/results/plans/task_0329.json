@@ -1,0 +1,146 @@
+{
+  "task_id": "task_0329",
+  "status": "no_plan",
+  "selected": null,
+  "rejected": [
+    {
+      "rank": 0,
+      "reason": "width_invalid"
+    },
+    {
+      "rank": 1,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 2,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 3,
+      "reason": "width_invalid"
+    },
+    {
+      "rank": 4,
+      "reason": "approach_collision",
+      "collision": {
+        "collision": true,
+        "self_pairs": [],
+        "environment_pairs": [
+          [
+            "panda_leftfinger",
+            "table"
+          ]
+        ],
+        "perceived_voxels": 10557
+      }
+    },
+    {
+      "rank": 5,
+      "reason": "width_invalid"
+    },
+    {
+      "rank": 6,
+      "reason": "width_invalid"
+    },
+    {
+      "rank": 7,
+      "reason": "width_invalid"
+    },
+    {
+      "rank": 8,
+      "reason": "approach_collision",
+      "collision": {
+        "collision": true,
+        "self_pairs": [],
+        "environment_pairs": [
+          [
+            "panda_leftfinger",
+            "table"
+          ]
+        ],
+        "perceived_voxels": 10557
+      }
+    },
+    {
+      "rank": 9,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 10,
+      "reason": "width_invalid"
+    },
+    {
+      "rank": 11,
+      "reason": "width_invalid"
+    },
+    {
+      "rank": 12,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 13,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 14,
+      "reason": "approach_collision",
+      "collision": {
+        "collision": true,
+        "self_pairs": [],
+        "environment_pairs": [
+          [
+            "panda_hand",
+            "perceived_scene"
+          ]
+        ],
+        "perceived_voxels": 10557
+      }
+    },
+    {
+      "rank": 15,
+      "reason": "pregrasp_ik"
+    },
+    {
+      "rank": 16,
+      "reason": "width_invalid"
+    },
+    {
+      "rank": 17,
+      "reason": "approach_collision",
+      "collision": {
+        "collision": true,
+        "self_pairs": [],
+        "environment_pairs": [
+          [
+            "panda_leftfinger",
+            "perceived_scene"
+          ]
+        ],
+        "perceived_voxels": 10557
+      }
+    },
+    {
+      "rank": 18,
+      "reason": "width_invalid"
+    },
+    {
+      "rank": 19,
+      "reason": "approach_direction"
+    }
+  ],
+  "host": "qyb-SJHY-ubuntu25",
+  "pid": 1108518,
+  "candidate_count": 20,
+  "ground_truth_used": false,
+  "protocol_sha256": "24eb3735a29abcfc189ee7ecb5a34851fbc070e549b96df67f030f50d3862bc6",
+  "cloud_sha256": "15e080de872751695f0f900219c6e1e08de4667a024c4226dd5926a8c710aae0",
+  "grasps_sha256": "2846853cf19e75f1998863bc0a71aa8af87b3c9495e025e49d35276fdd6c0995",
+  "home_check": {
+    "collision": false,
+    "self_pairs": [],
+    "environment_pairs": [],
+    "perceived_voxels": 10557
+  },
+  "seconds": 2.1258862410031725,
+  "planning_parallelism": 4
+}

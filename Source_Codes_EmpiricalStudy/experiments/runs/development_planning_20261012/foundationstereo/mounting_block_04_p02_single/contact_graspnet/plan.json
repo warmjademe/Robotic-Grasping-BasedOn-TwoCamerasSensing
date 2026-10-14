@@ -1,0 +1,46 @@
+{
+  "status": "no_plan",
+  "condition": "single",
+  "uses_object_ground_truth": false,
+  "cloud_sha256": "7af2153b0c5f9566cbd87d0ce6b9433d58baf6354e8dc6545450ac7a3ab69783",
+  "grasps_sha256": "65b8e04794bca12ade576fbd35d6e3a6733361ba1e3f2c1e9d931fa4d2e6eeac",
+  "candidate_limit": 200,
+  "planning_budget_s": 30,
+  "native_execution_performed": false,
+  "full_trajectory_collision_validated": false,
+  "rejected": [
+    {
+      "rank": 1,
+      "reason": "observed_cross_section_outside_opening"
+    },
+    {
+      "rank": 0,
+      "reason": "observed_cross_section_outside_opening"
+    },
+    {
+      "rank": 3,
+      "reason": "observed_cross_section_outside_opening"
+    },
+    {
+      "rank": 2,
+      "reason": "observed_cross_section_outside_opening"
+    },
+    {
+      "rank": 4,
+      "reason": "observed_cross_section_outside_opening"
+    },
+    {
+      "rank": 5,
+      "reason": "observed_cross_section_outside_opening"
+    }
+  ],
+  "selected": null,
+  "home_check": {
+    "collision": false,
+    "self_pairs": [],
+    "environment_pairs": [],
+    "perceived_voxels": 16746
+  },
+  "seconds": 0.8745286779885646,
+  "scope": "Sampled geometric planning; native validation and between-sample checks still required"
+}

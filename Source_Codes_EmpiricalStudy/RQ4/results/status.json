@@ -1,0 +1,11 @@
+{
+  "run_id": "development_rq_20261012",
+  "updated_at": "2026-10-12T11:38:45.788004+00:00",
+  "split": "development",
+  "formal_test_started": false,
+  "native_execution_count": 72,
+  "grasp_success_rate": null,
+  "answer_status": "Development stage data and partial native outcomes available; formal test pending",
+  "shared_run": "experiments/runs/development_rq_20261012",
+  "analysis_code": "experiments/rq_study.py"
+}

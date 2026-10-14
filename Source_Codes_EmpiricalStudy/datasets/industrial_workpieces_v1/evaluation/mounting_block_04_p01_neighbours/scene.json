@@ -1,0 +1,160 @@
+{
+  "episode_id": "mounting_block_04_p01_neighbours",
+  "units": "m",
+  "frame_id": "dataset_world",
+  "instances": [
+    {
+      "instance_id": 1,
+      "object_id": "mounting_block_04",
+      "role": "target",
+      "world_from_object": [
+        [
+          -0.5185894095777388,
+          0.8550234056877112,
+          0.0,
+          -0.023021367955961894
+        ],
+        [
+          -0.8550234056877112,
+          -0.5185894095777388,
+          0.0,
+          -0.00882334829347518
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "instance_id": 2,
+      "object_id": "spacer_01",
+      "role": "distractor",
+      "world_from_object": [
+        [
+          -0.996809513158889,
+          -0.07981725675528294,
+          0.0,
+          -0.12
+        ],
+        [
+          0.07981725675528294,
+          -0.996809513158889,
+          0.0,
+          -0.045
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "instance_id": 3,
+      "object_id": "spacer_02",
+      "role": "distractor",
+      "world_from_object": [
+        [
+          0.9432127565197185,
+          0.33218924717467035,
+          0.0,
+          0.12
+        ],
+        [
+          -0.33218924717467035,
+          0.9432127565197185,
+          0.0,
+          0.045
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "instance_id": 4,
+      "object_id": "spacer_03",
+      "role": "distractor",
+      "world_from_object": [
+        [
+          -0.5614143118676781,
+          -0.8275348756579033,
+          0.0,
+          0.0
+        ],
+        [
+          0.8275348756579033,
+          -0.5614143118676781,
+          0.0,
+          0.13
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "scene_assets": [
+    {
+      "kind": "box",
+      "name": "table",
+      "extents_m": [
+        0.65,
+        0.5,
+        0.035
+      ],
+      "center_m": [
+        0,
+        0,
+        -0.0175
+      ]
+    }
+  ],
+  "condition": "neighbours",
+  "matched_pose_id": "mounting_block_04_p01",
+  "placement": "analytic stable flat support with random planar translation and yaw; no dynamics settling",
+  "visible_target_pixels": {
+    "left": 4769,
+    "right": 4866,
+    "aux_left": 4459,
+    "aux_right": 4087
+  },
+  "purpose": "evaluation_and_simulator_only",
+  "robot_world_from_dataset_world": null,
+  "abb_execution_status": "not_run",
+  "grasp_success": null
+}

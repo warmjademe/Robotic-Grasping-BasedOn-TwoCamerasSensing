@@ -1,0 +1,71 @@
+{
+  "profiles": {
+    "nominal": {
+      "selected": 206,
+      "old_geometry": 33,
+      "tug": 33,
+      "lift": 116,
+      "endpoint": 206,
+      "collision_free": 186,
+      "execution": 101,
+      "lift_and_return": 115,
+      "execution_and_return": 101,
+      "old_to_execution": {
+        "0->0": 92,
+        "0->1": 81,
+        "1->0": 13,
+        "1->1": 20
+      },
+      "old_to_tug": {
+        "0->0": 145,
+        "0->1": 28,
+        "1->0": 28,
+        "1->1": 5
+      },
+      "settling_translation_max_m": 2.9629203709191643e-05,
+      "settling_translation_median_m": 5.122274160385132e-09,
+      "execution_pass_max_hold_relative_drift_m": 0.003709440848087981,
+      "execution_pass_min_bilateral_contact_fraction": 1.0
+    },
+    "friction_05": {
+      "selected": 206,
+      "old_geometry": 33,
+      "tug": 22,
+      "lift": 73,
+      "endpoint": 206,
+      "collision_free": 187,
+      "execution": 63,
+      "lift_and_return": 65,
+      "execution_and_return": 57,
+      "old_to_execution": {
+        "0->0": 121,
+        "0->1": 52,
+        "1->0": 22,
+        "1->1": 11
+      },
+      "old_to_tug": {
+        "0->0": 156,
+        "0->1": 17,
+        "1->0": 28,
+        "1->1": 5
+      },
+      "settling_translation_max_m": 2.9705845008720644e-05,
+      "settling_translation_median_m": 5.587935447692871e-09,
+      "execution_pass_max_hold_relative_drift_m": 0.009456852689361098,
+      "execution_pass_min_bilateral_contact_fraction": 1.0
+    }
+  },
+  "timing": {
+    "tug": {
+      "batch_jobs": 16,
+      "subprocess_wall_seconds": 202.60688355393359,
+      "note": "Includes simulator startup; groups run candidates concurrently. Not robot cycle time."
+    },
+    "arm": {
+      "batch_jobs": 16,
+      "subprocess_wall_seconds": 926.256538977992,
+      "note": "Includes simulator startup; groups run candidates concurrently. Not robot cycle time."
+    }
+  },
+  "verified_sources": 285
+}

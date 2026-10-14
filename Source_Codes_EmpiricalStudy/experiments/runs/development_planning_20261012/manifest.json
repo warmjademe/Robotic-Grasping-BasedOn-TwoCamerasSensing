@@ -1,0 +1,15 @@
+{
+  "split": "development",
+  "benchmark_eligible": false,
+  "uses_object_ground_truth": false,
+  "expected": 792,
+  "source_jobs_sha256": "a893232091f2e33c50d85d3fcca6042994d8a199e8bd0d588cc82a679ce5f755",
+  "source_sha256": {
+    "industrial_plan.py": "ee47037e6432218747cca311710ea0a40325a1c7cc45bee13e91e983658598bb",
+    "industrial_collision.py": "3507dd9811bcda54571a9aad63dce97f0e3daefd79fac15161bea511a18ae8d3",
+    "development_planning.py": "fe892d5f33ca6e51ef0e3304050984de435ab9e4e23dcce09c7e0808bcdf3e0e"
+  },
+  "budget_seconds": 30,
+  "candidate_limit": 200,
+  "runtime_scope": "Development timing; concurrent simulator commissioning may affect CPU load"
+}

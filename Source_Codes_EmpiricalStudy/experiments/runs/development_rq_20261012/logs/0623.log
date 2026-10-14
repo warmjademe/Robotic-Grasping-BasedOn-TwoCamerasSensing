@@ -1,0 +1,198 @@
+2026-10-12 09:48:12.767781: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2026-10-12 09:48:12.767833: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2026-10-12 09:48:12.768772: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2026-10-12 09:48:12.773251: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-10-12 09:48:13.333850: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+2026-10-12 09:48:13.934173: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2026-10-12 09:48:13.961342: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2026-10-12 09:48:13.962640: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+/home/qyb/RESEARCH/Robotic_Grasping/Source_Codes_Grasping_Modules/baseline_runtime/compat/pointnet2/utils/tf_util.py:569: UserWarning: `tf.layers.batch_normalization` is deprecated and will be removed in a future version. Please use `tf.keras.layers.BatchNormalization` instead. In particular, `tf.control_dependencies(tf.GraphKeys.UPDATE_OPS)` should not be used (consult the `tf.keras.layers.BatchNormalization` documentation).
+  return tf.compat.v1.layers.batch_normalization(
+2026-10-12 09:48:15.079629: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2026-10-12 09:48:15.081250: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2026-10-12 09:48:15.082768: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2026-10-12 09:48:15.165116: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2026-10-12 09:48:15.166203: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2026-10-12 09:48:15.167239: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2026-10-12 09:48:15.168505: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1929] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 22130 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 4090, pci bus id: 0000:01:00.0, compute capability: 8.9
+INFO:tensorflow:Restoring parameters from /home/qyb/RESEARCH/Robotic_Grasping/Source_Codes_Grasping_Modules/baseline_6dof_graspnet/models/ACRONYM_VAE/tf_output/model-4004506
+2026-10-12 09:48:15.214109: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:388] MLIR V1 optimization pass is not enabled
+INFO:tensorflow:Restoring parameters from /home/qyb/RESEARCH/Robotic_Grasping/Source_Codes_Grasping_Modules/baseline_6dof_graspnet/models/ACRONYM_Evaluator/tf_output/model-733578
+2026-10-12 09:48:15.444192: I external/local_tsl/tsl/platform/default/subprocess.cc:304] Start cannot spawn child process: No such file or directory
+2026-10-12 09:48:15.993016: I external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:454] Loaded cuDNN version 8904
+2026-10-12 09:48:16.064749: I external/local_tsl/tsl/platform/default/subprocess.cc:304] Start cannot spawn child process: No such file or directory
+/home/qyb/RESEARCH/Robotic_Grasping/Source_Codes_Grasping_Modules/baseline_runtime/compat/pointnet2/tf_ops/sampling
+--> loading /home/qyb/RESEARCH/Robotic_Grasping/Source_Codes_Grasping_Modules/baseline_6dof_graspnet/models/ACRONYM_VAE/args.yaml
+--> loading /home/qyb/RESEARCH/Robotic_Grasping/Source_Codes_Grasping_Modules/baseline_6dof_graspnet/models/ACRONYM_Evaluator/args.yaml
+conflicting key num_grasps_per_object:
+  in vae, it is 64
+  in evaluator, it is 256
+l0_xyz = [50, 1024, 3] l0_points = [50, 1024, 5]
+dict_keys(['vae_pc', 'evaluator_pc', 'vae_pred/samples', 'evaluator_grasp_eulers', 'evaluator_grasp_translations', 'evaluator_gt_cps', 'evaluator_pred/evaluator', 'evaluator_pred/confidence', 'evaluator_pred/success', 'evaluator_gradient', 'vae_pred/grasp_qt', 'vae_pred/confidence', 'vae_pred/cps'])
+*****************************************
+vae_vars = 72 evaluator vars = 70
+latest vae checkpoint /home/qyb/RESEARCH/Robotic_Grasping/Source_Codes_Grasping_Modules/baseline_6dof_graspnet/models/ACRONYM_VAE/tf_output/model-4004506
+checkpoint folder /home/qyb/RESEARCH/Robotic_Grasping/Source_Codes_Grasping_Modules/baseline_6dof_graspnet/models/ACRONYM_Evaluator/tf_output
+latest evaluator checkpoint /home/qyb/RESEARCH/Robotic_Grasping/Source_Codes_Grasping_Modules/baseline_6dof_graspnet/models/ACRONYM_Evaluator/tf_output/model-733578
+SAMPLING: Using VAE
+predicting grasps with threshold -1.0 choose_fn = <function choose_grasps_better_than_threshold_in_sequence at 0x7792bb1d4400>
+running init grasps...
+vae took 0.43305015563964844 seconds
+qt to rt 0.0027549266815185547 seconds
+improving #0
+improve grasps gradient based
+improve grasp batch tf = 1.494619607925415
+improving #1
+improve grasps gradient based
+improve grasp batch tf = 0.03474140167236328
+improving #2
+improve grasps gradient based
+improve grasp batch tf = 0.03426933288574219
+improving #3
+improve grasps gradient based
+improve grasp batch tf = 0.03487443923950195
+improving #4
+improve grasps gradient based
+improve grasp batch tf = 0.03472781181335449
+improving #5
+improve grasps gradient based
+improve grasp batch tf = 0.034636497497558594
+improving #6
+improve grasps gradient based
+improve grasp batch tf = 0.03422856330871582
+improving #7
+improve grasps gradient based
+improve grasp batch tf = 0.03469395637512207
+improving #8
+improve grasps gradient based
+improve grasp batch tf = 0.03443717956542969
+improving #9
+improve grasps gradient based
+improve grasp batch tf = 0.03478574752807617
+just running success
+improve grasps gradient based
+improved_probs.shape ==============> (11, 50, 1)
+===========> (11, 50, 3) (11, 50, 3) (11, 50)
+threshold ============= -1.0
+SAMPLING: Using VAE
+predicting grasps with threshold -1.0 choose_fn = <function choose_grasps_better_than_threshold_in_sequence at 0x7792bb1d4400>
+running init grasps...
+vae took 0.010958433151245117 seconds
+qt to rt 0.001984119415283203 seconds
+improving #0
+improve grasps gradient based
+improve grasp batch tf = 0.03379702568054199
+improving #1
+improve grasps gradient based
+improve grasp batch tf = 0.03517746925354004
+improving #2
+improve grasps gradient based
+improve grasp batch tf = 0.03475522994995117
+improving #3
+improve grasps gradient based
+improve grasp batch tf = 0.0349125862121582
+improving #4
+improve grasps gradient based
+improve grasp batch tf = 0.034761905670166016
+improving #5
+improve grasps gradient based
+improve grasp batch tf = 0.03470945358276367
+improving #6
+improve grasps gradient based
+improve grasp batch tf = 0.03455686569213867
+improving #7
+improve grasps gradient based
+improve grasp batch tf = 0.03456878662109375
+improving #8
+improve grasps gradient based
+improve grasp batch tf = 0.03444027900695801
+improving #9
+improve grasps gradient based
+improve grasp batch tf = 0.03493452072143555
+just running success
+improve grasps gradient based
+improved_probs.shape ==============> (11, 50, 1)
+===========> (11, 50, 3) (11, 50, 3) (11, 50)
+threshold ============= -1.0
+SAMPLING: Using VAE
+predicting grasps with threshold -1.0 choose_fn = <function choose_grasps_better_than_threshold_in_sequence at 0x7792bb1d4400>
+running init grasps...
+vae took 0.010693550109863281 seconds
+qt to rt 0.001986980438232422 seconds
+improving #0
+improve grasps gradient based
+improve grasp batch tf = 0.03488969802856445
+improving #1
+improve grasps gradient based
+improve grasp batch tf = 0.03502488136291504
+improving #2
+improve grasps gradient based
+improve grasp batch tf = 0.0347747802734375
+improving #3
+improve grasps gradient based
+improve grasp batch tf = 0.03467988967895508
+improving #4
+improve grasps gradient based
+improve grasp batch tf = 0.034494876861572266
+improving #5
+improve grasps gradient based
+improve grasp batch tf = 0.03525042533874512
+improving #6
+improve grasps gradient based
+improve grasp batch tf = 0.03499650955200195
+improving #7
+improve grasps gradient based
+improve grasp batch tf = 0.03482770919799805
+improving #8
+improve grasps gradient based
+improve grasp batch tf = 0.03480029106140137
+improving #9
+improve grasps gradient based
+improve grasp batch tf = 0.03449749946594238
+just running success
+improve grasps gradient based
+improved_probs.shape ==============> (11, 50, 1)
+===========> (11, 50, 3) (11, 50, 3) (11, 50)
+threshold ============= -1.0
+SAMPLING: Using VAE
+predicting grasps with threshold -1.0 choose_fn = <function choose_grasps_better_than_threshold_in_sequence at 0x7792bb1d4400>
+running init grasps...
+vae took 0.010616302490234375 seconds
+qt to rt 0.0019464492797851562 seconds
+improving #0
+improve grasps gradient based
+improve grasp batch tf = 0.0349581241607666
+improving #1
+improve grasps gradient based
+improve grasp batch tf = 0.03496098518371582
+improving #2
+improve grasps gradient based
+improve grasp batch tf = 0.03478550910949707
+improving #3
+improve grasps gradient based
+improve grasp batch tf = 0.03477144241333008
+improving #4
+improve grasps gradient based
+improve grasp batch tf = 0.034868478775024414
+improving #5
+improve grasps gradient based
+improve grasp batch tf = 0.0347294807434082
+improving #6
+improve grasps gradient based
+improve grasp batch tf = 0.03492593765258789
+improving #7
+improve grasps gradient based
+improve grasp batch tf = 0.03452920913696289
+improving #8
+improve grasps gradient based
+improve grasp batch tf = 0.034818410873413086
+improving #9
+improve grasps gradient based
+improve grasp batch tf = 0.03489971160888672
+just running success
+improve grasps gradient based
+improved_probs.shape ==============> (11, 50, 1)
+===========> (11, 50, 3) (11, 50, 3) (11, 50)
+threshold ============= -1.0
+{"method": "6-DOF GraspNet", "seconds": 3.7308381220209412, "source": "Official VAE generator and evaluator; author ACRONYM release", "training_data_note": "Author later ACRONYM checkpoint; not original 2019 training split", "gradient_refinement_steps": 10, "candidates": 200, "batch_size": 50, "score_threshold": -1.0, "checkpoint_prefixes": ["/home/qyb/RESEARCH/Robotic_Grasping/Source_Codes_Grasping_Modules/baseline_6dof_graspnet/models/ACRONYM_VAE/tf_output/model-4004506", "/home/qyb/RESEARCH/Robotic_Grasping/Source_Codes_Grasping_Modules/baseline_6dof_graspnet/models/ACRONYM_Evaluator/tf_output/model-733578"], "checkpoint_sha256": {"ACRONYM_VAE/tf_output/model-4004506.index": "8a2e02d7f7ba4f6b720f821d621441b6992282d48e39a66e8b0773687fe72262", "ACRONYM_VAE/tf_output/model-4004506.meta": "deaf2cafe215ff1a6bcccb1a75506d70515a558b342ce24d9f49ff39e1d318ad", "ACRONYM_VAE/tf_output/model-4004506.data-00000-of-00001": "4d1157d160d2b4ba2d9c4a085f7744eb4f582c52e81c8c85421122e4e32af6f6", "ACRONYM_Evaluator/tf_output/model-733578.index": "33e57a4ea59a2224551f52dc9fd9a5528325f1cd131c72aa6a74271672308d30", "ACRONYM_Evaluator/tf_output/model-733578.data-00000-of-00001": "e27fb52983e78eac8a40a5bc3f1f1fc428a940c035bcd69dca29d34c5d3a1e44", "ACRONYM_Evaluator/tf_output/model-733578.meta": "c3438bd67adcf14178741ea2f79e9a35d5078e0ef720a2bace9968af9e60cfc6"}, "config_sha256": {"ACRONYM_VAE/args.yaml": "cf3989353bb4c7c80631222525b8e67fbb64fafefa7f6384498ba84cef1f9d3f", "ACRONYM_Evaluator/args.yaml": "f84d96d0e5b6b0bb948a49d34be4026d4f029dc487199bac4200a5f9bc6a2c82"}, "tensorflow": "2.15.1", "strict_checkpoint_restore": true, "upstream_commit": "cd08b6c559e51a187ab65faea6415f51239808b8", "input_frame": "OpenCV reference optical frame, centered internally by author code", "compatibility_manifest_sha256": "6243f9d034c4e9681b457f2d41703d4cd318f9109cbe0004a3e15e88944883e3", "gripper_frame": "Author Panda: x closing, z approach; rotate local z -90 deg to native fingers", "schema_version": 1, "input_npz_sha256": "dffee4a2bce487235f4952f16de28f36570b4038e08627d05bd047edbf8b5bee", "input_json_sha256": "79f097d48c3c14cbd9fc671a15d0f124925b5d4cdbe1cc126ae13233fc406638", "input_source_hashes": {"left.png": "b8ea053f4ea7fcac927676eaf77d11cb86f7c0370374704d5076ed6d7b07a4a9", "right.png": "dca4bfd40a79ff54a9f5bc45f6928e4346e104d23720e2300aa2a266a91a248e", "cameras.json": "49f798ce8c470a3d17c1a63d2f24a1663c9fea8e71b07643f67ef0d9da09bb66", "task.json": "e8349d319db41b2df29993711f7b278165f489ce984eb9c9d110a83d8388d241"}, "perception_route": "stereo", "scene_scope": "workspace_roi", "frame_id": "dataset_world", "units": "m", "input_scene_points": 205274, "input_target_points": 4165, "camera_origins_preserved": 1, "returned": 200, "status": "candidates_generated", "inference_completed": true, "gripper_id": "franka_panda", "width_source": "fixed_gripper_geometry", "width_valid_count": 200, "grasp_frame": {"closing_axis": "+y", "approach_axis": "+z", "origin": "panda_hand", "T_model_grasp": [[0.0, 1.0, 0.0, 0.0], [-1.0, 0.0, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [0.0, 0.0, 0.0, 1.0]]}, "score_cross_model_calibrated": false, "downstream_pending": ["width-aware planning", "full-scene collision", "TCP calibration for a different gripper"], "physical_robot_used": false, "native_robot_execution_performed": false, "input_purpose": "grasp_inference", "input_geometry_source": "perception_prediction", "input_contains_renderer_depth": false, "input_contains_scene_object_pose": false, "provenance_check": "Validated declarations and source hashes; not automatic identification of arbitrary point-cloud origin", "source_sha256": {"infer.py": "9b19ec604a656be0fe7c929e44cdf40bb9111901059a9aeaaa8fba000105387f", "backends.py": "66389bb8013135965af73bda344e93abbd9490aeeb93e91c1364d8b3b19bae6f", "contract.py": "bc1da891fd618343b24deb76f19137f19e640f4b402c2d89368b886c759a6b5c"}, "output_sha256": "ea4babc6925a3ca5cdde8edecc2eead3a0f54228aea0992bdb0939e42b3e66c4"}

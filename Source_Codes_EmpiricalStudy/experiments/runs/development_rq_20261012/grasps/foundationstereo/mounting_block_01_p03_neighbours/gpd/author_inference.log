@@ -1,0 +1,152 @@
+============ HAND GEOMETRY ======================
+finger_width: 0.01
+hand_outer_diameter: 0.12
+hand_depth: 0.06
+hand_height: 0.02
+init_bite: 0.01
+=================================================
+============ PLOTTING ========================
+plot_normals: false
+plot_samples false
+plot_candidates: false
+plot_filtered_candidates: false
+plot_valid_grasps: false
+plot_clustered_grasps: false
+plot_selected_grasps: false
+==============================================
+============ CLOUD PREPROCESSING =============
+voxelize: true
+voxel_size: 0.003
+remove_outliers: false
+workspace: -0.48 0.48 -0.34 0.50 -0.16 0.18 
+sample_above_plane: false
+normals_radius: 0.030
+refine_normals_k: 0
+==============================================
+============ CANDIDATE GENERATION ============
+num_samples: 200
+num_threads: 1
+nn_radius: 0.01
+hand axes: 2 
+num_orientations: 8
+num_finger_placements: 10
+deepen_hand: true
+friction_coeff: 20.00
+min_viable: 6
+==============================================
+============ GRASP IMAGE GEOMETRY ===============
+volume width: 0.1
+volume depth: 0.06
+volume height: 0.02
+image_size: 60
+image_num_channels: 15
+=================================================
+NET SETUP runtime: 0.0537257
+============ CLASSIFIER ======================
+model_file: 
+weights_file: /home/qyb/RESEARCH/Robotic_Grasping/Source_Codes_Grasping_Modules/baseline_gpd/upstream/gpd/models/lenet/15channels/params/
+batch_size: 1
+==============================================
+============ CANDIDATE FILTERING =============
+candidate_workspace: -0.48 0.48 -0.34 0.50 -0.16 0.18 
+min_aperture: 0.0000
+max_aperture: 0.0800
+==============================================
+============ CLUSTERING ======================
+min_inliers: 0
+==============================================
+
+Processing cloud with 272692 points.
+200 samples left after workspace filtering 
+Voxelized cloud: 82205
+Calculating surface normals ...
+num_threads: 1
+ runtime(computeNormals): 3.5941
+camera: 0, #indices: 82205, #normals: 82205 
+Calculated 82205 surface normals in 3.5954s (mode: OpenMP).
+Reversing direction of normals that do not point to at least one camera ...
+ reversed 0 normals
+ runtime (reverse normals): 0.000971561
+Estimating local reference frames ...
+Estimated 200 frames in 0.0016s.
+Finding hand poses ...
+Found 200 hand sets in 0.62s
+====> HAND SEARCH TIME: 0.63103
+Generated 200 hand sets.
+Filtering grasps outside of workspace ...
+Number of grasp candidates within workspace and gripper width: 32
+neighborhoods search time: 0.0244
+Created 32 images in 0.5951s
+Selecting the 200 highest scoring grasps ...
+ grasp #0, score: -806.4214
+ grasp #1, score: -896.5985
+ grasp #2, score: -970.9891
+ grasp #3, score: -985.2430
+ grasp #4, score: -1025.0425
+ grasp #5, score: -1222.3376
+ grasp #6, score: -1277.6111
+ grasp #7, score: -1344.8319
+ grasp #8, score: -1374.2804
+ grasp #9, score: -1460.3450
+ grasp #10, score: -1490.3127
+ grasp #11, score: -1550.4485
+ grasp #12, score: -1570.4861
+ grasp #13, score: -1596.3936
+ grasp #14, score: -1624.4158
+ grasp #15, score: -1635.2004
+ grasp #16, score: -1635.5415
+ grasp #17, score: -1693.6439
+ grasp #18, score: -1736.6240
+ grasp #19, score: -1772.5986
+ grasp #20, score: -1800.4553
+ grasp #21, score: -1838.2122
+ grasp #22, score: -1858.1438
+ grasp #23, score: -1885.2980
+ grasp #24, score: -1926.7383
+ grasp #25, score: -2072.5010
+ grasp #26, score: -2137.2080
+ grasp #27, score: -2144.1992
+ grasp #28, score: -2433.0874
+ grasp #29, score: -2499.2761
+ grasp #30, score: -2532.0549
+ grasp #31, score: -2644.1824
+======== Selected grasps ========
+Grasp 0: -806.421
+Grasp 1: -896.599
+Grasp 2: -970.989
+Grasp 3: -985.243
+Grasp 4: -1025.04
+Grasp 5: -1222.34
+Grasp 6: -1277.61
+Grasp 7: -1344.83
+Grasp 8: -1374.28
+Grasp 9: -1460.34
+Grasp 10: -1490.31
+Grasp 11: -1550.45
+Grasp 12: -1570.49
+Grasp 13: -1596.39
+Grasp 14: -1624.42
+Grasp 15: -1635.2
+Grasp 16: -1635.54
+Grasp 17: -1693.64
+Grasp 18: -1736.62
+Grasp 19: -1772.6
+Grasp 20: -1800.46
+Grasp 21: -1838.21
+Grasp 22: -1858.14
+Grasp 23: -1885.3
+Grasp 24: -1926.74
+Grasp 25: -2072.5
+Grasp 26: -2137.21
+Grasp 27: -2144.2
+Grasp 28: -2433.09
+Grasp 29: -2499.28
+Grasp 30: -2532.05
+Grasp 31: -2644.18
+Selected the 32 best grasps.
+======== RUNTIMES ========
+ 1. Candidate generation: 0.6311s
+ 2. Descriptor extraction: 0.5952s
+ 3. Classification: 0.2793s
+==========
+ TOTAL: 1.5057s

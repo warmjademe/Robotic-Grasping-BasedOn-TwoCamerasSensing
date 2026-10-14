@@ -1,0 +1,23 @@
+{
+  "command": [
+    "/home/qyb/RESEARCH/Robotic_Grasping/Source_Codes_Grasping_Modules/baseline_gpd/build/gpd_shared_bridge",
+    "/home/qyb/RESEARCH/Robotic_Grasping/Source_Codes_EmpiricalStudy/experiments/runs/development_rq_20261012/grasps/foundationstereo/spacer_02_p01_single/gpd/gpd.cfg",
+    "/home/qyb/RESEARCH/Robotic_Grasping/Source_Codes_EmpiricalStudy/experiments/runs/development_rq_20261012/grasps/foundationstereo/spacer_02_p01_single/gpd/bridge_input.txt",
+    "/home/qyb/RESEARCH/Robotic_Grasping/Source_Codes_EmpiricalStudy/experiments/runs/development_rq_20261012/grasps/foundationstereo/spacer_02_p01_single/gpd/author_grasps.txt"
+  ],
+  "returncode": 0,
+  "inference_wall_seconds": 15.08841421501711,
+  "visibility": {
+    "input_camera_ids_preserved": true,
+    "measured_source_points": 168589,
+    "unknown_source_points": 0,
+    "estimated_visibility_method": null,
+    "estimated_visibility_is_observed_provenance": false,
+    "camera_point_counts": [
+      168589
+    ],
+    "excluded_without_visible_camera": 0,
+    "normal_orientation": "author PCL radius normals towards first listed measured/estimated visible camera; author reverseNormals checks all listed cameras",
+    "shadow_convention": "author multi-camera intersection using measured sources or explicitly estimated visibility"
+  }
+}

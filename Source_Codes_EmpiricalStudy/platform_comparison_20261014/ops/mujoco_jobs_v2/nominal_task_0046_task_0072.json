@@ -1,0 +1,68 @@
+{
+  "job_id": "nominal_task_0046_task_0072",
+  "engine": "mujoco",
+  "host": "nas",
+  "tasks": [
+    "task_0046",
+    "task_0049",
+    "task_0050",
+    "task_0053",
+    "task_0057",
+    "task_0068",
+    "task_0070",
+    "task_0072"
+  ],
+  "profile": "nominal",
+  "status": "completed",
+  "output": "/home/qyb/RESEARCH/Robotic_Grasping/Source_Codes_EmpiricalStudy/platform_comparison_20261014/results/mujoco/v2/nominal_task_0046_task_0072",
+  "started_unix": 1791941342.8314414,
+  "resources": {
+    "host": "qyb-SJHY-ubuntu25",
+    "unix": 1791941342.8310714,
+    "cpu_count": 12,
+    "load1": 1.41064453125,
+    "memory_available_gib": 42.849185943603516,
+    "disk_free_gib": 135.16743087768555,
+    "gpu_processes": [
+      {
+        "pid": 3210,
+        "memory_mib": 392,
+        "name": "gnome-remote-de",
+        "display_process": true,
+        "project_job": false
+      },
+      {
+        "pid": 1120137,
+        "memory_mib": 2711,
+        "name": "python",
+        "display_process": false,
+        "project_job": true
+      }
+    ],
+    "gpu_lock_held": true,
+    "cpu_ready": true,
+    "calibration_ready": {
+      "isaac": true,
+      "mujoco": true
+    },
+    "hardware_gpu_ready": false,
+    "cpu_experiment_ready": true,
+    "gpu_ready": false
+  },
+  "protocol_sha256": "24eb3735a29abcfc189ee7ecb5a34851fbc070e549b96df67f030f50d3862bc6",
+  "coordinator_child_pid": 1120523,
+  "log": "/home/qyb/RESEARCH/Robotic_Grasping/Source_Codes_EmpiricalStudy/platform_comparison_20261014/logs/mujoco_v2_nominal_task_0046_task_0072.log",
+  "returncode": 0,
+  "finished_unix": 1791941436.5091894,
+  "observed_tasks": [
+    "task_0068",
+    "task_0046",
+    "task_0049",
+    "task_0072",
+    "task_0050",
+    "task_0053",
+    "task_0070",
+    "task_0057"
+  ],
+  "wall_seconds": 93.67774820327759
+}

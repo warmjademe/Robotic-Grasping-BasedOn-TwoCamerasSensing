@@ -1,0 +1,67 @@
+{
+  "episode_id": "spacer_03_p01_single",
+  "units": "m",
+  "frame_id": "dataset_world",
+  "instances": [
+    {
+      "instance_id": 1,
+      "object_id": "spacer_03",
+      "role": "target",
+      "world_from_object": [
+        [
+          0.5206423524510125,
+          -0.8537748771393285,
+          0.0,
+          0.005353224764442763
+        ],
+        [
+          0.8537748771393285,
+          0.5206423524510125,
+          0.0,
+          0.013936898555935988
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "scene_assets": [
+    {
+      "kind": "box",
+      "name": "table",
+      "extents_m": [
+        0.65,
+        0.5,
+        0.035
+      ],
+      "center_m": [
+        0,
+        0,
+        -0.0175
+      ]
+    }
+  ],
+  "condition": "single",
+  "matched_pose_id": "spacer_03_p01",
+  "placement": "analytic stable flat support with random planar translation and yaw; no dynamics settling",
+  "visible_target_pixels": {
+    "left": 2882,
+    "right": 2879,
+    "aux_left": 2863,
+    "aux_right": 2938
+  },
+  "purpose": "evaluation_and_simulator_only",
+  "robot_world_from_dataset_world": null,
+  "abb_execution_status": "not_run",
+  "grasp_success": null
+}

@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "checked_at": "2026-10-13T09:36:01.123969+00:00",
+  "source_files": 285,
+  "result_files": 64,
+  "unique_candidates_per_profile": 206,
+  "rq2_per_profile": 156,
+  "rq3_per_profile": 101,
+  "shared_per_profile": 51,
+  "current_execution_code_matches_replayed_variant": true,
+  "contact_audit_cases": 42,
+  "credential_scan_files": 150,
+  "video_examples": 2,
+  "code_sha256": {
+    "analyze_results.py": "a7af744308608239b48f21b747c0149a52b7009dd7cc459a31b83aaf28c16301",
+    "audit_contact_filter.py": "a270c44b6c3917d804d8b1fd80b3f988f4cc448b2da180b3e25e753dcc389691",
+    "build_robot.py": "747e4950dd62f5c5a7b1f05d15381129b9601c0e59a8b116b22ad619f4d461ce",
+    "prepare_inputs.py": "51e28b00370649940b0bbe9088516790da76bec8da39b4b8ca0db42ba3c73f19",
+    "render_evidence.py": "1104168e7a627962c1c442eca7458aa121300075e2ed366eb6997a695128842f",
+    "run_arm.py": "dcfc7921504151864123c12a66cff26fe5416e293e6344267b94510b540a6e16",
+    "run_arm_batch.py": "c7a7019c3200ae981eb47e71174f725255b0f3e9a3093edf4e340d28d5bc7a6d",
+    "run_graspdatagen.py": "ac643c9fa71d1cfe008a49fee53dccf65d0e3aa0b318f9e715b76ea7efe60d34",
+    "run_tug_batch.py": "430f3cd40a45b916992a5d091a581a2a4056c0b7f4129cd9e93ce8324b2e40a3",
+    "verify_delivery.py": "3dc760334687e500350424531c8ef893a006451bb41eaa30e2b5924e8d43bc3a"
+  }
+}

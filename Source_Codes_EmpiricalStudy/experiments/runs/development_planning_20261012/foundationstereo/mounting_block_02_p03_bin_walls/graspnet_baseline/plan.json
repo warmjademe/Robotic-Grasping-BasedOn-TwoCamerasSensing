@@ -1,0 +1,69 @@
+{
+  "status": "no_plan",
+  "condition": "bin_walls",
+  "uses_object_ground_truth": false,
+  "cloud_sha256": "a041a6cd6c933d652202738f7e1ba8c7bbff947e923975dd5107eab1ec7b680f",
+  "grasps_sha256": "1cb1edc216b0b42f2339a92306dc8f1c7d357482f5914c2804ef8aa3f58cc47b",
+  "candidate_limit": 200,
+  "planning_budget_s": 30,
+  "native_execution_performed": false,
+  "full_trajectory_collision_validated": false,
+  "rejected": [
+    {
+      "rank": 0,
+      "reason": "width_invalid"
+    },
+    {
+      "rank": 1,
+      "reason": "width_invalid"
+    },
+    {
+      "rank": 2,
+      "reason": "width_invalid"
+    },
+    {
+      "rank": 3,
+      "reason": "width_invalid"
+    },
+    {
+      "rank": 4,
+      "reason": "width_invalid"
+    },
+    {
+      "rank": 5,
+      "reason": "transit_collision",
+      "collision": {
+        "collision": true,
+        "self_pairs": [
+          [
+            "j4",
+            "palm"
+          ]
+        ],
+        "environment_pairs": [],
+        "perceived_voxels": 20677
+      }
+    },
+    {
+      "rank": 6,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 7,
+      "reason": "width_invalid"
+    },
+    {
+      "rank": 8,
+      "reason": "approach_direction"
+    }
+  ],
+  "selected": null,
+  "home_check": {
+    "collision": false,
+    "self_pairs": [],
+    "environment_pairs": [],
+    "perceived_voxels": 20677
+  },
+  "seconds": 1.3342106819909532,
+  "scope": "Sampled geometric planning; native validation and between-sample checks still required"
+}

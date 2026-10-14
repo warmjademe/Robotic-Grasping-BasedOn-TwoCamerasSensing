@@ -1,0 +1,117 @@
+{
+  "task_id": "task_0692",
+  "status": "no_plan",
+  "selected": null,
+  "rejected": [
+    {
+      "rank": 0,
+      "reason": "approach_collision",
+      "collision": {
+        "collision": true,
+        "self_pairs": [],
+        "environment_pairs": [
+          [
+            "panda_hand",
+            "wall0"
+          ]
+        ],
+        "perceived_voxels": 20920
+      }
+    },
+    {
+      "rank": 1,
+      "reason": "width_invalid"
+    },
+    {
+      "rank": 2,
+      "reason": "width_invalid"
+    },
+    {
+      "rank": 3,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 4,
+      "reason": "width_invalid"
+    },
+    {
+      "rank": 5,
+      "reason": "width_invalid"
+    },
+    {
+      "rank": 6,
+      "reason": "width_invalid"
+    },
+    {
+      "rank": 7,
+      "reason": "width_invalid"
+    },
+    {
+      "rank": 8,
+      "reason": "width_invalid"
+    },
+    {
+      "rank": 9,
+      "reason": "width_invalid"
+    },
+    {
+      "rank": 10,
+      "reason": "width_invalid"
+    },
+    {
+      "rank": 11,
+      "reason": "width_invalid"
+    },
+    {
+      "rank": 12,
+      "reason": "width_invalid"
+    },
+    {
+      "rank": 13,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 14,
+      "reason": "width_invalid"
+    },
+    {
+      "rank": 15,
+      "reason": "width_invalid"
+    },
+    {
+      "rank": 16,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 17,
+      "reason": "width_invalid"
+    },
+    {
+      "rank": 18,
+      "reason": "width_invalid"
+    },
+    {
+      "rank": 19,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 20,
+      "reason": "no_observed_pad_cross_section"
+    }
+  ],
+  "host": "qyb-SJHY-ubuntu25",
+  "pid": 1108519,
+  "candidate_count": 21,
+  "ground_truth_used": false,
+  "protocol_sha256": "24eb3735a29abcfc189ee7ecb5a34851fbc070e549b96df67f030f50d3862bc6",
+  "cloud_sha256": "03ddc9eb5a0557e9ff2b4126f7c064f7f02dc0dfd5a0a4ebd3034b1a7c568282",
+  "grasps_sha256": "0df284dbe378cf9c2fab9c5b0ab421fa2d43cd9f7ad8dd435ecfffc27f7a37fd",
+  "home_check": {
+    "collision": false,
+    "self_pairs": [],
+    "environment_pairs": [],
+    "perceived_voxels": 20920
+  },
+  "seconds": 1.8483747709833551,
+  "planning_parallelism": 4
+}

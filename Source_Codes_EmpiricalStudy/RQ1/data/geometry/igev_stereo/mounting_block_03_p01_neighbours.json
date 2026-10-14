@@ -1,0 +1,45 @@
+{
+  "episode_id": "mounting_block_03_p01_neighbours",
+  "evaluation_only": true,
+  "ground_truth_used_only_here": true,
+  "target_cloud_points": 4118,
+  "reference_visible_points": 15336,
+  "stereo_reference_visible_points": 8265,
+  "primary_coverage_reference": "left/right",
+  "thresholds_mm": [
+    1,
+    2,
+    5
+  ],
+  "native_robot_execution_performed": false,
+  "surface_mae_mm": 2.6741539418694695,
+  "surface_p95_mm": 2.7722902554311104,
+  "surface_precision": {
+    "1": 0.44584749878581836,
+    "2": 0.8431277319086935,
+    "5": 0.9825157843613405
+  },
+  "four_view_visible_coverage": {
+    "1": 0.4027777777777778,
+    "2": 0.7191575378195096,
+    "5": 0.9055816379760042
+  },
+  "stereo_visible_coverage": {
+    "1": 0.4248033877797943,
+    "2": 0.7674531155474894,
+    "5": 0.9572897761645494
+  },
+  "stereo_target_depth": {
+    "gt_visible_pixels": 4155,
+    "valid_pixels": 4155,
+    "valid_fraction": 1.0,
+    "mae_mm": 2.9475514888763428,
+    "p95_mm": 7.6979875564575195,
+    "within_5mm_fraction_including_invalid": 0.8606498194945849
+  },
+  "prediction_cloud_sha256": "6e71bf62f05160183228babb7aec6d88db9f90dd798b967ff4cdead6ac669ecd",
+  "method": "igev_stereo",
+  "split": "development",
+  "evaluator_sha256": "c6fc0043c7f41a46ecf4c8c534f9979801d6366ed2e954c56b78c07a4fd4cc93",
+  "source": "experiments/runs/development_perception72_20261011/perception/igev_stereo/mounting_block_03_p01_neighbours"
+}

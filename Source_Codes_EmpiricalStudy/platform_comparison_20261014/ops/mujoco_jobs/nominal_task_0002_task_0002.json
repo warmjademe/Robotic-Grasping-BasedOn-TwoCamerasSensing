@@ -1,0 +1,36 @@
+{
+  "job_id": "nominal_task_0002_task_0002",
+  "engine": "mujoco",
+  "host": "nas",
+  "tasks": [
+    "task_0002"
+  ],
+  "profile": "nominal",
+  "status": "infrastructure_error",
+  "output": "/home/qyb/RESEARCH/Robotic_Grasping/Source_Codes_EmpiricalStudy/platform_comparison_20261014/results/mujoco/nominal_task_0002_task_0002",
+  "started_unix": 1791939895.0497446,
+  "resources": {
+    "host": "qyb-SJHY-ubuntu25",
+    "unix": 1791939895.0494845,
+    "cpu_count": 12,
+    "load1": 5.412109375,
+    "memory_available_gib": 44.386024475097656,
+    "disk_free_gib": 135.3266372680664,
+    "gpu_processes": [
+      {
+        "pid": 3210,
+        "memory_mib": 392,
+        "name": "gnome-remote-de",
+        "display_process": true
+      }
+    ],
+    "gpu_lock_held": false,
+    "cpu_ready": true,
+    "gpu_ready": true
+  },
+  "protocol_sha256": "24eb3735a29abcfc189ee7ecb5a34851fbc070e549b96df67f030f50d3862bc6",
+  "coordinator_child_pid": 1109103,
+  "log": "/home/qyb/RESEARCH/Robotic_Grasping/Source_Codes_EmpiricalStudy/platform_comparison_20261014/logs/mujoco_nominal_task_0002_task_0002.log",
+  "returncode": 1,
+  "finished_unix": 1791939905.2672555
+}

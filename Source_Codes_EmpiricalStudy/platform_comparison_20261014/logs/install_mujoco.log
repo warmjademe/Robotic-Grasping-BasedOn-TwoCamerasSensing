@@ -1,0 +1,35 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting mujoco==3.3.7
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/69/af/b343461ecbba8c3fbee3e67b2b1d0e26cd95d5a0ff0b2a0e8256471aa9ec/mujoco-3.3.7-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (6.8 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.8/6.8 MB 10.7 MB/s eta 0:00:00
+Collecting vhacdx==0.0.10
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/a6/f1/464c761dbe24f58d6fc354bf51729342981fb7a621e170e0d3512fadbec8/vhacdx-0.0.10-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (251 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 251.4/251.4 kB 7.8 MB/s eta 0:00:00
+Collecting absl-py (from mujoco==3.3.7)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/b3/7d/01e62f59e4166af1be6238d9f2b7f3453630c51b8044b412d05b5606532a/absl_py-2.5.1-py3-none-any.whl (137 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 137.7/137.7 kB 6.6 MB/s eta 0:00:00
+Collecting etils[epath] (from mujoco==3.3.7)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/5a/3d/589663aeeacd59bb2f3e8596bfd3e81cf0fb18d70bb433199041f469771b/etils-1.14.0-py3-none-any.whl (172 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 172.9/172.9 kB 7.1 MB/s eta 0:00:00
+Collecting glfw (from mujoco==3.3.7)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/69/84/1b98671314ea5f40397586b6cd14db913de3196333be558fdc177e61708f/glfw-2.10.2-py2.py3-none-manylinux_2_28_x86_64.whl (248 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 248.5/248.5 kB 7.2 MB/s eta 0:00:00
+Collecting numpy (from mujoco==3.3.7)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/02/03/74fe2a4cb3817d94d86402f2506554130a2f01414e299b5a843e5a8a957f/numpy-2.4.6-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (16.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.9/16.9 MB 10.9 MB/s eta 0:00:00
+Collecting pyopengl (from mujoco==3.3.7)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/de/e4/1ba6f44e491c4eece978685230dde56b14d51a0365bc1b774ddaa94d14cd/pyopengl-3.1.10-py3-none-any.whl (3.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.2/3.2 MB 10.9 MB/s eta 0:00:00
+Collecting fsspec (from etils[epath]->mujoco==3.3.7)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/6c/c0/a98505f18594f1bce828bb159cec0fcf9860562f1a2c85913409fc8f3d9e/fsspec-2026.9.0-py3-none-any.whl (221 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 221.7/221.7 kB 7.1 MB/s eta 0:00:00
+Collecting typing_extensions (from etils[epath]->mujoco==3.3.7)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/49/d3/b8441a820a491ddfc024b0b0cf0393375b75ea13866d9c66727e54c2fc80/typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 45.6/45.6 kB 4.0 MB/s eta 0:00:00
+Collecting zipp (from etils[epath]->mujoco==3.3.7)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/b5/98/df615823cd9419131ce19fba00de53a663794369e198aade064a244b385d/zipp-4.1.1-py3-none-any.whl (10 kB)
+Installing collected packages: pyopengl, glfw, zipp, typing_extensions, numpy, fsspec, etils, absl-py, vhacdx, mujoco
+Successfully installed absl-py-2.5.1 etils-1.14.0 fsspec-2026.9.0 glfw-2.10.2 mujoco-3.3.7 numpy-2.4.6 pyopengl-3.1.10 typing_extensions-4.16.0 vhacdx-0.0.10 zipp-4.1.1
+
+[notice] A new release of pip is available: 24.0 -> 26.2.1
+[notice] To update, run: /home/qyb/RESEARCH/baseline_graspgen/.venv-mujoco/bin/python3.11 -m pip install --upgrade pip

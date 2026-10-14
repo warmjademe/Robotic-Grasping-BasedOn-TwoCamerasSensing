@@ -1,0 +1,33 @@
+{
+  "episode_id": "spacer_01_p01_single",
+  "evaluation_only": true,
+  "ground_truth_used_only_here": true,
+  "target_cloud_points": 1674,
+  "reference_visible_points": 6637,
+  "thresholds_mm": [
+    1,
+    2,
+    5
+  ],
+  "native_robot_execution_performed": false,
+  "surface_mae_mm": 0.8458148206001492,
+  "surface_p95_mm": 1.904335618019104,
+  "surface_precision": {
+    "1": 0.6577060931899642,
+    "2": 0.9647550776583035,
+    "5": 1.0
+  },
+  "four_view_visible_coverage": {
+    "1": 0.5083622118427,
+    "2": 0.7465722464969112,
+    "5": 0.8524935965044448
+  },
+  "stereo_target_depth": {
+    "gt_visible_pixels": 1746,
+    "valid_pixels": 1746,
+    "valid_fraction": 1.0,
+    "mae_mm": 2.0068178176879883,
+    "p95_mm": 4.971995949745178,
+    "within_5mm_fraction_including_invalid": 0.9507445589919816
+  }
+}

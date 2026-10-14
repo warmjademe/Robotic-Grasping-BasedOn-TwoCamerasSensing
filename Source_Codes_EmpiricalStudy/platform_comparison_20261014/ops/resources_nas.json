@@ -1,0 +1,26 @@
+{
+  "host": "qyb-SJHY-ubuntu25",
+  "unix": 1791944193.6460457,
+  "cpu_count": 12,
+  "load1": 1.18408203125,
+  "memory_available_gib": 44.868289947509766,
+  "disk_free_gib": 135.07622528076172,
+  "gpu_processes": [
+    {
+      "pid": 3210,
+      "memory_mib": 392,
+      "name": "gnome-remote-de",
+      "display_process": true,
+      "project_job": false
+    }
+  ],
+  "gpu_lock_held": false,
+  "cpu_ready": true,
+  "calibration_ready": {
+    "isaac": true,
+    "mujoco": true
+  },
+  "hardware_gpu_ready": true,
+  "cpu_experiment_ready": true,
+  "gpu_ready": true
+}

@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/qyb/RESEARCH/Robotic_Grasping/Source_Codes_EmpiricalStudy/physics_validation_20261013/code/run_arm_batch.py", line 39, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "/home/qyb/RESEARCH/Robotic_Grasping/Source_Codes_EmpiricalStudy/physics_validation_20261013/code/run_arm_batch.py", line 8, in main
+    assert next(r for r in cal['rows'] if r['case_id']=='collision_blocked')['prohibited_contact_steps']>0
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

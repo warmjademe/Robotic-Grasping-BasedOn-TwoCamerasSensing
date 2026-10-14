@@ -1,0 +1,23 @@
+{
+  "checkpoint": "/home/qyb/RESEARCH/Robotic_Grasping/Source_Codes_BasedOn_TwoCameras3D_Sensing/baseline_psmnet_raft_stereo/models/psmnet_kitti2015.tar",
+  "checkpoint_sha256": "1ef1b757f0ca909c6fae20281dc0283965e8d47e034e47502dcb16f845ad143d",
+  "strict_state_dict_load": true,
+  "weights_retrained": false,
+  "upstream": "/home/qyb/RESEARCH/Robotic_Grasping/Source_Codes_BasedOn_TwoCameras3D_Sensing/baseline_psmnet_raft_stereo/upstream/PSMNet",
+  "upstream_commit": "87ac9093afbf6545c093bd9d26c5ffd66e49a7b8",
+  "runtime": "CUDA",
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "torch_version": "2.7.0+cu128",
+  "iterations": null,
+  "normalization": "ImageNet RGB",
+  "precision": "FP32",
+  "tf32": false,
+  "checkpoint_domain": "KITTI2015",
+  "model_load_and_provenance_seconds": 1.3986147149989847,
+  "source_sha256": "08509e53aa7b836d3140ef6ded7982b2869ae808e49f0e3fc38444246e6ce9cf",
+  "seed": 0,
+  "input_size": [
+    640,
+    480
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "host": "qyb-HuaShuo",
+  "unix": 1791944193.851157,
+  "cpu_count": 16,
+  "load1": 4.2646484375,
+  "memory_available_gib": 66.39254760742188,
+  "disk_free_gib": 408.41003036499023,
+  "gpu_processes": [
+    {
+      "pid": 3743496,
+      "memory_mib": 14868,
+      "name": "python",
+      "display_process": false,
+      "project_job": false
+    },
+    {
+      "pid": 3744692,
+      "memory_mib": 2623,
+      "name": "python",
+      "display_process": false,
+      "project_job": false
+    }
+  ],
+  "gpu_lock_held": true,
+  "cpu_ready": true,
+  "calibration_ready": {
+    "isaac": true,
+    "mujoco": true
+  },
+  "hardware_gpu_ready": false,
+  "cpu_experiment_ready": false,
+  "gpu_ready": false
+}

@@ -1,0 +1,128 @@
+{
+  "tensorflow": "2.15.1",
+  "compile_flags": [
+    "-I/home/qyb/RESEARCH/stero robotic grasping/source codes/baseline_runtime/.venv-tf/lib/python3.11/site-packages/tensorflow/include",
+    "-D_GLIBCXX_USE_CXX11_ABI=1",
+    "--std=c++17",
+    "-DEIGEN_MAX_ALIGN_BYTES=64"
+  ],
+  "link_flags": [
+    "-L/home/qyb/RESEARCH/stero robotic grasping/source codes/baseline_runtime/.venv-tf/lib/python3.11/site-packages/tensorflow",
+    "-l:libtensorflow_framework.so.2"
+  ],
+  "patches": [
+    {
+      "file": "pointnet2/tf_ops/grouping/tf_grouping.cpp",
+      "change": "Status::OK() -> OkStatus()",
+      "upstream_sha256": "6f399c92c6c444b1cce32dc347d1a3133bcf318e05ce2de5ef8772989797559c"
+    },
+    {
+      "file": "pointnet2/tf_ops/sampling/tf_sampling.cpp",
+      "change": "Status::OK() -> OkStatus()",
+      "upstream_sha256": "c2095ceb6e2a847a2c1d02c403c6a478d25272dbc5fcc18bae3430260b6b5a50"
+    },
+    {
+      "file": "pointnet2/tf_ops/3d_interpolation/tf_interpolate.cpp",
+      "change": "Status::OK() -> OkStatus()",
+      "upstream_sha256": "843808f527f7bb0cedd9b5bcb45cf6a8cf79c5466c283f05280abd7bf2cea8f9"
+    }
+  ],
+  "commands": [
+    [
+      "/home/qyb/RESEARCH/baseline_graspgen/.cuda/bin/nvcc",
+      "-ccbin",
+      "/home/qyb/RESEARCH/baseline_graspgen/.cuda/bin/x86_64-conda-linux-gnu-g++",
+      "-std=c++17",
+      "-c",
+      "tf_sampling_g.cu",
+      "-o",
+      "tf_sampling_g.cu.o",
+      "-O2",
+      "-DGOOGLE_CUDA=1",
+      "-x",
+      "cu",
+      "-Xcompiler",
+      "-fPIC",
+      "-gencode=arch=compute_89,code=sm_89"
+    ],
+    [
+      "/home/qyb/RESEARCH/baseline_graspgen/.cuda/bin/x86_64-conda-linux-gnu-g++",
+      "-std=c++17",
+      "-shared",
+      "tf_sampling.cpp",
+      "-o",
+      "tf_sampling_so.so",
+      "-fPIC",
+      "-O2",
+      "-I/home/qyb/RESEARCH/baseline_graspgen/.cuda/targets/x86_64-linux/include",
+      "-I/home/qyb/RESEARCH/stero robotic grasping/source codes/baseline_runtime/.venv-tf/lib/python3.11/site-packages/tensorflow/include",
+      "-D_GLIBCXX_USE_CXX11_ABI=1",
+      "--std=c++17",
+      "-DEIGEN_MAX_ALIGN_BYTES=64",
+      "tf_sampling_g.cu.o",
+      "-L/home/qyb/RESEARCH/baseline_graspgen/.cuda/targets/x86_64-linux/lib",
+      "-lcudart",
+      "-Wl,-rpath,/home/qyb/RESEARCH/baseline_graspgen/.cuda/targets/x86_64-linux/lib",
+      "-L/home/qyb/RESEARCH/stero robotic grasping/source codes/baseline_runtime/.venv-tf/lib/python3.11/site-packages/tensorflow",
+      "-l:libtensorflow_framework.so.2",
+      "-Wl,-rpath,/home/qyb/RESEARCH/stero robotic grasping/source codes/baseline_runtime/.venv-tf/lib/python3.11/site-packages/tensorflow"
+    ],
+    [
+      "/home/qyb/RESEARCH/baseline_graspgen/.cuda/bin/nvcc",
+      "-ccbin",
+      "/home/qyb/RESEARCH/baseline_graspgen/.cuda/bin/x86_64-conda-linux-gnu-g++",
+      "-std=c++17",
+      "-c",
+      "tf_grouping_g.cu",
+      "-o",
+      "tf_grouping_g.cu.o",
+      "-O2",
+      "-DGOOGLE_CUDA=1",
+      "-x",
+      "cu",
+      "-Xcompiler",
+      "-fPIC",
+      "-gencode=arch=compute_89,code=sm_89"
+    ],
+    [
+      "/home/qyb/RESEARCH/baseline_graspgen/.cuda/bin/x86_64-conda-linux-gnu-g++",
+      "-std=c++17",
+      "-shared",
+      "tf_grouping.cpp",
+      "-o",
+      "tf_grouping_so.so",
+      "-fPIC",
+      "-O2",
+      "-I/home/qyb/RESEARCH/baseline_graspgen/.cuda/targets/x86_64-linux/include",
+      "-I/home/qyb/RESEARCH/stero robotic grasping/source codes/baseline_runtime/.venv-tf/lib/python3.11/site-packages/tensorflow/include",
+      "-D_GLIBCXX_USE_CXX11_ABI=1",
+      "--std=c++17",
+      "-DEIGEN_MAX_ALIGN_BYTES=64",
+      "tf_grouping_g.cu.o",
+      "-L/home/qyb/RESEARCH/baseline_graspgen/.cuda/targets/x86_64-linux/lib",
+      "-lcudart",
+      "-Wl,-rpath,/home/qyb/RESEARCH/baseline_graspgen/.cuda/targets/x86_64-linux/lib",
+      "-L/home/qyb/RESEARCH/stero robotic grasping/source codes/baseline_runtime/.venv-tf/lib/python3.11/site-packages/tensorflow",
+      "-l:libtensorflow_framework.so.2",
+      "-Wl,-rpath,/home/qyb/RESEARCH/stero robotic grasping/source codes/baseline_runtime/.venv-tf/lib/python3.11/site-packages/tensorflow"
+    ],
+    [
+      "/home/qyb/RESEARCH/baseline_graspgen/.cuda/bin/x86_64-conda-linux-gnu-g++",
+      "-std=c++17",
+      "-shared",
+      "tf_interpolate.cpp",
+      "-o",
+      "tf_interpolate_so.so",
+      "-fPIC",
+      "-O2",
+      "-I/home/qyb/RESEARCH/baseline_graspgen/.cuda/targets/x86_64-linux/include",
+      "-I/home/qyb/RESEARCH/stero robotic grasping/source codes/baseline_runtime/.venv-tf/lib/python3.11/site-packages/tensorflow/include",
+      "-D_GLIBCXX_USE_CXX11_ABI=1",
+      "--std=c++17",
+      "-DEIGEN_MAX_ALIGN_BYTES=64",
+      "-L/home/qyb/RESEARCH/stero robotic grasping/source codes/baseline_runtime/.venv-tf/lib/python3.11/site-packages/tensorflow",
+      "-l:libtensorflow_framework.so.2",
+      "-Wl,-rpath,/home/qyb/RESEARCH/stero robotic grasping/source codes/baseline_runtime/.venv-tf/lib/python3.11/site-packages/tensorflow"
+    ]
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "checkpoint": "/home/qyb/RESEARCH/Robotic_Grasping/Source_Codes_Grasping_Modules/baseline_graspgen/models/foundation_stereo/23-51-11/model_best_bp2.pth",
+  "checkpoint_sha256": "60e79bde9c6a00acea551625ff814fe06e5a6806e2c0c9829baee248de87c5f1",
+  "strict_state_dict_load": true,
+  "weights_retrained": false,
+  "upstream": "/home/qyb/RESEARCH/Robotic_Grasping/Source_Codes_Grasping_Modules/baseline_graspgen/upstream/FoundationStereo",
+  "upstream_commit": "6e8806816b533e4d13ddbb95ffa907b797060a62",
+  "runtime": "CUDA",
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "torch_version": "2.7.0+cu128",
+  "iterations": 32,
+  "normalization": "author internal",
+  "precision": "FP16 autocast",
+  "tf32": false,
+  "checkpoint_domain": "author pretrained foundation model",
+  "model_load_and_provenance_seconds": 15.43372361100046,
+  "source_sha256": "08509e53aa7b836d3140ef6ded7982b2869ae808e49f0e3fc38444246e6ce9cf",
+  "seed": 0,
+  "input_size": [
+    640,
+    480
+  ]
+}

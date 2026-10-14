@@ -1,0 +1,23 @@
+{
+  "episode_id": "spacer_04_p02_single",
+  "method": "psmnet",
+  "split": "development",
+  "seed": 0,
+  "input_sha256": {
+    "left.png": "130ef29dc087895560e278a50e8763e7177bf17794d1a35958158c6761cc5489",
+    "right.png": "a1cbfb61e9b85099c40bfef0c60f9335273c2e96a15edad36e44bb3a248f9465",
+    "cameras.json": "49f798ce8c470a3d17c1a63d2f24a1663c9fea8e71b07643f67ef0d9da09bb66",
+    "task.json": "764eeab0dc1a898949bc4d3eb67936600a01aace5af8f5761132e6a08cc5118d"
+  },
+  "inference_seconds": 0.35483628600195516,
+  "perception_pipeline_seconds": 0.6672353920002934,
+  "first_inference_after_model_load": false,
+  "geometry_truth_used": false,
+  "object_pose_used": false,
+  "native_robot_execution_performed": false,
+  "prediction_sha256": "629ca0f9113a91e31dc37b00354522287cbd15aab2a821e598f5d7af5db5acf1",
+  "scene_points": 123969,
+  "raw_target_points": 23614,
+  "target_points": 22307,
+  "grasp_input_ready": true
+}

@@ -1,0 +1,67 @@
+{
+  "episode_id": "mounting_block_02_p01_single",
+  "units": "m",
+  "frame_id": "dataset_world",
+  "instances": [
+    {
+      "instance_id": 1,
+      "object_id": "mounting_block_02",
+      "role": "target",
+      "world_from_object": [
+        [
+          -0.6424995281385871,
+          -0.7662860799608021,
+          0.0,
+          0.01718108471743983
+        ],
+        [
+          0.7662860799608021,
+          -0.6424995281385871,
+          0.0,
+          0.007849915778409017
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "scene_assets": [
+    {
+      "kind": "box",
+      "name": "table",
+      "extents_m": [
+        0.65,
+        0.5,
+        0.035
+      ],
+      "center_m": [
+        0,
+        0,
+        -0.0175
+      ]
+    }
+  ],
+  "condition": "single",
+  "matched_pose_id": "mounting_block_02_p01",
+  "placement": "analytic stable flat support with random planar translation and yaw; no dynamics settling",
+  "visible_target_pixels": {
+    "left": 3144,
+    "right": 3098,
+    "aux_left": 2762,
+    "aux_right": 3052
+  },
+  "purpose": "evaluation_and_simulator_only",
+  "robot_world_from_dataset_world": null,
+  "abb_execution_status": "not_run",
+  "grasp_success": null
+}

@@ -1,0 +1,10 @@
+{
+  "fanuc_macro": "experiments/robot_assets/fanuc_description/fanuc_m20_description/urdf/m20_25_18d_urdf_macro.xacro",
+  "fanuc_macro_sha256": "9dc7f74c9afe76a3f9c92449fe40955987dbdb6e3bd9c539fa1294a2273791ee",
+  "panda_urdf_sha256": "e76e6f76300b524639e8a19db581a81696688822184f4854a079920a018775ac",
+  "generated_sha256": "cbec08a038875973083f339e464c80f8634fa0fed2adf00c5b88a80f96468ef2",
+  "joint_conversion": "serial J3 = controller J2 + controller J3; all others unchanged",
+  "tool_mount_z_m": 0.04,
+  "visual_meshes": "archived collision meshes",
+  "controls": "PhysX joint drives, not a FANUC virtual controller"
+}

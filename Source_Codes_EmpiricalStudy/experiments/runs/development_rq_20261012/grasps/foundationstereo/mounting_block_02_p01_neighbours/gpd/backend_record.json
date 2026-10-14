@@ -1,0 +1,104 @@
+{
+  "backend": "gpd",
+  "official_commit": "6327f20eabfcba41a05fdd2e2ba408153dc2e958",
+  "device": "cpu",
+  "classifier": "official Eigen 15-channel LeNet",
+  "checkpoint_files_sha256": {
+    "upstream/gpd/models/lenet/15channels/params/conv1_biases.bin": "e69de1b76e24e6a4c7f257fce4832ab95e6ab67310d5bea5fbe6981a42d434fd",
+    "upstream/gpd/models/lenet/15channels/params/conv1_weights.bin": "e1b8e411b9374b678d4c2b28d8fda435ba553611426c29b72afb24a01ccb9b38",
+    "upstream/gpd/models/lenet/15channels/params/conv2_biases.bin": "8b656f30d77e2cb622c615353644cd27ffe141920a7c4927a477463bc193605f",
+    "upstream/gpd/models/lenet/15channels/params/conv2_weights.bin": "f443f2d10e5eb48bb0a58f693f7d4762e1e88262edbdf428c757856db7a1cbb9",
+    "upstream/gpd/models/lenet/15channels/params/ip1_biases.bin": "f755ee9ab30fa9cdb78f1ab3cbc4bd390a0766837ea1ae2dfdd96757df6ee7f6",
+    "upstream/gpd/models/lenet/15channels/params/ip1_weights.bin": "b044440d422ead2fe99833548311d087ac1f30abc9ea2f23fa9115453f73b179",
+    "upstream/gpd/models/lenet/15channels/params/ip2_biases.bin": "88b15215d03a636ac524b76c1732ad3b01306b24e0a729c4c5ee328fbd112744",
+    "upstream/gpd/models/lenet/15channels/params/ip2_weights.bin": "5ce3b298e4e1a657fa18d5a65e88fd120ba8d506b38e0cddc3ccad32d9bf530e"
+  },
+  "binary_sha256": "78c96b4c298c2f79f90cd3999717ee628cd4308fc8dfc2a52e623ed6d032ca8e",
+  "config_sha256": "62fbf748b930d1bd7f68291f639cc9dc0d47fdb7114736f213e3c747b5ea8f51",
+  "width_source": "geometric_estimate",
+  "width_semantics": "observed_object_span_in_author_closing_region",
+  "width_is_network_prediction": false,
+  "author_nominal_max_opening_m": 0.1,
+  "width_filter_max_m": 0.08,
+  "model_geometry_is_panda_geometry": false,
+  "T_model_to_common_grasp": [
+    [
+      0.0,
+      0.0,
+      1.0,
+      -0.052249000000000004
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      -1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "common_grasp_origin": "panda_hand",
+  "raw_pose_origin": "author_closing_box_base_center",
+  "raw_axes": "+x approach; +y closing/binormal; +z hand axis",
+  "geometry_alignment": {
+    "method": "align_fingertip_plane_and_closing_midplane",
+    "author_base_to_tip_m": 0.06,
+    "panda_hand_to_tip_m": 0.112249,
+    "translation_author_x_m": -0.052249000000000004,
+    "limitations": "Axis/tip-plane registration only; author rectangular 100mm hand differs from Panda mesh. Panda collision and width-aware planning remain required."
+  },
+  "geometry_source_evidence": [
+    "upstream/gpd/src/gpd/candidate/hand.cpp:42",
+    "upstream/gpd/src/gpd/candidate/finger_hand.cpp:29",
+    "upstream/gpd/include/gpd/candidate/hand.h:226",
+    "upstream/gpd/cfg/hand_geometry.cfg",
+    "../baseline_graspgen/upstream/GraspGen/assets/franka/franka_panda.urdf"
+  ],
+  "score_semantics": "author positive logit minus negative logit; not calibrated probability or cross-model common scale",
+  "sampling": {
+    "seed": 20261011,
+    "target_samples": 200,
+    "orientations": 8,
+    "finger_placements": 10,
+    "selected_limit": 200,
+    "voxel_size_m": 0.003
+  },
+  "visibility_adapter": {
+    "input_camera_ids_preserved": true,
+    "measured_source_points": 272753,
+    "unknown_source_points": 0,
+    "estimated_visibility_method": null,
+    "estimated_visibility_is_observed_provenance": false,
+    "camera_point_counts": [
+      272753
+    ],
+    "excluded_without_visible_camera": 0,
+    "normal_orientation": "author PCL radius normals towards first listed measured/estimated visible camera; author reverseNormals checks all listed cameras",
+    "shadow_convention": "author multi-camera intersection using measured sources or explicitly estimated visibility"
+  },
+  "scene_scope": "workspace_roi",
+  "input_npz_sha256": "f78aa471ebb3e1cbe9ee42652faf42e0d64682813b0f91121ea8502d1928da76",
+  "input_hashes": {
+    "left.png": "715cdbfc7d0b539ffd608ac8f850e94585fac96740c950e72e728745a4976947",
+    "right.png": "7f24ee6bdf3da7c183bbb3f8dbe3c89220a59ec709d540635249ccaaed5f90c0",
+    "cameras.json": "49f798ce8c470a3d17c1a63d2f24a1663c9fea8e71b07643f67ef0d9da09bb66",
+    "task.json": "69b2ec087ed8f90b6332b4e4d9bd27a576d3f6c5cad6f7f85a8d2a3b92347a02"
+  },
+  "author_output_count": 68,
+  "filtered_invalid_width_or_nonfinite": 0,
+  "inference_wall_seconds": 7.074898511986248,
+  "adapter_total_seconds": 7.892983478988754,
+  "gpu_inference": false,
+  "robot_execution": false,
+  "full_unified_planning_verified": false
+}

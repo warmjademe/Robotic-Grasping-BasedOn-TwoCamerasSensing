@@ -1,0 +1,95 @@
+[
+  {
+    "path": "Source_Codes_Grasping_Modules/baseline_graspgen/upstream/GraspDataGen",
+    "url": "https://github.com/NVlabs/GraspDataGen.git",
+    "commit": "8e090052aff8f054a1141dfcbd6ac320d0fd3432",
+    "licenses": []
+  },
+  {
+    "path": "Source_Codes_Grasping_Modules/baseline_graspgen/upstream/GraspGen",
+    "url": "https://github.com/NVlabs/GraspGen.git",
+    "commit": "2dd8852e1be60f5f9d277fafcc621835cdf59110",
+    "licenses": [
+      "third_party_licenses/GraspGen/LICENSE"
+    ]
+  },
+  {
+    "path": "Source_Codes_Grasping_Modules/baseline_graspgen/upstream/FoundationStereo",
+    "url": "https://github.com/NVlabs/FoundationStereo.git",
+    "commit": "6e8806816b533e4d13ddbb95ffa907b797060a62",
+    "licenses": [
+      "third_party_licenses/FoundationStereo/LICENSE"
+    ]
+  },
+  {
+    "path": "Source_Codes_Grasping_Modules/baseline_gpd/upstream/gpd",
+    "url": "https://github.com/atenpas/gpd.git",
+    "commit": "6327f20eabfcba41a05fdd2e2ba408153dc2e958",
+    "patch": "tools/upstream_patches/gpd.patch",
+    "licenses": [
+      "third_party_licenses/gpd/LICENSE.md"
+    ]
+  },
+  {
+    "path": "Source_Codes_Grasping_Modules/baseline_graspnet_baseline/upstream/graspnetAPI",
+    "url": "https://github.com/graspnet/graspnetAPI.git",
+    "commit": "eb57dd2092d8dbe05312a29c3d0c22f3226efbfc",
+    "licenses": [
+      "third_party_licenses/graspnetAPI/LICENSE"
+    ]
+  },
+  {
+    "path": "Source_Codes_Grasping_Modules/baseline_graspnet_baseline/upstream/graspnet-baseline",
+    "url": "https://github.com/graspnet/graspnet-baseline.git",
+    "commit": "280c215129f759ed8649cb4e89fc5dfee55f4f80",
+    "licenses": [
+      "third_party_licenses/graspnet-baseline/LICENSE"
+    ]
+  },
+  {
+    "path": "Source_Codes_Grasping_Modules/baseline_6dof_graspnet/upstream/6dof-graspnet",
+    "url": "https://github.com/NVlabs/6dof-graspnet.git",
+    "commit": "cd08b6c559e51a187ab65faea6415f51239808b8",
+    "licenses": [
+      "third_party_licenses/6dof-graspnet/LICENSE"
+    ]
+  },
+  {
+    "path": "Source_Codes_Grasping_Modules/baseline_contact_graspnet/upstream/contact_graspnet",
+    "url": "https://github.com/NVlabs/contact_graspnet.git",
+    "commit": "721706067cc7f7889c32afe7b4f7955eb90bd866",
+    "licenses": []
+  },
+  {
+    "path": "Source_Codes_BasedOn_TwoCameras3D_Sensing/baseline_psmnet_raft_stereo/upstream/PSMNet",
+    "url": "https://github.com/JiaRenChang/PSMNet.git",
+    "commit": "87ac9093afbf6545c093bd9d26c5ffd66e49a7b8",
+    "licenses": [
+      "third_party_licenses/PSMNet/LICENSE"
+    ]
+  },
+  {
+    "path": "Source_Codes_BasedOn_TwoCameras3D_Sensing/baseline_psmnet_raft_stereo/upstream/RAFT-Stereo",
+    "url": "https://github.com/princeton-vl/RAFT-Stereo.git",
+    "commit": "6e93ed2169bd858dbb43033988563f3b0bb49506",
+    "licenses": [
+      "third_party_licenses/RAFT-Stereo/LICENSE"
+    ]
+  },
+  {
+    "path": "Source_Codes_BasedOn_TwoCameras3D_Sensing/baseline_gwcnet/upstream/GwcNet",
+    "url": "https://github.com/xy-guo/GwcNet.git",
+    "commit": "0987074f48b098c6e975a58ca5aacf233b0fb0eb",
+    "licenses": [
+      "third_party_licenses/GwcNet/LICENSE"
+    ]
+  },
+  {
+    "path": "Source_Codes_BasedOn_TwoCameras3D_Sensing/baseline_igev_stereo/upstream/IGEV",
+    "url": "https://github.com/gangweiX/IGEV.git",
+    "commit": "4a3d937aab788b3ff3ed49b7b5c81340ab46a5eb",
+    "licenses": [
+      "third_party_licenses/IGEV/LICENSE"
+    ]
+  }
+]

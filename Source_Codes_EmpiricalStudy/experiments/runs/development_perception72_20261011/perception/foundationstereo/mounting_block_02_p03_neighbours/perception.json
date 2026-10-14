@@ -1,0 +1,23 @@
+{
+  "episode_id": "mounting_block_02_p03_neighbours",
+  "method": "foundationstereo",
+  "split": "development",
+  "seed": 0,
+  "input_sha256": {
+    "left.png": "573ef622f75fe62a818eb1224fa9db16bdd0fe334cde9150501b5ab626127da7",
+    "right.png": "2bfc045493b4727a47152fbd70d4a46db15e6be2d2fb6e5f8831bc3af76424b8",
+    "cameras.json": "49f798ce8c470a3d17c1a63d2f24a1663c9fea8e71b07643f67ef0d9da09bb66",
+    "task.json": "23a46cd51417c29907b409afc7e96f1828833799d92de83cde81a2275d8c9fd9"
+  },
+  "inference_seconds": 0.36137910300749354,
+  "perception_pipeline_seconds": 0.7244340469915187,
+  "first_inference_after_model_load": false,
+  "geometry_truth_used": false,
+  "object_pose_used": false,
+  "native_robot_execution_performed": false,
+  "prediction_sha256": "76b50cfe0e268755c2f89b38cd0fe76d5f07e5832a75913ed21fe26c833e4daf",
+  "scene_points": 272621,
+  "raw_target_points": 3130,
+  "target_points": 3109,
+  "grasp_input_ready": true
+}

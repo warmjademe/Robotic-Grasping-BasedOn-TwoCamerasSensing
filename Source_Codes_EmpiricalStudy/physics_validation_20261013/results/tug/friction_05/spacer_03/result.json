@@ -1,0 +1,400 @@
+{
+  "stage": "isolated_gripper_tug",
+  "status": "completed",
+  "rows": [
+    {
+      "case_id": "case_0142",
+      "success": false,
+      "closing_command_m": 0.04253671099870976,
+      "expected": null
+    },
+    {
+      "case_id": "case_0143",
+      "success": false,
+      "closing_command_m": 0.04513230468908229,
+      "expected": null
+    },
+    {
+      "case_id": "case_0144",
+      "success": true,
+      "closing_command_m": 0.0283899283192914,
+      "expected": null
+    },
+    {
+      "case_id": "case_0145",
+      "success": true,
+      "closing_command_m": 0.032393272663651135,
+      "expected": null
+    },
+    {
+      "case_id": "case_0146",
+      "success": false,
+      "closing_command_m": 0.04038292511257411,
+      "expected": null
+    },
+    {
+      "case_id": "case_0147",
+      "success": false,
+      "closing_command_m": 0.019044174221727585,
+      "expected": null
+    },
+    {
+      "case_id": "case_0148",
+      "success": true,
+      "closing_command_m": 0.030699074149604128,
+      "expected": null
+    },
+    {
+      "case_id": "case_0149",
+      "success": false,
+      "closing_command_m": 0.04106744710748692,
+      "expected": null
+    },
+    {
+      "case_id": "case_0150",
+      "success": false,
+      "closing_command_m": 0.049002578138230724,
+      "expected": null
+    },
+    {
+      "case_id": "case_0151",
+      "success": false,
+      "closing_command_m": 0.030997782318003722,
+      "expected": null
+    },
+    {
+      "case_id": "case_0152",
+      "success": false,
+      "closing_command_m": 0.04124643071737308,
+      "expected": null
+    },
+    {
+      "case_id": "case_0153",
+      "success": true,
+      "closing_command_m": 0.037607358675537245,
+      "expected": null
+    },
+    {
+      "case_id": "case_0154",
+      "success": false,
+      "closing_command_m": 0.0423779835757984,
+      "expected": null
+    },
+    {
+      "case_id": "case_0155",
+      "success": false,
+      "closing_command_m": 0.03852509488039008,
+      "expected": null
+    },
+    {
+      "case_id": "case_0156",
+      "success": true,
+      "closing_command_m": 0.03777026525969239,
+      "expected": null
+    },
+    {
+      "case_id": "case_0157",
+      "success": false,
+      "closing_command_m": 0.04015450883208109,
+      "expected": null
+    },
+    {
+      "case_id": "case_0158",
+      "success": true,
+      "closing_command_m": 0.03309254218962107,
+      "expected": null
+    },
+    {
+      "case_id": "case_0159",
+      "success": true,
+      "closing_command_m": 0.037775587634830465,
+      "expected": null
+    },
+    {
+      "case_id": "case_0160",
+      "success": false,
+      "closing_command_m": 0.032780227602430406,
+      "expected": null
+    },
+    {
+      "case_id": "case_0161",
+      "success": false,
+      "closing_command_m": 0.043384114043370295,
+      "expected": null
+    },
+    {
+      "case_id": "case_0162",
+      "success": false,
+      "closing_command_m": 0.0402592822639786,
+      "expected": null
+    },
+    {
+      "case_id": "case_0163",
+      "success": false,
+      "closing_command_m": 0.04503770412248621,
+      "expected": null
+    },
+    {
+      "case_id": "case_0164",
+      "success": false,
+      "closing_command_m": 0.04126415981970518,
+      "expected": null
+    },
+    {
+      "case_id": "case_0165",
+      "success": false,
+      "closing_command_m": 0.04023050390094966,
+      "expected": null
+    },
+    {
+      "case_id": "case_0166",
+      "success": true,
+      "closing_command_m": 0.03144815672987912,
+      "expected": null
+    },
+    {
+      "case_id": "case_0167",
+      "success": true,
+      "closing_command_m": 0.03689310838453692,
+      "expected": null
+    },
+    {
+      "case_id": "case_0168",
+      "success": false,
+      "closing_command_m": 0.04232281512141531,
+      "expected": null
+    },
+    {
+      "case_id": "case_0169",
+      "success": false,
+      "closing_command_m": 0.03974609502026698,
+      "expected": null
+    },
+    {
+      "case_id": "case_0170",
+      "success": true,
+      "closing_command_m": 0.03319239044305325,
+      "expected": null
+    },
+    {
+      "case_id": "case_0171",
+      "success": false,
+      "closing_command_m": 0.048127502369739984,
+      "expected": null
+    },
+    {
+      "case_id": "case_0172",
+      "success": false,
+      "closing_command_m": 0.04546572321602037,
+      "expected": null
+    }
+  ],
+  "actual_parameters": {
+    "mass_kg": [
+      0.10000000149011612
+    ],
+    "joints": [
+      "panda_finger_joint1",
+      "panda_finger_joint2"
+    ],
+    "stiffness": [
+      1000.0,
+      1000.0
+    ],
+    "damping": [
+      100.0,
+      100.0
+    ]
+  },
+  "seconds": 10.440989394992357,
+  "friction": 0.5,
+  "fps": 250.0,
+  "gravity_enabled": false,
+  "force_magnitude_g": 1.0,
+  "applied_closure_commands": [
+    [
+      0.02126835472881794,
+      0.02126835472881794
+    ],
+    [
+      0.02256615273654461,
+      0.02256615273654461
+    ],
+    [
+      0.014194964431226254,
+      0.014194964431226254
+    ],
+    [
+      0.016196636483073235,
+      0.016196636483073235
+    ],
+    [
+      0.020191462710499763,
+      0.020191462710499763
+    ],
+    [
+      0.009522086940705776,
+      0.009522086940705776
+    ],
+    [
+      0.015349537134170532,
+      0.015349537134170532
+    ],
+    [
+      0.020533723756670952,
+      0.020533723756670952
+    ],
+    [
+      0.024501288309693336,
+      0.024501288309693336
+    ],
+    [
+      0.015498891472816467,
+      0.015498891472816467
+    ],
+    [
+      0.020623214542865753,
+      0.020623214542865753
+    ],
+    [
+      0.018803678452968597,
+      0.018803678452968597
+    ],
+    [
+      0.021188991144299507,
+      0.021188991144299507
+    ],
+    [
+      0.01926254667341709,
+      0.01926254667341709
+    ],
+    [
+      0.018885131925344467,
+      0.018885131925344467
+    ],
+    [
+      0.020077254623174667,
+      0.020077254623174667
+    ],
+    [
+      0.01654627174139023,
+      0.01654627174139023
+    ],
+    [
+      0.018887793645262718,
+      0.018887793645262718
+    ],
+    [
+      0.016390113160014153,
+      0.016390113160014153
+    ],
+    [
+      0.021692056208848953,
+      0.021692056208848953
+    ],
+    [
+      0.020129641517996788,
+      0.020129641517996788
+    ],
+    [
+      0.022518852725625038,
+      0.022518852725625038
+    ],
+    [
+      0.020632080733776093,
+      0.020632080733776093
+    ],
+    [
+      0.02011525258421898,
+      0.02011525258421898
+    ],
+    [
+      0.015724077820777893,
+      0.015724077820777893
+    ],
+    [
+      0.018446553498506546,
+      0.018446553498506546
+    ],
+    [
+      0.021161407232284546,
+      0.021161407232284546
+    ],
+    [
+      0.01987304724752903,
+      0.01987304724752903
+    ],
+    [
+      0.016596194356679916,
+      0.016596194356679916
+    ],
+    [
+      0.024063751101493835,
+      0.024063751101493835
+    ],
+    [
+      0.02273286134004593,
+      0.02273286134004593
+    ]
+  ],
+  "tug_sequences": [
+    [
+      0.5,
+      [
+        0.0,
+        0.0,
+        1.0
+      ],
+      1.0
+    ],
+    [
+      0.5,
+      [
+        0.0,
+        0.8944271909999159,
+        0.4472135954999579
+      ],
+      1.0
+    ],
+    [
+      0.5,
+      [
+        0.0,
+        -0.8944271909999159,
+        0.4472135954999579
+      ],
+      1.0
+    ],
+    [
+      0.5,
+      [
+        0.8944271909999159,
+        0.0,
+        0.4472135954999579
+      ],
+      1.0
+    ],
+    [
+      0.5,
+      [
+        -0.8944271909999159,
+        0.0,
+        0.4472135954999579
+      ],
+      1.0
+    ]
+  ],
+  "closure": "saved_plan_closing_command",
+  "object_attached": false,
+  "full_arm": false,
+  "success_definition": "Official GraspDataGen: both fingers have nonzero contact force after final tug",
+  "source_sha256": "2176885516284e7b667cdd9f0a37fa96e07e2ef1352b62b0645f5fec0ac3127c",
+  "code_sha256": "ac643c9fa71d1cfe008a49fee53dccf65d0e3aa0b318f9e715b76ea7efe60d34",
+  "upstream_sha256": "9a2d7516e89eb2fe2e39480c5827252a8624019149ab26c476d73ceb9a7872a1",
+  "versions": {
+    "isaacsim": "5.1.0.0",
+    "isaaclab": "2.3.2.post1",
+    "torch": "2.7.0+cu128",
+    "warp-lang": "1.9.1"
+  }
+}

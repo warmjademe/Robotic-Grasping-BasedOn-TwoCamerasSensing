@@ -1,0 +1,348 @@
+{
+  "created_at": "2026-10-14T12:30:07.933345+08:00",
+  "moved_files": [
+    {
+      "path": "experiments/formal_frontend.py",
+      "sha256": "3d6b6e6e41f3ec72b1c38be45eb5254fd3dab25e4eb0adf23199a75a3a776254",
+      "reason": "Retired ROBOGUIDE/old RQ4/formal-test or external-dataset operational code"
+    },
+    {
+      "path": "experiments/native_session.py",
+      "sha256": "9093ecd839466d29dbd33cdb2994ffd03dbef3d52ce3725ef80fdc95f88f231a",
+      "reason": "Retired ROBOGUIDE/old RQ4/formal-test or external-dataset operational code"
+    },
+    {
+      "path": "experiments/prepare_fanuc_worker.py",
+      "sha256": "964f4f39dcceced330188085ab366a764cda6dda55eb0e88c3df2862b9a9b55d",
+      "reason": "Retired ROBOGUIDE/old RQ4/formal-test or external-dataset operational code"
+    },
+    {
+      "path": "experiments/fanuc_preflight.py",
+      "sha256": "2e69deaa62435cbe83d888849c57018b79f890e028ca579f6233a9296acbea02",
+      "reason": "Retired ROBOGUIDE/old RQ4/formal-test or external-dataset operational code"
+    },
+    {
+      "path": "experiments/enable_fanuc_worker.py",
+      "sha256": "0bb0889bdc080c9c2b1edff26f68834f0b61f307b264d4399db49634f32671e3",
+      "reason": "Retired ROBOGUIDE/old RQ4/formal-test or external-dataset operational code"
+    },
+    {
+      "path": "experiments/evaluate_test_perception.py",
+      "sha256": "4c86726002381edda7eb516b030fafde084f1b4c4ab74522709eb0a12702ee98",
+      "reason": "Retired ROBOGUIDE/old RQ4/formal-test or external-dataset operational code"
+    },
+    {
+      "path": "experiments/commission_collision_abort.py",
+      "sha256": "59f3cf02e2942c720db0d4eedac290d04ad7a2fb24172bec4e6772f1cbc4fd74",
+      "reason": "Retired ROBOGUIDE/old RQ4/formal-test or external-dataset operational code"
+    },
+    {
+      "path": "experiments/commission_industrial_execution.py",
+      "sha256": "15ca64daf431f7bada9a38ed53c706b875d0a2fd9cc6d6d76b423a1545c18f0f",
+      "reason": "Retired ROBOGUIDE/old RQ4/formal-test or external-dataset operational code"
+    },
+    {
+      "path": "experiments/mirror_rq2_rq3_sequence.py",
+      "sha256": "4e704d34a8a1661a77bc4b5e8ccc065a05045ae9eb15c8984b7103d98ff7546c",
+      "reason": "Retired ROBOGUIDE/old RQ4/formal-test or external-dataset operational code"
+    },
+    {
+      "path": "experiments/read_native_installation.ps1",
+      "sha256": "46593fa18d0bd9a029175dc7b6ecd4576e43317f41fdd5837d24633e1b0f5b6f",
+      "reason": "Retired ROBOGUIDE/old RQ4/formal-test or external-dataset operational code"
+    },
+    {
+      "path": "experiments/run_next_development_plan.py",
+      "sha256": "205b077d50410c96a0b5430726b91b2bc4ab261e093f9e958df2086b64fc7041",
+      "reason": "Retired ROBOGUIDE/old RQ4/formal-test or external-dataset operational code"
+    },
+    {
+      "path": "experiments/fanuc_path_pool.py",
+      "sha256": "8f4734253ed4bb5ccac1a3b3ce02da18860e95f75bcc58c7ce116e30a68905f0",
+      "reason": "Retired ROBOGUIDE/old RQ4/formal-test or external-dataset operational code"
+    },
+    {
+      "path": "experiments/native_monitor.py",
+      "sha256": "bdd1442682e16105fa66c73a6cbfa38b5e1e99be162ef5262d86fec83794ab09",
+      "reason": "Retired ROBOGUIDE/old RQ4/formal-test or external-dataset operational code"
+    },
+    {
+      "path": "experiments/multiview.py",
+      "sha256": "73888386e76a63f1836479c9e0b042a5f9f21229e4711149d4d325543cb4c9d1",
+      "reason": "Retired ROBOGUIDE/old RQ4/formal-test or external-dataset operational code"
+    },
+    {
+      "path": "experiments/audit_formal_evidence.py",
+      "sha256": "dffc51f398cf6c1c6867d427b30530b9a3eb4789de9332f4e40a56e6c0ce2f44",
+      "reason": "Retired ROBOGUIDE/old RQ4/formal-test or external-dataset operational code"
+    },
+    {
+      "path": "experiments/summarize_rq.py",
+      "sha256": "319b16e2f15e2f8e6daab9bc284bf639bc72b59c8e22406154900fc571fec847",
+      "reason": "Retired ROBOGUIDE/old RQ4/formal-test or external-dataset operational code"
+    },
+    {
+      "path": "experiments/export_formal_rq.py",
+      "sha256": "a4f64d4ce1a355d32199c940f2de66e4d9bdcf1abbfe616cbec18d8ac3eb6672",
+      "reason": "Retired ROBOGUIDE/old RQ4/formal-test or external-dataset operational code"
+    },
+    {
+      "path": "experiments/commission_mesh_catalog.py",
+      "sha256": "0c96801cbd0d51b41eacfda321888e3d06d735237229ed934df8bd737bcbf82e",
+      "reason": "Retired ROBOGUIDE/old RQ4/formal-test or external-dataset operational code"
+    },
+    {
+      "path": "experiments/diagnose_grasp_failures_20261013.py",
+      "sha256": "c9e4cea45e3230740dba8cefac8aa6153b4a2e11b101e24ead15fc3dc6f6dbc0",
+      "reason": "Retired ROBOGUIDE/old RQ4/formal-test or external-dataset operational code"
+    },
+    {
+      "path": "experiments/validate_repetition_seeds.py",
+      "sha256": "6f8bcea99e30ebbbff0feaf719ee0ab6b163bcf07b82810073bf24ca9da1aa5f",
+      "reason": "Retired ROBOGUIDE/old RQ4/formal-test or external-dataset operational code"
+    },
+    {
+      "path": "experiments/execute_predicted_plan.py",
+      "sha256": "8dce94eacfd2f9ab39a3ae39841f368f5737bcb766eca8a062e465c9cbc7bf48",
+      "reason": "Retired ROBOGUIDE/old RQ4/formal-test or external-dataset operational code"
+    },
+    {
+      "path": "experiments/formal_native_pool.py",
+      "sha256": "33dd37ffeee331e7b0116bdd73984e44ace0a7512c14ab9c8bcda61cbcaa5595",
+      "reason": "Retired ROBOGUIDE/old RQ4/formal-test or external-dataset operational code"
+    },
+    {
+      "path": "experiments/handoff_fanuc_worker.py",
+      "sha256": "9000594e123328eed0531bef86aa1e6cec8e3f5c59a95703e5b2a61b329803dd",
+      "reason": "Retired ROBOGUIDE/old RQ4/formal-test or external-dataset operational code"
+    },
+    {
+      "path": "experiments/sync_parallel_run.py",
+      "sha256": "e0cc18a5df0a3319fd36489f46ceac2f23b90203c4a0d43fe6236706c83e7d99",
+      "reason": "Retired ROBOGUIDE/old RQ4/formal-test or external-dataset operational code"
+    },
+    {
+      "path": "experiments/continue_formal_frontend.py",
+      "sha256": "01e191709cce0433d6c348c830ea3c697c27d8b6ed242f2721e783716993748e",
+      "reason": "Retired ROBOGUIDE/old RQ4/formal-test or external-dataset operational code"
+    },
+    {
+      "path": "experiments/export_development_planning.py",
+      "sha256": "d5c6f7caf47584d3c78774b91b8a152b4a8210d23dc93f4571a359c85a22159b",
+      "reason": "Retired ROBOGUIDE/old RQ4/formal-test or external-dataset operational code"
+    },
+    {
+      "path": "experiments/commission_scene_loading.py",
+      "sha256": "7b321463af7fcfbb1c1f7e17aa1c4f219a6bffe801585226adc0f97ee1d9f755",
+      "reason": "Retired ROBOGUIDE/old RQ4/formal-test or external-dataset operational code"
+    },
+    {
+      "path": "experiments/record_development_execution.py",
+      "sha256": "624b710b9146f3f29ade6b1518a556e44510828233c7fb21aae4df9ef5cdf22d",
+      "reason": "Retired ROBOGUIDE/old RQ4/formal-test or external-dataset operational code"
+    },
+    {
+      "path": "experiments/verify_capture_contract.py",
+      "sha256": "540429ccdc5282ca6cc24b18674abbae9a6f1bd50996565fe695e65d63b067b0",
+      "reason": "Retired ROBOGUIDE/old RQ4/formal-test or external-dataset operational code"
+    },
+    {
+      "path": "experiments/audit_development_planning.py",
+      "sha256": "e5a3f5b9d33f78d7bd942517d90b82a3c53925996f2f86d92f2f3d6affee5953",
+      "reason": "Retired ROBOGUIDE/old RQ4/formal-test or external-dataset operational code"
+    },
+    {
+      "path": "experiments/remove_retired_abb_workers.py",
+      "sha256": "a5b58911df1ecdf138591c69798da601d99c0c2ca6a0568716208edbc42053d8",
+      "reason": "Retired ROBOGUIDE/old RQ4/formal-test or external-dataset operational code"
+    },
+    {
+      "path": "experiments/sync_rq_run.py",
+      "sha256": "c95c5d947875ad04c90d2633ab8a57a02cee9888f57b799586708872743e9b4b",
+      "reason": "Retired ROBOGUIDE/old RQ4/formal-test or external-dataset operational code"
+    },
+    {
+      "path": "experiments/configure_worker_transport.py",
+      "sha256": "f33f375811541c12c5dbb7c901a17e679c1a88b4622668b87d2d5a202ed2bfc6",
+      "reason": "Retired ROBOGUIDE/old RQ4/formal-test or external-dataset operational code"
+    },
+    {
+      "path": "experiments/industrial_station.py",
+      "sha256": "470cad53a9723ca80a0ad7d5cfa5a9e98cedcb30faa3838564005e43cddaac88",
+      "reason": "Retired ROBOGUIDE/old RQ4/formal-test or external-dataset operational code"
+    },
+    {
+      "path": "experiments/start_windows_ui_bridge.py",
+      "sha256": "b3c637d1f4f1b4650735f9cfa4235c8de9bb341218ca55c394b7bd8237db7d9d",
+      "reason": "Retired ROBOGUIDE/old RQ4/formal-test or external-dataset operational code"
+    },
+    {
+      "path": "experiments/run_rq2_rq3_sequence.py",
+      "sha256": "4f0a31cdb50b70aaa7e2165c36b918286f277c310d1beb622e34d2eb3569c1ab",
+      "reason": "Retired ROBOGUIDE/old RQ4/formal-test or external-dataset operational code"
+    },
+    {
+      "path": "experiments/restart_fanuc_simulator.py",
+      "sha256": "02f36fb8670821d3712aad0f7648d21f3da670f487b1aa048065eb60b08e9215",
+      "reason": "Retired ROBOGUIDE/old RQ4/formal-test or external-dataset operational code"
+    },
+    {
+      "path": "experiments/native_program.py",
+      "sha256": "e27017fed60d10380e297fcc5bf8d0f13e75c9c3651644a427d89c8f7cf5cef8",
+      "reason": "Retired ROBOGUIDE/old RQ4/formal-test or external-dataset operational code"
+    },
+    {
+      "path": "experiments/analyze_rq1_rq3_conditions_20261013.py",
+      "sha256": "03d413debb55b58d872e5fd5d82a022d9c5fbebab1f944710b178fc2efa25587",
+      "reason": "Retired ROBOGUIDE/old RQ4/formal-test or external-dataset operational code"
+    },
+    {
+      "path": "experiments/verify_rq2_rq3_native.py",
+      "sha256": "e364f2328013635830675b9adbd43890a0915f2f9efc2b83f14e66408a203a9d",
+      "reason": "Retired ROBOGUIDE/old RQ4/formal-test or external-dataset operational code"
+    },
+    {
+      "path": "experiments/formal_native_contract.py",
+      "sha256": "4c3e24f20cfe9a5d51df84949361bcf3cf2ca1cedcc31a1707f6a0c9a40e6d99",
+      "reason": "Retired ROBOGUIDE/old RQ4/formal-test or external-dataset operational code"
+    },
+    {
+      "path": "experiments/create_fanuc_workers.py",
+      "sha256": "2f3e4b94544f660652b797d45d31da661f3f71b070b65d8aea3297ac1e6f5e7d",
+      "reason": "Retired ROBOGUIDE/old RQ4/formal-test or external-dataset operational code"
+    },
+    {
+      "path": "experiments/analyze_formal_rq.py",
+      "sha256": "2c9e6ab845e560b00e99fe115fd3b568e0ae49373f805d96889ae0a1a67b4005",
+      "reason": "Retired ROBOGUIDE/old RQ4/formal-test or external-dataset operational code"
+    },
+    {
+      "path": "experiments/configure_ui_autostart.ps1",
+      "sha256": "21991a51ca79ae126e3414c172d34287566147119b7a69b1deb2ca62a4147626",
+      "reason": "Retired ROBOGUIDE/old RQ4/formal-test or external-dataset operational code"
+    },
+    {
+      "path": "RQ2/code/analyze_native.py",
+      "sha256": "9877d51de4c4bacd235ac23bbd59f9a91429df157faa9dfe911c83358a1ff2b6",
+      "reason": "Retired ROBOGUIDE/old RQ4/formal-test or external-dataset operational code"
+    },
+    {
+      "path": "RQ2/code/enforce_monitor_version.py",
+      "sha256": "d4752c1d859b408328841fd4a2de8763df9dd1b2ccdbc5a9bcebfff2465dd390",
+      "reason": "Retired ROBOGUIDE/old RQ4/formal-test or external-dataset operational code"
+    },
+    {
+      "path": "RQ2/code/run_native_validation.py",
+      "sha256": "775e0360027032ba624be70e583b93da7900a501e2fe9b1aaf27b056a73e2600",
+      "reason": "Retired ROBOGUIDE/old RQ4/formal-test or external-dataset operational code"
+    },
+    {
+      "path": "RQ3/code/analyze.py",
+      "sha256": "ea88437f395df14d74af16098be7c03588a4eae846779146f30f31142a63bebc",
+      "reason": "Retired ROBOGUIDE/old RQ4/formal-test or external-dataset operational code"
+    },
+    {
+      "path": "RQ3/code/run_native_validation.py",
+      "sha256": "84bfd5248dce89d64639993a35e9815c46a51472b4efe50fcd95965f26ad9fd9",
+      "reason": "Retired ROBOGUIDE/old RQ4/formal-test or external-dataset operational code"
+    },
+    {
+      "path": "RQ4/code/export_formal.py",
+      "sha256": "4bbf23157dacc0f9ea13786ebaa7d243375dcaf8cb0c4e26af9c66e26e978dac",
+      "reason": "Retired ROBOGUIDE/old RQ4/formal-test or external-dataset operational code"
+    },
+    {
+      "path": "RQ4/code/analyze_formal.py",
+      "sha256": "9f1d8fb1ebf4fabb830bececffbde46f1c329ac5d66b95ab0e5c7b282c806739",
+      "reason": "Retired ROBOGUIDE/old RQ4/formal-test or external-dataset operational code"
+    },
+    {
+      "path": "RQ4/code/analyze.py",
+      "sha256": "621ff05bb49f46539b36cb24c4b9a962c8c56894cbc820dab909ff5888f2e57e",
+      "reason": "Retired ROBOGUIDE/old RQ4/formal-test or external-dataset operational code"
+    },
+    {
+      "path": "adapters/dataset_adapter.py",
+      "sha256": "8f30bc9b3a3d4d7a3efb0a0f0642d35aa69a3ed9ad2a69c98d5f2cbbf96bd0e8",
+      "reason": "Retired ROBOGUIDE/old RQ4/formal-test or external-dataset operational code"
+    },
+    {
+      "path": "adapters/validate_adapter.py",
+      "sha256": "29b635de02e5b6ac1254dd41ccacd52eaccc8d235db2544a1e7f5378ea033778",
+      "reason": "Retired ROBOGUIDE/old RQ4/formal-test or external-dataset operational code"
+    },
+    {
+      "path": "experiments/rq3_revision_staging_20261012/install_after_rq2.py",
+      "sha256": "c767000eb04980a694a16decb47999485f516375ebadb2f43f018ae67e01b75d",
+      "reason": "Retired ROBOGUIDE/old RQ4/formal-test or external-dataset operational code"
+    },
+    {
+      "path": "experiments/rq3_revision_staging_20261012/analyze.py",
+      "sha256": "ea88437f395df14d74af16098be7c03588a4eae846779146f30f31142a63bebc",
+      "reason": "Retired ROBOGUIDE/old RQ4/formal-test or external-dataset operational code"
+    },
+    {
+      "path": "experiments/rq3_revision_staging_20261012/run_native_validation.py",
+      "sha256": "84bfd5248dce89d64639993a35e9815c46a51472b4efe50fcd95965f26ad9fd9",
+      "reason": "Retired ROBOGUIDE/old RQ4/formal-test or external-dataset operational code"
+    },
+    {
+      "path": "experiments/tests/test_formal_statistics.py",
+      "sha256": "55e38ee7c3585114e589b2d6dd578b907bf0f0fca9a6c8c3e544f338fe0be570",
+      "reason": "Retired ROBOGUIDE/old RQ4/formal-test or external-dataset operational code"
+    },
+    {
+      "path": "experiments/native/IndustrialEvidenceMonitor_v4.cs",
+      "sha256": "cff76c88a763eef35596e83ed5428046b77fd8a294149f64a250103d50d52241",
+      "reason": "Retired ROBOGUIDE/old RQ4/formal-test or external-dataset operational code"
+    },
+    {
+      "path": "experiments/native/IndustrialEvidenceMonitor_v1.cs",
+      "sha256": "ada70ed8d0d805da0aca78e615716fad3b420106199474b27f73a8c372824550",
+      "reason": "Retired ROBOGUIDE/old RQ4/formal-test or external-dataset operational code"
+    },
+    {
+      "path": "experiments/native/IndustrialEvidenceMonitor_v5.cs",
+      "sha256": "6b1927216d5bb2978c6484413cded0744accf6816fd581117f8c0ca5a132b5cb",
+      "reason": "Retired ROBOGUIDE/old RQ4/formal-test or external-dataset operational code"
+    },
+    {
+      "path": "experiments/native/IndustrialEvidenceMonitor_v10.cs",
+      "sha256": "6362bcefdab0914197258da0b04f91409d6a1b12be8503f80476e7bedc9660e3",
+      "reason": "Retired ROBOGUIDE/old RQ4/formal-test or external-dataset operational code"
+    },
+    {
+      "path": "experiments/native/IndustrialEvidenceMonitor_v8.cs",
+      "sha256": "9cccc2160b52dfd561b1ab890c872c35ca02fd7cb1ad731b8d72958392f3f19a",
+      "reason": "Retired ROBOGUIDE/old RQ4/formal-test or external-dataset operational code"
+    },
+    {
+      "path": "experiments/native/IndustrialEvidenceMonitor_v9.cs",
+      "sha256": "232929ece8e240a0bd1c06b7c1216e1f2830c7c5dbb920cc80b83b76b6a69947",
+      "reason": "Retired ROBOGUIDE/old RQ4/formal-test or external-dataset operational code"
+    },
+    {
+      "path": "experiments/native/IndustrialEvidenceMonitor_v2.cs",
+      "sha256": "81146331bbbb2d03caafafaa11275cc9fab073703addf0b46f56255659da86e2",
+      "reason": "Retired ROBOGUIDE/old RQ4/formal-test or external-dataset operational code"
+    },
+    {
+      "path": "experiments/native/IndustrialEvidenceMonitor_v6.cs",
+      "sha256": "75c7f19239a39255f64cc6feac59679d31601374b70001f389effec6d18dffa4",
+      "reason": "Retired ROBOGUIDE/old RQ4/formal-test or external-dataset operational code"
+    },
+    {
+      "path": "experiments/native/IndustrialEvidenceMonitor_v7.cs",
+      "sha256": "db7f3b6910464df38ee0a4e96db309226808ac3db96a961912e33473a2af2da1",
+      "reason": "Retired ROBOGUIDE/old RQ4/formal-test or external-dataset operational code"
+    },
+    {
+      "path": "experiments/native/IndustrialEvidenceMonitor_v3.cs",
+      "sha256": "dd2e94342486f2f8c71ee34ff2d5dc6e6ae39f6eb28c5fd1b70c40fa49f81d09",
+      "reason": "Retired ROBOGUIDE/old RQ4/formal-test or external-dataset operational code"
+    }
+  ],
+  "data_deleted": false,
+  "source_snapshots_retained": true,
+  "backup_location": "Project-external audit backup on original host; see local publication cleanup record"
+}

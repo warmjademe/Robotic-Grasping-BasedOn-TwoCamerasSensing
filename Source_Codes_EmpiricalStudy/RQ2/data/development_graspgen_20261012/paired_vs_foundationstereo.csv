@@ -1,0 +1,8 @@
+perception,reference,paired_scenes,both_pass,only_method_pass,only_reference_pass,neither_pass,paired_rate_difference,inference
+stereobm,foundationstereo,72,1,0,50,21,-0.6944444444444444,development_descriptive_no_p_values
+sgm,foundationstereo,72,6,0,45,21,-0.625,development_descriptive_no_p_values
+psmnet,foundationstereo,72,6,2,45,19,-0.5972222222222222,development_descriptive_no_p_values
+gwcnet,foundationstereo,72,18,4,33,17,-0.4027777777777778,development_descriptive_no_p_values
+raft_stereo,foundationstereo,72,30,8,21,13,-0.18055555555555555,development_descriptive_no_p_values
+igev_stereo,foundationstereo,72,23,7,28,14,-0.2916666666666667,development_descriptive_no_p_values
+foundationstereo,foundationstereo,72,51,0,0,21,0.0,development_descriptive_no_p_values

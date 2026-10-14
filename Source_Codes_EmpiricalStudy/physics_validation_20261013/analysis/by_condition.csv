@@ -1,0 +1,7 @@
+profile,condition,selected,old_geometry,tug,lift,endpoint,collision_free,execution,lift_and_return,execution_and_return
+nominal,bin_walls,53,8,6,37,53,46,30,36,30
+nominal,neighbours,82,18,17,48,82,75,44,48,44
+nominal,single,71,7,10,31,71,65,27,31,27
+friction_05,bin_walls,53,8,4,24,53,48,20,21,19
+friction_05,neighbours,82,18,10,30,82,74,27,27,24
+friction_05,single,71,7,8,19,71,65,16,17,14

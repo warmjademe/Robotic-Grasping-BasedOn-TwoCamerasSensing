@@ -1,0 +1,104 @@
+{
+  "method": "6-DOF GraspNet",
+  "seconds": 3.772475780977402,
+  "source": "Official VAE generator and evaluator; author ACRONYM release",
+  "training_data_note": "Author later ACRONYM checkpoint; not original 2019 training split",
+  "gradient_refinement_steps": 10,
+  "candidates": 200,
+  "batch_size": 50,
+  "score_threshold": -1.0,
+  "checkpoint_prefixes": [
+    "/home/qyb/RESEARCH/Robotic_Grasping/Source_Codes_Grasping_Modules/baseline_6dof_graspnet/models/ACRONYM_VAE/tf_output/model-4004506",
+    "/home/qyb/RESEARCH/Robotic_Grasping/Source_Codes_Grasping_Modules/baseline_6dof_graspnet/models/ACRONYM_Evaluator/tf_output/model-733578"
+  ],
+  "checkpoint_sha256": {
+    "ACRONYM_VAE/tf_output/model-4004506.index": "8a2e02d7f7ba4f6b720f821d621441b6992282d48e39a66e8b0773687fe72262",
+    "ACRONYM_VAE/tf_output/model-4004506.meta": "deaf2cafe215ff1a6bcccb1a75506d70515a558b342ce24d9f49ff39e1d318ad",
+    "ACRONYM_VAE/tf_output/model-4004506.data-00000-of-00001": "4d1157d160d2b4ba2d9c4a085f7744eb4f582c52e81c8c85421122e4e32af6f6",
+    "ACRONYM_Evaluator/tf_output/model-733578.index": "33e57a4ea59a2224551f52dc9fd9a5528325f1cd131c72aa6a74271672308d30",
+    "ACRONYM_Evaluator/tf_output/model-733578.data-00000-of-00001": "e27fb52983e78eac8a40a5bc3f1f1fc428a940c035bcd69dca29d34c5d3a1e44",
+    "ACRONYM_Evaluator/tf_output/model-733578.meta": "c3438bd67adcf14178741ea2f79e9a35d5078e0ef720a2bace9968af9e60cfc6"
+  },
+  "config_sha256": {
+    "ACRONYM_VAE/args.yaml": "cf3989353bb4c7c80631222525b8e67fbb64fafefa7f6384498ba84cef1f9d3f",
+    "ACRONYM_Evaluator/args.yaml": "f84d96d0e5b6b0bb948a49d34be4026d4f029dc487199bac4200a5f9bc6a2c82"
+  },
+  "tensorflow": "2.15.1",
+  "strict_checkpoint_restore": true,
+  "upstream_commit": "cd08b6c559e51a187ab65faea6415f51239808b8",
+  "input_frame": "OpenCV reference optical frame, centered internally by author code",
+  "compatibility_manifest_sha256": "6243f9d034c4e9681b457f2d41703d4cd318f9109cbe0004a3e15e88944883e3",
+  "gripper_frame": "Author Panda: x closing, z approach; rotate local z -90 deg to native fingers",
+  "schema_version": 1,
+  "input_npz_sha256": "70edf86bc5528ecb261aef83e85688f5a33da6e068c6336d4ea8dd20d0f1cc02",
+  "input_json_sha256": "8e02d97184ed381349e60ff93ac16120866735a7329d486714c572744f004077",
+  "input_source_hashes": {
+    "left.png": "b27af971af0aa00328103e9d45ca25717ca02e6e0dfede28071b9f725d5c99f9",
+    "right.png": "6368d07d6e0496423ddbc1a923fefaead30eff7fef72d91abb8d094035d4fe1f",
+    "cameras.json": "49f798ce8c470a3d17c1a63d2f24a1663c9fea8e71b07643f67ef0d9da09bb66",
+    "task.json": "2a723c3b8ba1cbaa02330e0866e923970c47461b41285a5a5a286632a380d530"
+  },
+  "perception_route": "stereo",
+  "scene_scope": "workspace_roi",
+  "frame_id": "dataset_world",
+  "units": "m",
+  "input_scene_points": 185299,
+  "input_target_points": 2296,
+  "camera_origins_preserved": 1,
+  "returned": 200,
+  "status": "candidates_generated",
+  "inference_completed": true,
+  "gripper_id": "franka_panda",
+  "width_source": "fixed_gripper_geometry",
+  "width_valid_count": 200,
+  "grasp_frame": {
+    "closing_axis": "+y",
+    "approach_axis": "+z",
+    "origin": "panda_hand",
+    "T_model_grasp": [
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  "score_cross_model_calibrated": false,
+  "downstream_pending": [
+    "width-aware planning",
+    "full-scene collision",
+    "TCP calibration for a different gripper"
+  ],
+  "physical_robot_used": false,
+  "native_robot_execution_performed": false,
+  "input_purpose": "grasp_inference",
+  "input_geometry_source": "perception_prediction",
+  "input_contains_renderer_depth": false,
+  "input_contains_scene_object_pose": false,
+  "provenance_check": "Validated declarations and source hashes; not automatic identification of arbitrary point-cloud origin",
+  "source_sha256": {
+    "infer.py": "9b19ec604a656be0fe7c929e44cdf40bb9111901059a9aeaaa8fba000105387f",
+    "backends.py": "66389bb8013135965af73bda344e93abbd9490aeeb93e91c1364d8b3b19bae6f",
+    "contract.py": "bc1da891fd618343b24deb76f19137f19e640f4b402c2d89368b886c759a6b5c"
+  },
+  "output_sha256": "bc6c5fd8716326ab7e1a756aada10a6e4b62de304f7c10a36f552a37bdfdf083"
+}

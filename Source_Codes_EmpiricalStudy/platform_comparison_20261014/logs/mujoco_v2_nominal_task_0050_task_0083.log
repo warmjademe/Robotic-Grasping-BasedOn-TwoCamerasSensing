@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/home/qyb/RESEARCH/Robotic_Grasping/Source_Codes_EmpiricalStudy/platform_comparison_20261014/code/run_mujoco.py", line 168, in <module>
+    for case in cases(a.tasks):execute(case,a.profile,a.output/case['task_id'])
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/qyb/RESEARCH/Robotic_Grasping/Source_Codes_EmpiricalStudy/platform_comparison_20261014/code/run_mujoco.py", line 98, in execute
+    model,data,parts=build(case,friction,dest)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/qyb/RESEARCH/Robotic_Grasping/Source_Codes_EmpiricalStudy/platform_comparison_20261014/code/run_mujoco.py", line 78, in build
+    paths=convex_parts(mesh); hulls=[trimesh.load(p,force='mesh') for p in paths]
+          ^^^^^^^^^^^^^^^^^^
+  File "/home/qyb/RESEARCH/Robotic_Grasping/Source_Codes_EmpiricalStudy/platform_comparison_20261014/code/run_mujoco.py", line 37, in convex_parts
+    assert parts and all(p.is_volume and p.volume>0 for p in parts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

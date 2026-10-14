@@ -1,0 +1,93 @@
+{
+  "method": "Contact-GraspNet",
+  "seconds": 1.6896494200045709,
+  "source": "Author TensorFlow model and checkpoint",
+  "checkpoint": "/home/qyb/RESEARCH/Robotic_Grasping/Source_Codes_Grasping_Modules/baseline_contact_graspnet/models/scene_test_2048_bs3_hor_sigma_001/model.ckpt-54054",
+  "checkpoint_sha256": {
+    "model.ckpt-54054.data-00000-of-00001": "992e15e60e353796542f44acb33f062cbb7d9a313f42a13b420cf4d0c0275de2",
+    "model.ckpt-54054.index": "bca416d9e9790db7dd504c7d9cee67105f9def70e053f7e0910909b5db994885"
+  },
+  "tensorflow": "2.15.1",
+  "strict_checkpoint_restore": true,
+  "forward_passes": 1,
+  "config_sha256": "116fcb5247a862a5b33c017e9c16970a0144a26da928f9d29b539d1a3379d1b3",
+  "upstream_commit": "721706067cc7f7889c32afe7b4f7955eb90bd866",
+  "compatibility_manifest_sha256": "7ce155f5ba428ebb35e60cd217895a280f7798514a6f6dec1e4415be53ab11cb",
+  "input_frame": "OpenCV reference optical frame, converted internally by author code",
+  "input_scene_points": 272644,
+  "raw_grasps": 25,
+  "target_filter_distance_m": 0.005,
+  "cuda_launch_blocking": true,
+  "gripper_frame": "Author Panda: x closing, z approach; rotate local z -90 deg to native fingers",
+  "schema_version": 1,
+  "input_npz_sha256": "4057c521479e9b8d842405c3f5235c7eb2d9238942197e8b339930eedb2a6ff5",
+  "input_json_sha256": "9076f7042531aa9965fa70b86be2173d4d7ba3ea959c6d3cbcc2f49867455a02",
+  "input_source_hashes": {
+    "left.png": "8572c2c19a35792cd7ec680a997d4afb48c30aa70cc896fc5451a4f5dbba4f27",
+    "right.png": "6b1127adb3c83009a9841b766f2df44c6846599152e672cffd8aac3667bc9247",
+    "cameras.json": "49f798ce8c470a3d17c1a63d2f24a1663c9fea8e71b07643f67ef0d9da09bb66",
+    "task.json": "7eb6a50787e11f5f63723620ce1a52c887f880519d3d308f0a6aba86f374d8e4"
+  },
+  "perception_route": "stereo",
+  "scene_scope": "workspace_roi",
+  "frame_id": "dataset_world",
+  "units": "m",
+  "input_target_points": 3358,
+  "camera_origins_preserved": 1,
+  "returned": 14,
+  "status": "candidates_generated",
+  "inference_completed": true,
+  "gripper_id": "franka_panda",
+  "width_source": "network_prediction",
+  "width_valid_count": 14,
+  "grasp_frame": {
+    "closing_axis": "+y",
+    "approach_axis": "+z",
+    "origin": "panda_hand",
+    "T_model_grasp": [
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  "score_cross_model_calibrated": false,
+  "downstream_pending": [
+    "width-aware planning",
+    "full-scene collision",
+    "TCP calibration for a different gripper"
+  ],
+  "physical_robot_used": false,
+  "native_robot_execution_performed": false,
+  "input_purpose": "grasp_inference",
+  "input_geometry_source": "perception_prediction",
+  "input_contains_renderer_depth": false,
+  "input_contains_scene_object_pose": false,
+  "provenance_check": "Validated declarations and source hashes; not automatic identification of arbitrary point-cloud origin",
+  "source_sha256": {
+    "infer.py": "9b19ec604a656be0fe7c929e44cdf40bb9111901059a9aeaaa8fba000105387f",
+    "backends.py": "66389bb8013135965af73bda344e93abbd9490aeeb93e91c1364d8b3b19bae6f",
+    "contract.py": "bc1da891fd618343b24deb76f19137f19e640f4b402c2d89368b886c759a6b5c"
+  },
+  "output_sha256": "c88fa770f03cddc4aac99d43d8d1600f2fe72346c1b759de9b5a206f2bae1448"
+}

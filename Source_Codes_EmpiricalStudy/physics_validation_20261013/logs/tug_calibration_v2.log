@@ -1,0 +1,46 @@
+[INFO][AppLauncher]: Using device: cuda:0
+[INFO][AppLauncher]: Loading experience file: /home/qyb/RESEARCH/baseline_graspgen/.venv-sim/lib/python3.11/site-packages/isaaclab/apps/isaaclab.python.headless.kit
+Loading user config located at: '/home/qyb/RESEARCH/baseline_graspgen/.venv-sim/lib/python3.11/site-packages/isaacsim/kit/data/Kit/Isaac-Sim/5.1/user.config.json'
+[Info] [carb] Logging to file: /home/qyb/RESEARCH/baseline_graspgen/.venv-sim/lib/python3.11/site-packages/isaacsim/kit/logs/Kit/Isaac-Sim/5.1/kit_20261013_165431.log
+2026-10-13T08:54:31Z [0ms] [Warning] [carb.crashreporter-breakpad.plugin] [previous crash] preventing upload of minidump due to user opt-out: '/home/qyb/RESEARCH/baseline_graspgen/.venv-sim/lib/python3.11/site-packages/isaacsim/kit/data/Kit/Isaac-Sim/5.1/55279da5-0c79-4928-f9c93c9c-6efd8c21.dmp'
+2026-10-13T08:54:31Z [1ms] [Warning] [carb.crashreporter-breakpad.plugin] [previous crash] preventing upload of minidump due to user opt-out: '/home/qyb/RESEARCH/baseline_graspgen/.venv-sim/lib/python3.11/site-packages/isaacsim/kit/data/Kit/Isaac-Sim/5.1/032e3612-06dd-4aec-b5bde9b7-480f15ed.dmp'
+2026-10-13T08:54:31Z [1ms] [Warning] [carb.crashreporter-breakpad.plugin] [previous crash] preventing upload of minidump due to user opt-out: '/home/qyb/RESEARCH/MultiCamera_RL_Dynamic_Grasping/.venv/lib/python3.11/site-packages/isaacsim/kit/data/Kit/Isaac-Sim/5.1/1b23615e-a62a-4395-0d476b8f-91b08963.dmp'
+2026-10-13T08:54:31Z [1ms] [Warning] [carb.crashreporter-breakpad.plugin] [previous crash] preventing upload of minidump due to user opt-out: '/home/qyb/RESEARCH/MultiCamera_RL_Dynamic_Grasping/.venv/lib/python3.11/site-packages/isaacsim/kit/data/Kit/Isaac-Sim/5.1/7c5920d9-31f6-482f-33e041a5-15088166.dmp'
+2026-10-13T08:54:31Z [95ms] [Warning] [omni.usd_config.extension] Enable omni.materialx.libs extension to use MaterialX
+2026-10-13T08:54:31Z [316ms] [Warning] [omni.platforminfo.plugin] failed to open the default display.  Can't verify X Server version.
+2026-10-13T08:54:31Z [499ms] [Warning] [carb] Acquiring non optional plugin interface which is not listed as dependency: [omni::physx::IPhysxBenchmarks v1.0] (plugin: <default plugin>), by client: omni.physics.physx.plugin. Add it to CARB_PLUGIN_IMPL_DEPS() macro of a client.
+2026-10-13T08:54:31Z [508ms] [Warning] [omni.isaac.dynamic_control] omni.isaac.dynamic_control is deprecated as of Isaac Sim 4.5. No action is needed from end-users.
+
+|---------------------------------------------------------------------------------------------|
+| Driver Version: 595.71.05     | Graphics API: Vulkan
+|=============================================================================================|
+| GPU | Name                             | Active | LDA | GPU Memory | Vendor-ID | LUID       |
+|     |                                  |        |     |            | Device-ID | UUID       |
+|     |                                  |        |     |            | Bus-ID    |            |
+|---------------------------------------------------------------------------------------------|
+| 0   | NVIDIA GeForce RTX 4090          | Yes: 0 |     | 24810   MB | 10de      | 0          |
+|     |                                  |        |     |            | 2684      | 1f920151.. |
+|     |                                  |        |     |            | 1         |            |
+|=============================================================================================|
+| OS: 25.10 (Questing Quokka) ubuntu, Version: 25.10.0, Kernel: 6.17.0-41-generic
+| Processor: Intel(R) Core(TM) i7-10700K CPU @ 3.80GHz
+| Cores: 8 | Logical Cores: 16
+|---------------------------------------------------------------------------------------------|
+| Total Memory (MB): 94096 | Free Memory: 15074
+| Total Page/Swap (MB): 8191 | Free Page/Swap: 7256
+|---------------------------------------------------------------------------------------------|
+2026-10-13T08:54:33Z [2,244ms] [Warning] [gpu.foundation.plugin] CPU performance profile is set to powersave. This profile sets the CPU to the lowest frequency reducing performance.
+2026-10-13T08:54:33Z [2,253ms] [Warning] [gpu.foundation.plugin] IOMMU is enabled.
+[0m[94m  🔍 Validating 3 grasps with franka_panda.usd[0m[94m, and creating USD file: /home/qyb/RESEARCH/Robotic_Grasping/Source_Codes_EmpiricalStudy/physics_validation_20261013/inputs/calibration_box.usd[0m
+[95m  🔄 Preparing Batch 1/1                              [0m
+[36m======================================================================================[0m
+[36m[1m[INFO][IsaacLab]: Logging to file: /tmp/isaaclab/logs/isaaclab_2026-10-13_16-54-33.log[0m
+[36m======================================================================================[0m
+
+[33m16:54:33 [simulation_context.py] WARNING: The `enable_external_forces_every_iteration` parameter in the PhysxCfg is set to False. If you are experiencing noisy velocities, consider enabling this flag. You may need to slightly increase the number of velocity iterations (setting it to 1 or 2 rather than 0), together with this flag, to improve the accuracy of velocity updates.[0m
+[0m[95m  🔄 Batch 1/1:  7%    Sim: 0.3s / Real: 0.6s               [0m[95m  🔄 Batch 1/1: 21%    Sim: 0.8s / Real: 1.6s               [0m[33m16:54:36 [rigid_object.py] WARNING: The function 'set_external_force_and_torque' will be deprecated in a future release. Please use 'permanent_wrench_composer.set_forces_and_torques' instead.[0m
+[95m  🔄 Batch 1/1: 34%    Sim: 1.2s / Real: 2.6s               [0m[95m  🔄 Batch 1/1: 47%    Sim: 1.7s / Real: 3.6s               [0m[95m  🔄 Batch 1/1: 59%    Sim: 2.1s / Real: 4.6s               [0m[95m  🔄 Batch 1/1: 72%    Sim: 2.5s / Real: 5.6s               [0m[95m  🔄 Batch 1/1: 85%    Sim: 3.0s / Real: 6.6s               [0m[33m16:54:41 [rigid_object.py] WARNING: The function 'set_external_force_and_torque' will be deprecated in a future release. Please use 'permanent_wrench_composer.set_forces_and_torques' instead.[0m
+[95m  🔄 Batch 1/1: 97%    Sim: 3.4s / Real: 7.6s               [0m[0m[91mGrasp file was not created with grasp_guess[0m
+[92mcreated 1 successes and 2 fails[0m
+[94mSaving grasps to /home/qyb/RESEARCH/Robotic_Grasping/Source_Codes_EmpiricalStudy/physics_validation_20261013/results/tug/calibration_v2/official/franka_panda/calibration_box.yaml...[0m
+RESULT {"rows": [{"case_id": "centered_box", "success": true, "closing_command_m": 0.0, "expected": true}, {"case_id": "far_negative", "success": false, "closing_command_m": 0.0, "expected": false}, {"case_id": "open_negative", "success": false, "closing_command_m": 0.08, "expected": false}], "seconds": 8.861650756996823}

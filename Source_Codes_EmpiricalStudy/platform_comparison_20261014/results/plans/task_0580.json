@@ -1,0 +1,49 @@
+{
+  "task_id": "task_0580",
+  "status": "no_plan",
+  "selected": null,
+  "rejected": [
+    {
+      "rank": 2,
+      "reason": "observed_cross_section_outside_opening"
+    },
+    {
+      "rank": 1,
+      "reason": "approach_collision",
+      "collision": {
+        "collision": true,
+        "self_pairs": [],
+        "environment_pairs": [
+          [
+            "panda_leftfinger",
+            "perceived_scene"
+          ],
+          [
+            "panda_rightfinger",
+            "perceived_scene"
+          ]
+        ],
+        "perceived_voxels": 1550
+      }
+    },
+    {
+      "rank": 0,
+      "reason": "observed_cross_section_outside_opening"
+    }
+  ],
+  "host": "qyb-SJHY-ubuntu25",
+  "pid": 1108517,
+  "candidate_count": 3,
+  "ground_truth_used": false,
+  "protocol_sha256": "24eb3735a29abcfc189ee7ecb5a34851fbc070e549b96df67f030f50d3862bc6",
+  "cloud_sha256": "909ad025a70345bc0b3ec77c86c53764707b05be17ef25fb7326738bc381778b",
+  "grasps_sha256": "0e137c4bac5b0c60e4da633bba6b8e6c0a90496d3a735e9f0722d66b578c7e27",
+  "home_check": {
+    "collision": false,
+    "self_pairs": [],
+    "environment_pairs": [],
+    "perceived_voxels": 1550
+  },
+  "seconds": 0.6505678789981175,
+  "planning_parallelism": 4
+}

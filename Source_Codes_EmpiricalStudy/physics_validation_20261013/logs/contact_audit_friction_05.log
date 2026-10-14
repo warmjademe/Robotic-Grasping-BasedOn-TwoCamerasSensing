@@ -1,0 +1,77 @@
+{
+  "status": "passed",
+  "profile": "friction_05",
+  "cases": 21,
+  "unchanged_decisions": true,
+  "max_absolute_trace_differences": {
+    "object_pose": 0.0,
+    "bodies": 0.0,
+    "contact_forces": 0.0,
+    "joints": 0.0,
+    "target_contact": 0.0
+  },
+  "actual_robot_materials": [
+    [
+      0.5,
+      0.5,
+      0.0
+    ],
+    [
+      0.5,
+      0.5,
+      0.0
+    ],
+    [
+      0.5,
+      0.5,
+      0.0
+    ],
+    [
+      0.5,
+      0.5,
+      0.0
+    ],
+    [
+      0.5,
+      0.5,
+      0.0
+    ],
+    [
+      0.5,
+      0.5,
+      0.0
+    ],
+    [
+      0.5,
+      0.5,
+      0.0
+    ],
+    [
+      0.5,
+      0.5,
+      0.0
+    ],
+    [
+      0.5,
+      0.5,
+      0.0
+    ],
+    [
+      0.5,
+      0.5,
+      0.0
+    ]
+  ],
+  "actual_robot_effort_limits": [
+    7000.0,
+    8000.0,
+    4000.0,
+    300.0,
+    300.0,
+    200.0,
+    20.0,
+    20.0
+  ],
+  "variant_sha256": "8b415ef26c50124fab6f0890c905fa8d63ebb78cb38095841b317d72636bc09d",
+  "conclusion": "Removing the unused static-fixture filter eliminates SDK errors and preserves the consumed target forces, trajectories and all case decisions in this complete group."
+}

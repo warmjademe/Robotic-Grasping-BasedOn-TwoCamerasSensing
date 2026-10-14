@@ -1,0 +1,68 @@
+{
+  "task_id": "task_0679",
+  "status": "no_plan",
+  "selected": null,
+  "rejected": [
+    {
+      "rank": 4,
+      "reason": "pregrasp_ik"
+    },
+    {
+      "rank": 3,
+      "reason": "approach_collision",
+      "collision": {
+        "collision": true,
+        "self_pairs": [],
+        "environment_pairs": [
+          [
+            "panda_leftfinger",
+            "perceived_scene"
+          ],
+          [
+            "panda_rightfinger",
+            "perceived_scene"
+          ]
+        ],
+        "perceived_voxels": 1928
+      }
+    },
+    {
+      "rank": 1,
+      "reason": "approach_collision",
+      "collision": {
+        "collision": true,
+        "self_pairs": [],
+        "environment_pairs": [
+          [
+            "panda_leftfinger",
+            "perceived_scene"
+          ]
+        ],
+        "perceived_voxels": 1928
+      }
+    },
+    {
+      "rank": 0,
+      "reason": "pregrasp_ik"
+    },
+    {
+      "rank": 2,
+      "reason": "observed_cross_section_outside_opening"
+    }
+  ],
+  "host": "qyb-SJHY-ubuntu25",
+  "pid": 1108516,
+  "candidate_count": 5,
+  "ground_truth_used": false,
+  "protocol_sha256": "24eb3735a29abcfc189ee7ecb5a34851fbc070e549b96df67f030f50d3862bc6",
+  "cloud_sha256": "58523e5f3cd990cebe0c28db6dd25c1ff682cfd1c77f6d50b6ac483ca15164b9",
+  "grasps_sha256": "657c6ebfc1305f74bd629c867f2a86cc9a40a712ac8bd5b6485aeddd4aebfacb",
+  "home_check": {
+    "collision": false,
+    "self_pairs": [],
+    "environment_pairs": [],
+    "perceived_voxels": 1928
+  },
+  "seconds": 1.4219925299985334,
+  "planning_parallelism": 4
+}

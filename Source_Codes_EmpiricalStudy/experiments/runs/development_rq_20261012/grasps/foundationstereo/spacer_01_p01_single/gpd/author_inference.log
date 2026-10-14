@@ -1,0 +1,488 @@
+============ HAND GEOMETRY ======================
+finger_width: 0.01
+hand_outer_diameter: 0.12
+hand_depth: 0.06
+hand_height: 0.02
+init_bite: 0.01
+=================================================
+============ PLOTTING ========================
+plot_normals: false
+plot_samples false
+plot_candidates: false
+plot_filtered_candidates: false
+plot_valid_grasps: false
+plot_clustered_grasps: false
+plot_selected_grasps: false
+==============================================
+============ CLOUD PREPROCESSING =============
+voxelize: true
+voxel_size: 0.003
+remove_outliers: false
+workspace: -0.48 0.49 -0.29 0.51 -0.17 0.17 
+sample_above_plane: false
+normals_radius: 0.030
+refine_normals_k: 0
+==============================================
+============ CANDIDATE GENERATION ============
+num_samples: 200
+num_threads: 1
+nn_radius: 0.01
+hand axes: 2 
+num_orientations: 8
+num_finger_placements: 10
+deepen_hand: true
+friction_coeff: 20.00
+min_viable: 6
+==============================================
+============ GRASP IMAGE GEOMETRY ===============
+volume width: 0.1
+volume depth: 0.06
+volume height: 0.02
+image_size: 60
+image_num_channels: 15
+=================================================
+NET SETUP runtime: 0.0562081
+============ CLASSIFIER ======================
+model_file: 
+weights_file: /home/qyb/RESEARCH/Robotic_Grasping/Source_Codes_Grasping_Modules/baseline_gpd/upstream/gpd/models/lenet/15channels/params/
+batch_size: 1
+==============================================
+============ CANDIDATE FILTERING =============
+candidate_workspace: -0.48 0.49 -0.29 0.51 -0.17 0.17 
+min_aperture: 0.0000
+max_aperture: 0.0800
+==============================================
+============ CLUSTERING ======================
+min_inliers: 0
+==============================================
+
+Processing cloud with 173548 points.
+200 samples left after workspace filtering 
+Voxelized cloud: 59544
+Calculating surface normals ...
+num_threads: 1
+ runtime(computeNormals): 2.5807
+camera: 0, #indices: 59544, #normals: 59544 
+Calculated 59544 surface normals in 2.5820s (mode: OpenMP).
+Reversing direction of normals that do not point to at least one camera ...
+ reversed 0 normals
+ runtime (reverse normals): 0.00074955
+Estimating local reference frames ...
+Estimated 200 frames in 0.0022s.
+Finding hand poses ...
+Found 200 hand sets in 0.87s
+====> HAND SEARCH TIME: 0.877088
+Generated 200 hand sets.
+Filtering grasps outside of workspace ...
+Number of grasp candidates within workspace and gripper width: 441
+neighborhoods search time: 0.1664
+Created 441 images in 3.9717s
+Selecting the 200 highest scoring grasps ...
+ grasp #0, score: -967.8279
+ grasp #1, score: -974.6963
+ grasp #2, score: -1039.9773
+ grasp #3, score: -1088.8735
+ grasp #4, score: -1134.4886
+ grasp #5, score: -1137.7908
+ grasp #6, score: -1158.3555
+ grasp #7, score: -1166.8354
+ grasp #8, score: -1226.9094
+ grasp #9, score: -1244.0093
+ grasp #10, score: -1261.6083
+ grasp #11, score: -1269.5450
+ grasp #12, score: -1283.4827
+ grasp #13, score: -1302.7905
+ grasp #14, score: -1320.0964
+ grasp #15, score: -1330.3523
+ grasp #16, score: -1340.3320
+ grasp #17, score: -1343.0540
+ grasp #18, score: -1364.4816
+ grasp #19, score: -1394.0032
+ grasp #20, score: -1402.9153
+ grasp #21, score: -1403.8247
+ grasp #22, score: -1411.7839
+ grasp #23, score: -1415.0825
+ grasp #24, score: -1423.4720
+ grasp #25, score: -1436.9023
+ grasp #26, score: -1442.5962
+ grasp #27, score: -1459.1023
+ grasp #28, score: -1462.2554
+ grasp #29, score: -1475.6467
+ grasp #30, score: -1476.0281
+ grasp #31, score: -1482.9219
+ grasp #32, score: -1483.3354
+ grasp #33, score: -1493.0787
+ grasp #34, score: -1497.3152
+ grasp #35, score: -1503.9041
+ grasp #36, score: -1507.8722
+ grasp #37, score: -1512.1619
+ grasp #38, score: -1515.0217
+ grasp #39, score: -1529.2799
+ grasp #40, score: -1534.9456
+ grasp #41, score: -1537.6196
+ grasp #42, score: -1538.9972
+ grasp #43, score: -1569.8339
+ grasp #44, score: -1575.8967
+ grasp #45, score: -1584.2610
+ grasp #46, score: -1585.7472
+ grasp #47, score: -1597.0708
+ grasp #48, score: -1613.6583
+ grasp #49, score: -1618.4501
+ grasp #50, score: -1628.7495
+ grasp #51, score: -1642.6077
+ grasp #52, score: -1657.1903
+ grasp #53, score: -1657.8088
+ grasp #54, score: -1659.3354
+ grasp #55, score: -1660.1128
+ grasp #56, score: -1661.3899
+ grasp #57, score: -1717.1880
+ grasp #58, score: -1740.7401
+ grasp #59, score: -1753.6531
+ grasp #60, score: -1766.7175
+ grasp #61, score: -1767.7957
+ grasp #62, score: -1768.0118
+ grasp #63, score: -1778.7925
+ grasp #64, score: -1785.1184
+ grasp #65, score: -1804.0750
+ grasp #66, score: -1823.4038
+ grasp #67, score: -1832.9751
+ grasp #68, score: -1841.2655
+ grasp #69, score: -1856.2064
+ grasp #70, score: -1859.1661
+ grasp #71, score: -1864.8788
+ grasp #72, score: -1872.0881
+ grasp #73, score: -1873.9272
+ grasp #74, score: -1879.9214
+ grasp #75, score: -1881.8379
+ grasp #76, score: -1889.9285
+ grasp #77, score: -1895.6521
+ grasp #78, score: -1897.2573
+ grasp #79, score: -1903.2886
+ grasp #80, score: -1908.1669
+ grasp #81, score: -1910.1812
+ grasp #82, score: -1916.4714
+ grasp #83, score: -1926.2024
+ grasp #84, score: -1930.9390
+ grasp #85, score: -1932.2224
+ grasp #86, score: -1937.7622
+ grasp #87, score: -1943.9426
+ grasp #88, score: -1945.5696
+ grasp #89, score: -1946.9672
+ grasp #90, score: -1955.4410
+ grasp #91, score: -1955.9470
+ grasp #92, score: -1962.0601
+ grasp #93, score: -1982.9697
+ grasp #94, score: -2018.7651
+ grasp #95, score: -2023.5933
+ grasp #96, score: -2036.7571
+ grasp #97, score: -2048.1042
+ grasp #98, score: -2050.5508
+ grasp #99, score: -2079.7881
+ grasp #100, score: -2083.0234
+ grasp #101, score: -2090.2717
+ grasp #102, score: -2090.6714
+ grasp #103, score: -2090.7007
+ grasp #104, score: -2118.6455
+ grasp #105, score: -2127.6860
+ grasp #106, score: -2132.1172
+ grasp #107, score: -2138.6650
+ grasp #108, score: -2141.7722
+ grasp #109, score: -2143.6521
+ grasp #110, score: -2171.5518
+ grasp #111, score: -2173.5566
+ grasp #112, score: -2183.8406
+ grasp #113, score: -2189.5391
+ grasp #114, score: -2192.1655
+ grasp #115, score: -2195.2998
+ grasp #116, score: -2196.7637
+ grasp #117, score: -2199.8792
+ grasp #118, score: -2200.2080
+ grasp #119, score: -2202.0710
+ grasp #120, score: -2204.3506
+ grasp #121, score: -2215.1106
+ grasp #122, score: -2215.4761
+ grasp #123, score: -2215.6978
+ grasp #124, score: -2217.6724
+ grasp #125, score: -2219.6509
+ grasp #126, score: -2222.5874
+ grasp #127, score: -2226.1821
+ grasp #128, score: -2228.3999
+ grasp #129, score: -2231.6167
+ grasp #130, score: -2234.3672
+ grasp #131, score: -2237.1577
+ grasp #132, score: -2238.8315
+ grasp #133, score: -2249.7837
+ grasp #134, score: -2261.5574
+ grasp #135, score: -2267.9497
+ grasp #136, score: -2274.6406
+ grasp #137, score: -2276.7910
+ grasp #138, score: -2282.9766
+ grasp #139, score: -2285.1304
+ grasp #140, score: -2292.1743
+ grasp #141, score: -2293.6040
+ grasp #142, score: -2298.7520
+ grasp #143, score: -2301.3350
+ grasp #144, score: -2304.4556
+ grasp #145, score: -2304.9224
+ grasp #146, score: -2313.4138
+ grasp #147, score: -2319.0222
+ grasp #148, score: -2327.2563
+ grasp #149, score: -2332.0884
+ grasp #150, score: -2342.1689
+ grasp #151, score: -2347.0386
+ grasp #152, score: -2350.7146
+ grasp #153, score: -2357.2249
+ grasp #154, score: -2376.1167
+ grasp #155, score: -2376.7749
+ grasp #156, score: -2382.0938
+ grasp #157, score: -2386.3713
+ grasp #158, score: -2388.2476
+ grasp #159, score: -2388.2529
+ grasp #160, score: -2394.1353
+ grasp #161, score: -2404.6895
+ grasp #162, score: -2408.7820
+ grasp #163, score: -2409.0151
+ grasp #164, score: -2420.8267
+ grasp #165, score: -2423.5132
+ grasp #166, score: -2425.7241
+ grasp #167, score: -2433.2234
+ grasp #168, score: -2434.3257
+ grasp #169, score: -2442.5315
+ grasp #170, score: -2445.1006
+ grasp #171, score: -2457.6501
+ grasp #172, score: -2465.6113
+ grasp #173, score: -2467.5015
+ grasp #174, score: -2479.1831
+ grasp #175, score: -2481.5835
+ grasp #176, score: -2483.0955
+ grasp #177, score: -2490.5352
+ grasp #178, score: -2493.6016
+ grasp #179, score: -2517.2930
+ grasp #180, score: -2518.5791
+ grasp #181, score: -2523.1765
+ grasp #182, score: -2526.3379
+ grasp #183, score: -2527.2295
+ grasp #184, score: -2528.8516
+ grasp #185, score: -2533.2415
+ grasp #186, score: -2543.1423
+ grasp #187, score: -2543.2610
+ grasp #188, score: -2544.1509
+ grasp #189, score: -2547.8230
+ grasp #190, score: -2555.0293
+ grasp #191, score: -2556.8748
+ grasp #192, score: -2561.7173
+ grasp #193, score: -2565.9636
+ grasp #194, score: -2567.3193
+ grasp #195, score: -2570.7300
+ grasp #196, score: -2573.2939
+ grasp #197, score: -2574.0264
+ grasp #198, score: -2574.5361
+ grasp #199, score: -2584.3950
+======== Selected grasps ========
+Grasp 0: -967.828
+Grasp 1: -974.696
+Grasp 2: -1039.98
+Grasp 3: -1088.87
+Grasp 4: -1134.49
+Grasp 5: -1137.79
+Grasp 6: -1158.36
+Grasp 7: -1166.84
+Grasp 8: -1226.91
+Grasp 9: -1244.01
+Grasp 10: -1261.61
+Grasp 11: -1269.55
+Grasp 12: -1283.48
+Grasp 13: -1302.79
+Grasp 14: -1320.1
+Grasp 15: -1330.35
+Grasp 16: -1340.33
+Grasp 17: -1343.05
+Grasp 18: -1364.48
+Grasp 19: -1394
+Grasp 20: -1402.92
+Grasp 21: -1403.82
+Grasp 22: -1411.78
+Grasp 23: -1415.08
+Grasp 24: -1423.47
+Grasp 25: -1436.9
+Grasp 26: -1442.6
+Grasp 27: -1459.1
+Grasp 28: -1462.26
+Grasp 29: -1475.65
+Grasp 30: -1476.03
+Grasp 31: -1482.92
+Grasp 32: -1483.34
+Grasp 33: -1493.08
+Grasp 34: -1497.32
+Grasp 35: -1503.9
+Grasp 36: -1507.87
+Grasp 37: -1512.16
+Grasp 38: -1515.02
+Grasp 39: -1529.28
+Grasp 40: -1534.95
+Grasp 41: -1537.62
+Grasp 42: -1539
+Grasp 43: -1569.83
+Grasp 44: -1575.9
+Grasp 45: -1584.26
+Grasp 46: -1585.75
+Grasp 47: -1597.07
+Grasp 48: -1613.66
+Grasp 49: -1618.45
+Grasp 50: -1628.75
+Grasp 51: -1642.61
+Grasp 52: -1657.19
+Grasp 53: -1657.81
+Grasp 54: -1659.34
+Grasp 55: -1660.11
+Grasp 56: -1661.39
+Grasp 57: -1717.19
+Grasp 58: -1740.74
+Grasp 59: -1753.65
+Grasp 60: -1766.72
+Grasp 61: -1767.8
+Grasp 62: -1768.01
+Grasp 63: -1778.79
+Grasp 64: -1785.12
+Grasp 65: -1804.07
+Grasp 66: -1823.4
+Grasp 67: -1832.98
+Grasp 68: -1841.27
+Grasp 69: -1856.21
+Grasp 70: -1859.17
+Grasp 71: -1864.88
+Grasp 72: -1872.09
+Grasp 73: -1873.93
+Grasp 74: -1879.92
+Grasp 75: -1881.84
+Grasp 76: -1889.93
+Grasp 77: -1895.65
+Grasp 78: -1897.26
+Grasp 79: -1903.29
+Grasp 80: -1908.17
+Grasp 81: -1910.18
+Grasp 82: -1916.47
+Grasp 83: -1926.2
+Grasp 84: -1930.94
+Grasp 85: -1932.22
+Grasp 86: -1937.76
+Grasp 87: -1943.94
+Grasp 88: -1945.57
+Grasp 89: -1946.97
+Grasp 90: -1955.44
+Grasp 91: -1955.95
+Grasp 92: -1962.06
+Grasp 93: -1982.97
+Grasp 94: -2018.77
+Grasp 95: -2023.59
+Grasp 96: -2036.76
+Grasp 97: -2048.1
+Grasp 98: -2050.55
+Grasp 99: -2079.79
+Grasp 100: -2083.02
+Grasp 101: -2090.27
+Grasp 102: -2090.67
+Grasp 103: -2090.7
+Grasp 104: -2118.65
+Grasp 105: -2127.69
+Grasp 106: -2132.12
+Grasp 107: -2138.67
+Grasp 108: -2141.77
+Grasp 109: -2143.65
+Grasp 110: -2171.55
+Grasp 111: -2173.56
+Grasp 112: -2183.84
+Grasp 113: -2189.54
+Grasp 114: -2192.17
+Grasp 115: -2195.3
+Grasp 116: -2196.76
+Grasp 117: -2199.88
+Grasp 118: -2200.21
+Grasp 119: -2202.07
+Grasp 120: -2204.35
+Grasp 121: -2215.11
+Grasp 122: -2215.48
+Grasp 123: -2215.7
+Grasp 124: -2217.67
+Grasp 125: -2219.65
+Grasp 126: -2222.59
+Grasp 127: -2226.18
+Grasp 128: -2228.4
+Grasp 129: -2231.62
+Grasp 130: -2234.37
+Grasp 131: -2237.16
+Grasp 132: -2238.83
+Grasp 133: -2249.78
+Grasp 134: -2261.56
+Grasp 135: -2267.95
+Grasp 136: -2274.64
+Grasp 137: -2276.79
+Grasp 138: -2282.98
+Grasp 139: -2285.13
+Grasp 140: -2292.17
+Grasp 141: -2293.6
+Grasp 142: -2298.75
+Grasp 143: -2301.33
+Grasp 144: -2304.46
+Grasp 145: -2304.92
+Grasp 146: -2313.41
+Grasp 147: -2319.02
+Grasp 148: -2327.26
+Grasp 149: -2332.09
+Grasp 150: -2342.17
+Grasp 151: -2347.04
+Grasp 152: -2350.71
+Grasp 153: -2357.22
+Grasp 154: -2376.12
+Grasp 155: -2376.77
+Grasp 156: -2382.09
+Grasp 157: -2386.37
+Grasp 158: -2388.25
+Grasp 159: -2388.25
+Grasp 160: -2394.14
+Grasp 161: -2404.69
+Grasp 162: -2408.78
+Grasp 163: -2409.02
+Grasp 164: -2420.83
+Grasp 165: -2423.51
+Grasp 166: -2425.72
+Grasp 167: -2433.22
+Grasp 168: -2434.33
+Grasp 169: -2442.53
+Grasp 170: -2445.1
+Grasp 171: -2457.65
+Grasp 172: -2465.61
+Grasp 173: -2467.5
+Grasp 174: -2479.18
+Grasp 175: -2481.58
+Grasp 176: -2483.1
+Grasp 177: -2490.54
+Grasp 178: -2493.6
+Grasp 179: -2517.29
+Grasp 180: -2518.58
+Grasp 181: -2523.18
+Grasp 182: -2526.34
+Grasp 183: -2527.23
+Grasp 184: -2528.85
+Grasp 185: -2533.24
+Grasp 186: -2543.14
+Grasp 187: -2543.26
+Grasp 188: -2544.15
+Grasp 189: -2547.82
+Grasp 190: -2555.03
+Grasp 191: -2556.87
+Grasp 192: -2561.72
+Grasp 193: -2565.96
+Grasp 194: -2567.32
+Grasp 195: -2570.73
+Grasp 196: -2573.29
+Grasp 197: -2574.03
+Grasp 198: -2574.54
+Grasp 199: -2584.4
+Selected the 200 best grasps.
+======== RUNTIMES ========
+ 1. Candidate generation: 0.8772s
+ 2. Descriptor extraction: 3.9719s
+ 3. Classification: 4.2994s
+==========
+ TOTAL: 9.1490s

@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "object_count": 24,
+  "episode_count": 216,
+  "rgb_image_count": 864,
+  "checked_manifest_files": 1783,
+  "mesh_units_verified": true,
+  "watertight_meshes": 24,
+  "input_truth_separation_verified": true,
+  "split_family_disjoint": true,
+  "matched_pose_groups": 72,
+  "minimum_visible_target_pixels": 1233,
+  "max_stereo_projection_algebra_error_px": 3.81387894776708e-06,
+  "rendered_left_to_right_depth_consistency_p95_mm": 0.5440711975098766,
+  "rendered_stereo_checked_points": 14157,
+  "projection_check_scope": "calibration algebra and saved left/right renderer-depth reprojection; not learned depth accuracy or real-camera calibration",
+  "ABB_execution_count": 0,
+  "grasp_success_rate": null,
+  "evaluator_status": "ABB execution and success-evaluator validation pending"
+}

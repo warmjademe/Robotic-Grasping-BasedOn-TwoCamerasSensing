@@ -1,0 +1,31 @@
+{
+  "updated_at": "2026-10-12T11:40:07.880470+00:00",
+  "split": "test",
+  "run": "experiments/runs/formal_frontend_20261012",
+  "geometry_rows": 1008,
+  "scheduled_tasks": 4752,
+  "frontend_counts": {
+    "no_plan": 341,
+    "sampled_path_found": 95,
+    "no_candidates": 22,
+    "planning_timeout": 3,
+    "pending": 4291
+  },
+  "paired_perception_rows": 672,
+  "paired_pipeline_rows": 3168,
+  "native_execution_count": 16,
+  "native_queue_counts": {
+    "decision_failure": 366,
+    "completed": 16,
+    "pending": 79,
+    "waiting_frontend": 4291
+  },
+  "valid_resolved_tasks": 382,
+  "successes": 4,
+  "all_scheduled_tasks_resolved": false,
+  "formal_RQ_completed": false,
+  "grasp_success_rate": null,
+  "missing_native_results_are_not_failures": true,
+  "timing_scope": "Perception reused across seeds; grasp cold process includes loading. No sum is reported as directly measured end-to-end time.",
+  "exporter_sha256": "a4f64d4ce1a355d32199c940f2de66e4d9bdcf1abbfe616cbec18d8ac3eb6672"
+}

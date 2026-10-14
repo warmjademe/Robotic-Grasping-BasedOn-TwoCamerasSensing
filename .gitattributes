@@ -1,0 +1,2 @@
+# Frozen experiment hashes bind exact bytes, including original CSV line endings.
+* -text

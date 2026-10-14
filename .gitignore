@@ -1,0 +1,24 @@
+.data-cache/
+.venv*/
+__pycache__/
+*.pyc
+.DS_Store
+reproduced_tables/
+tools/local_*/
+*.download-part
+# Restore these files with tools/fetch_data.py, rather than committing them.
+*.npz
+*.npy
+*.pcd
+*.ply
+*.bin
+*.usdc
+*.usd
+bridge_input.txt
+# Fetched author repositories and model weights are independent dependencies.
+**/upstream/
+**/models/*.pth
+**/models/*.pt
+**/models/*.tar
+**/models/*.ckpt
+**/models/*.safetensors

@@ -1,0 +1,15 @@
+{
+  "source": "https://github.com/FANUC-CORPORATION/fanuc_description",
+  "commit": "fb40c9803a826ba68c7c8e28ba904a25efa7fcd2",
+  "model": "m20_25_18d (M-20iD/25)",
+  "files": {
+    "fanuc_m20_description/meshes/m20_25_18d/collision/j4.stl": "773979a20b571b0fa16f8c5f2952251888c1d746799759727d9b0423b6969fe9",
+    "fanuc_m20_description/meshes/m20_25_18d/collision/j5.stl": "55ad2012b27ab937cdeb4f81eca14833b8d6c66dbb52b33715f40fc32475100e",
+    "fanuc_m20_description/meshes/m20_25_18d/collision/j6.stl": "9701567324a3c45419d442d918b11fb5c152d31bd53fc1d679a80b71a6de02be",
+    "fanuc_m20_description/meshes/m20_25_18d/collision/j2.stl": "015ef9ce1951634be05e90a0e8df5b83693c3d7bd69145c60b65fdb76b29a597",
+    "fanuc_m20_description/meshes/m20_25_18d/collision/j3.stl": "f132792a4716061efabeb1fd8288174e3a40b5b069b73e7be0e51b3743c9c939",
+    "fanuc_m20_description/meshes/m20_25_18d/collision/j1.stl": "b379047de2f36f3446a54dff86d51e2c06ce4646717d6478ad3b32049d79a30c",
+    "fanuc_m20_description/meshes/m20_25_18d/collision/base.stl": "c420be254cdef7048d3c196baa1114d1cefb58c84da6429194c6423e8d388ee4"
+  },
+  "total_bytes": 421088
+}

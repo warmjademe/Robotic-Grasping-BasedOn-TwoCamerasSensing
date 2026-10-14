@@ -1,0 +1,198 @@
+/home/qyb/RESEARCH/Robotic_Grasping/Source_Codes_EmpiricalStudy/platform_comparison_20261014/code/run_mujoco.py:77: RuntimeWarning: invalid value encountered in divide
+  weights=np.array([abs(m.volume) for m in hulls]);weights/=weights.sum()
+QH6154 Qhull precision error: Initial simplex is flat (facet 1 is coplanar with the interior point)
+
+While executing:  | qhull Qt
+Options selected for Qhull 2020.2.r 2023/01/02:
+  run-id 823015281  Qtriangulate  _pre-merge  _zero-centrum  _max-width 0.0027
+  Error-roundoff 2.8e-17  _one-merge 2e-16  _near-inside 9.9e-16
+  Visible-distance 5.7e-17  U-max-coplanar 5.7e-17  Width-outside 1.1e-16
+  _wide-facet 3.4e-16  _maxoutside 2.3e-16
+
+The input to qhull appears to be less than 3 dimensional, or a
+computation has overflowed.
+
+Qhull could not construct a clearly convex simplex from points:
+- p8(v4): -0.00047 -0.015  0.02
+- p0(v3): -0.00039 -0.012  0.02
+- p2(v2): 0.0002 -0.014  0.02
+- p4(v1): -0.0021 -0.015  0.02
+
+The center point is coplanar with a facet, or a vertex is coplanar
+with a neighboring facet.  The maximum round off error for
+computing distances is 2.8e-17.  The center point, facets and distances
+to the center point are as follows:
+
+center point -0.0006996 -0.01401   0.0204
+
+facet p0 p2 p4 distance=    0
+facet p8 p2 p4 distance=    0
+facet p8 p0 p4 distance=    0
+facet p8 p0 p2 distance=    0
+
+These points either have a maximum or minimum x-coordinate, or
+they maximize the determinant for k coordinates.  Trial points
+are first selected from points that maximize a coordinate.
+
+The min and max coordinates for each dimension are:
+  0:  -0.002133  0.0001956  difference= 0.002328
+  1:  -0.01511  -0.01244  difference= 0.002672
+  2:    0.0204    0.0204  difference=    0
+
+If the input should be full dimensional, you have several options that
+may determine an initial simplex:
+  - use 'QJ'  to joggle the input and make it full dimensional
+  - use 'QbB' to scale the points to the unit cube
+  - use 'QR0' to randomly rotate the input for different maximum points
+  - use 'Qs'  to search all points for the initial simplex
+  - use 'En'  to specify a maximum roundoff error less than 2.8e-17.
+  - trace execution with 'T3' to see the determinant for each point.
+
+If the input is lower dimensional:
+  - use 'QJ' to joggle the input and make it full dimensional
+  - use 'Qbk:0Bk:0' to delete coordinate k from the input.  You should
+    pick the coordinate with the least range.  The hull will have the
+    correct topology.
+  - determine the flat containing the points, rotate the points
+    into a coordinate plane, and delete the other coordinates.
+  - add one or more points to make the input full dimensional.
+WARNING: XML contains a 'NaN'. Please check it carefully.
+
+WARNING: XML contains a 'NaN'. Please check it carefully.
+
+WARNING: XML contains a 'NaN'. Please check it carefully.
+
+WARNING: XML contains a 'NaN'. Please check it carefully.
+
+WARNING: XML contains a 'NaN'. Please check it carefully.
+
+WARNING: XML contains a 'NaN'. Please check it carefully.
+
+WARNING: XML contains a 'NaN'. Please check it carefully.
+
+WARNING: XML contains a 'NaN'. Please check it carefully.
+
+WARNING: XML contains a 'NaN'. Please check it carefully.
+
+WARNING: XML contains a 'NaN'. Please check it carefully.
+
+WARNING: XML contains a 'NaN'. Please check it carefully.
+
+WARNING: XML contains a 'NaN'. Please check it carefully.
+
+WARNING: XML contains a 'NaN'. Please check it carefully.
+
+WARNING: XML contains a 'NaN'. Please check it carefully.
+
+WARNING: XML contains a 'NaN'. Please check it carefully.
+
+WARNING: XML contains a 'NaN'. Please check it carefully.
+
+WARNING: XML contains a 'NaN'. Please check it carefully.
+
+WARNING: XML contains a 'NaN'. Please check it carefully.
+
+WARNING: XML contains a 'NaN'. Please check it carefully.
+
+WARNING: XML contains a 'NaN'. Please check it carefully.
+
+WARNING: XML contains a 'NaN'. Please check it carefully.
+
+WARNING: XML contains a 'NaN'. Please check it carefully.
+
+WARNING: XML contains a 'NaN'. Please check it carefully.
+
+WARNING: XML contains a 'NaN'. Please check it carefully.
+
+WARNING: XML contains a 'NaN'. Please check it carefully.
+
+WARNING: XML contains a 'NaN'. Please check it carefully.
+
+WARNING: XML contains a 'NaN'. Please check it carefully.
+
+WARNING: XML contains a 'NaN'. Please check it carefully.
+
+WARNING: XML contains a 'NaN'. Please check it carefully.
+
+WARNING: XML contains a 'NaN'. Please check it carefully.
+
+WARNING: XML contains a 'NaN'. Please check it carefully.
+
+WARNING: XML contains a 'NaN'. Please check it carefully.
+
+WARNING: XML contains a 'NaN'. Please check it carefully.
+
+WARNING: XML contains a 'NaN'. Please check it carefully.
+
+WARNING: XML contains a 'NaN'. Please check it carefully.
+
+WARNING: XML contains a 'NaN'. Please check it carefully.
+
+WARNING: XML contains a 'NaN'. Please check it carefully.
+
+WARNING: XML contains a 'NaN'. Please check it carefully.
+
+WARNING: XML contains a 'NaN'. Please check it carefully.
+
+WARNING: XML contains a 'NaN'. Please check it carefully.
+
+WARNING: XML contains a 'NaN'. Please check it carefully.
+
+WARNING: XML contains a 'NaN'. Please check it carefully.
+
+WARNING: XML contains a 'NaN'. Please check it carefully.
+
+WARNING: XML contains a 'NaN'. Please check it carefully.
+
+WARNING: XML contains a 'NaN'. Please check it carefully.
+
+WARNING: XML contains a 'NaN'. Please check it carefully.
+
+WARNING: XML contains a 'NaN'. Please check it carefully.
+
+WARNING: XML contains a 'NaN'. Please check it carefully.
+
+WARNING: XML contains a 'NaN'. Please check it carefully.
+
+WARNING: XML contains a 'NaN'. Please check it carefully.
+
+WARNING: XML contains a 'NaN'. Please check it carefully.
+
+WARNING: XML contains a 'NaN'. Please check it carefully.
+
+WARNING: XML contains a 'NaN'. Please check it carefully.
+
+WARNING: XML contains a 'NaN'. Please check it carefully.
+
+WARNING: XML contains a 'NaN'. Please check it carefully.
+
+WARNING: XML contains a 'NaN'. Please check it carefully.
+
+WARNING: XML contains a 'NaN'. Please check it carefully.
+
+WARNING: XML contains a 'NaN'. Please check it carefully.
+
+WARNING: XML contains a 'NaN'. Please check it carefully.
+
+WARNING: XML contains a 'NaN'. Please check it carefully.
+
+WARNING: XML contains a 'NaN'. Please check it carefully.
+
+WARNING: XML contains a 'NaN'. Please check it carefully.
+
+WARNING: XML contains a 'NaN'. Please check it carefully.
+
+WARNING: XML contains a 'NaN'. Please check it carefully.
+
+Traceback (most recent call last):
+  File "/home/qyb/RESEARCH/Robotic_Grasping/Source_Codes_EmpiricalStudy/platform_comparison_20261014/code/run_mujoco.py", line 166, in <module>
+    for case in cases(a.tasks):execute(case,a.profile,a.output/case['task_id'])
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/qyb/RESEARCH/Robotic_Grasping/Source_Codes_EmpiricalStudy/platform_comparison_20261014/code/run_mujoco.py", line 96, in execute
+    model,data,parts=build(case,friction,dest)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/qyb/RESEARCH/Robotic_Grasping/Source_Codes_EmpiricalStudy/platform_comparison_20261014/code/run_mujoco.py", line 86, in build
+    model=mujoco.MjModel.from_xml_path(str(out/'scene.xml'))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Error: qhull error
+Element name 'target_mesh_0', id 67, line 116

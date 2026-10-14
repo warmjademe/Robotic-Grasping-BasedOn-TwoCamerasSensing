@@ -1,0 +1,65 @@
+{
+  "updated_at": "2026-10-12T11:38:16.693928+00:00",
+  "split": "test",
+  "scheduled_tasks": 4752,
+  "queue_counts": {
+    "decision_failure": 362,
+    "completed": 15,
+    "running": 1,
+    "pending": 78,
+    "waiting_frontend": 4296
+  },
+  "valid_resolved_tasks": 377,
+  "all_scheduled_tasks_resolved": false,
+  "analysis_tables_final": false,
+  "formal_RQ_completed": false,
+  "completion_gate": "Full raw-evidence audit and final report review still required",
+  "confidence_intervals": "95% percentile family-cluster bootstrap; four test families; exploratory",
+  "bootstrap": {
+    "unit": "workpiece instance; same procedural shape family is a dependent cluster",
+    "confidence_level": 0.95,
+    "bootstrap_resamples": 5000,
+    "bootstrap_seed": 20261011,
+    "resample_clusters": "family",
+    "v1_test_independent_families": 4,
+    "v1_confidence_intervals": "exploratory; expand independent shapes before confirmatory claims",
+    "paired_comparison": true,
+    "multiple_testing_if_used": "BH-FDR",
+    "mean_task_success_and_macro_object_success_both_reported": true
+  },
+  "paired_difference_direction": "second minus first; complex minus single",
+  "source_export_manifest_sha256": "5f70d620471fec40a82590e0f7140778fc83f2c5c707a8b02e24b4b032716e9b",
+  "source_export_updated_at": "2026-10-12T11:38:15.841958+00:00",
+  "input_files": {
+    "RQ1/data/formal_perception.csv": "256338e4d2f8ad2205444072a7accf6ead20eb2870afd250e05db42342e31354",
+    "RQ1/data/formal_pipeline_tasks.csv": "32939e5af85cda0ba06fb6f3ec1dd4ce0743ff63f9664b5db7e0af3b4e4f7b08",
+    "RQ2/data/formal_pipeline_tasks.csv": "83b7cfe519ddfa2c9e6941ed68b2f22faa69731e94050577e1d06c5500fd9e34",
+    "RQ3/data/formal_paired_perception.csv": "8503ed98a045138720f09f7fa27bb9f4cf836360469cfd4f54f43e797d2a692b",
+    "RQ3/data/formal_paired_pipeline_tasks.csv": "1b5d8ef3032e7cd85097de8ccbe29030497d48fde2b1f93702baa13140ffb52a",
+    "RQ4/data/formal_stage_times.csv": "a8364401ba6d0fd64a0d045a56b579286138bd9584c7506df238fa431568c489",
+    "RQ4/data/formal_pipeline_tasks.csv": "ff78e6b6df8aa440ae70c94afb59a03d8889bca772f0d8d546c5e84f95e2f722"
+  },
+  "output_files": {
+    "RQ1/results/formal_perception_summary.csv": "ad02d7d9d2b01206b9b94c1bef11ada0c5db7ed98a526777d79e11de7510398d",
+    "RQ1/results/formal_task_summary.csv": "83b7ff031bc156fa2c0b069f8ca43f589ad6ece68b9ff310a25f29ebcbe1de98",
+    "RQ1/results/formal_success_by_object.csv": "764b07d47ace5bae7abe3187677db185e763599dfdb19679bd84ca7230a480ff",
+    "RQ1/results/formal_success_by_seed.csv": "369fc7d98c3d4bd2a02ed416a3810bc7f898822cb22528e516d2d4bda34266a1",
+    "RQ1/results/formal_paired_method_differences.csv": "4edf41ccdc313c130a7346b9dd0a0f52c746f8eae27ec77e7b04abf5b8b9fdf3",
+    "RQ2/results/formal_task_summary.csv": "f0ab3b919eab022cb01acd516b7f875b21ade94021bf9f6beef03777ee452d4c",
+    "RQ2/results/formal_success_by_object.csv": "56a3be9e9e1f26e8a36a330f6cd15b13b5457e2618df07cbf9f5cd1f5e27b3cf",
+    "RQ2/results/formal_success_by_seed.csv": "f554c0fd0932b3ecffac5b230844f22ee2c0414f2f45f2a6fbdc57334d401b62",
+    "RQ2/results/formal_paired_method_differences.csv": "7e01836d200157b002dfa980d4c76cf83b172573ef800f2011948c8d81ef4ed9",
+    "RQ3/results/formal_paired_geometry_summary.csv": "0d3664c30b3bd9256be4d481748ede578a4b1734faff14856b7110d3bb44cfc6",
+    "RQ3/results/formal_condition_differences.csv": "a6f9bb6c77200bdee83ae3f8c755f7530473acf0400f86e980718b4b6a1ba44b",
+    "RQ3/results/formal_condition_success.csv": "b64e46c4a4a35b63430cd4541a89052163286c1b5a4fff565f4f3c58f6a90222",
+    "RQ4/results/formal_timing_summary.csv": "d6d8bc3c20ac45f3c7d7622bdb990d8c32508116ad1368d4408fadd1729ff960",
+    "RQ4/results/formal_success_and_time.csv": "98e581d21319c4dff52c47dd5e59f72153c6d240e16195e3d8db664ae42f3b07"
+  },
+  "analysis_source_sha256": "2c9e6ab845e560b00e99fe115fd3b568e0ae49373f805d96889ae0a1a67b4005",
+  "unmeasured_metrics": [
+    "Direct RGB-to-dispatch wall time",
+    "Direct RGB-to-outcome wall time",
+    "Per-task peak RAM/GPU memory"
+  ],
+  "no_pending_or_infrastructure_records_counted_as_failure": true
+}

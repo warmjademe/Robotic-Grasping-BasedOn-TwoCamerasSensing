@@ -1,0 +1,5 @@
+kex_exchange_identification: read: Connection reset by peer
+Connection reset by 192.168.2.24 port 22
+rsync(61464): error: unexpected end of file
+2026-10-14T09:34:53.651167 CalledProcessError
+Completed and verified

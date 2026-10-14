@@ -1,0 +1,59 @@
+{
+  "status": "completed",
+  "rows": [
+    {
+      "physics_lift_success": true,
+      "approach_endpoint_reached": true,
+      "collision_free": false,
+      "execution_success": false,
+      "execution_and_return": false,
+      "returned_to_origin_success": true,
+      "prohibited_contact_steps": 1,
+      "max_arm_contact_force_n": 0.0,
+      "max_finger_non_target_force_n": 19.12243882691812,
+      "approach_position_error_mm": 0.1033559622015406,
+      "approach_rotation_error_deg": 0.010021154872481725,
+      "min_hold_bottom_clearance_m": 0.13728658963394638,
+      "return_xy_error_m": 0.0027630723262183,
+      "final_bottom_clearance_m": -1.1777549331672948e-06,
+      "hold_sim_s": 2.0,
+      "object_attached": false,
+      "object_pose_written_after_initialization": false,
+      "task_id": "task_0233",
+      "expected": null,
+      "platform": "franka_mujoco",
+      "profile": "nominal"
+    }
+  ],
+  "host": "qyb-HuaShuo",
+  "platform": "franka_mujoco",
+  "profile": "nominal",
+  "seconds": 3.7428371720016003,
+  "compile_seconds": 0.17957169603323564,
+  "simulation_wall_seconds": 3.5461839190102182,
+  "simulated_seconds": 20.500000000000185,
+  "parallelism": 1,
+  "object_collision_parts": [
+    {
+      "object_id": "spacer_03",
+      "role": "target",
+      "convex_parts": 64,
+      "mesh_sha256": "7c26f8185ccb20a3e9db0eac4bee82502425c9805fbf04acb8621dadd7960a16"
+    }
+  ],
+  "fk_position_error_m": 5.254873999801163e-12,
+  "fk_rotation_error_rad": 3.491808619531733e-08,
+  "protocol_sha256": "24eb3735a29abcfc189ee7ecb5a34851fbc070e549b96df67f030f50d3862bc6",
+  "code_sha256": "d3af9439747e39cbd99e912ede61d64a3ecc2f593187d9202796a1c0c05c1e79",
+  "versions": {
+    "mujoco": "3.3.7",
+    "numpy": "1.26.4",
+    "scipy": "1.15.3",
+    "trimesh": "4.5.3",
+    "vhacdx": "0.0.10"
+  },
+  "robot_asset_commit": "d7b481bac63d3d600ab404ee74f7474c5efe8a67",
+  "robot_asset_sha256": "96ad67da03710f17f798c9478fd9e9efdf24a3bf8359f05e456dd9fb158ea273",
+  "object_attached": false,
+  "notes": "Menagerie native collision and inertia; robot gravity compensation, independent finger PD; no scene-pose feedback control."
+}

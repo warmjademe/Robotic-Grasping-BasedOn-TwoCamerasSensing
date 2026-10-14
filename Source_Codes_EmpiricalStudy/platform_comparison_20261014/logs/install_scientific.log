@@ -1,0 +1,31 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting numpy==1.26.4
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/3a/d0/edc009c27b406c4f9cbc79274d6e46d634d139075492ad055e3d68445925/numpy-1.26.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (18.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 18.3/18.3 MB 9.5 MB/s eta 0:00:00
+Collecting scipy==1.15.3
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/bd/37/89f19c8c05505d0601ed5650156e50eb881ae3918786c8fd7262b4ee66d3/scipy-1.15.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (37.7 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 37.7/37.7 MB 6.0 MB/s eta 0:00:00
+Collecting trimesh==4.5.3
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/28/d0/8852c9f296b5d979a48d764117ff27a96115d74cb6f8ba083744867415a5/trimesh-4.5.3-py3-none-any.whl (704 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 704.8/704.8 kB 4.7 MB/s eta 0:00:00
+Collecting python-fcl
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/99/3a/38ece5c5e171e82601b98a2a728592fd906e007068070395d734d3d45744/python_fcl-0.7.0.11-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (4.7 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.7/4.7 MB 7.7 MB/s eta 0:00:00
+Collecting pillow
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/3b/2d/ede717bc1144f63886c21fd349bb95860b0d1a21149ff16f2bb362b612b6/pillow-12.3.0-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (6.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.9/6.9 MB 8.2 MB/s eta 0:00:00
+Collecting PyYAML
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/71/60/917329f640924b18ff085ab889a11c763e0b573da888e8404ff486657602/pyyaml-6.0.3-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (806 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 806.6/806.6 kB 6.0 MB/s eta 0:00:00
+Collecting Cython (from python-fcl)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/3f/9b/dd726d11b2aff24f0c3fa68ce9e3934097a058aca471a8cc9888aeae5471/cython-3.3.0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (3.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.5/3.5 MB 8.1 MB/s eta 0:00:00
+Installing collected packages: PyYAML, pillow, numpy, Cython, trimesh, scipy, python-fcl
+  Attempting uninstall: numpy
+    Found existing installation: numpy 2.4.6
+    Uninstalling numpy-2.4.6:
+      Successfully uninstalled numpy-2.4.6
+Successfully installed Cython-3.3.0 PyYAML-6.0.3 numpy-1.26.4 pillow-12.3.0 python-fcl-0.7.0.11 scipy-1.15.3 trimesh-4.5.3
+
+[notice] A new release of pip is available: 24.0 -> 26.2.1
+[notice] To update, run: /home/qyb/RESEARCH/baseline_graspgen/.venv-mujoco/bin/python3.11 -m pip install --upgrade pip

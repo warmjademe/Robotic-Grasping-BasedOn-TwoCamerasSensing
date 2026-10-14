@@ -1,0 +1,685 @@
+format: isaac_grasp
+format_version: '1.0'
+created_with: grasp_sim
+object_file: /home/qyb/RESEARCH/Robotic_Grasping/Source_Codes_EmpiricalStudy/physics_validation_20261013/inputs/mounting_block_01.obj
+object_scale: 1.0
+gripper_file: /home/qyb/RESEARCH/baseline_graspgen/upstream/GraspDataGen/bots/franka_panda.usd
+gripper_frame_link: panda_hand
+open_limit: upper
+finger_colliders:
+- panda_rightfinger
+- panda_leftfinger
+grasps:
+  case_0000:
+    position:
+    - 0.04323936556653949
+    - 0.03511614644745869
+    - 0.11264391307598526
+    orientation:
+      w: -0.14502558545036429
+      xyz:
+      - -0.3796212400106067
+      - 0.9115895416634392
+      - -0.06212729856857904
+    cspace_position:
+      panda_finger_joint1: 0.012586347758769989
+    pregrasp_cspace_position:
+      panda_finger_joint1: 0.022841056959631102
+    closing_command_m: 0.025171228390767138
+    kind: prediction
+    confidence: 0.0
+    pregrasp_position:
+    - 0.04323936556653949
+    - 0.03511614644745869
+    - 0.11264391307598526
+    pregrasp_orientation:
+      w: -0.14502558545036429
+      xyz:
+      - -0.3796212400106067
+      - 0.9115895416634392
+      - -0.06212729856857904
+    pregrasp_bite_point:
+    - 0.0
+    - 0.0
+    - 0.0
+  case_0001:
+    position:
+    - 0.017549815185206024
+    - 0.0056664430347192095
+    - 0.1144590899348259
+    orientation:
+      w: -0.03451449604796071
+      xyz:
+      - 0.026194172164533062
+      - 0.9990069743127006
+      - -0.010376906174443545
+    cspace_position:
+      panda_finger_joint1: 0.014984088949859142
+    pregrasp_cspace_position:
+      panda_finger_joint1: 0.04
+    closing_command_m: 0.029966750683235927
+    kind: prediction
+    confidence: 0.0
+    pregrasp_position:
+    - 0.017549815185206024
+    - 0.0056664430347192095
+    - 0.1144590899348259
+    pregrasp_orientation:
+      w: -0.03451449604796071
+      xyz:
+      - 0.026194172164533062
+      - 0.9990069743127006
+      - -0.010376906174443545
+    pregrasp_bite_point:
+    - 0.0
+    - 0.0
+    - 0.0
+  case_0002:
+    position:
+    - -0.002587014744027713
+    - -0.06867463379591628
+    - 0.1627819538116455
+    orientation:
+      w: 0.03703110478892615
+      xyz:
+      - 0.9786022847917939
+      - 0.1991501519918721
+      - 0.036131460529661014
+    cspace_position:
+      panda_finger_joint1: 0.00347848585806787
+    pregrasp_cspace_position:
+      panda_finger_joint1: 0.04
+    closing_command_m: 0.006956610319213371
+    kind: prediction
+    confidence: 0.0
+    pregrasp_position:
+    - -0.002587014744027713
+    - -0.06867463379591628
+    - 0.1627819538116455
+    pregrasp_orientation:
+      w: 0.03703110478892615
+      xyz:
+      - 0.9786022847917939
+      - 0.1991501519918721
+      - 0.036131460529661014
+    pregrasp_bite_point:
+    - 0.0
+    - 0.0
+    - 0.0
+  case_0003:
+    position:
+    - 0.051912808203848394
+    - 0.032566339559132226
+    - 0.1087923796469555
+    orientation:
+      w: 0.06281847008351728
+      xyz:
+      - 0.9289153978679825
+      - 0.313373785309061
+      - -0.18699436916978163
+    cspace_position:
+      panda_finger_joint1: 0.015846410766243935
+    pregrasp_cspace_position:
+      panda_finger_joint1: 0.022428872871867483
+    closing_command_m: 0.031695761586624224
+    kind: prediction
+    confidence: 0.0
+    pregrasp_position:
+    - 0.051912808203848394
+    - 0.032566339559132226
+    - 0.1087923796469555
+    pregrasp_orientation:
+      w: 0.06281847008351728
+      xyz:
+      - 0.9289153978679825
+      - 0.313373785309061
+      - -0.18699436916978163
+    pregrasp_bite_point:
+    - 0.0
+    - 0.0
+    - 0.0
+  case_0004:
+    position:
+    - 0.004905466021525241
+    - 0.0076775471899764
+    - 0.11510980874300003
+    orientation:
+      w: 0.02664719148640768
+      xyz:
+      - 0.9995964809260558
+      - 0.006944226265526889
+      - -0.006969951772084142
+    cspace_position:
+      panda_finger_joint1: 0.01526628527790308
+    pregrasp_cspace_position:
+      panda_finger_joint1: 0.04
+    closing_command_m: 0.03053110478930495
+    kind: prediction
+    confidence: 0.0
+    pregrasp_position:
+    - 0.004905466021525241
+    - 0.0076775471899764
+    - 0.11510980874300003
+    pregrasp_orientation:
+      w: 0.02664719148640768
+      xyz:
+      - 0.9995964809260558
+      - 0.006944226265526889
+      - -0.006969951772084142
+    pregrasp_bite_point:
+    - 0.0
+    - 0.0
+    - 0.0
+  case_0005:
+    position:
+    - 0.01824310872850872
+    - -0.06431685431034355
+    - 0.14077894389629364
+    orientation:
+      w: 0.03787823066846569
+      xyz:
+      - 0.9332632775436184
+      - 0.3567477729003467
+      - 0.01777416553912737
+    cspace_position:
+      panda_finger_joint1: 0.013249805197119713
+    pregrasp_cspace_position:
+      panda_finger_joint1: 0.04
+    closing_command_m: 0.026498143517907344
+    kind: prediction
+    confidence: 0.0
+    pregrasp_position:
+    - 0.01824310872850872
+    - -0.06431685431034355
+    - 0.14077894389629364
+    pregrasp_orientation:
+      w: 0.03787823066846569
+      xyz:
+      - 0.9332632775436184
+      - 0.3567477729003467
+      - 0.01777416553912737
+    pregrasp_bite_point:
+    - 0.0
+    - 0.0
+    - 0.0
+  case_0006:
+    position:
+    - -0.038080786864216364
+    - 0.0016125695397555227
+    - 0.11158999849559373
+    orientation:
+      w: 0.1283323474873746
+      xyz:
+      - 0.05394809586062349
+      - 0.9902350556297306
+      - -0.007412566585007891
+    cspace_position:
+      panda_finger_joint1: 0.014808130450546741
+    pregrasp_cspace_position:
+      panda_finger_joint1: 0.0361247532727129
+    closing_command_m: 0.029614791268061075
+    kind: prediction
+    confidence: 0.0
+    pregrasp_position:
+    - -0.038080786864216364
+    - 0.0016125695397555227
+    - 0.11158999849559373
+    pregrasp_orientation:
+      w: 0.1283323474873746
+      xyz:
+      - 0.05394809586062349
+      - 0.9902350556297306
+      - -0.007412566585007891
+    pregrasp_bite_point:
+    - 0.0
+    - 0.0
+    - 0.0
+  case_0007:
+    position:
+    - -0.003345647571660511
+    - 0.007133074244817704
+    - 0.11524851620197296
+    orientation:
+      w: 0.011531369692821201
+      xyz:
+      - 0.9989681876346348
+      - -0.011313742197437731
+      - 0.04244510389279947
+    cspace_position:
+      panda_finger_joint1: 0.01442759856581688
+    pregrasp_cspace_position:
+      panda_finger_joint1: 0.04
+    closing_command_m: 0.028853735853960207
+    kind: prediction
+    confidence: 0.0
+    pregrasp_position:
+    - -0.003345647571660511
+    - 0.007133074244817704
+    - 0.11524851620197296
+    pregrasp_orientation:
+      w: 0.011531369692821201
+      xyz:
+      - 0.9989681876346348
+      - -0.011313742197437731
+      - 0.04244510389279947
+    pregrasp_bite_point:
+    - 0.0
+    - 0.0
+    - 0.0
+  case_0008:
+    position:
+    - -0.02162171023337777
+    - 0.08130706934698267
+    - 0.18159502744674683
+    orientation:
+      w: 0.04590541215884301
+      xyz:
+      - 0.9650981682148421
+      - 0.1377044548448194
+      - 0.21798096696449
+    cspace_position:
+      panda_finger_joint1: 0.0098873907700181
+    pregrasp_cspace_position:
+      panda_finger_joint1: 0.04
+    closing_command_m: 0.019773315558246483
+    kind: prediction
+    confidence: 0.0
+    pregrasp_position:
+    - -0.02162171023337777
+    - 0.08130706934698267
+    - 0.18159502744674683
+    pregrasp_orientation:
+      w: 0.04590541215884301
+      xyz:
+      - 0.9650981682148421
+      - 0.1377044548448194
+      - 0.21798096696449
+    pregrasp_bite_point:
+    - 0.0
+    - 0.0
+    - 0.0
+  case_0009:
+    position:
+    - 0.019125434519567615
+    - -0.04309972589734806
+    - 0.10264649987220764
+    orientation:
+      w: -0.20684964472682868
+      xyz:
+      - 0.5851975364882397
+      - 0.7712745105050012
+      - 0.14104147336776812
+    cspace_position:
+      panda_finger_joint1: 0.022192319855093956
+    pregrasp_cspace_position:
+      panda_finger_joint1: 0.04
+    closing_command_m: 0.04438177193155374
+    kind: prediction
+    confidence: 0.0
+    pregrasp_position:
+    - 0.019125434519567615
+    - -0.04309972589734806
+    - 0.10264649987220764
+    pregrasp_orientation:
+      w: -0.20684964472682868
+      xyz:
+      - 0.5851975364882397
+      - 0.7712745105050012
+      - 0.14104147336776812
+    pregrasp_bite_point:
+    - 0.0
+    - 0.0
+    - 0.0
+  case_0010:
+    position:
+    - -0.053287149488131014
+    - -0.013888230062508201
+    - 0.1267806440591812
+    orientation:
+      w: 0.07549156213649381
+      xyz:
+      - 0.928833875240304
+      - 0.36130591724191347
+      - -0.032042010209268924
+    cspace_position:
+      panda_finger_joint1: 0.007329689338803291
+    pregrasp_cspace_position:
+      panda_finger_joint1: 0.04
+    closing_command_m: 0.014658648185136578
+    kind: prediction
+    confidence: 0.0
+    pregrasp_position:
+    - -0.053287149488131014
+    - -0.013888230062508201
+    - 0.1267806440591812
+    pregrasp_orientation:
+      w: 0.07549156213649381
+      xyz:
+      - 0.928833875240304
+      - 0.36130591724191347
+      - -0.032042010209268924
+    pregrasp_bite_point:
+    - 0.0
+    - 0.0
+    - 0.0
+  case_0011:
+    position:
+    - -0.06439011215125096
+    - -0.016210816043270036
+    - 0.1392698585987091
+    orientation:
+      w: 0.03486032418528329
+      xyz:
+      - 0.9940094043234697
+      - 0.09896600955576003
+      - 0.030590699024490502
+    cspace_position:
+      panda_finger_joint1: 0.01630401238799095
+    pregrasp_cspace_position:
+      panda_finger_joint1: 0.04
+    closing_command_m: 0.03260513374698886
+    kind: prediction
+    confidence: 0.0
+    pregrasp_position:
+    - -0.06439011215125096
+    - -0.016210816043270036
+    - 0.1392698585987091
+    pregrasp_orientation:
+      w: 0.03486032418528329
+      xyz:
+      - 0.9940094043234697
+      - 0.09896600955576003
+      - 0.030590699024490502
+    pregrasp_bite_point:
+    - 0.0
+    - 0.0
+    - 0.0
+  case_0012:
+    position:
+    - 0.008948030763939636
+    - -0.0006508778140610662
+    - 0.11495786905288696
+    orientation:
+      w: 0.01840062688711478
+      xyz:
+      - 0.999593053047088
+      - -0.018825228500949143
+      - -0.010988903587233735
+    cspace_position:
+      panda_finger_joint1: 0.01763066276907921
+    pregrasp_cspace_position:
+      panda_finger_joint1: 0.04
+    closing_command_m: 0.035258445533150266
+    kind: prediction
+    confidence: 0.0
+    pregrasp_position:
+    - 0.008948030763939636
+    - -0.0006508778140610662
+    - 0.11495786905288696
+    pregrasp_orientation:
+      w: 0.01840062688711478
+      xyz:
+      - 0.999593053047088
+      - -0.018825228500949143
+      - -0.010988903587233735
+    pregrasp_bite_point:
+    - 0.0
+    - 0.0
+    - 0.0
+  case_0013:
+    position:
+    - -0.06243339613840701
+    - -0.02822564156738119
+    - 0.10639399947344674
+    orientation:
+      w: 0.23568302187537576
+      xyz:
+      - -0.3089219450946494
+      - 0.920808057021128
+      - 0.03366403367995169
+    cspace_position:
+      panda_finger_joint1: 0.017082806676626205
+    pregrasp_cspace_position:
+      panda_finger_joint1: 0.022053906448881604
+    closing_command_m: 0.034165948058723666
+    kind: prediction
+    confidence: 0.0
+    pregrasp_position:
+    - -0.06243339613840701
+    - -0.02822564156738119
+    - 0.10639399947344674
+    pregrasp_orientation:
+      w: 0.23568302187537576
+      xyz:
+      - -0.3089219450946494
+      - 0.920808057021128
+      - 0.03366403367995169
+    pregrasp_bite_point:
+    - 0.0
+    - 0.0
+    - 0.0
+  case_0014:
+    position:
+    - -0.04894753842177699
+    - 0.016450907722123372
+    - 0.1128690302971668
+    orientation:
+      w: 0.1466785457953709
+      xyz:
+      - 0.11844398352761058
+      - 0.9814849104017758
+      - -0.0338200772187816
+    cspace_position:
+      panda_finger_joint1: 0.015034588053822517
+    pregrasp_cspace_position:
+      panda_finger_joint1: 0.026128531825920787
+    closing_command_m: 0.03006773302905362
+    kind: prediction
+    confidence: 0.0
+    pregrasp_position:
+    - -0.04894753842177699
+    - 0.016450907722123372
+    - 0.1128690302971668
+    pregrasp_orientation:
+      w: 0.1466785457953709
+      xyz:
+      - 0.11844398352761058
+      - 0.9814849104017758
+      - -0.0338200772187816
+    pregrasp_bite_point:
+    - 0.0
+    - 0.0
+    - 0.0
+  case_0015:
+    position:
+    - -0.0023042661394373845
+    - -0.001648770321128793
+    - 0.11520472168922424
+    orientation:
+      w: -0.012916459499476516
+      xyz:
+      - 0.018149176002844294
+      - 0.9996499425362539
+      - 0.014274623346350717
+    cspace_position:
+      panda_finger_joint1: 0.015112492255866528
+    pregrasp_cspace_position:
+      panda_finger_joint1: 0.04
+    closing_command_m: 0.030223514127739458
+    kind: prediction
+    confidence: 0.0
+    pregrasp_position:
+    - -0.0023042661394373845
+    - -0.001648770321128793
+    - 0.11520472168922424
+    pregrasp_orientation:
+      w: -0.012916459499476516
+      xyz:
+      - 0.018149176002844294
+      - 0.9996499425362539
+      - 0.014274623346350717
+    pregrasp_bite_point:
+    - 0.0
+    - 0.0
+    - 0.0
+  case_0016:
+    position:
+    - -0.011849972113822578
+    - -0.0006499082942758123
+    - 0.11291705816984177
+    orientation:
+      w: -0.0003591356981747502
+      xyz:
+      - 0.9983215461767025
+      - -0.015358841672005387
+      - 0.05583965833887664
+    cspace_position:
+      panda_finger_joint1: 0.015156138688325882
+    pregrasp_cspace_position:
+      panda_finger_joint1: 0.04
+    closing_command_m: 0.03031081170847663
+    kind: prediction
+    confidence: 0.0
+    pregrasp_position:
+    - -0.011849972113822578
+    - -0.0006499082942758123
+    - 0.11291705816984177
+    pregrasp_orientation:
+      w: -0.0003591356981747502
+      xyz:
+      - 0.9983215461767025
+      - -0.015358841672005387
+      - 0.05583965833887664
+    pregrasp_bite_point:
+    - 0.0
+    - 0.0
+    - 0.0
+  case_0017:
+    position:
+    - -0.045161106613953554
+    - 0.007958407931195824
+    - 0.10562694817781448
+    orientation:
+      w: 0.22467078387270484
+      xyz:
+      - 0.017599897119297457
+      - 0.9741149289825222
+      - -0.017702757660611284
+    cspace_position:
+      panda_finger_joint1: 0.018182946369051933
+    pregrasp_cspace_position:
+      panda_finger_joint1: 0.04
+    closing_command_m: 0.03636295540633149
+    kind: prediction
+    confidence: 0.0
+    pregrasp_position:
+    - -0.045161106613953554
+    - 0.007958407931195824
+    - 0.10562694817781448
+    pregrasp_orientation:
+      w: 0.22467078387270484
+      xyz:
+      - 0.017599897119297457
+      - 0.9741149289825222
+      - -0.017702757660611284
+    pregrasp_bite_point:
+    - 0.0
+    - 0.0
+    - 0.0
+  case_0018:
+    position:
+    - 0.03639022375020677
+    - 0.0009508492433110941
+    - 0.11437489102249038
+    orientation:
+      w: -0.01401944041381921
+      xyz:
+      - 0.9925692268376456
+      - -0.0324129940730179
+      - -0.11644390512441731
+    cspace_position:
+      panda_finger_joint1: 0.015385896898806095
+    pregrasp_cspace_position:
+      panda_finger_joint1: 0.02976292636828301
+    closing_command_m: 0.030770340980514205
+    kind: prediction
+    confidence: 0.0
+    pregrasp_position:
+    - 0.03639022375020677
+    - 0.0009508492433110941
+    - 0.11437489102249038
+    pregrasp_orientation:
+      w: -0.01401944041381921
+      xyz:
+      - 0.9925692268376456
+      - -0.0324129940730179
+      - -0.11644390512441731
+    pregrasp_bite_point:
+    - 0.0
+    - 0.0
+    - 0.0
+  case_0019:
+    position:
+    - 7.0730458286115405e-06
+    - 0.04945293294836097
+    - 0.10372855514287949
+    orientation:
+      w: 0.17570625254436964
+      xyz:
+      - 0.6921382212477056
+      - 0.6793060887684389
+      - -0.16916037735534245
+    cspace_position:
+      panda_finger_joint1: 0.020014382898807526
+    pregrasp_cspace_position:
+      panda_finger_joint1: 0.04
+    closing_command_m: 0.04002585265580441
+    kind: prediction
+    confidence: 0.0
+    pregrasp_position:
+    - 7.0730458286115405e-06
+    - 0.04945293294836097
+    - 0.10372855514287949
+    pregrasp_orientation:
+      w: 0.17570625254436964
+      xyz:
+      - 0.6921382212477056
+      - 0.6793060887684389
+      - -0.16916037735534245
+    pregrasp_bite_point:
+    - 0.0
+    - 0.0
+    - 0.0
+  case_0020:
+    position:
+    - -0.0017636017828627885
+    - -0.0010563347440058755
+    - 0.11589600890874863
+    orientation:
+      w: -0.009547351749664144
+      xyz:
+      - 0.05231789971169957
+      - 0.9985836929060735
+      - 0.0015144987268213017
+    cspace_position:
+      panda_finger_joint1: 0.02087700553238392
+    pregrasp_cspace_position:
+      panda_finger_joint1: 0.04
+    closing_command_m: 0.041751151214091634
+    kind: prediction
+    confidence: 0.0
+    pregrasp_position:
+    - -0.0017636017828627885
+    - -0.0010563347440058755
+    - 0.11589600890874863
+    pregrasp_orientation:
+      w: -0.009547351749664144
+      xyz:
+      - 0.05231789971169957
+      - 0.9985836929060735
+      - 0.0015144987268213017
+    pregrasp_bite_point:
+    - 0.0
+    - 0.0
+    - 0.0
+created_at: '2026-10-13T16:56:01.780738'

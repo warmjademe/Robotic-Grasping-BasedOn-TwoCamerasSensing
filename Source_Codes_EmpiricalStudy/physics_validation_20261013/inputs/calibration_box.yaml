@@ -1,0 +1,66 @@
+format: isaac_grasp
+format_version: '1.0'
+created_with: Frozen RQ2/RQ3 selected candidates
+object_file: /home/qyb/RESEARCH/Robotic_Grasping/Source_Codes_EmpiricalStudy/physics_validation_20261013/inputs/calibration_box.obj
+object_scale: 1.0
+gripper_file: /home/qyb/RESEARCH/baseline_graspgen/upstream/GraspDataGen/bots/franka_panda.usd
+gripper_frame_link: panda_hand
+open_limit: upper
+finger_colliders:
+- panda_rightfinger
+- panda_leftfinger
+grasps:
+  centered_box:
+    position:
+    - 0.0
+    - 0.0
+    - -0.1015
+    orientation:
+      w: 1.0
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+    cspace_position:
+      panda_finger_joint1: 0.04
+    pregrasp_cspace_position:
+      panda_finger_joint1: 0.04
+    closing_command_m: 0.0
+    kind: calibration
+    expected: true
+  far_negative:
+    position:
+    - 0.2
+    - 0.0
+    - -0.1015
+    orientation:
+      w: 1.0
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+    cspace_position:
+      panda_finger_joint1: 0.04
+    pregrasp_cspace_position:
+      panda_finger_joint1: 0.04
+    closing_command_m: 0.0
+    kind: calibration
+    expected: false
+  open_negative:
+    position:
+    - 0.0
+    - 0.0
+    - -0.1015
+    orientation:
+      w: 1.0
+      xyz:
+      - 0.0
+      - 0.0
+      - 0.0
+    cspace_position:
+      panda_finger_joint1: 0.04
+    pregrasp_cspace_position:
+      panda_finger_joint1: 0.04
+    closing_command_m: 0.08
+    kind: calibration
+    expected: false

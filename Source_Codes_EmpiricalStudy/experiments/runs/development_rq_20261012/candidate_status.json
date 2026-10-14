@@ -1,0 +1,11 @@
+{
+  "status": "completed",
+  "pid": 1310570,
+  "started_at": "2026-10-11T23:56:59.546786+00:00",
+  "completed": 792,
+  "failed": 0,
+  "expected": 792,
+  "current": null,
+  "updated_at": "2026-10-12T02:17:31.728007+00:00",
+  "finished_at": "2026-10-12T02:17:31.799265+00:00"
+}

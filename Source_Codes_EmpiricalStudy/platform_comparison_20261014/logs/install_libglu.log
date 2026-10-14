@@ -1,0 +1,33 @@
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Solving dependencies...
+The following additional packages will be installed:
+  libopengl0
+The following NEW packages will be installed:
+  libglu1-mesa libopengl0
+0 upgraded, 2 newly installed, 0 to remove and 270 not upgraded.
+Need to get 184 kB of archives.
+After this operation, 603 kB of additional disk space will be used.
+Get:1 http://mirrors.tuna.tsinghua.edu.cn/ubuntu questing/main amd64 libopengl0 amd64 1.7.0-1build2 [32.6 kB]
+Get:2 http://mirrors.tuna.tsinghua.edu.cn/ubuntu questing/universe amd64 libglu1-mesa amd64 9.0.2-1.1build1 [152 kB]
+debconf: unable to initialize frontend: Dialog
+debconf: (Dialog frontend will not work on a dumb terminal, an emacs shell buffer, or without a controlling terminal.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (This frontend requires a controlling tty.)
+debconf: falling back to frontend: Teletype
+debconf: unable to initialize frontend: Teletype
+debconf: (This frontend requires a controlling tty.)
+debconf: falling back to frontend: Noninteractive
+Fetched 184 kB in 2s (114 kB/s)
+Selecting previously unselected package libopengl0:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 209568 files and directories currently installed.)
+Preparing to unpack .../libopengl0_1.7.0-1build2_amd64.deb ...
+Unpacking libopengl0:amd64 (1.7.0-1build2) ...
+Selecting previously unselected package libglu1-mesa:amd64.
+Preparing to unpack .../libglu1-mesa_9.0.2-1.1build1_amd64.deb ...
+Unpacking libglu1-mesa:amd64 (9.0.2-1.1build1) ...
+Setting up libopengl0:amd64 (1.7.0-1build2) ...
+Setting up libglu1-mesa:amd64 (9.0.2-1.1build1) ...
+Processing triggers for libc-bin (2.42-0ubuntu3.1) ...

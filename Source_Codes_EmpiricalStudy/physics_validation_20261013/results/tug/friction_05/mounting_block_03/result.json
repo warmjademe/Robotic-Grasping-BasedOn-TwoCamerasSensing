@@ -1,0 +1,240 @@
+{
+  "stage": "isolated_gripper_tug",
+  "status": "completed",
+  "rows": [
+    {
+      "case_id": "case_0047",
+      "success": false,
+      "closing_command_m": 0.025283637081805255,
+      "expected": null
+    },
+    {
+      "case_id": "case_0048",
+      "success": false,
+      "closing_command_m": 0.024989891135510298,
+      "expected": null
+    },
+    {
+      "case_id": "case_0049",
+      "success": false,
+      "closing_command_m": 0.026004876891720874,
+      "expected": null
+    },
+    {
+      "case_id": "case_0050",
+      "success": false,
+      "closing_command_m": 0.04265845506414025,
+      "expected": null
+    },
+    {
+      "case_id": "case_0051",
+      "success": false,
+      "closing_command_m": 0.043946538089399065,
+      "expected": null
+    },
+    {
+      "case_id": "case_0052",
+      "success": false,
+      "closing_command_m": 0.03938841785662209,
+      "expected": null
+    },
+    {
+      "case_id": "case_0053",
+      "success": false,
+      "closing_command_m": 0.018444899209721498,
+      "expected": null
+    },
+    {
+      "case_id": "case_0054",
+      "success": false,
+      "closing_command_m": 0.04096328760105124,
+      "expected": null
+    },
+    {
+      "case_id": "case_0055",
+      "success": true,
+      "closing_command_m": 0.03960402594522146,
+      "expected": null
+    },
+    {
+      "case_id": "case_0056",
+      "success": false,
+      "closing_command_m": 0.04025178310914067,
+      "expected": null
+    },
+    {
+      "case_id": "case_0057",
+      "success": true,
+      "closing_command_m": 0.0390178577392834,
+      "expected": null
+    },
+    {
+      "case_id": "case_0058",
+      "success": false,
+      "closing_command_m": 0.044739129981250764,
+      "expected": null
+    },
+    {
+      "case_id": "case_0059",
+      "success": false,
+      "closing_command_m": 0.025561228004626957,
+      "expected": null
+    },
+    {
+      "case_id": "case_0060",
+      "success": false,
+      "closing_command_m": 0.016642068856389858,
+      "expected": null
+    },
+    {
+      "case_id": "case_0061",
+      "success": false,
+      "closing_command_m": 0.024365789502807607,
+      "expected": null
+    }
+  ],
+  "actual_parameters": {
+    "mass_kg": [
+      0.10000000149011612
+    ],
+    "joints": [
+      "panda_finger_joint1",
+      "panda_finger_joint2"
+    ],
+    "stiffness": [
+      1000.0,
+      1000.0
+    ],
+    "damping": [
+      100.0,
+      100.0
+    ]
+  },
+  "seconds": 5.225597860000562,
+  "friction": 0.5,
+  "fps": 250.0,
+  "gravity_enabled": false,
+  "force_magnitude_g": 1.0,
+  "applied_closure_commands": [
+    [
+      0.012641818262636662,
+      0.012641818262636662
+    ],
+    [
+      0.012494945898652077,
+      0.012494945898652077
+    ],
+    [
+      0.013002438470721245,
+      0.013002438470721245
+    ],
+    [
+      0.021329227834939957,
+      0.021329227834939957
+    ],
+    [
+      0.021973269060254097,
+      0.021973269060254097
+    ],
+    [
+      0.019694209098815918,
+      0.019694209098815918
+    ],
+    [
+      0.009222449734807014,
+      0.009222449734807014
+    ],
+    [
+      0.020481644198298454,
+      0.020481644198298454
+    ],
+    [
+      0.019802013412117958,
+      0.019802013412117958
+    ],
+    [
+      0.020125892013311386,
+      0.020125892013311386
+    ],
+    [
+      0.019508928060531616,
+      0.019508928060531616
+    ],
+    [
+      0.022369565442204475,
+      0.022369565442204475
+    ],
+    [
+      0.012780614197254181,
+      0.012780614197254181
+    ],
+    [
+      0.008321034722030163,
+      0.008321034722030163
+    ],
+    [
+      0.012182895094156265,
+      0.012182895094156265
+    ]
+  ],
+  "tug_sequences": [
+    [
+      0.5,
+      [
+        0.0,
+        0.0,
+        1.0
+      ],
+      1.0
+    ],
+    [
+      0.5,
+      [
+        0.0,
+        0.8944271909999159,
+        0.4472135954999579
+      ],
+      1.0
+    ],
+    [
+      0.5,
+      [
+        0.0,
+        -0.8944271909999159,
+        0.4472135954999579
+      ],
+      1.0
+    ],
+    [
+      0.5,
+      [
+        0.8944271909999159,
+        0.0,
+        0.4472135954999579
+      ],
+      1.0
+    ],
+    [
+      0.5,
+      [
+        -0.8944271909999159,
+        0.0,
+        0.4472135954999579
+      ],
+      1.0
+    ]
+  ],
+  "closure": "saved_plan_closing_command",
+  "object_attached": false,
+  "full_arm": false,
+  "success_definition": "Official GraspDataGen: both fingers have nonzero contact force after final tug",
+  "source_sha256": "a1700e3fe1a6c2cd706a5d530c1cf00cb4733e5a2e75feced9cc4030f29375f6",
+  "code_sha256": "ac643c9fa71d1cfe008a49fee53dccf65d0e3aa0b318f9e715b76ea7efe60d34",
+  "upstream_sha256": "9a2d7516e89eb2fe2e39480c5827252a8624019149ab26c476d73ceb9a7872a1",
+  "versions": {
+    "isaacsim": "5.1.0.0",
+    "isaaclab": "2.3.2.post1",
+    "torch": "2.7.0+cu128",
+    "warp-lang": "1.9.1"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "status": "no_plan",
+  "condition": "neighbours",
+  "uses_object_ground_truth": false,
+  "cloud_sha256": "aaf856c41b4176b5fb6809ac1da7208c724165935c6fb3bc7f42e05acf8a450a",
+  "grasps_sha256": "3d69554059037df7f4cc15ad86ac823b88b6bffe10ffb641f287b14134f1cf74",
+  "candidate_limit": 200,
+  "planning_budget_s": 30,
+  "native_execution_performed": false,
+  "full_trajectory_collision_validated": false,
+  "rejected": [
+    {
+      "rank": 0,
+      "reason": "approach_direction"
+    }
+  ],
+  "selected": null,
+  "home_check": {
+    "collision": false,
+    "self_pairs": [],
+    "environment_pairs": [],
+    "perceived_voxels": 1732
+  },
+  "seconds": 0.1982625529926736,
+  "scope": "Sampled geometric planning; native validation and between-sample checks still required"
+}

@@ -1,0 +1,45 @@
+{
+  "episode_id": "spacer_01_p02_neighbours",
+  "evaluation_only": true,
+  "ground_truth_used_only_here": true,
+  "target_cloud_points": 1629,
+  "reference_visible_points": 6579,
+  "stereo_reference_visible_points": 3253,
+  "primary_coverage_reference": "left/right",
+  "thresholds_mm": [
+    1,
+    2,
+    5
+  ],
+  "native_robot_execution_performed": false,
+  "surface_mae_mm": 1.4482992522858726,
+  "surface_p95_mm": 4.184660379068264,
+  "surface_precision": {
+    "1": 0.4732965009208103,
+    "2": 0.7538367096378146,
+    "5": 0.9668508287292817
+  },
+  "four_view_visible_coverage": {
+    "1": 0.332421340629275,
+    "2": 0.5707554339565284,
+    "5": 0.7881136950904393
+  },
+  "stereo_visible_coverage": {
+    "1": 0.3830310482631417,
+    "2": 0.6646172763602828,
+    "5": 0.887181063633569
+  },
+  "stereo_target_depth": {
+    "gt_visible_pixels": 1633,
+    "valid_pixels": 1633,
+    "valid_fraction": 1.0,
+    "mae_mm": 3.300703525543213,
+    "p95_mm": 13.83655071258543,
+    "within_5mm_fraction_including_invalid": 0.8438456827924066
+  },
+  "prediction_cloud_sha256": "a0e2f312b67db8a5128a81d3e7abb1496c4b0de2286f90ed0a391c067b11805d",
+  "method": "raft_stereo",
+  "split": "development",
+  "evaluator_sha256": "c6fc0043c7f41a46ecf4c8c534f9979801d6366ed2e954c56b78c07a4fd4cc93",
+  "source": "experiments/runs/development_perception72_20261011/perception/raft_stereo/spacer_01_p02_neighbours"
+}

@@ -1,0 +1,70 @@
+{
+  "job_id": "friction_05_task_0343_task_0389",
+  "engine": "isaac",
+  "host": "nas",
+  "tasks": [
+    "task_0343",
+    "task_0345",
+    "task_0346",
+    "task_0350",
+    "task_0354",
+    "task_0356",
+    "task_0357",
+    "task_0365",
+    "task_0367",
+    "task_0376",
+    "task_0378",
+    "task_0379",
+    "task_0380",
+    "task_0383",
+    "task_0387",
+    "task_0389"
+  ],
+  "profile": "friction_05",
+  "status": "completed",
+  "output": "/home/qyb/RESEARCH/Robotic_Grasping/Source_Codes_EmpiricalStudy/platform_comparison_20261014/results/isaac/v2/friction_05_task_0343_task_0389",
+  "started_unix": 1791941741.43676,
+  "resources": {
+    "host": "qyb-SJHY-ubuntu25",
+    "unix": 1791941741.4364908,
+    "cpu_count": 12,
+    "load1": 2.8583984375,
+    "memory_available_gib": 44.45785903930664,
+    "disk_free_gib": 135.13338088989258,
+    "gpu_processes": [
+      {
+        "pid": 3210,
+        "memory_mib": 392,
+        "name": "gnome-remote-de",
+        "display_process": true
+      }
+    ],
+    "gpu_lock_held": false,
+    "cpu_ready": true,
+    "gpu_ready": true
+  },
+  "protocol_sha256": "24eb3735a29abcfc189ee7ecb5a34851fbc070e549b96df67f030f50d3862bc6",
+  "coordinator_child_pid": 1124818,
+  "log": "/home/qyb/RESEARCH/Robotic_Grasping/Source_Codes_EmpiricalStudy/platform_comparison_20261014/logs/isaac_v2_friction_05_task_0343_task_0389.log",
+  "returncode": 0,
+  "finished_unix": 1791941803.9643712,
+  "observed_tasks": [
+    "task_0343",
+    "task_0345",
+    "task_0346",
+    "task_0350",
+    "task_0354",
+    "task_0356",
+    "task_0357",
+    "task_0365",
+    "task_0367",
+    "task_0376",
+    "task_0378",
+    "task_0379",
+    "task_0380",
+    "task_0383",
+    "task_0387",
+    "task_0389"
+  ],
+  "wall_seconds": 62.52761125564575
+}

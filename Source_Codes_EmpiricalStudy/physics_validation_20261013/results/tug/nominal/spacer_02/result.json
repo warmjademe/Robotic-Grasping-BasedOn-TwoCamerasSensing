@@ -1,0 +1,460 @@
+{
+  "stage": "isolated_gripper_tug",
+  "status": "completed",
+  "rows": [
+    {
+      "case_id": "case_0105",
+      "success": false,
+      "closing_command_m": 0.03675791660040474,
+      "expected": null
+    },
+    {
+      "case_id": "case_0106",
+      "success": false,
+      "closing_command_m": 0.04036002393126971,
+      "expected": null
+    },
+    {
+      "case_id": "case_0107",
+      "success": false,
+      "closing_command_m": 0.0173496230623821,
+      "expected": null
+    },
+    {
+      "case_id": "case_0108",
+      "success": false,
+      "closing_command_m": 0.035161638959954965,
+      "expected": null
+    },
+    {
+      "case_id": "case_0109",
+      "success": true,
+      "closing_command_m": 0.029162965991740238,
+      "expected": null
+    },
+    {
+      "case_id": "case_0110",
+      "success": false,
+      "closing_command_m": 0.03712580028596109,
+      "expected": null
+    },
+    {
+      "case_id": "case_0111",
+      "success": false,
+      "closing_command_m": 0.04404570676190277,
+      "expected": null
+    },
+    {
+      "case_id": "case_0112",
+      "success": false,
+      "closing_command_m": 0.03502497737172211,
+      "expected": null
+    },
+    {
+      "case_id": "case_0113",
+      "success": false,
+      "closing_command_m": 0.03731704675098661,
+      "expected": null
+    },
+    {
+      "case_id": "case_0114",
+      "success": true,
+      "closing_command_m": 0.03410321125898035,
+      "expected": null
+    },
+    {
+      "case_id": "case_0115",
+      "success": false,
+      "closing_command_m": 0.035926394325394295,
+      "expected": null
+    },
+    {
+      "case_id": "case_0116",
+      "success": false,
+      "closing_command_m": 0.036965859743422494,
+      "expected": null
+    },
+    {
+      "case_id": "case_0117",
+      "success": false,
+      "closing_command_m": 0.04040180232840033,
+      "expected": null
+    },
+    {
+      "case_id": "case_0118",
+      "success": false,
+      "closing_command_m": 0.029213906104023663,
+      "expected": null
+    },
+    {
+      "case_id": "case_0119",
+      "success": false,
+      "closing_command_m": 0.037005039940238474,
+      "expected": null
+    },
+    {
+      "case_id": "case_0120",
+      "success": false,
+      "closing_command_m": 0.03610574091733891,
+      "expected": null
+    },
+    {
+      "case_id": "case_0121",
+      "success": false,
+      "closing_command_m": 0.022115858873133443,
+      "expected": null
+    },
+    {
+      "case_id": "case_0122",
+      "success": false,
+      "closing_command_m": 0.03676985274753884,
+      "expected": null
+    },
+    {
+      "case_id": "case_0123",
+      "success": false,
+      "closing_command_m": 0.03237868773628738,
+      "expected": null
+    },
+    {
+      "case_id": "case_0124",
+      "success": false,
+      "closing_command_m": 0.03733437555431278,
+      "expected": null
+    },
+    {
+      "case_id": "case_0125",
+      "success": false,
+      "closing_command_m": 0.022325337132255305,
+      "expected": null
+    },
+    {
+      "case_id": "case_0126",
+      "success": false,
+      "closing_command_m": 0.0372536665408874,
+      "expected": null
+    },
+    {
+      "case_id": "case_0127",
+      "success": false,
+      "closing_command_m": 0.02901496430438373,
+      "expected": null
+    },
+    {
+      "case_id": "case_0128",
+      "success": false,
+      "closing_command_m": 0.03655821138706104,
+      "expected": null
+    },
+    {
+      "case_id": "case_0129",
+      "success": false,
+      "closing_command_m": 0.02127327434619991,
+      "expected": null
+    },
+    {
+      "case_id": "case_0130",
+      "success": true,
+      "closing_command_m": 0.03478205964394869,
+      "expected": null
+    },
+    {
+      "case_id": "case_0131",
+      "success": false,
+      "closing_command_m": 0.04645912455157522,
+      "expected": null
+    },
+    {
+      "case_id": "case_0132",
+      "success": false,
+      "closing_command_m": 0.03787146070376954,
+      "expected": null
+    },
+    {
+      "case_id": "case_0133",
+      "success": false,
+      "closing_command_m": 0.00811597007512944,
+      "expected": null
+    },
+    {
+      "case_id": "case_0134",
+      "success": false,
+      "closing_command_m": 0.03347326231337523,
+      "expected": null
+    },
+    {
+      "case_id": "case_0135",
+      "success": false,
+      "closing_command_m": 0.03709829653837779,
+      "expected": null
+    },
+    {
+      "case_id": "case_0136",
+      "success": false,
+      "closing_command_m": 0.03504410666253054,
+      "expected": null
+    },
+    {
+      "case_id": "case_0137",
+      "success": false,
+      "closing_command_m": 0.04076743469873334,
+      "expected": null
+    },
+    {
+      "case_id": "case_0138",
+      "success": false,
+      "closing_command_m": 0.03799248589451369,
+      "expected": null
+    },
+    {
+      "case_id": "case_0139",
+      "success": true,
+      "closing_command_m": 0.035807276627562036,
+      "expected": null
+    },
+    {
+      "case_id": "case_0140",
+      "success": false,
+      "closing_command_m": 0.04725264938944116,
+      "expected": null
+    },
+    {
+      "case_id": "case_0141",
+      "success": false,
+      "closing_command_m": 0.026822441953987586,
+      "expected": null
+    }
+  ],
+  "actual_parameters": {
+    "mass_kg": [
+      0.10000000149011612
+    ],
+    "joints": [
+      "panda_finger_joint1",
+      "panda_finger_joint2"
+    ],
+    "stiffness": [
+      1000.0,
+      1000.0
+    ],
+    "damping": [
+      100.0,
+      100.0
+    ]
+  },
+  "seconds": 11.869644439022522,
+  "friction": 1.0,
+  "fps": 250.0,
+  "gravity_enabled": false,
+  "force_magnitude_g": 1.0,
+  "applied_closure_commands": [
+    [
+      0.018378958106040955,
+      0.018378958106040955
+    ],
+    [
+      0.02018001116812229,
+      0.02018001116812229
+    ],
+    [
+      0.008674811571836472,
+      0.008674811571836472
+    ],
+    [
+      0.017580820247530937,
+      0.017580820247530937
+    ],
+    [
+      0.014581482857465744,
+      0.014581482857465744
+    ],
+    [
+      0.01856289990246296,
+      0.01856289990246296
+    ],
+    [
+      0.022022852674126625,
+      0.022022852674126625
+    ],
+    [
+      0.0175124891102314,
+      0.0175124891102314
+    ],
+    [
+      0.01865852251648903,
+      0.01865852251648903
+    ],
+    [
+      0.017051605507731438,
+      0.017051605507731438
+    ],
+    [
+      0.017963197082281113,
+      0.017963197082281113
+    ],
+    [
+      0.018482929095625877,
+      0.018482929095625877
+    ],
+    [
+      0.020200900733470917,
+      0.020200900733470917
+    ],
+    [
+      0.014606952667236328,
+      0.014606952667236328
+    ],
+    [
+      0.01850252039730549,
+      0.01850252039730549
+    ],
+    [
+      0.01805287040770054,
+      0.01805287040770054
+    ],
+    [
+      0.011057929135859013,
+      0.011057929135859013
+    ],
+    [
+      0.01838492602109909,
+      0.01838492602109909
+    ],
+    [
+      0.016189344227313995,
+      0.016189344227313995
+    ],
+    [
+      0.01866718754172325,
+      0.01866718754172325
+    ],
+    [
+      0.011162668466567993,
+      0.011162668466567993
+    ],
+    [
+      0.018626833334565163,
+      0.018626833334565163
+    ],
+    [
+      0.014507481828331947,
+      0.014507481828331947
+    ],
+    [
+      0.01827910542488098,
+      0.01827910542488098
+    ],
+    [
+      0.01063663698732853,
+      0.01063663698732853
+    ],
+    [
+      0.017391029745340347,
+      0.017391029745340347
+    ],
+    [
+      0.023229561746120453,
+      0.023229561746120453
+    ],
+    [
+      0.018935730680823326,
+      0.018935730680823326
+    ],
+    [
+      0.0040579852648079395,
+      0.0040579852648079395
+    ],
+    [
+      0.016736630350351334,
+      0.016736630350351334
+    ],
+    [
+      0.018549147993326187,
+      0.018549147993326187
+    ],
+    [
+      0.0175220537930727,
+      0.0175220537930727
+    ],
+    [
+      0.020383717492222786,
+      0.020383717492222786
+    ],
+    [
+      0.018996242433786392,
+      0.018996242433786392
+    ],
+    [
+      0.017903639003634453,
+      0.017903639003634453
+    ],
+    [
+      0.02362632378935814,
+      0.02362632378935814
+    ],
+    [
+      0.013411221094429493,
+      0.013411221094429493
+    ]
+  ],
+  "tug_sequences": [
+    [
+      0.5,
+      [
+        0.0,
+        0.0,
+        1.0
+      ],
+      1.0
+    ],
+    [
+      0.5,
+      [
+        0.0,
+        0.8944271909999159,
+        0.4472135954999579
+      ],
+      1.0
+    ],
+    [
+      0.5,
+      [
+        0.0,
+        -0.8944271909999159,
+        0.4472135954999579
+      ],
+      1.0
+    ],
+    [
+      0.5,
+      [
+        0.8944271909999159,
+        0.0,
+        0.4472135954999579
+      ],
+      1.0
+    ],
+    [
+      0.5,
+      [
+        -0.8944271909999159,
+        0.0,
+        0.4472135954999579
+      ],
+      1.0
+    ]
+  ],
+  "closure": "saved_plan_closing_command",
+  "object_attached": false,
+  "full_arm": false,
+  "success_definition": "Official GraspDataGen: both fingers have nonzero contact force after final tug",
+  "source_sha256": "0384942a9434b03d67c95ef97409414e8814a56e22c80848fbde6c2bac5c3d1c",
+  "code_sha256": "ac643c9fa71d1cfe008a49fee53dccf65d0e3aa0b318f9e715b76ea7efe60d34",
+  "upstream_sha256": "9a2d7516e89eb2fe2e39480c5827252a8624019149ab26c476d73ceb9a7872a1",
+  "versions": {
+    "isaacsim": "5.1.0.0",
+    "isaaclab": "2.3.2.post1",
+    "torch": "2.7.0+cu128",
+    "warp-lang": "1.9.1"
+  }
+}

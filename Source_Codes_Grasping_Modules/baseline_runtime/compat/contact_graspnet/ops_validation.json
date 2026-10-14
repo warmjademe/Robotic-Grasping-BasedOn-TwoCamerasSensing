@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "tensorflow": "2.15.1",
+  "sampling_device": "/device:GPU:0",
+  "checks": [
+    "known farthest indices",
+    "gather coordinates",
+    "radius grouping",
+    "nearest interpolation"
+  ],
+  "build_manifest": "/home/qyb/RESEARCH/stero robotic grasping/source codes/baseline_runtime/compat/contact_graspnet/build_manifest.json"
+}

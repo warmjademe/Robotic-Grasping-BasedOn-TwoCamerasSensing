@@ -1,0 +1,42 @@
+{
+  "job_id": "friction_05_task_0290_task_0291",
+  "engine": "isaac",
+  "host": "nas",
+  "tasks": [
+    "task_0290",
+    "task_0291"
+  ],
+  "profile": "friction_05",
+  "status": "completed",
+  "output": "/home/qyb/RESEARCH/Robotic_Grasping/Source_Codes_EmpiricalStudy/platform_comparison_20261014/results/isaac/v2/friction_05_task_0290_task_0291",
+  "started_unix": 1791941626.3541212,
+  "resources": {
+    "host": "qyb-SJHY-ubuntu25",
+    "unix": 1791941626.3538404,
+    "cpu_count": 12,
+    "load1": 2.0810546875,
+    "memory_available_gib": 44.47031021118164,
+    "disk_free_gib": 135.14301300048828,
+    "gpu_processes": [
+      {
+        "pid": 3210,
+        "memory_mib": 392,
+        "name": "gnome-remote-de",
+        "display_process": true
+      }
+    ],
+    "gpu_lock_held": false,
+    "cpu_ready": true,
+    "gpu_ready": true
+  },
+  "protocol_sha256": "24eb3735a29abcfc189ee7ecb5a34851fbc070e549b96df67f030f50d3862bc6",
+  "coordinator_child_pid": 1123562,
+  "log": "/home/qyb/RESEARCH/Robotic_Grasping/Source_Codes_EmpiricalStudy/platform_comparison_20261014/logs/isaac_v2_friction_05_task_0290_task_0291.log",
+  "returncode": 0,
+  "finished_unix": 1791941678.5414772,
+  "observed_tasks": [
+    "task_0290",
+    "task_0291"
+  ],
+  "wall_seconds": 52.1873562335968
+}

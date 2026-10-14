@@ -1,0 +1,914 @@
+{
+  "task_id": "task_0724",
+  "status": "no_plan",
+  "selected": null,
+  "rejected": [
+    {
+      "rank": 0,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 1,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 2,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 3,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 4,
+      "reason": "observed_cross_section_outside_opening"
+    },
+    {
+      "rank": 5,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 6,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 7,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 8,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 9,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 10,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 11,
+      "reason": "observed_cross_section_outside_opening"
+    },
+    {
+      "rank": 12,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 13,
+      "reason": "observed_cross_section_outside_opening"
+    },
+    {
+      "rank": 14,
+      "reason": "observed_cross_section_outside_opening"
+    },
+    {
+      "rank": 15,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 16,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 17,
+      "reason": "observed_cross_section_outside_opening"
+    },
+    {
+      "rank": 18,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 19,
+      "reason": "observed_cross_section_outside_opening"
+    },
+    {
+      "rank": 20,
+      "reason": "observed_cross_section_outside_opening"
+    },
+    {
+      "rank": 21,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 22,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 23,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 24,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 25,
+      "reason": "observed_cross_section_outside_opening"
+    },
+    {
+      "rank": 26,
+      "reason": "observed_cross_section_outside_opening"
+    },
+    {
+      "rank": 27,
+      "reason": "observed_cross_section_outside_opening"
+    },
+    {
+      "rank": 28,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 29,
+      "reason": "observed_cross_section_outside_opening"
+    },
+    {
+      "rank": 30,
+      "reason": "observed_cross_section_outside_opening"
+    },
+    {
+      "rank": 31,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 32,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 33,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 34,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 35,
+      "reason": "observed_cross_section_outside_opening"
+    },
+    {
+      "rank": 36,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 37,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 38,
+      "reason": "observed_cross_section_outside_opening"
+    },
+    {
+      "rank": 39,
+      "reason": "observed_cross_section_outside_opening"
+    },
+    {
+      "rank": 40,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 41,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 42,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 43,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 44,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 45,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 46,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 47,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 48,
+      "reason": "observed_cross_section_outside_opening"
+    },
+    {
+      "rank": 49,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 50,
+      "reason": "observed_cross_section_outside_opening"
+    },
+    {
+      "rank": 51,
+      "reason": "observed_cross_section_outside_opening"
+    },
+    {
+      "rank": 52,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 53,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 54,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 55,
+      "reason": "observed_cross_section_outside_opening"
+    },
+    {
+      "rank": 56,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 57,
+      "reason": "observed_cross_section_outside_opening"
+    },
+    {
+      "rank": 58,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 59,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 60,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 61,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 62,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 63,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 64,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 65,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 66,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 67,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 68,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 69,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 70,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 71,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 72,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 73,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 74,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 75,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 76,
+      "reason": "observed_cross_section_outside_opening"
+    },
+    {
+      "rank": 77,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 78,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 79,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 80,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 81,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 82,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 83,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 84,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 85,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 86,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 87,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 88,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 89,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 90,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 91,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 92,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 93,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 94,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 95,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 96,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 97,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 98,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 99,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 100,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 101,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 102,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 103,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 104,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 105,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 106,
+      "reason": "approach_collision",
+      "collision": {
+        "collision": true,
+        "self_pairs": [],
+        "environment_pairs": [
+          [
+            "panda_hand",
+            "wall0"
+          ]
+        ],
+        "perceived_voxels": 20558
+      }
+    },
+    {
+      "rank": 107,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 108,
+      "reason": "observed_cross_section_outside_opening"
+    },
+    {
+      "rank": 109,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 110,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 111,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 112,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 113,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 114,
+      "reason": "observed_cross_section_outside_opening"
+    },
+    {
+      "rank": 115,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 116,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 117,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 118,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 119,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 120,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 121,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 122,
+      "reason": "approach_collision",
+      "collision": {
+        "collision": true,
+        "self_pairs": [],
+        "environment_pairs": [
+          [
+            "panda_leftfinger",
+            "table"
+          ]
+        ],
+        "perceived_voxels": 20558
+      }
+    },
+    {
+      "rank": 123,
+      "reason": "approach_collision",
+      "collision": {
+        "collision": true,
+        "self_pairs": [],
+        "environment_pairs": [
+          [
+            "panda_hand",
+            "perceived_scene"
+          ],
+          [
+            "panda_hand",
+            "wall0"
+          ]
+        ],
+        "perceived_voxels": 20558
+      }
+    },
+    {
+      "rank": 124,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 125,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 126,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 127,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 128,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 129,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 130,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 131,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 132,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 133,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 134,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 135,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 136,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 137,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 138,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 139,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 140,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 141,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 142,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 143,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 144,
+      "reason": "approach_collision",
+      "collision": {
+        "collision": true,
+        "self_pairs": [],
+        "environment_pairs": [
+          [
+            "panda_leftfinger",
+            "table"
+          ]
+        ],
+        "perceived_voxels": 20558
+      }
+    },
+    {
+      "rank": 145,
+      "reason": "approach_collision",
+      "collision": {
+        "collision": true,
+        "self_pairs": [],
+        "environment_pairs": [
+          [
+            "panda_rightfinger",
+            "table"
+          ]
+        ],
+        "perceived_voxels": 20558
+      }
+    },
+    {
+      "rank": 146,
+      "reason": "observed_cross_section_outside_opening"
+    },
+    {
+      "rank": 147,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 148,
+      "reason": "observed_cross_section_outside_opening"
+    },
+    {
+      "rank": 149,
+      "reason": "observed_cross_section_outside_opening"
+    },
+    {
+      "rank": 150,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 151,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 152,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 153,
+      "reason": "observed_cross_section_outside_opening"
+    },
+    {
+      "rank": 154,
+      "reason": "observed_cross_section_outside_opening"
+    },
+    {
+      "rank": 155,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 156,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 157,
+      "reason": "observed_cross_section_outside_opening"
+    },
+    {
+      "rank": 158,
+      "reason": "observed_cross_section_outside_opening"
+    },
+    {
+      "rank": 159,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 160,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 161,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 162,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 163,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 164,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 165,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 166,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 167,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 168,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 169,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 170,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 171,
+      "reason": "observed_cross_section_outside_opening"
+    },
+    {
+      "rank": 172,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 173,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 174,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 175,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 176,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 177,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 178,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 179,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 180,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 181,
+      "reason": "approach_collision",
+      "collision": {
+        "collision": true,
+        "self_pairs": [],
+        "environment_pairs": [
+          [
+            "panda_rightfinger",
+            "perceived_scene"
+          ]
+        ],
+        "perceived_voxels": 20558
+      }
+    },
+    {
+      "rank": 182,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 183,
+      "reason": "observed_cross_section_outside_opening"
+    },
+    {
+      "rank": 184,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 185,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 186,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 187,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 188,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 189,
+      "reason": "observed_cross_section_outside_opening"
+    },
+    {
+      "rank": 190,
+      "reason": "approach_collision",
+      "collision": {
+        "collision": true,
+        "self_pairs": [],
+        "environment_pairs": [
+          [
+            "panda_rightfinger",
+            "perceived_scene"
+          ]
+        ],
+        "perceived_voxels": 20558
+      }
+    },
+    {
+      "rank": 191,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 192,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 193,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 194,
+      "reason": "no_observed_pad_cross_section"
+    },
+    {
+      "rank": 195,
+      "reason": "approach_collision",
+      "collision": {
+        "collision": true,
+        "self_pairs": [],
+        "environment_pairs": [
+          [
+            "panda_rightfinger",
+            "perceived_scene"
+          ]
+        ],
+        "perceived_voxels": 20558
+      }
+    },
+    {
+      "rank": 196,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 197,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 198,
+      "reason": "approach_direction"
+    },
+    {
+      "rank": 199,
+      "reason": "approach_direction"
+    }
+  ],
+  "host": "qyb-SJHY-ubuntu25",
+  "pid": 1108517,
+  "candidate_count": 200,
+  "ground_truth_used": false,
+  "protocol_sha256": "24eb3735a29abcfc189ee7ecb5a34851fbc070e549b96df67f030f50d3862bc6",
+  "cloud_sha256": "27403642131f58fcbe07ef617cd4f7b8e3c02ca16f779af8002bdd65b98c46cb",
+  "grasps_sha256": "15348d246b8db9ea33e378f7d2c6574e069f2e77e2e0f9f2d5146ad817f80793",
+  "home_check": {
+    "collision": false,
+    "self_pairs": [],
+    "environment_pairs": [],
+    "perceived_voxels": 20558
+  },
+  "seconds": 4.23649775897502,
+  "planning_parallelism": 4
+}

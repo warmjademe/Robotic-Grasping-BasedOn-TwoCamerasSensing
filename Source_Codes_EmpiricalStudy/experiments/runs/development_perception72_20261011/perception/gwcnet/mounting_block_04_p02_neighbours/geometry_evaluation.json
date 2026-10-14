@@ -1,0 +1,33 @@
+{
+  "episode_id": "mounting_block_04_p02_neighbours",
+  "evaluation_only": true,
+  "ground_truth_used_only_here": true,
+  "target_cloud_points": 7378,
+  "reference_visible_points": 17739,
+  "thresholds_mm": [
+    1,
+    2,
+    5
+  ],
+  "native_robot_execution_performed": false,
+  "surface_mae_mm": 12.159737797301954,
+  "surface_p95_mm": 48.74677114194283,
+  "surface_precision": {
+    "1": 0.26199512062889674,
+    "2": 0.4468690702087287,
+    "5": 0.6183247492545405
+  },
+  "four_view_visible_coverage": {
+    "1": 0.3367720841084616,
+    "2": 0.5845312588082755,
+    "5": 0.8772760584023902
+  },
+  "stereo_target_depth": {
+    "gt_visible_pixels": 4510,
+    "valid_pixels": 4510,
+    "valid_fraction": 1.0,
+    "mae_mm": 2.2977848052978516,
+    "p95_mm": 6.124180555343628,
+    "within_5mm_fraction_including_invalid": 0.9257206208425721
+  }
+}

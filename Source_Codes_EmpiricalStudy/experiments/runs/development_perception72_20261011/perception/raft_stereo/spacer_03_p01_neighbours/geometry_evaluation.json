@@ -1,0 +1,33 @@
+{
+  "episode_id": "spacer_03_p01_neighbours",
+  "evaluation_only": true,
+  "ground_truth_used_only_here": true,
+  "target_cloud_points": 2864,
+  "reference_visible_points": 11562,
+  "thresholds_mm": [
+    1,
+    2,
+    5
+  ],
+  "native_robot_execution_performed": false,
+  "surface_mae_mm": 1.7254260439838047,
+  "surface_p95_mm": 5.147099666573532,
+  "surface_precision": {
+    "1": 0.3743016759776536,
+    "2": 0.7147346368715084,
+    "5": 0.9479748603351955
+  },
+  "four_view_visible_coverage": {
+    "1": 0.3254627227123335,
+    "2": 0.5537104307213285,
+    "5": 0.723404255319149
+  },
+  "stereo_target_depth": {
+    "gt_visible_pixels": 2882,
+    "valid_pixels": 2882,
+    "valid_fraction": 1.0,
+    "mae_mm": 4.207813262939453,
+    "p95_mm": 19.99961776733398,
+    "within_5mm_fraction_including_invalid": 0.7848716169326856
+  }
+}

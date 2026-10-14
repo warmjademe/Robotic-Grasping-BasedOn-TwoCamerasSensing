@@ -1,0 +1,90 @@
+{
+  "method": "GraspGen",
+  "source": "Official diffusion generator and discriminator",
+  "seconds": 0.5267335459939204,
+  "candidates": 400,
+  "seed": 0,
+  "pose_checks": {
+    "max_orthogonality_error": 4.76837158203125e-07,
+    "determinant_min": 0.9999996423721313,
+    "determinant_max": 1.0000004768371582
+  },
+  "gripper": "franka_panda",
+  "checkpoint_config_sha256": "3b666d28ffb91001ddb6ba24a2e0c11458478a986b808b493cf6fa9a987c2abd",
+  "checkpoint_sha256": {
+    "/home/qyb/RESEARCH/Robotic_Grasping/Source_Codes_Grasping_Modules/baseline_graspgen/models/checkpoints/graspgen_franka_panda_gen.pth": "0597583b89b322d42ceb4e596967d6ed68d1b56cba4039895909ccd5bdc66eff",
+    "/home/qyb/RESEARCH/Robotic_Grasping/Source_Codes_Grasping_Modules/baseline_graspgen/models/checkpoints/graspgen_franka_panda_dis.pth": "e47d703c63b54c2d11fbc1effd43898f251b4147250888541e3b16e9c0d19e1c"
+  },
+  "schema_version": 1,
+  "input_npz_sha256": "bb9a205c25ae67d1b3b38645a70de984159073cbaaf09a4301a1b20242411d0c",
+  "input_json_sha256": "453600b6701defcb1c2de2cda1358665b256019b223f20f8d4c6196b2107eb8b",
+  "input_source_hashes": {
+    "left.png": "133dc65f628505c6e4beee4429fa6ae5b677e1614c9f937e23791aed6af670d3",
+    "right.png": "db3c73b35e80a11e9bce81f76d465c38b1f1ce4664d758ae84594b00c365818d",
+    "cameras.json": "49f798ce8c470a3d17c1a63d2f24a1663c9fea8e71b07643f67ef0d9da09bb66",
+    "task.json": "588b56500d5b78a21fa9d9890042a9831a5e7b41b9addd3395848669b07c55ea"
+  },
+  "perception_route": "stereo",
+  "scene_scope": "workspace_roi",
+  "frame_id": "dataset_world",
+  "units": "m",
+  "input_scene_points": 210417,
+  "input_target_points": 2522,
+  "camera_origins_preserved": 1,
+  "returned": 400,
+  "status": "candidates_generated",
+  "inference_completed": true,
+  "gripper_id": "franka_panda",
+  "width_source": "fixed_gripper_geometry",
+  "width_valid_count": 400,
+  "grasp_frame": {
+    "closing_axis": "+y",
+    "approach_axis": "+z",
+    "origin": "panda_hand",
+    "T_model_grasp": [
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  "score_cross_model_calibrated": false,
+  "downstream_pending": [
+    "width-aware planning",
+    "full-scene collision",
+    "TCP calibration for a different gripper"
+  ],
+  "physical_robot_used": false,
+  "native_robot_execution_performed": false,
+  "input_purpose": "grasp_inference",
+  "input_geometry_source": "perception_prediction",
+  "input_contains_renderer_depth": false,
+  "input_contains_scene_object_pose": false,
+  "provenance_check": "Validated declarations and source hashes; not automatic identification of arbitrary point-cloud origin",
+  "source_sha256": {
+    "infer.py": "9b19ec604a656be0fe7c929e44cdf40bb9111901059a9aeaaa8fba000105387f",
+    "backends.py": "66389bb8013135965af73bda344e93abbd9490aeeb93e91c1364d8b3b19bae6f",
+    "contract.py": "bc1da891fd618343b24deb76f19137f19e640f4b402c2d89368b886c759a6b5c"
+  },
+  "output_sha256": "2f2b08d2eac05b4e35ad636b6f40a7280b9b8a273f15eec2b8bd88e4d18b71de"
+}

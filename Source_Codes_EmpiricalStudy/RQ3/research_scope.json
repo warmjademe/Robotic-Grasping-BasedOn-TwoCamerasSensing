@@ -1,0 +1,15 @@
+{
+  "revision": "three_rq_physics_20261014",
+  "research_question": "固定 FoundationStereo 时，不同抓取模型的成功率如何？",
+  "scene_count": 72,
+  "task_count": 360,
+  "platforms": [
+    "fanuc_isaac",
+    "franka_isaac",
+    "franka_mujoco"
+  ],
+  "experiment_launch_enabled": false,
+  "analysis": "publication/reproduce_tables.py",
+  "frozen_input_records_preserved": true,
+  "fixed_perception": "foundationstereo"
+}

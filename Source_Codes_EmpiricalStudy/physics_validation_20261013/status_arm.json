@@ -1,0 +1,117 @@
+{
+  "stage": "full_arm_complete",
+  "completed": [
+    {
+      "group": "mounting_block_01",
+      "profile": "nominal",
+      "exit_code": 0,
+      "wall_seconds": 55.20516452900483,
+      "status": "completed"
+    },
+    {
+      "group": "mounting_block_02",
+      "profile": "nominal",
+      "exit_code": 0,
+      "wall_seconds": 57.00679489498725,
+      "status": "completed"
+    },
+    {
+      "group": "mounting_block_03",
+      "profile": "nominal",
+      "exit_code": 0,
+      "wall_seconds": 49.8940537830058,
+      "status": "completed"
+    },
+    {
+      "group": "mounting_block_04",
+      "profile": "nominal",
+      "exit_code": 0,
+      "wall_seconds": 52.7468501580006,
+      "status": "completed"
+    },
+    {
+      "group": "spacer_01",
+      "profile": "nominal",
+      "exit_code": 0,
+      "wall_seconds": 60.257035237009404,
+      "status": "completed"
+    },
+    {
+      "group": "spacer_02",
+      "profile": "nominal",
+      "exit_code": 0,
+      "wall_seconds": 66.21496414401918,
+      "status": "completed"
+    },
+    {
+      "group": "spacer_03",
+      "profile": "nominal",
+      "exit_code": 0,
+      "wall_seconds": 63.010881228983635,
+      "status": "completed"
+    },
+    {
+      "group": "spacer_04",
+      "profile": "nominal",
+      "exit_code": 0,
+      "wall_seconds": 63.816345553990686,
+      "status": "completed"
+    },
+    {
+      "group": "mounting_block_01",
+      "profile": "friction_05",
+      "exit_code": 0,
+      "wall_seconds": 50.445291064010235,
+      "status": "completed"
+    },
+    {
+      "group": "mounting_block_02",
+      "profile": "friction_05",
+      "exit_code": 0,
+      "wall_seconds": 54.7554502680141,
+      "status": "completed"
+    },
+    {
+      "group": "mounting_block_03",
+      "profile": "friction_05",
+      "exit_code": 0,
+      "wall_seconds": 47.791795701981755,
+      "status": "completed"
+    },
+    {
+      "group": "mounting_block_04",
+      "profile": "friction_05",
+      "exit_code": 0,
+      "wall_seconds": 52.14695191200008,
+      "status": "completed"
+    },
+    {
+      "group": "spacer_01",
+      "profile": "friction_05",
+      "exit_code": 0,
+      "wall_seconds": 59.2590922289819,
+      "status": "completed"
+    },
+    {
+      "group": "spacer_02",
+      "profile": "friction_05",
+      "exit_code": 0,
+      "wall_seconds": 64.36729844199726,
+      "status": "completed"
+    },
+    {
+      "group": "spacer_03",
+      "profile": "friction_05",
+      "exit_code": 0,
+      "wall_seconds": 65.97138279202045,
+      "status": "completed"
+    },
+    {
+      "group": "spacer_04",
+      "profile": "friction_05",
+      "exit_code": 0,
+      "wall_seconds": 63.367187039984856,
+      "status": "completed"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "status": "completed",
+  "pid": 1734902,
+  "expected": 792,
+  "completed": 792,
+  "started_at_unix": 1791787394.586576,
+  "current": null,
+  "counts": {
+    "no_plan": 553,
+    "sampled_path_found": 206,
+    "planning_timeout": 4,
+    "no_candidates": 29
+  },
+  "updated_at_unix": 1791790502.7814415,
+  "finished_at_unix": 1791790502.7816133
+}

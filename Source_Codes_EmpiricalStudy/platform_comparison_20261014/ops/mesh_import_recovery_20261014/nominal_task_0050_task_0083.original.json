@@ -1,0 +1,40 @@
+{
+  "job_id": "nominal_task_0050_task_0083",
+  "engine": "mujoco",
+  "host": "huashuo",
+  "tasks": [
+    "task_0050",
+    "task_0053",
+    "task_0057",
+    "task_0068",
+    "task_0070",
+    "task_0072",
+    "task_0079",
+    "task_0083"
+  ],
+  "profile": "nominal",
+  "status": "running",
+  "output": "/home/qyb/RESEARCH/Robotic_Grasping/Source_Codes_EmpiricalStudy/platform_comparison_20261014/results/mujoco/v2/nominal_task_0050_task_0083",
+  "started_unix": 1791940505.6298826,
+  "resources": {
+    "host": "qyb-HuaShuo",
+    "unix": 1791940505.6186893,
+    "cpu_count": 16,
+    "load1": 2.33447265625,
+    "memory_available_gib": 71.86656951904297,
+    "disk_free_gib": 426.3021774291992,
+    "gpu_processes": [],
+    "gpu_lock_held": false,
+    "cpu_ready": true,
+    "calibration_ready": {
+      "isaac": false,
+      "mujoco": true
+    },
+    "hardware_gpu_ready": true,
+    "cpu_experiment_ready": true,
+    "gpu_ready": false
+  },
+  "protocol_sha256": "24eb3735a29abcfc189ee7ecb5a34851fbc070e549b96df67f030f50d3862bc6",
+  "coordinator_child_pid": 1112658,
+  "log": "/home/qyb/RESEARCH/Robotic_Grasping/Source_Codes_EmpiricalStudy/platform_comparison_20261014/logs/mujoco_v2_nominal_task_0050_task_0083.log"
+}

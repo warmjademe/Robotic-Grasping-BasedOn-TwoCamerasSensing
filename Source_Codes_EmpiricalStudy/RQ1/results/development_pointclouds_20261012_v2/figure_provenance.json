@@ -1,0 +1,10 @@
+{
+  "source": "RQ1/data/development_pointclouds_20261012_v2/per_scene.csv",
+  "source_sha256": "4db7b413e3dbeef778a43d6e3fc7de57ef71d97f08c2bb17180f338c7e433f71",
+  "plot_source_sha256": "d32ebd64e4afb3c96f4370c1004b082285d25ed6f742be79c17c988c00a709c7",
+  "measured_data_only": true,
+  "scene_count": 72,
+  "method_count": 7,
+  "error_bars": "Boxplots: median, quartiles, 1.5 IQR whiskers and observed outliers",
+  "source_pixel_membership": "Evaluation only; GT not supplied to inference"
+}

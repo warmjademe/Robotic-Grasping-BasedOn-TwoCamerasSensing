@@ -1,0 +1,240 @@
+{
+  "stage": "full_arm_physics",
+  "status": "completed",
+  "rows": [
+    {
+      "task_id": "centered_box",
+      "platform": "franka_isaac",
+      "profile": "nominal",
+      "expected": true,
+      "physics_lift_success": true,
+      "collision_free": true,
+      "prohibited_contact_steps": 0,
+      "max_finger_non_target_force_n": 0.0,
+      "max_arm_contact_force_n": 0.0,
+      "execution_success": true,
+      "approach_endpoint_reached": true,
+      "approach_position_error_mm": 0.10578626413672254,
+      "approach_rotation_error_deg": 0.018478263507881475,
+      "min_hold_bottom_clearance_m": 0.14637431015471913,
+      "hold_sim_s": 2.0,
+      "returned_to_origin_success": true,
+      "execution_and_return": true,
+      "return_xy_error_m": 0.0009364208090119064,
+      "final_bottom_clearance_m": -5.581214773328624e-09,
+      "initial_settling_translation_m": 4.6719552670992925e-09,
+      "closing_command_m": 0.0,
+      "object_attached": false
+    },
+    {
+      "task_id": "far_negative",
+      "platform": "franka_isaac",
+      "profile": "nominal",
+      "expected": false,
+      "physics_lift_success": false,
+      "collision_free": true,
+      "prohibited_contact_steps": 0,
+      "max_finger_non_target_force_n": 0.12056364864110947,
+      "max_arm_contact_force_n": 0.0,
+      "execution_success": false,
+      "approach_endpoint_reached": true,
+      "approach_position_error_mm": 0.10606221562643829,
+      "approach_rotation_error_deg": 0.018478263507881475,
+      "min_hold_bottom_clearance_m": -3.8252515344519566e-08,
+      "hold_sim_s": 2.0,
+      "returned_to_origin_success": false,
+      "execution_and_return": false,
+      "return_xy_error_m": 8.679488239238253e-10,
+      "final_bottom_clearance_m": -2.0893093616303204e-08,
+      "initial_settling_translation_m": 6.34853636327648e-09,
+      "closing_command_m": 0.0,
+      "object_attached": false
+    },
+    {
+      "task_id": "open_negative",
+      "platform": "franka_isaac",
+      "profile": "nominal",
+      "expected": false,
+      "physics_lift_success": false,
+      "collision_free": true,
+      "prohibited_contact_steps": 0,
+      "max_finger_non_target_force_n": 0.0,
+      "max_arm_contact_force_n": 0.0,
+      "execution_success": false,
+      "approach_endpoint_reached": true,
+      "approach_position_error_mm": 0.10429822503410946,
+      "approach_rotation_error_deg": 0.018478263507881475,
+      "min_hold_bottom_clearance_m": -3.258221730785549e-08,
+      "hold_sim_s": 2.0,
+      "returned_to_origin_success": false,
+      "execution_and_return": false,
+      "return_xy_error_m": 1.571707652914256e-09,
+      "final_bottom_clearance_m": -2.5382934974380045e-08,
+      "initial_settling_translation_m": 7.587610539872003e-09,
+      "closing_command_m": 0.08,
+      "object_attached": false
+    },
+    {
+      "task_id": "collision_blocked",
+      "platform": "franka_isaac",
+      "profile": "nominal",
+      "expected": false,
+      "physics_lift_success": false,
+      "collision_free": false,
+      "prohibited_contact_steps": 3016,
+      "max_finger_non_target_force_n": 974.0450439453125,
+      "max_arm_contact_force_n": 0.0,
+      "execution_success": false,
+      "approach_endpoint_reached": false,
+      "approach_position_error_mm": 129.70658385074742,
+      "approach_rotation_error_deg": 12.73839221833526,
+      "min_hold_bottom_clearance_m": -4.0756789332352383e-08,
+      "hold_sim_s": 2.0,
+      "returned_to_origin_success": false,
+      "execution_and_return": false,
+      "return_xy_error_m": 1.1830367796505925e-09,
+      "final_bottom_clearance_m": -2.8205357943331122e-08,
+      "initial_settling_translation_m": 7.734774598588956e-09,
+      "closing_command_m": 0.0,
+      "object_attached": false
+    }
+  ],
+  "seconds": 43.2817924139963,
+  "fps": 250,
+  "friction": 1.0,
+  "object_mass_kg": 0.1,
+  "gravity_m_s2": 9.81,
+  "model": "Isaac Lab native FRANKA_PANDA_HIGH_PD_CFG",
+  "host": "qyb-SJHY-ubuntu25",
+  "platform": "franka_isaac",
+  "profile": "nominal",
+  "parallelism": 4,
+  "controller": "Isaac PhysX implicit joint drives",
+  "object_attached": false,
+  "object_pose_written_after_initialization": false,
+  "phases": [
+    [
+      "settle",
+      1.0
+    ],
+    [
+      "transit",
+      3.0
+    ],
+    [
+      "approach",
+      2.0
+    ],
+    [
+      "approach_hold",
+      1.0
+    ],
+    [
+      "close",
+      1.5
+    ],
+    [
+      "lift",
+      3.0
+    ],
+    [
+      "hold",
+      2.0
+    ],
+    [
+      "lower",
+      3.0
+    ],
+    [
+      "release",
+      1.0
+    ],
+    [
+      "retreat",
+      2.0
+    ],
+    [
+      "placed_hold",
+      1.0
+    ]
+  ],
+  "code_sha256": "259945a05444ed85f618352c113ffedaf932a0c95f25206329427d2760560617",
+  "manifest_sha256": "71f09a97706a67dd68cc43ecba80f95268776249033d28e2965564fa0dd1a5c2",
+  "protocol_sha256": "24eb3735a29abcfc189ee7ecb5a34851fbc070e549b96df67f030f50d3862bc6",
+  "versions": {
+    "isaacsim": "5.1.0.0",
+    "isaaclab": "2.3.2.post1",
+    "torch": "2.7.0+cu128"
+  },
+  "collision_definition": "Any nonfinger housing contact or finger non-target resultant normal force >0.5 N after settling",
+  "friction_scope": "Explicit target/distractor/table material and updated imported robot materials; actual shape materials recorded below",
+  "notes": "Lift, endpoint tracking, prohibited contact and placement are reported separately.",
+  "actual_robot_materials_first_env": [
+    [
+      1.0,
+      1.0,
+      0.0
+    ],
+    [
+      1.0,
+      1.0,
+      0.0
+    ],
+    [
+      1.0,
+      1.0,
+      0.0
+    ],
+    [
+      1.0,
+      1.0,
+      0.0
+    ],
+    [
+      1.0,
+      1.0,
+      0.0
+    ],
+    [
+      1.0,
+      1.0,
+      0.0
+    ],
+    [
+      1.0,
+      1.0,
+      0.0
+    ],
+    [
+      1.0,
+      1.0,
+      0.0
+    ],
+    [
+      1.0,
+      1.0,
+      0.0
+    ],
+    [
+      1.0,
+      1.0,
+      0.0
+    ],
+    [
+      1.0,
+      1.0,
+      0.0
+    ]
+  ],
+  "actual_robot_effort_limits_first_env": [
+    87.0,
+    87.0,
+    87.0,
+    87.0,
+    12.0,
+    12.0,
+    12.0,
+    20.0,
+    20.0
+  ]
+}

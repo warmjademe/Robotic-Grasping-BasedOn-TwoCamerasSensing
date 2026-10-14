@@ -1,0 +1,11 @@
+{
+  "checked_at": "2026-10-12T15:06:19.824195+00:00",
+  "passed": true,
+  "verification": "Independent Mac recomputation matched Huashuo outputs byte for byte",
+  "native_validated_paths": 101,
+  "compared_sha256": {
+    "per_scene.csv": "63236d613e8452293e7f6568776e02f1afc18e39acc722b0916a1da4082e5320",
+    "by_model.csv": "497401b8920793706c7fc4041ddc3b89b473d1909d22be894b1cebf893ab008c",
+    "抓取模型比较.md": "19e8190fb02efbeec2e129a12d694e35303b373f49cbc373b896073a3ed1b877"
+  }
+}

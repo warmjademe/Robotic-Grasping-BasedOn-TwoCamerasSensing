@@ -1,0 +1,23 @@
+{
+  "status": "selected_existing_platform_pending_industrial_dataset_validation",
+  "simulator": "FANUC ROBOGUIDE V10",
+  "simulator_vm": "fanake",
+  "requested_robot_model": "M-20iD/25",
+  "native_robot_model_reverified": false,
+  "existing_native_adapter": "MultiCamera_RL_Dynamic_Grasping/FANAKE",
+  "controller_version": null,
+  "workcell_file": null,
+  "T_robot_base_from_dataset_world": null,
+  "T_flange_from_panda_hand": null,
+  "gripper": {"type": "parallel_jaw", "nominal_max_width_m": 0.08, "force_model_validated": false, "TCP_calibrated_for_this_dataset": false},
+  "mesh_import": {"file": "assets/<object_id>/robotstudio_mm.stl", "legacy_filename_only": true, "declared_units": "mm", "verify_imported_dimensions": true, "source_of_truth_dimensions": "objects.json:extents_m"},
+  "scene_import": {"source": "evaluation/<episode_id>/scene.json", "translation_units": "m", "convert_translation_to_controller_mm_once": true, "rotation_convention": "homogeneous active transforms with column vectors"},
+  "simulation_clock_validated": false,
+  "station_initial_joint_positions": null,
+  "payload_and_tool_mass": null,
+  "speed_acceleration_termination_settings": null,
+  "gates_before_test": ["exact_model_and_controller_verified", "mesh_units_and_holes_verified", "camera_world_base_TCP_verified", "predicted_gripper_width_consumed", "full_trajectory_collision_checked", "success_evaluator_positive_and_negative_cases_passed", "no_unconditional_object_attachment", "automatic_reset_and_failure_recovery_verified", "simulation_clock_and_evidence_hashes_verified"],
+  "FANUC_execution_count_for_this_dataset": 0,
+  "do_not_relabel_historical_demo_results": true,
+  "experiment_launch_enabled": false
+}

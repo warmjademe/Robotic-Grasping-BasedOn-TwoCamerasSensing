@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "units": "m",
+  "frame_id": "dataset_world",
+  "input_hashes": {
+    "left.png": "6371fb8e2e1f24b1b827b16e4348a4c322d8018fd2e69b3e9295b66ffbca0e87",
+    "right.png": "e7c6cb7f1209954a151ef3b11b9c1ec6bc833ab5ed3dba7f5c6d192bf142fe60",
+    "cameras.json": "49f798ce8c470a3d17c1a63d2f24a1663c9fea8e71b07643f67ef0d9da09bb66",
+    "task.json": "cdf32da4ddc53f5c80a9b7f779281344c39ac3f00cffc08c969140abadd92674"
+  },
+  "purpose": "grasp_inference",
+  "geometry_source": "perception_prediction",
+  "renderer_depth_used": false,
+  "object_pose_used": false,
+  "reference_convention": "opencv_optical_x_right_y_down_z_forward",
+  "scene_scope": "workspace_roi",
+  "gripper_id": "franka_panda",
+  "perception_route": "stereo",
+  "gripper_geometry": {
+    "max_width_m": 0.08,
+    "closing_axis": "+y",
+    "approach_axis": "+z",
+    "tcp_frame": "panda_hand"
+  },
+  "has_normals": false,
+  "has_colors": true,
+  "target_selection": "fixed world ROI; predicted height >3mm; kNN16 mean+2std",
+  "npz_sha256": "731eec7cecdb8ab8842152b5ee901cbfd570e623893347da8a7484317eaa97b0"
+}
