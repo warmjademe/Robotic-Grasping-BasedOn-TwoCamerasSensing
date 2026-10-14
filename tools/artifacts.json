@@ -3136,13 +3136,13 @@
       "storage": "git"
     },
     {
-      "path": "Source_Codes_EmpiricalStudy/RQ1/results/development_pointclouds_20261012_v2/\u70b9\u4e91\u53ef\u884c\u6027\u5206\u6790.md",
+      "path": "Source_Codes_EmpiricalStudy/RQ1/results/development_pointclouds_20261012_v2/点云可行性分析.md",
       "size": 4161,
       "sha256": "a0af6f2567b3be1b3cb398639ec96ea2f2dd14c4f7cae58b23bcb92e90f85db0",
       "storage": "git"
     },
     {
-      "path": "Source_Codes_EmpiricalStudy/RQ1/results/\u70b9\u4e91\u9636\u6bb5\u5206\u6790.md",
+      "path": "Source_Codes_EmpiricalStudy/RQ1/results/点云阶段分析.md",
       "size": 5009,
       "sha256": "3b264a2fe672aab8e6a909808cc47bb58f7f680e107296cbd92bcb48e03e0b40",
       "storage": "git"
@@ -3226,7 +3226,7 @@
       "storage": "git"
     },
     {
-      "path": "Source_Codes_EmpiricalStudy/RQ2/results/development_graspgen_20261012/\u6293\u53d6\u8def\u5f84\u751f\u6210\u5206\u6790.md",
+      "path": "Source_Codes_EmpiricalStudy/RQ2/results/development_graspgen_20261012/抓取路径生成分析.md",
       "size": 2627,
       "sha256": "0260ed4cf30a5274123e95a339cdc17443069cb66eb9461fc6bd60e9243a72cb",
       "storage": "git"
@@ -3346,7 +3346,7 @@
       "storage": "git"
     },
     {
-      "path": "Source_Codes_EmpiricalStudy/RQ3/results/foundationstereo_comparison_20261012/\u6293\u53d6\u6a21\u578b\u6bd4\u8f83.md",
+      "path": "Source_Codes_EmpiricalStudy/RQ3/results/foundationstereo_comparison_20261012/抓取模型比较.md",
       "size": 1998,
       "sha256": "19e8190fb02efbeec2e129a12d694e35303b373f49cbc373b896073a3ed1b877",
       "storage": "git"
@@ -3424,13 +3424,13 @@
       "storage": "git"
     },
     {
-      "path": "Source_Codes_EmpiricalStudy/RQ4/results/\u5f00\u53d1\u5b9e\u9a8c\u7ed3\u679c.md",
+      "path": "Source_Codes_EmpiricalStudy/RQ4/results/开发实验结果.md",
       "size": 2596,
       "sha256": "3649763b55f297920f5a9a9253afbad227b415728428539e2be7ac19e6f4970b",
       "storage": "git"
     },
     {
-      "path": "Source_Codes_EmpiricalStudy/RQ4/results/\u6b63\u5f0f\u5b9e\u9a8c\u7ed3\u679c.md",
+      "path": "Source_Codes_EmpiricalStudy/RQ4/results/正式实验结果.md",
       "size": 1083,
       "sha256": "62e48abe50da492991fe2745d7b85cb8897d67c6600ac374e4f486c91c6a06a7",
       "storage": "git"
@@ -55355,32 +55355,32 @@
     },
     {
       "path": "Source_Codes_EmpiricalStudy/latex/main.pdf",
-      "size": 492472,
-      "sha256": "36b9f2772a53a642311071ad68e0d3fe301bacb4df70b48869d9fd95fc79c160",
+      "size": 497434,
+      "sha256": "aa54cdaae80a5ee173a49ab0c193fa637ebbd484cabe16e98b057987009d9381",
       "storage": "git"
     },
     {
       "path": "Source_Codes_EmpiricalStudy/latex/main.tex",
-      "size": 64673,
-      "sha256": "94bd9821c036b673cbe976ede6514464bbd8deaaa9d77afe58c6baa17551361b",
+      "size": 66023,
+      "sha256": "8acb6f544044c0fc34a2c9b9d286700d3c4276d29a1035f62401a4027e3a2b51",
       "storage": "git"
     },
     {
       "path": "Source_Codes_EmpiricalStudy/latex/outline.pdf",
-      "size": 422911,
-      "sha256": "e64b236dc6c1555bd5202694a335609101bd1c88e094d9a1989c8c2271419583",
+      "size": 427086,
+      "sha256": "fa6df463fc8bb8c2a455c89117122e5df548362acc087cdd5a58b8171befd492",
       "storage": "git"
     },
     {
       "path": "Source_Codes_EmpiricalStudy/latex/outline.tex",
-      "size": 55080,
-      "sha256": "2f372370064fc637ad56fa143a2d19beb58ca862cae5be71c089782112eca421",
+      "size": 56430,
+      "sha256": "8b39817725b5a852fb0bba0f8a4f0bac93fcd02fb09d325b41ca944f4f5e80f2",
       "storage": "git"
     },
     {
       "path": "Source_Codes_EmpiricalStudy/latex/references.bib",
-      "size": 19153,
-      "sha256": "8cb218d11b56b9b0944d90cd4729ba926974d10ee9ba3c4dfd7ade732f6a6cea",
+      "size": 21615,
+      "sha256": "823da4bfa693a284bc8006dc706ce61559c8d1be1d4109378d26af03bd922a99",
       "storage": "git"
     },
     {
@@ -55414,7 +55414,7 @@
       "storage": "git"
     },
     {
-      "path": "Source_Codes_EmpiricalStudy/physics_validation_20261013/analysis/\u7269\u7406\u590d\u6d4b\u62a5\u544a.md",
+      "path": "Source_Codes_EmpiricalStudy/physics_validation_20261013/analysis/物理复测报告.md",
       "size": 4616,
       "sha256": "7d05292eebc5b32c46a0466a68bba08ae2ed328456f9811bd28e6b23adaa3858",
       "storage": "git"
