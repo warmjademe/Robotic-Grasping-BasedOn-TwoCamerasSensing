@@ -55355,26 +55355,26 @@
     },
     {
       "path": "Source_Codes_EmpiricalStudy/latex/main.pdf",
-      "size": 497434,
-      "sha256": "aa54cdaae80a5ee173a49ab0c193fa637ebbd484cabe16e98b057987009d9381",
+      "size": 496702,
+      "sha256": "3f71d55c7e7e9ff5689a7077f512e4de99eac7e231bc61f83f312823ecca7163",
       "storage": "git"
     },
     {
       "path": "Source_Codes_EmpiricalStudy/latex/main.tex",
-      "size": 66023,
-      "sha256": "8acb6f544044c0fc34a2c9b9d286700d3c4276d29a1035f62401a4027e3a2b51",
+      "size": 65802,
+      "sha256": "07006ee08b6de8b8f19827a8bbd316a1cfe0b92e57cb8d2439418fa21d3a1852",
       "storage": "git"
     },
     {
       "path": "Source_Codes_EmpiricalStudy/latex/outline.pdf",
-      "size": 427086,
-      "sha256": "fa6df463fc8bb8c2a455c89117122e5df548362acc087cdd5a58b8171befd492",
+      "size": 426498,
+      "sha256": "4ec30435c7ea8deabe742254d21fc06b72ff603039d774d0b7511db41eede436",
       "storage": "git"
     },
     {
       "path": "Source_Codes_EmpiricalStudy/latex/outline.tex",
-      "size": 56430,
-      "sha256": "8b39817725b5a852fb0bba0f8a4f0bac93fcd02fb09d325b41ca944f4f5e80f2",
+      "size": 56209,
+      "sha256": "c6cf04f30c1bec739cfb75f9f0696f7288ffedf322768e744f2f3c6162d357c7",
       "storage": "git"
     },
     {
